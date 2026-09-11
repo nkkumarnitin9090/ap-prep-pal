@@ -1,9 +1,9 @@
 import type { DayPlan, SchedulePhase, ScheduleWeek } from "@/data/types";
 
 /**
- * PLACEHOLDER. Holds the shape of the year plan so the UI can be built against
- * a stable contract; the full 34-week schedule and weekly block plan replace
- * these arrays wholesale.
+ * The 34-week year plan: week 1 begins Monday 2026-09-07 and week 34 covers the
+ * first AP exams in May 2027. Week 16 intentionally spans two weeks of winter
+ * break, so start dates are not uniformly seven days apart.
  */
 
 export const phaseLabels: Record<SchedulePhase, string> = {
