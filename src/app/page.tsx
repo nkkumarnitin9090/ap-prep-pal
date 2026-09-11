@@ -44,16 +44,19 @@ export default function Home() {
   const [phaseFilter, setPhaseFilter] = useState<PhaseId | "all">("all");
   const [currentOnly, setCurrentOnly] = useState(false);
   const [loaded, setLoaded] = useState(false);
-  const position = useMemo(getPlanPosition, []);
+  const position = useMemo(() => getPlanPosition(), []);
 
   useEffect(() => {
     try {
       const saved = localStorage.getItem(STORAGE_KEY);
-      if (saved) setCompleted(JSON.parse(saved));
+      if (saved) {
+        const parsed = JSON.parse(saved);
+        queueMicrotask(() => setCompleted(parsed));
+      }
     } catch {
       localStorage.removeItem(STORAGE_KEY);
     }
-    setLoaded(true);
+    queueMicrotask(() => setLoaded(true));
   }, []);
 
   useEffect(() => {
