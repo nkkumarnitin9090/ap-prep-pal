@@ -7,9 +7,11 @@ import type { Unit } from "@/data/types";
  * Every practice passage in this file is original, written for this study
  * guide so that the devices the questions ask about are actually present in
  * the text. Where a canonical work is useful, it is named and described rather
- * than reproduced. Exam weightings are the CED's Section I (multiple-choice)
- * weightings; the three free-response essays are scored on the same six-point
- * analytic rubric no matter which unit the passage comes from.
+ * than reproduced. Exam weightings follow the CED's Section I (multiple-choice)
+ * genre groups - short fiction 42-49%, poetry 36-45%, longer fiction or drama
+ * 15-18% - with a one-third midpoint so unit bars stay comparable. The three
+ * free-response essays are scored on the same six-point analytic rubric no
+ * matter which unit the passage comes from.
  */
 
 /** CED units 1-5: Short Fiction I, Poetry I, Longer Fiction or Drama I, Short Fiction II, Poetry II. */
@@ -19,14 +21,14 @@ export const unitsA: Unit[] = [
     id: "lit-u1",
     number: "1",
     title: "Short Fiction I",
-    examWeight: "16-20%",
-    examWeightMidpoint: 18,
-    classPeriods: "~18-20 class periods",
+    examWeight: "42-49% of MCQ (U1, 4, 7)",
+    examWeightMidpoint: 15,
+    classPeriods: "~10 class periods",
     summary:
       "The foundation unit: reading a short story closely enough that character, setting, plot order, and narration stop looking like background information and start looking like choices a writer made. The habit to build here is asking what a detail does rather than what it says.",
     cedNote: {
       tone: "info",
-      text: "Unit weightings in AP English Literature apply only to Section I, the 55-question multiple-choice section. Section II is three essays scored on one six-point rubric (thesis 0-1, evidence and commentary 0-4, sophistication 0-1), so the skills in this unit are worth far more than 18% of your grade.",
+      text: "The CED publishes Section I weightings by genre, not by unit: short fiction (Units 1, 4, 7) is 42-49% of the multiple-choice section. Each short-fiction card shows that group range and a one-third midpoint so the bars stay comparable across the nine units. Section II is three essays on one six-point rubric (thesis 0-1, evidence and commentary 0-4, sophistication 0-1), so these skills are worth far more than the bar suggests.",
     },
     topics: [
       {
@@ -218,9 +220,9 @@ export const unitsA: Unit[] = [
     id: "lit-u2",
     number: "2",
     title: "Poetry I",
-    examWeight: "16-20%",
-    examWeightMidpoint: 18,
-    classPeriods: "~14-16 class periods",
+    examWeight: "36-45% of MCQ (U2, 5, 8)",
+    examWeightMidpoint: 13.5,
+    classPeriods: "~10 class periods",
     summary:
       "Poetry read as a made object: a constructed speaker, lines that end where the poet decided they should end, and comparisons that do argumentative work. The unit also introduces the defensible thesis, which is the one point on the essay rubric you can win in a single sentence.",
     topics: [
@@ -420,9 +422,9 @@ export const unitsA: Unit[] = [
     id: "lit-u3",
     number: "3",
     title: "Longer Fiction or Drama I",
-    examWeight: "16-20%",
-    examWeightMidpoint: 18,
-    classPeriods: "~18-20 class periods",
+    examWeight: "15-18% of MCQ (U3, 6, 9)",
+    examWeightMidpoint: 5.5,
+    classPeriods: "~17 class periods",
     summary:
       "Scaling close reading up to a whole book or play: how one scene serves the arc, how character relationships shift, and how a work's setting and structure constrain the people inside them. This unit also starts the long project of banking two or three works you know well enough to argue about from memory.",
     cedNote: {
@@ -650,9 +652,9 @@ export const unitsA: Unit[] = [
     id: "lit-u4",
     number: "4",
     title: "Short Fiction II",
-    examWeight: "16-20%",
-    examWeightMidpoint: 18,
-    classPeriods: "~18-20 class periods",
+    examWeight: "42-49% of MCQ (U1, 4, 7)",
+    examWeightMidpoint: 15,
+    classPeriods: "~17 class periods",
     summary:
       "The second pass through short fiction, where narration, character, and structure have to do more than identify themselves. Track how far the telling sits from a mind, when the vantage point shifts, what a foil makes visible, and how the order of revelation manufactures irony the characters cannot hear.",
     cedNote: {
@@ -871,9 +873,9 @@ export const unitsA: Unit[] = [
     id: "lit-u5",
     number: "5",
     title: "Poetry II",
-    examWeight: "16-20%",
-    examWeightMidpoint: 18,
-    classPeriods: "~14-16 class periods",
+    examWeight: "36-45% of MCQ (U2, 5, 8)",
+    examWeightMidpoint: 13.5,
+    classPeriods: "~17 class periods",
     summary:
       "The second pass through poetry, where a comparison has to live long enough to become an argument, and where form is no longer decoration. Follow an extended metaphor through a turn; hear how meter keeps or breaks a promise; and treat a tonal shift or a genuine ambiguity as the poem's most defensible claim about itself.",
     cedNote: {

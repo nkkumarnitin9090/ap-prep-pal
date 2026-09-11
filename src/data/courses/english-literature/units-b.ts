@@ -1,15 +1,19 @@
 import type { Unit } from "@/data/types";
 
-/** CED units 6-9: Longer Fiction or Drama II, Short Fiction III, Poetry III, Longer Fiction or Drama III. */
+/** CED units 6-9: Longer Fiction or Drama II, Short Fiction III, Poetry III, Longer Fiction or Drama III.
+ * Exam weightings follow the CED's Section I genre groups (short fiction 42-49%,
+ * poetry 36-45%, longer fiction or drama 15-18%), with a one-third midpoint so
+ * unit bars stay comparable across the nine units.
+ */
 export const unitsB: Unit[] = [
   /* ------------------------------------------------------------------ */
   {
     id: "lit-u6",
     number: "6",
     title: "Longer Fiction or Drama II",
-    examWeight: "12-15%",
-    examWeightMidpoint: 13.5,
-    classPeriods: "~19-22 class periods",
+    examWeight: "15-18% of MCQ (U3, 6, 9)",
+    examWeightMidpoint: 5.5,
+    classPeriods: "~17 class periods",
     summary:
       "Your second full-length novel or play, read with the assumption that character is built out of contrast and that the reader often knows more than the characters do. The unit's real difficulty is scale: an interpretation of four hundred pages has to be held together by a line of reasoning, not by a list of things you noticed.",
     topics: [
@@ -267,9 +271,9 @@ export const unitsB: Unit[] = [
     id: "lit-u7",
     number: "7",
     title: "Short Fiction III",
-    examWeight: "7-10%",
-    examWeightMidpoint: 8.5,
-    classPeriods: "~10-12 class periods",
+    examWeight: "42-49% of MCQ (U1, 4, 7)",
+    examWeightMidpoint: 15,
+    classPeriods: "~17 class periods",
     summary:
       "The narration unit. Short fiction is where the exam tests whether you can tell the difference between what a story says and what its narrator is willing to say - unreliable narrators, retrospective narrators embarrassed by their younger selves, and free indirect style that fuses a character's idiom with the narrator's sentence.",
     topics: [
@@ -521,8 +525,8 @@ export const unitsB: Unit[] = [
     id: "lit-u8",
     number: "8",
     title: "Poetry III",
-    examWeight: "10-13%",
-    examWeightMidpoint: 11.5,
+    examWeight: "36-45% of MCQ (U2, 5, 8)",
+    examWeightMidpoint: 13.5,
     classPeriods: "~17 class periods",
     summary:
       "The last poetry unit, and the one that stops letting you treat a figure as local decoration: a conceit has to be tracked across the whole poem, a paradox has to reveal something a plain contradiction would not, and a defensible reading has to survive the line that seems to refute it. The exam's hardest poetry questions are written at this level because they ask which interpretation the poem can actually bear, not which device you can name.",
@@ -784,8 +788,8 @@ export const unitsB: Unit[] = [
     id: "lit-u9",
     number: "9",
     title: "Longer Fiction or Drama III",
-    examWeight: "9-12%",
-    examWeightMidpoint: 10.5,
+    examWeight: "15-18% of MCQ (U3, 6, 9)",
+    examWeightMidpoint: 5.5,
     classPeriods: "~17 class periods",
     summary:
       "The last long-work unit, which assumes you can already name a foil and a motif and now asks you to hold an entire novel or play together as an argument. Symbol and motif have to be tracked from first appearance to last; a narrator's limits have to be treated as a design that shapes what the work can mean; and the essay you write from memory has to be a line of reasoning about the whole, not a tour of scenes you happen to remember.",
