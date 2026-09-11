@@ -1,0 +1,26 @@
+import { PageShell } from "@/components/page-shell";
+import { Skeleton } from "@/components/ui/skeleton";
+
+export default function Loading() {
+  return (
+    <PageShell className="space-y-8">
+      <div className="space-y-2">
+        <Skeleton className="h-4 w-32" />
+        <Skeleton className="h-8 w-72" />
+        <Skeleton className="h-4 w-full max-w-3xl" />
+      </div>
+      <div className="grid gap-4 lg:grid-cols-3">
+        <Skeleton className="h-64 lg:col-span-2" />
+        <Skeleton className="h-64" />
+      </div>
+      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {Array.from({ length: 4 }).map((_, index) => (
+          <Skeleton key={index} className="h-52" />
+        ))}
+      </div>
+      <span className="sr-only" role="status">
+        Loading
+      </span>
+    </PageShell>
+  );
+}
