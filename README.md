@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AP Compass
 
-## Getting Started
+A responsive, locally persisted 35-week study roadmap for a high-school senior preparing for AP Physics 2, AP Statistics, AP English Literature and Composition, and AP Calculus BC.
 
-First, run the development server:
+The plan runs from September 14, 2026 through the expected spring 2027 AP exam window. It includes major course units, concrete original practice tasks, a sustainable weekly rhythm, phase and subject filters, and per-task progress tracking in the browser.
+
+## Run locally
+
+Requires Node.js 20.9 or later.
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Verification
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run lint
+npm run build
+```
 
-## Learn More
+## Notes
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Progress is stored only in the current browser through `localStorage`; there is no account or database.
+- Exact 2027 AP exam dates should be confirmed with College Board and the student’s school when the final calendar is available.
+- Course sequencing is a planning guide and can be shifted to match a teacher’s syllabus.
