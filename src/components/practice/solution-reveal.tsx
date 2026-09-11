@@ -9,6 +9,7 @@ import {
   CollapsibleContent,
   CollapsibleTrigger,
 } from "@/components/ui/collapsible";
+import { cn } from "@/lib/utils";
 
 /**
  * Worked solutions stay closed until the student explicitly asks for them.
@@ -25,7 +26,11 @@ export function SolutionReveal({
   const [open, setOpen] = React.useState(false);
 
   return (
-    <Collapsible open={open} onOpenChange={setOpen}>
+    <Collapsible
+      open={open}
+      onOpenChange={setOpen}
+      className={cn(open && "w-full basis-full")}
+    >
       <CollapsibleTrigger asChild>
         <Button variant="outline" size="sm">
           {open ? (
@@ -37,7 +42,7 @@ export function SolutionReveal({
         </Button>
       </CollapsibleTrigger>
       <CollapsibleContent>
-        <pre className="mt-2 overflow-x-auto rounded-lg bg-muted/60 p-3 font-mono text-xs leading-relaxed whitespace-pre-wrap text-foreground/90">
+        <pre className="mt-2 max-h-[min(28rem,70vh)] overflow-auto rounded-lg bg-muted/60 p-3 font-mono text-xs leading-relaxed whitespace-pre-wrap text-foreground/90">
           {solution}
         </pre>
       </CollapsibleContent>

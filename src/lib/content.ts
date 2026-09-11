@@ -33,9 +33,15 @@ export function findUnitByPracticeSetId(
   return course.units.find((unit) => unit.practiceSet.id === practiceSetId);
 }
 
+/**
+ * Integer percent for bars and labels. A single checked topic must not round
+ * to 0% (the four courses together have hundreds of topics), and an incomplete
+ * set must not round to 100%.
+ */
 export function percent(done: number, total: number): number {
-  if (total <= 0) return 0;
-  return Math.round((done / total) * 100);
+  if (total <= 0 || done <= 0) return 0;
+  if (done >= total) return 100;
+  return Math.min(99, Math.max(1, Math.round((done / total) * 100)));
 }
 
 export const calculatorLabels: Record<CalculatorPolicy, string> = {
