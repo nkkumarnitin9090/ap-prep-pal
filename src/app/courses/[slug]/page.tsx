@@ -47,6 +47,15 @@ export default async function CoursePage({ params }: PageProps<"/courses/[slug]"
   const styles = accent(course.accent);
   const topicIds = courseTopicIds(course);
 
+  const sectionLinks = [
+    { id: "exam-format", label: "Exam format" },
+    { id: "units", label: `Units (${course.units.length})` },
+    course.bigIdeas?.length ? { id: "big-ideas", label: "Big ideas" } : null,
+    course.skillCategories?.length ? { id: "skills", label: "Skills" } : null,
+    course.frqTypes?.length ? { id: "free-response", label: "Free response" } : null,
+    { id: "resources", label: "Resources" },
+  ].filter((section) => section !== null);
+
   return (
     <PageShell className="space-y-8">
       <div className="space-y-4">
@@ -92,6 +101,14 @@ export default async function CoursePage({ params }: PageProps<"/courses/[slug]"
             <ProgressMeter topicIds={topicIds} accentToken={course.accent} />
           </div>
         ) : null}
+
+        <nav aria-label="Sections on this page" className="flex flex-wrap gap-1.5">
+          {sectionLinks.map((section) => (
+            <Button asChild key={section.id} size="xs" variant="outline">
+              <Link href={`#${section.id}`}>{section.label}</Link>
+            </Button>
+          ))}
+        </nav>
       </div>
 
       {course.courseNotes && course.courseNotes.length > 0 ? (

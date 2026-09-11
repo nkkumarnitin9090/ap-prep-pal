@@ -149,7 +149,7 @@ export function FrqTypes({
                   <Table>
                     <TableHeader>
                       <TableRow>
-                        <TableHead className="w-24">Points</TableHead>
+                        <TableHead className="w-36 min-w-28">Points</TableHead>
                         <TableHead className="min-w-40">Criterion</TableHead>
                         <TableHead className="min-w-60">What readers look for</TableHead>
                       </TableRow>
