@@ -891,15 +891,15 @@ export const scheduleWeeks: ScheduleWeek[] = [
     practice: [
       {
         course: "ap-calculus-bc",
-        label: "Full Calculus BC Section I: 30 no-calculator questions in 60 minutes, then 15 calculator questions in 45 minutes.",
+        label: "Full Calculus BC Section I: 29 no-calculator questions in 62 minutes, then 13 calculator questions in 38 minutes.",
       },
       {
         course: "ap-statistics",
-        label: "Full Statistics Section I: 40 multiple-choice questions in 90 minutes.",
+        label: "Full Statistics Section I: 42 multiple-choice questions in 90 minutes.",
       },
       {
         course: "ap-physics-2",
-        label: "Physics 2 Section I: 40 multiple-choice questions in 80 minutes, calculator allowed.",
+        label: "Physics 2 Section I: 42 multiple-choice questions in 85 minutes, calculator allowed.",
       },
       {
         course: "ap-english-literature",
@@ -1539,7 +1539,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
         course: "ap-physics-2",
         unit: "Full exam mock (redesign format)",
         focus:
-          "Section I: 40 single-select questions in 80 minutes. Section II: all four free-response formats in 100 minutes. Grade the written reasoning, not the arithmetic.",
+          "Section I: 42 single-select questions in 85 minutes. Section II: all four free-response formats in 95 minutes. Grade the written reasoning, not the arithmetic.",
       },
       {
         course: "ap-english-literature",
@@ -1559,7 +1559,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-physics-2",
-        label: "Full Physics 2 mock: 40 multiple-choice in 80 minutes and 4 free-response questions in 100 minutes.",
+        label: "Full Physics 2 mock: 42 multiple-choice in 85 minutes and 4 free-response questions in 95 minutes.",
       },
       {
         course: "ap-english-literature",
@@ -1646,7 +1646,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
         course: "ap-physics-2",
         unit: "Second full exam mock",
         focus:
-          "40 multiple-choice and 4 free-response questions. After scoring, write one model paragraph for the Qualitative/Quantitative Translation you lost the most points on.",
+          "42 multiple-choice and 4 free-response questions. After scoring, write one model paragraph for the Qualitative/Quantitative Translation you lost the most points on.",
       },
       {
         course: "ap-english-literature",
@@ -1666,7 +1666,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-physics-2",
-        label: "Second full Physics 2 mock, 40 + 4. Calculator out, equation sheet only if your administration provides one.",
+        label: "Second full Physics 2 mock, 42 + 4. Calculator out, equation sheet only if your administration provides one.",
       },
       {
         course: "ap-english-literature",

@@ -28,16 +28,16 @@ export const physics2: Course = {
   examSections: [
     {
       name: "Section I: Multiple Choice",
-      detail: "40 single-select questions (no multiselect since the 2024 redesign)",
+      detail: "42 single-select questions (no multiselect since the 2024 redesign)",
       weight: "50% of exam score",
-      time: "1 hour 20 minutes",
+      time: "1 hour 25 minutes",
       calculator: "allowed",
     },
     {
       name: "Section II, Question 1",
       detail: "Mathematical Routines - derive and calculate",
       weight: "~12.5% of exam score",
-      time: "part of the 100-minute block",
+      time: "part of the 95-minute block",
       calculator: "allowed",
     },
     {
@@ -45,7 +45,7 @@ export const physics2: Course = {
       detail:
         "Translation Between Representations - sketch graphs, diagrams, and bar charts and connect them to equations",
       weight: "~12.5% of exam score",
-      time: "part of the 100-minute block",
+      time: "part of the 95-minute block",
       calculator: "allowed",
     },
     {
@@ -53,7 +53,7 @@ export const physics2: Course = {
       detail:
         "Experimental Design and Analysis - propose a procedure, linearize data, discuss sources of error",
       weight: "~12.5% of exam score",
-      time: "part of the 100-minute block",
+      time: "part of the 95-minute block",
       calculator: "allowed",
     },
     {
@@ -61,7 +61,7 @@ export const physics2: Course = {
       detail:
         "Qualitative/Quantitative Translation - make a claim with reasoning, then derive an equation, then connect the two",
       weight: "~12.5% of exam score",
-      time: "part of the 100-minute block",
+      time: "part of the 95-minute block",
       calculator: "allowed",
     },
   ],
@@ -72,7 +72,7 @@ export const physics2: Course = {
     },
     {
       tone: "warning",
-      text: "The exam also changed: 40 multiple-choice questions in 80 minutes (down from 50 in 90), no multiselect questions, and four brand-new free-response formats in 100 minutes (up from 90). Any prep book printed before 2024 has the wrong unit list and the wrong exam structure.",
+      text: "The 2024 redesign dropped multiselect questions and introduced four free-response formats. For the May 2027 exam, College Board updated the counts and timing again: 42 multiple-choice questions in 85 minutes (not 40 in 80) and four free-response questions in 95 minutes (not 100). Any prep book printed before 2024 has the wrong unit list; anything still listing 40/80 or 50/90 has the wrong exam structure for May 2027.",
     },
     {
       tone: "info",
