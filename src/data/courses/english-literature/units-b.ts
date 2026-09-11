@@ -361,7 +361,7 @@ export const unitsB: Unit[] = [
             },
             {
               label: "B",
-              text: "It keeps the narration a step behind Louise's own understanding, so that the reader watches recognition arrive before either narrator or character will name it.",
+              text: "It delays naming the approaching feeling, so the reader experiences Louise's recognition as it arrives rather than receiving a labeled emotion in advance.",
             },
             {
               label: "C",
@@ -374,9 +374,9 @@ export const unitsB: Unit[] = [
           ],
           answer: "B",
           solution:
-            "The narration is close enough to report the question 'What was it?' as Louise's own, but it declines to supply the answer, and the passive, elemental imagery ('creeping out of the sky') keeps the feeling exterior to her for one more beat. That controlled lag is what makes her later whispered 'free, free, free!' land as an admission rather than a statement, and it implicates the reader in the recognition.",
+            "The narration is close enough to report the question 'What was it?' as Louise's own, but it declines to supply the answer, and the passive, elemental imagery ('creeping out of the sky') keeps the feeling exterior to her for one more beat. Louise 'did not know' either: the delay is shared, not a gap the reader can see past. That controlled lag is what makes her later whispered 'free, free, free!' land as an admission rather than a statement, and it implicates the reader in the recognition.",
           note:
-            "A converts narrative technique into diagnosis; her heart trouble is physical and the story never suggests delusion. C reverses the gap - the reader is ahead of Louise here, not behind her. D is contradicted by the interior access on display ('she did not know,' 'striving to beat it back with her will'); the narration is close, just deliberately unhurried.",
+            "A converts narrative technique into diagnosis; her heart trouble is physical and the story never suggests delusion. C reverses who knows what - Louise does not yet possess the name either, so this is not dramatic irony at her expense. D is contradicted by the interior access on display ('she did not know,' 'striving to beat it back with her will'); the narration is close, just deliberately unhurried.",
         },
         {
           id: "lit-u7-q2",
