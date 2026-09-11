@@ -868,5 +868,232 @@ export const unitsA: Unit[] = [
       ],
     },
   },
+  /* ------------------------------------------------------------------ */
+  {
+    id: "lit-u5",
+    number: "5",
+    title: "Poetry II",
+    examWeight: "16-20%",
+    examWeightMidpoint: 18,
+    classPeriods: "~14-16 class periods",
+    summary:
+      "The second pass through poetry, where a comparison has to live long enough to become an argument, and where form is no longer decoration. Follow an extended metaphor through a turn; hear how meter keeps or breaks a promise; and treat a tonal shift or a genuine ambiguity as the poem's most defensible claim about itself.",
+    cedNote: {
+      tone: "info",
+      text: "A conceit is not a fancier word for metaphor. It is a comparison the poem commits to long enough that its logic must be followed through - including the moment the comparison breaks or turns against the speaker. That follow-through is often where Row C sophistication is earned on FRQ 1.",
+    },
+    topics: [
+      {
+        id: "lit-u5-t1",
+        title: "Extended metaphor and conceit",
+        detail:
+          "Mastery is tracing one comparison across multiple lines and stating what each new vehicle-detail claims. If you cannot say what 'the spring' or 'the winding' adds, you have labeled a conceit without reading it.",
+      },
+      {
+        id: "lit-u5-t2",
+        title: "When the conceit's logic turns against the speaker",
+        detail:
+          "A sustained comparison will eventually produce a consequence the speaker did not bargain for. Name the line where the vehicle stops flattering the tenor and starts judging it.",
+      },
+      {
+        id: "lit-u5-t3",
+        title: "Form as architecture: stanza, closed form, and open verse",
+        detail:
+          "Stanzas are units of argument. A two-stanza poem is almost always a claim and a revision; a sonnet's turn is a thesis the octave did not yet know. Describe what the form permits the poem to change.",
+      },
+      {
+        id: "lit-u5-t4",
+        title: "Meter interacting with meaning, not just named",
+        detail:
+          "Regular iambic tetrameter is a promise of evenness; a caesura, a trochaic substitution, or an extra unstressed syllable is the promise being broken. Say what the break enacts in the same sentence you name it.",
+      },
+      {
+        id: "lit-u5-t5",
+        title: "Tonal shifts across stanzas",
+        detail:
+          "Tone is attitude, and a shift is a change in attitude you can point to: a new tense, a new agent, a concession, a 'though.' Build the thesis around the change rather than around the topic the two stanzas share.",
+      },
+      {
+        id: "lit-u5-t6",
+        title: "Productive ambiguity versus vagueness",
+        detail:
+          "Ambiguity is two meanings the syntax actually supports, both of which the poem needs. Vagueness is a claim you cannot tether to a word. Quote the fork in the sentence and argue why the poem refuses to choose.",
+      },
+      {
+        id: "lit-u5-t7",
+        title: "Irony and paradox inside a figure",
+        detail:
+          "When a speaker praises the 'even pace' of a clock that has been covering a refusal to wind, the figure is already ironic. State the two meanings that occupy the same image.",
+      },
+      {
+        id: "lit-u5-t8",
+        title: "Allusion: what the borrowed context imports",
+        detail:
+          "An allusion is not a trivia citation. Explain the one association the borrowed story or phrase drags into this poem, and what would be lost if the line were purely original.",
+      },
+      {
+        id: "lit-u5-t9",
+        title: "A thesis that accounts for the whole poem's architecture",
+        detail:
+          "Unit 2 asked for a defensible sentence. This unit asks that the sentence predict the turn: what the first stanza maintains, what the second stanza costs, and why the cost is the point.",
+      },
+    ],
+    keySkills: [
+      "Unpack a conceit in stages: tenor, vehicle, then each detail the vehicle donates that a literal statement would not",
+      "Locate the line where the comparison stops serving the speaker and start the body paragraph there if that is where the attitude complexifies",
+      "Scan a few lines well enough to notice a break in the pattern, then convert the break into an effect rather than a label",
+      "Name a tonal shift with evidence of attitude (diction, agency, concession), not with a mood adjective parked on a stanza",
+      "Quote the exact phrase that forks into two meanings and keep both meanings in play through the commentary",
+      "Write a thesis that could not be written about stanza 1 alone - if it could, you have not yet read the poem",
+    ],
+    commonMistakes: [
+      "Calling any metaphor a conceit because the word sounds like AP vocabulary; a conceit has to be sustained and logically followed.",
+      "Naming the meter correctly and never saying what the regularity or the break does - 'the poem is in iambic tetrameter' is identification, not analysis.",
+      "Treating a stanza break as a decorative pause instead of asking what the second stanza revises.",
+      "Writing 'the tone is ambiguous' when you mean you have not decided; ambiguity requires two defensible readings of the same words.",
+      "Collapsing speaker into poet and then arguing about a biographical relationship the poem never specifies.",
+      "Quoting the entire conceit as a block and commenting only on its first term, so the follow-through that makes it a conceit goes unanalyzed.",
+    ],
+    practiceSet: {
+      id: "lit-u5-set",
+      title: "Unit 5 Practice: Conceit, Meter, and the Turn",
+      focus:
+        "Following a clock conceit through a tonal shift, reading a metrical overrun as meaning, and arguing from an ambiguity the last lines refuse to resolve.",
+      estimatedMinutes: 45,
+      calculator: "n/a",
+      problems: [
+        {
+          id: "lit-u5-q1",
+          kind: "multiple-choice",
+          label: "MCQ 1",
+          stimulus:
+            "PRACTICE POEM (original, written for this exercise - not an excerpt from any published work)\n\n 1  I keep you as a clock keeps time,\n 2  each morning wound and set and true.\n 3  Your face is what I turn to when\n 4  the afternoon has slipped from view,\n 5  and if the striking hour goes mute\n 6  I blame the spring, the oil, the pin -\n 7  never the room that would not hear,\n 8  never the hand that would not wind.\n\n 9  One evening, though, the clock ran down.\n10  I, who had praised its even pace,\n11  sat in a house without an hour.\n12  The quiet was not rest. It was\n13  the sound of being kept, and keeping,\n14  and I could not tell them apart\n15  until the dark itself stood still\n16  and would not, for my asking, move.",
+          prompt:
+            "The conceit of the addressee as a clock, developed through lines 1-8, primarily characterizes the relationship as one the speaker",
+          choices: [
+            { label: "A", text: "experiences as a race against limited time" },
+            { label: "B", text: "maintains by routine, and whose silences the speaker would rather treat as mechanical faults than as failures of attention" },
+            { label: "C", text: "regards as cold and impersonal, since clocks cannot feel" },
+            { label: "D", text: "hopes to end, because a clock that must be wound is a burden" },
+            { label: "E", text: "understands as public display, since clocks belong on a visible wall" },
+          ],
+          answer: "B",
+          solution:
+            "The vehicle donates maintenance, not urgency: \"each morning wound and set and true\" is a ritual of keeping. When the hour \"goes mute,\" the speaker blames \"the spring, the oil, the pin\" and, by the doubled \"never,\" refuses to blame the room or the hand - the two agents that would make the silence a human choice. The conceit is already a system of excuses.",
+          note:
+            "A seizes the most available association of clocks - running out of time - instead of the association this poem activates through winding and blame. C treats the vehicle as a verdict on warmth, which the poem never argues. D inverts the first stanza's protective pride in the clock's evenness.",
+        },
+        {
+          id: "lit-u5-q2",
+          kind: "multiple-choice",
+          label: "MCQ 2",
+          stimulus:
+            "PRACTICE POEM (original, written for this exercise - not an excerpt from any published work)\n\n 1  I keep you as a clock keeps time,\n 2  each morning wound and set and true.\n 3  Your face is what I turn to when\n 4  the afternoon has slipped from view,\n 5  and if the striking hour goes mute\n 6  I blame the spring, the oil, the pin -\n 7  never the room that would not hear,\n 8  never the hand that would not wind.\n\n 9  One evening, though, the clock ran down.\n10  I, who had praised its even pace,\n11  sat in a house without an hour.\n12  The quiet was not rest. It was\n13  the sound of being kept, and keeping,\n14  and I could not tell them apart\n15  until the dark itself stood still\n16  and would not, for my asking, move.",
+          prompt:
+            "The parallel refusals in lines 7-8 (\"never the room... never the hand\") function chiefly to",
+          choices: [
+            { label: "A", text: "establish a rhyme scheme the second stanza will complete" },
+            { label: "B", text: "introduce a second speaker who contradicts the first" },
+            { label: "C", text: "let the speaker's denial name the two agents - setting and the speaker's own hand - that the conceit had been designed to excuse" },
+            { label: "D", text: "indicate that the clock is broken in two separate places and needs repair" },
+            { label: "E", text: "shift the poem from addressing \"you\" to addressing the reader" },
+          ],
+          answer: "C",
+          solution:
+            "Anaphora plus negation is a confession that will not call itself one. \"Never the room that would not hear\" and \"never the hand that would not wind\" specify the very causes the speaker has just refused: a setting that ignores the hour, and a hand - grammatically the speaker's - that will not do the winding. The conceit's machinery is named at the moment it is disowned.",
+          note:
+            "A hunts for a form the poem does not claim; these lines do not rhyme, and stanza 2 does not complete a scheme. B and E misread a shift in candor as a shift in who is speaking. D literalizes the vehicle into a repair plot.",
+        },
+        {
+          id: "lit-u5-q3",
+          kind: "multiple-choice",
+          label: "MCQ 3",
+          stimulus:
+            "PRACTICE POEM (original, written for this exercise - not an excerpt from any published work)\n\n 1  I keep you as a clock keeps time,\n 2  each morning wound and set and true.\n 3  Your face is what I turn to when\n 4  the afternoon has slipped from view,\n 5  and if the striking hour goes mute\n 6  I blame the spring, the oil, the pin -\n 7  never the room that would not hear,\n 8  never the hand that would not wind.\n\n 9  One evening, though, the clock ran down.\n10  I, who had praised its even pace,\n11  sat in a house without an hour.\n12  The quiet was not rest. It was\n13  the sound of being kept, and keeping,\n14  and I could not tell them apart\n15  until the dark itself stood still\n16  and would not, for my asking, move.",
+          prompt:
+            "The poem's decisive tonal shift - the point at which the conceit stops flattering the relationship and begins to judge it - occurs at",
+          choices: [
+            { label: "A", text: "line 1, with the opening comparison to a clock" },
+            { label: "B", text: "line 5, with \"and if the striking hour goes mute\"" },
+            { label: "C", text: "line 9, with \"One evening, though, the clock ran down\"" },
+            { label: "D", text: "line 12, with \"The quiet was not rest\"" },
+            { label: "E", text: "line 16, with \"and would not, for my asking, move\"" },
+          ],
+          answer: "C",
+          solution:
+            "\"Though\" is the hinge. Stanza 1 maintains the clock by ritual and by blame assigned to parts; stanza 2 begins when that maintenance fails as an event - \"the clock ran down\" - and the speaker who \"had praised its even pace\" is left in a house \"without an hour.\" Agency leaves the speaker's morning winding and passes to the clock's stopping, which is the tonal drop from protective pride to aftermath.",
+          note:
+            "B is a hypothetical mute hour still managed by the speaker's system of blame; the attitude has not yet changed. D and E are consequences of the turn, not the turn. A names the conceit's start, which is the first stanza's project, not its revision.",
+        },
+        {
+          id: "lit-u5-q4",
+          kind: "multiple-choice",
+          label: "MCQ 4",
+          stimulus:
+            "PRACTICE POEM (original, written for this exercise - not an excerpt from any published work)\n\n 1  I keep you as a clock keeps time,\n 2  each morning wound and set and true.\n 3  Your face is what I turn to when\n 4  the afternoon has slipped from view,\n 5  and if the striking hour goes mute\n 6  I blame the spring, the oil, the pin -\n 7  never the room that would not hear,\n 8  never the hand that would not wind.\n\n 9  One evening, though, the clock ran down.\n10  I, who had praised its even pace,\n11  sat in a house without an hour.\n12  The quiet was not rest. It was\n13  the sound of being kept, and keeping,\n14  and I could not tell them apart\n15  until the dark itself stood still\n16  and would not, for my asking, move.",
+          prompt:
+            "The extra unstressed syllable at the end of line 13 (\"keeping\") works together with the caesura in line 12 chiefly to",
+          choices: [
+            { label: "A", text: "complete a heroic couplet that has been building since line 11" },
+            { label: "B", text: "imitate the ticking of a clock by adding a beat the first stanza never used" },
+            { label: "C", text: "let the even tetrameter the speaker had praised overrun and stall, so the conceit's 'even pace' fails in the line that names captivity" },
+            { label: "D", text: "signal that a new speaker has taken over the second stanza" },
+            { label: "E", text: "create a rhyme with \"apart\" in line 14" },
+          ],
+          answer: "C",
+          solution:
+            "Lines 1-6 move in even iambic tetrameter, the metrical version of the \"even pace\" line 10 will admit to having praised. Line 12 stops mid-thought at \"rest.\" Line 13 then overruns the eight-syllable pattern on the feminine ending \"keeping.\" Form enacts content: the regular winding will not resolve on a stress at the exact moment the speaker hears care and captivity as one sound.",
+          note:
+            "B reverses the effect - an extra unstressed ending is a stumble, not a tick. A invents a couplet (and heroic couplets are iambic pentameter). E is checkable and false: \"keeping\" and \"apart\" do not rhyme. Meter questions on this exam punish the student who names a form the poem does not have.",
+        },
+        {
+          id: "lit-u5-q5",
+          kind: "multiple-choice",
+          label: "MCQ 5",
+          stimulus:
+            "PRACTICE POEM (original, written for this exercise - not an excerpt from any published work)\n\n 1  I keep you as a clock keeps time,\n 2  each morning wound and set and true.\n 3  Your face is what I turn to when\n 4  the afternoon has slipped from view,\n 5  and if the striking hour goes mute\n 6  I blame the spring, the oil, the pin -\n 7  never the room that would not hear,\n 8  never the hand that would not wind.\n\n 9  One evening, though, the clock ran down.\n10  I, who had praised its even pace,\n11  sat in a house without an hour.\n12  The quiet was not rest. It was\n13  the sound of being kept, and keeping,\n14  and I could not tell them apart\n15  until the dark itself stood still\n16  and would not, for my asking, move.",
+          prompt:
+            "The ambiguity of \"being kept, and keeping\" (line 13) is productive chiefly because it",
+          choices: [
+            { label: "A", text: "leaves open whether the speaker owns one clock or several" },
+            { label: "B", text: "collapses the distinction between the speaker as winder and the speaker as the thing wound, so care and captivity occupy the same sound" },
+            { label: "C", text: "hints that the addressee has already left the house for good" },
+            { label: "D", text: "suggests the speaker cannot remember how clocks work" },
+            { label: "E", text: "creates uncertainty about whether the poem is set at dawn or at night" },
+          ],
+          answer: "B",
+          solution:
+            "\"Kept\" and \"keeping\" are the two roles the conceit assigned to different parties: the clock is kept (wound, set), and the speaker does the keeping. The line makes those roles a single \"sound\" the speaker \"could not tell... apart.\" Both meanings are grammatically live, and the poem needs both: the relationship was maintenance and it was confinement, and the second stanza's quiet is the noise of not being able to separate them.",
+          note:
+            "A and D treat ambiguity as confusion about objects or facts. C infers a plot event the syntax does not force. E grabs \"evening\" and \"dark\" from later lines and pretends the phrase is about the time of day. If you cannot state two meanings of the same words, you do not yet have ambiguity - you have a guess.",
+        },
+        {
+          id: "lit-u5-q6",
+          kind: "free-response",
+          label: "FRQ 1",
+          stimulus:
+            "PRACTICE POEM (original, written for this exercise - not an excerpt from any published work)\n\n 1  I keep you as a clock keeps time,\n 2  each morning wound and set and true.\n 3  Your face is what I turn to when\n 4  the afternoon has slipped from view,\n 5  and if the striking hour goes mute\n 6  I blame the spring, the oil, the pin -\n 7  never the room that would not hear,\n 8  never the hand that would not wind.\n\n 9  One evening, though, the clock ran down.\n10  I, who had praised its even pace,\n11  sat in a house without an hour.\n12  The quiet was not rest. It was\n13  the sound of being kept, and keeping,\n14  and I could not tell them apart\n15  until the dark itself stood still\n16  and would not, for my asking, move.",
+          prompt:
+            "Write a thesis statement and one body paragraph analyzing how the poem's extended metaphor and its shift between stanzas convey the speaker's complex attitude toward the relationship. Take 25 minutes, which is the pace FRQ 1 demands on exam day.",
+          parts: [
+            { label: "(a)", text: "Thesis: one sentence that could not be written about stanza 1 alone - name the complexity the turn produces." },
+            { label: "(b)", text: "Body paragraph: follow the conceit through at least one detail in each stanza, embedding brief quotations." },
+            { label: "(c)", text: "Include one sentence that treats either the metrical overrun at \"keeping\" or the ambiguity of kept/keeping as evidence, not as decoration." },
+            { label: "(d)", text: "Self-score with the rubric below, then rewrite only the thesis." },
+          ],
+          solution:
+            "Model thesis: The speaker's clock conceit begins as a ritual of care that quietly refuses responsibility, and the second stanza lets that same comparison run down until keeping and being kept are indistinguishable - an aftermath the speaker can describe but can no longer wind back into evenness.\n\nModel body paragraph: In the first stanza the conceit looks like devotion because it is built of maintenance. \"I keep you as a clock keeps time\" and \"each morning wound and set and true\" import regularity and attention, yet the vehicle also imports a loophole: when the hour \"goes mute,\" the speaker blames \"the spring, the oil, the pin\" and will \"never\" blame \"the room that would not hear\" or \"the hand that would not wind.\" The doubled refusal names the human causes - a setting that ignores the hour, a hand that will not do the work - at the exact moment it disowns them, so the even tetrameter of those opening lines is already the sound of a system that will not examine itself. The stanza break revises the bargain. \"One evening, though, the clock ran down,\" and the speaker who \"had praised its even pace\" is left \"in a house without an hour.\" The conceit now judges the keeper: \"The quiet was not rest. It was / the sound of being kept, and keeping,\" a line that overruns the eight-syllable pattern on the extra unstressed syllable of \"keeping\" and, in the same overrun, collapses winder and wound into one sound the speaker \"could not tell... apart.\" By the close, even darkness - which should pass as time passes - \"would not, for my asking, move,\" so the hand that would not wind in stanza 1 is answered by a world that will not be wound in stanza 2. Care was captivity all along; the poem simply required the clock to stop before the speaker could hear it.\n\nWhy the thesis earns the point: it takes a position (the conceit is a refusal that the turn exposes) and predicts the movement from maintenance to indistinguishability.",
+          rubric: [
+            { points: "1 pt", criterion: "Row A - Thesis: a defensible interpretation of the speaker's complex attitude that accounts for the poem's turn. A list of devices, or a claim true of stanza 1 only, earns 0." },
+            { points: "4 pts", criterion: "Row B - Evidence and Commentary: brief quotations from both stanzas, with commentary that follows the conceit's logic and explains how the shift in attitude is made. 4 points requires consistent explanation of the how, including at least one formal choice (meter, stanza break, or ambiguity)." },
+            { points: "1 pt", criterion: "Row C - Sophistication: earned by sustaining the conceit through its reversal, or by keeping both meanings of kept/keeping in play, not by elevated vocabulary." },
+            { points: "Check", criterion: "Self-check: if your paragraph could be pasted onto a different clock poem without changing a sentence, you have described clocks instead of reading this one." },
+          ],
+          note:
+            "This is FRQ 1 with Unit 5's extra demand: the comparison has to be followed until it turns. If you stop after calling the beloved a clock, you have written the Unit 2 version of the essay and left the sophistication point on the table.",
+        },
+      ],
+    },
+  },
 ];
 
