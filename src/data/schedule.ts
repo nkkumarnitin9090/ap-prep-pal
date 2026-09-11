@@ -21,30 +21,301 @@ export const scheduleWeeks: ScheduleWeek[] = [
     dateRange: "Sep 7 - Sep 13",
     startDate: "2026-09-07",
     phase: "foundations",
-    goal: "Set up the year: baseline diagnostics in all four courses.",
+    goal: "Stand up the study system and take an honest baseline in all four courses.",
     assignments: [
       {
         course: "ap-calculus-bc",
         unit: "Unit 1: Limits and Continuity",
-        focus: "Limits from graphs and tables; build the algebraic toolkit.",
+        focus:
+          "Limit notation, estimating limits from graphs and tables, and the algebra toolkit: factoring, conjugates, and common denominators.",
       },
       {
         course: "ap-statistics",
         unit: "Unit 1: Exploring One-Variable Data",
-        focus: "Distribution vocabulary and describing shape, center, spread.",
+        focus:
+          "Categorical versus quantitative variables, and describing a distribution in the CED order: shape, center, variability, unusual features.",
       },
       {
         course: "ap-physics-2",
-        unit: "Unit 1: Fluids",
-        focus: "Density, pressure, and the hydrostatic pressure relationship.",
+        unit: "Unit 8: Fluids (bridge unit)",
+        focus: "Density, pressure as force per area, and pressure as a function of depth in a static fluid.",
       },
       {
         course: "ap-english-literature",
         unit: "Unit 1: Short Fiction I",
-        focus: "Character, setting, and structure in a short story.",
+        focus:
+          "Annotate one short story closely: how action, dialogue, and telling detail reveal character rather than describe it.",
       },
     ],
-    practice: [],
+    practice: [
+      {
+        course: "ap-calculus-bc",
+        practiceSetId: "calc-u1-ps",
+        label: "Baseline attempt untimed - the point is to find gaps, not to score well.",
+      },
+      {
+        course: "ap-statistics",
+        practiceSetId: "stat-u1-ps",
+        label: "Questions 1-3 as a diagnostic on distribution description.",
+      },
+      {
+        course: "ap-physics-2",
+        practiceSetId: "phys-u8-ps",
+        label: "Fluids bridge set, questions 1-2, to see how much Physics 1 survived the summer.",
+      },
+      {
+        course: "ap-english-literature",
+        practiceSetId: "lit-u1-set",
+        label: "One passage set to calibrate multiple-choice reading pace.",
+      },
+    ],
+    note: "Build the two tools the rest of the year assumes: a single error log for missed problems and one flashcard deck covering all four courses.",
+  },
+  {
+    week: 2,
+    dateRange: "Sep 14 - Sep 20",
+    startDate: "2026-09-14",
+    phase: "foundations",
+    goal: "Close out the entry unit in every course and hit the first timed set with no notes.",
+    assignments: [
+      {
+        course: "ap-calculus-bc",
+        unit: "Unit 1: Limits and Continuity",
+        focus:
+          "Trigonometric limits and the squeeze theorem, continuity at a point and on an interval, classifying discontinuities, limits at infinity, and the Intermediate Value Theorem.",
+      },
+      {
+        course: "ap-statistics",
+        unit: "Unit 1: Exploring One-Variable Data",
+        focus:
+          "Boxplots and the 1.5 x IQR rule, comparing two distributions, z-scores, and normal percentile work in both directions.",
+      },
+      {
+        course: "ap-physics-2",
+        unit: "Unit 8: Fluids (bridge unit)",
+        focus:
+          "Pascal's principle, buoyant force and fraction submerged, the continuity equation, and Bernoulli's equation.",
+      },
+      {
+        course: "ap-english-literature",
+        unit: "Unit 1: Short Fiction I",
+        focus:
+          "Setting and structure: how sequencing, contrast, and narrative distance shape meaning. Draft your first prose fiction thesis.",
+      },
+    ],
+    practice: [
+      {
+        course: "ap-calculus-bc",
+        practiceSetId: "calc-u1-ps",
+        label: "Full retake, timed, closed notes - target every item you missed in Week 1.",
+      },
+      {
+        course: "ap-physics-2",
+        practiceSetId: "phys-u8-ps",
+        label: "Complete set with written justifications for the buoyancy items.",
+      },
+      {
+        course: "ap-english-literature",
+        practiceSetId: "lit-u1-set",
+        label: "Finish the set, then reread every stem you got wrong to see what the question actually asked.",
+      },
+    ],
+  },
+  {
+    week: 3,
+    dateRange: "Sep 21 - Sep 27",
+    startDate: "2026-09-21",
+    phase: "foundations",
+    goal: "Move from limits to derivatives, and write one timed prose fiction essay start to finish.",
+    assignments: [
+      {
+        course: "ap-calculus-bc",
+        unit: "Unit 2: Differentiation - Definition and Fundamental Properties",
+        focus:
+          "Average versus instantaneous rate of change, the limit definition of the derivative, differentiability implies continuity, and the power, sum, and constant-multiple rules.",
+      },
+      {
+        course: "ap-statistics",
+        unit: "Unit 2: Exploring Two-Variable Data",
+        focus:
+          "Two-way tables with joint, marginal, and conditional relative frequencies, segmented bar charts, and describing scatterplots by direction, unusual features, form, and strength.",
+      },
+      {
+        course: "ap-physics-2",
+        unit: "Unit 9: Thermodynamics",
+        focus:
+          "Kinetic theory of temperature and pressure, root-mean-square molecular speed, and the ideal gas law with consistent units.",
+      },
+      {
+        course: "ap-english-literature",
+        unit: "Unit 1: Short Fiction I",
+        focus:
+          "Close out Short Fiction I with a 40-minute prose fiction analysis essay, then self-score the thesis and evidence rows.",
+      },
+    ],
+    practice: [
+      {
+        course: "ap-statistics",
+        practiceSetId: "stat-u2-ps",
+        label: "Questions 1-3 on two-way tables and scatterplot description; save the regression items for Week 4.",
+      },
+      {
+        course: "ap-calculus-bc",
+        practiceSetId: "calc-u1-ps",
+        label: "Spaced retrieval: three limit items from memory before starting derivative work.",
+      },
+      {
+        course: "ap-english-literature",
+        label: "Saturday timed section: 26 multiple-choice questions on two prose passages in 30 minutes.",
+      },
+    ],
+  },
+  {
+    week: 4,
+    dateRange: "Sep 28 - Oct 4",
+    startDate: "2026-09-28",
+    phase: "foundations",
+    goal: "Own every basic derivative rule and finish two-variable data, including computer output.",
+    assignments: [
+      {
+        course: "ap-calculus-bc",
+        unit: "Unit 2: Differentiation - Definition and Fundamental Properties",
+        focus:
+          "Product and quotient rules, derivatives of the six trigonometric functions, e^x and ln x, and tangent line equations.",
+      },
+      {
+        course: "ap-statistics",
+        unit: "Unit 2: Exploring Two-Variable Data",
+        focus:
+          "Least-squares regression, residual plots, r versus r-squared, influential points, and reading regression computer output.",
+      },
+      {
+        course: "ap-physics-2",
+        unit: "Unit 9: Thermodynamics",
+        focus:
+          "PV diagrams and the four standard processes, work as area under a PV curve, and the first law with sign conventions.",
+      },
+      {
+        course: "ap-english-literature",
+        unit: "Unit 2: Poetry I",
+        focus:
+          "Line and stanza structure, punctuation and enjambment, and how imagery builds a controlling idea in a short poem.",
+      },
+    ],
+    practice: [
+      {
+        course: "ap-calculus-bc",
+        practiceSetId: "calc-u2-ps",
+        label: "Full set, timed. Any item solved by pattern-matching gets rewritten with the rule named.",
+      },
+      {
+        course: "ap-statistics",
+        practiceSetId: "stat-u2-ps",
+        label: "Full set including the regression output item; interpret slope and r-squared in context every time.",
+      },
+      {
+        course: "ap-english-literature",
+        practiceSetId: "lit-u2-set",
+        label: "First poetry passage set; mark the two lines that carry the poem's turn.",
+      },
+    ],
+  },
+  {
+    week: 5,
+    dateRange: "Oct 5 - Oct 11",
+    startDate: "2026-10-05",
+    phase: "foundations",
+    goal: "Chain rule fluency, sampling design vocabulary, and thermodynamics finished.",
+    assignments: [
+      {
+        course: "ap-calculus-bc",
+        unit: "Unit 3: Differentiation - Composite, Implicit, and Inverse Functions",
+        focus: "Chain rule on nested compositions and implicit differentiation, including tangent lines to curves.",
+      },
+      {
+        course: "ap-statistics",
+        unit: "Unit 3: Collecting Data",
+        focus:
+          "Populations versus samples, selecting a simple random sample, stratified and cluster designs, and naming sources of bias precisely.",
+      },
+      {
+        course: "ap-physics-2",
+        unit: "Unit 9: Thermodynamics",
+        focus:
+          "Internal energy of a monatomic ideal gas, specific and latent heat, conduction and radiation, and entropy with the second law.",
+      },
+      {
+        course: "ap-english-literature",
+        unit: "Unit 2: Poetry I",
+        focus:
+          "Finish Poetry I with a timed poetry analysis essay; practice quoting a line fragment inside your own sentence.",
+      },
+    ],
+    practice: [
+      {
+        course: "ap-physics-2",
+        practiceSetId: "phys-u9-ps",
+        label: "Complete thermodynamics set, including the PV-diagram free response.",
+      },
+      {
+        course: "ap-calculus-bc",
+        practiceSetId: "calc-u3-ps",
+        label: "Questions 1-3 on chain rule and implicit differentiation.",
+      },
+      {
+        course: "ap-english-literature",
+        practiceSetId: "lit-u2-set",
+        label: "Finish the poetry set and log which distractor type keeps catching you.",
+      },
+    ],
+  },
+  {
+    week: 6,
+    dateRange: "Oct 12 - Oct 18",
+    startDate: "2026-10-12",
+    phase: "build",
+    goal: "Finish differentiation technique, finish study design, and start the first long literary work.",
+    assignments: [
+      {
+        course: "ap-calculus-bc",
+        unit: "Unit 3: Differentiation - Composite, Implicit, and Inverse Functions",
+        focus:
+          "Derivatives of inverse and inverse trigonometric functions, higher-order derivatives, and choosing a differentiation procedure under time pressure.",
+      },
+      {
+        course: "ap-statistics",
+        unit: "Unit 3: Collecting Data",
+        focus:
+          "Completely randomized designs, blocking and matched pairs, confounding, and scope of inference: generalization versus causation.",
+      },
+      {
+        course: "ap-physics-2",
+        unit: "Unit 10: Electric Force, Field, and Potential",
+        focus: "Coulomb's law, charging by conduction and induction, field lines, and superposition of fields.",
+      },
+      {
+        course: "ap-english-literature",
+        unit: "Unit 3: Longer Fiction or Drama I",
+        focus:
+          "Start the first novel or play: track the protagonist's central conflict and how exposition sets up later reversals.",
+      },
+    ],
+    practice: [
+      {
+        course: "ap-calculus-bc",
+        practiceSetId: "calc-u3-ps",
+        label: "Full set, timed, with the procedure named before any algebra.",
+      },
+      {
+        course: "ap-statistics",
+        practiceSetId: "stat-u3-ps",
+        label: "Complete set; write scope-of-inference sentences in full for every design item.",
+      },
+      {
+        course: "ap-calculus-bc",
+        label: "Saturday timed section: 20 no-calculator Calculus BC multiple-choice questions from Units 1-3 in 40 minutes.",
+      },
+    ],
   },
 ];
 
