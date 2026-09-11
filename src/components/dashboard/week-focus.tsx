@@ -1,10 +1,11 @@
 import Link from "next/link";
-import { ArrowUpRight, CalendarRange, Dumbbell, Target } from "lucide-react";
+import { ArrowUpRight, CalendarRange, Target } from "lucide-react";
 
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { EmptyState } from "@/components/page-shell";
+import { PracticeLinks } from "@/components/schedule/practice-links";
 import { accent } from "@/lib/accents";
 import { phaseStyles } from "@/lib/content";
 import { resolvePractice } from "@/lib/schedule-links";
@@ -109,32 +110,7 @@ export function WeekFocus({
           </p>
         )}
 
-        {practice.length > 0 ? (
-          <div className="space-y-2">
-            <p className="flex items-center gap-1.5 text-xs font-medium tracking-wide text-muted-foreground uppercase">
-              <Dumbbell className="size-3.5" aria-hidden />
-              Practice this week
-            </p>
-            <ul className="flex flex-wrap gap-2">
-              {practice.map((item) => (
-                <li key={item.key}>
-                  {item.href ? (
-                    <Button asChild size="xs" variant="outline">
-                      <Link href={item.href}>
-                        <span className="text-muted-foreground">{item.courseShortName}</span>
-                        {item.label}
-                      </Link>
-                    </Button>
-                  ) : (
-                    <Badge variant="outline" className="font-normal">
-                      {item.courseShortName}: {item.label}
-                    </Badge>
-                  )}
-                </li>
-              ))}
-            </ul>
-          </div>
-        ) : null}
+        <PracticeLinks practice={practice} />
 
         {week.note ? (
           <p className="border-l-2 pl-3 text-sm text-muted-foreground italic">{week.note}</p>

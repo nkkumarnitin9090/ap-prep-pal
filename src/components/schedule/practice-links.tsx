@@ -14,14 +14,16 @@ import { coursesBySlug } from "@/data/courses";
 export function PracticeLinks({
   practice,
   heading = "Practice this week",
+  className,
 }: {
   practice: ResolvedPractice[];
   heading?: string;
+  className?: string;
 }) {
   if (practice.length === 0) return null;
 
   return (
-    <div className="space-y-2">
+    <div className={cn("space-y-2", className)}>
       <p className="flex items-center gap-1.5 text-xs font-medium tracking-wide text-muted-foreground uppercase">
         <Dumbbell className="size-3.5" aria-hidden />
         {heading}
@@ -48,7 +50,7 @@ export function PracticeLinks({
               {item.href ? (
                 <Link
                   href={item.href}
-                  className="flex items-start gap-2 rounded-lg border px-2.5 py-2 text-sm outline-none hover:bg-muted/60 focus-visible:ring-3 focus-visible:ring-ring/50"
+                  className="flex flex-wrap items-start gap-2 rounded-lg border px-2.5 py-2 text-sm outline-none hover:bg-muted/60 focus-visible:ring-3 focus-visible:ring-ring/50"
                 >
                   {body}
                   <ArrowUpRight
@@ -57,7 +59,7 @@ export function PracticeLinks({
                   />
                 </Link>
               ) : (
-                <div className="flex items-start gap-2 rounded-lg border border-dashed px-2.5 py-2 text-sm">
+                <div className="flex flex-wrap items-start gap-2 rounded-lg border border-dashed px-2.5 py-2 text-sm">
                   {body}
                 </div>
               )}

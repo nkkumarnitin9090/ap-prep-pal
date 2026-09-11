@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
+import { PracticeLinks } from "@/components/schedule/practice-links";
 import { accent } from "@/lib/accents";
 import { phaseStyles } from "@/lib/content";
 import { resolvePractice } from "@/lib/schedule-links";
@@ -75,27 +75,7 @@ export function WeekRow({
         </ul>
       ) : null}
 
-      {practice.length > 0 ? (
-        <div className="mt-3 flex flex-wrap items-center gap-1.5">
-          <span className="text-xs font-medium tracking-wide text-muted-foreground uppercase">
-            Practice
-          </span>
-          {practice.map((item) =>
-            item.href ? (
-              <Button asChild key={item.key} size="xs" variant="outline">
-                <Link href={item.href}>
-                  <span className="text-muted-foreground">{item.courseShortName}</span>
-                  {item.label}
-                </Link>
-              </Button>
-            ) : (
-              <Badge key={item.key} variant="outline" className="font-normal">
-                {item.courseShortName}: {item.label}
-              </Badge>
-            ),
-          )}
-        </div>
-      ) : null}
+      <PracticeLinks practice={practice} heading="Practice" className="mt-3" />
 
       {week.note ? (
         <p className="mt-3 border-l-2 pl-3 text-sm text-muted-foreground italic">
