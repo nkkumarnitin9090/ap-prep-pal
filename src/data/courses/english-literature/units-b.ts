@@ -779,5 +779,267 @@ export const unitsB: Unit[] = [
       ],
     },
   },
+  /* ------------------------------------------------------------------ */
+  {
+    id: "lit-u9",
+    number: "9",
+    title: "Longer Fiction or Drama III",
+    examWeight: "9-12%",
+    examWeightMidpoint: 10.5,
+    classPeriods: "~17 class periods",
+    summary:
+      "The last long-work unit, which assumes you can already name a foil and a motif and now asks you to hold an entire novel or play together as an argument. Symbol and motif have to be tracked from first appearance to last; a narrator's limits have to be treated as a design that shapes what the work can mean; and the essay you write from memory has to be a line of reasoning about the whole, not a tour of scenes you happen to remember.",
+    topics: [
+      {
+        id: "lit-u9-t1",
+        title: "Symbol versus motif across a whole work",
+        detail:
+          "A first appearance can only propose a meaning; a later one has to add something the first could not - duration, irony, a reversed owner. Mastery is arguing from that addition, and saying whether you are reading a symbol, a motif, or both.",
+      },
+      {
+        id: "lit-u9-t2",
+        title: "Structural juxtaposition and contrast at scale",
+        detail:
+          "Pair two widely separated scenes - an opening ritual and a closing refusal, a promise and its performance - and write a claim that depends on their order. If swapping them would not change your thesis, you have summarized two episodes, not read a structure.",
+      },
+      {
+        id: "lit-u9-t3",
+        title: "How a narrator's limits shape interpretation",
+        detail:
+          "Name precisely what the narrator or focal character cannot know, will not say, or needs the story to confirm about themselves. The interpretive move is to treat that limit as a design: the work means what it means partly because of who is not in a position to tell it.",
+      },
+      {
+        id: "lit-u9-t4",
+        title: "Character change, and the refusal to change, as evidence",
+        detail:
+          "Unchanged major characters are doing as much work as transformed ones. Locate the habit that survives the plot's crisis and explain what the survival argues - about the person, about the institution that trained the habit, or about both.",
+      },
+      {
+        id: "lit-u9-t5",
+        title: "Inconsistencies at the resolution",
+        detail:
+          "A character's last speech or last action is allowed to contradict what the work led us to expect of them. Mastery is not diagnosing hypocrisy but asking what the inconsistency does to the conflicts, the narrator, and the values the plot had been testing.",
+      },
+      {
+        id: "lit-u9-t6",
+        title: "Significant events as colliding value systems",
+        detail:
+          "Read a turning scene as a collision of values, not as a plot beat. Name the two goods that cannot both be kept, and explain why the work stages that collision here rather than earlier or later.",
+      },
+      {
+        id: "lit-u9-t7",
+        title: "Unresolved endings and what they withhold",
+        detail:
+          "Some plots refuse catharsis. If a central conflict is left standing, the refusal is part of the meaning: say what a neater ending would have endorsed, and why the work declines that endorsement.",
+      },
+      {
+        id: "lit-u9-t8",
+        title: "Building an interpretive argument about a full-length work",
+        detail:
+          "From memory, select the two or three moments the thesis actually needs, in an order that could not be shuffled, and let commentary do more work than summary. This is the Q3 skill the whole course has been banking works for.",
+      },
+    ],
+    keySkills: [
+      "For any recurring detail, make a three-row log: first appearance, later appearance, what the later one adds",
+      "State a juxtaposition as one sentence: 'Scene A set against scene B argues ___, which neither scene argues alone.'",
+      "Write the information gap explicitly: narrator/character believes ___; the work shows ___.",
+      "At a resolution, ask whether the character's last act matches their established pattern; if not, that mismatch is evidence",
+      "Bank two or three works at the level of named scenes, objects, and remembered phrasing, not themes",
+      "Test a Q3 thesis by asking whether it would still be true of a different book; if so, it is not yet about this work",
+    ],
+    commonMistakes: [
+      "Calling every repeated image a symbol without saying what it stands for, or a motif without saying what repetition adds.",
+      "Writing the plot of a long work because the reader 'needs context' - Q3 readers know the books, and summary earns nothing in Row B.",
+      "Treating a limited narrator as a defective one, or an unchanged character as a failed one, instead of asking what the limit or the stasis is for.",
+      "Choosing evidence from only the beginning or only the ending, so the essay never actually uses the length of the work.",
+      "Announcing a juxtaposition ('the author contrasts two scenes') and then summarizing each scene separately.",
+      "Ending with a sentence about society, human nature, or 'the human condition' that could be clipped onto any essay.",
+    ],
+    practiceSet: {
+      id: "lit-u9-set",
+      title: "Unit 9 Practice: Motif, Juxtaposition, and the Whole Work",
+      focus:
+        "Distinguishing symbol from motif, reading past a focal character's self-justification, and converting structural contrast across a long work into a timed literary argument.",
+      estimatedMinutes: 55,
+      calculator: "n/a",
+      problems: [
+        {
+          id: "lit-u9-q1",
+          kind: "multiple-choice",
+          label: "MCQ 1",
+          prompt:
+            "Considering both the present morning and the September memory, which analysis of the piano is most defensible?",
+          stimulus:
+            "PRACTICE PASSAGE (original, written for this exercise - not an excerpt from any published work)\n\nThe drawing-room blinds were still down, though it was past eleven. Margaret told herself this was for the furniture, which the sun would fade; she had always been careful of the furniture. On the piano - her mother's, then hers - the fallboard was shut, as it had been every day since the funeral, and a seam of dust had formed along the ivory where the lid did not quite meet. She did not open it. She would play again when the house felt like hers, which was a reasonable thing to wait for. From the kitchen, where the girl had left the breakfast things, a tap dripped with a patience she chose not to hear. She had stood in this room in September, after the solicitor had gone, the blinds down then too, the piano already shut. It had seemed, that afternoon, a small and private quiet. It did not seem so now.",
+          choices: [
+            {
+              label: "A",
+              text: "The piano is a motif here and becomes a symbol only if a later chapter shows someone playing it.",
+            },
+            {
+              label: "B",
+              text: "The piano is simple realism, since a house would in fact contain an inherited instrument that might gather dust.",
+            },
+            {
+              label: "C",
+              text: "The piano functions as both symbol and motif: this scene makes the shut fallboard stand for a voice Margaret will not restart, and the September return lets that meaning accumulate through repetition rather than arrive all at once.",
+            },
+            {
+              label: "D",
+              text: "The piano is an allegory of the legal transfer of property, with the dust representing unpaid debts from the solicitor's visit.",
+            },
+          ],
+          answer: "C",
+          solution:
+            "A symbol is a particular thing standing for something beyond itself; a motif is a recurring element that accrues meaning by repetition. The shut piano does symbolic work here - it is her mother's, then hers, and she will not lift the lid, so the instrument stands for a inherited life she will not play - and because the passage returns to it from September, when it was 'already shut,' the later appearance adds what the first could not: duration made visible as dust. Naming both, and explaining the addition, is the whole analytic move at this level.",
+          note:
+            "A inverts the terms: a symbol does not require a future scene to become one, and one present-tense appearance plus a memory already is recurrence. B is the literalist trap - 'a seam of dust' along ivory the lid 'did not quite meet' is not an inventory of the furniture. D upgrades symbol to allegory, which needs a systematic one-to-one code the passage never sets up; the solicitor is how we date the first shutting, not a creditor.",
+        },
+        {
+          id: "lit-u9-q2",
+          kind: "multiple-choice",
+          label: "MCQ 2",
+          prompt:
+            "Which choice best describes how the narration's closeness to Margaret shapes interpretation?",
+          stimulus:
+            "PRACTICE PASSAGE (original, written for this exercise - not an excerpt from any published work)\n\nThe drawing-room blinds were still down, though it was past eleven. Margaret told herself this was for the furniture, which the sun would fade; she had always been careful of the furniture. On the piano - her mother's, then hers - the fallboard was shut, as it had been every day since the funeral, and a seam of dust had formed along the ivory where the lid did not quite meet. She did not open it. She would play again when the house felt like hers, which was a reasonable thing to wait for. From the kitchen, where the girl had left the breakfast things, a tap dripped with a patience she chose not to hear. She had stood in this room in September, after the solicitor had gone, the blinds down then too, the piano already shut. It had seemed, that afternoon, a small and private quiet. It did not seem so now.",
+          choices: [
+            {
+              label: "A",
+              text: "A first-person retrospective narrator confesses that she has been lying about the furniture all along.",
+            },
+            {
+              label: "B",
+              text: "The narration stays close enough to report Margaret's own explanations - 'told herself,' 'a reasonable thing to wait for' - while arranging the hour, the dust, and the ignored tap so that the reader can judge those explanations as inadequate.",
+            },
+            {
+              label: "C",
+              text: "An omniscient narrator denounces Margaret's grief as selfish, so the reader's job is simply to agree.",
+            },
+            {
+              label: "D",
+              text: "The narrator is unreliable because the facts of the room cannot be trusted: there may be no piano and no tap.",
+            },
+          ],
+          answer: "B",
+          solution:
+            "The grammatical person is third, but the diction of justification is Margaret's: 'told herself this was for the furniture,' 'a reasonable thing to wait for,' 'chose not to hear.' The narration does not correct her in its own voice. It does not need to. Blinds down past eleven, a seam of dust, a tap she will not hear, and the admission that the quiet 'did not seem so now' are placed where a reader can see past the reasonableness she claims. That is a designed limit, not a defective narrator: interpretation of the passage is the gap between her account and the room.",
+          note:
+            "A misreads 'told herself' as a confession in the first person; there is no 'I.' C invents a denunciation; the passage never editorializes, which is why the reader has to do the judging. D applies 'unreliable' to a narrator who has told us nothing false about the furniture - unreliability requires evidence that the report itself cannot be trusted, not merely that the character's reasons are self-serving.",
+        },
+        {
+          id: "lit-u9-q3",
+          kind: "multiple-choice",
+          label: "MCQ 3",
+          prompt:
+            "The passage sets the shut piano against the dripping tap. That juxtaposition functions chiefly to",
+          stimulus:
+            "PRACTICE PASSAGE (original, written for this exercise - not an excerpt from any published work)\n\nThe drawing-room blinds were still down, though it was past eleven. Margaret told herself this was for the furniture, which the sun would fade; she had always been careful of the furniture. On the piano - her mother's, then hers - the fallboard was shut, as it had been every day since the funeral, and a seam of dust had formed along the ivory where the lid did not quite meet. She did not open it. She would play again when the house felt like hers, which was a reasonable thing to wait for. From the kitchen, where the girl had left the breakfast things, a tap dripped with a patience she chose not to hear. She had stood in this room in September, after the solicitor had gone, the blinds down then too, the piano already shut. It had seemed, that afternoon, a small and private quiet. It did not seem so now.",
+          choices: [
+            {
+              label: "A",
+              text: "establish that the kitchen is poorly staffed, so the real subject of the passage is the girl's negligence.",
+            },
+            {
+              label: "B",
+              text: "place a sound Margaret will not restart beside a sound she will not stop, so the house is shown keeping two incompatible orders of attention, and her 'private quiet' is already a choice.",
+            },
+            {
+              label: "C",
+              text: "predict that Margaret will soon sell the piano in order to repair the plumbing.",
+            },
+            {
+              label: "D",
+              text: "provide comic relief after the funeral by reducing grief to a household nuisance.",
+            },
+          ],
+          answer: "B",
+          solution:
+            "The piano is silence she maintains; the tap is sound she refuses to acknowledge. Neither detail would mean as much alone: a shut piano could be mourning, a dripping tap could be a servant's oversight. Set against each other they argue that Margaret is not the passive occupant of a quiet house but the person deciding which noises count. 'Patience she chose not to hear' makes the contrast a matter of will, and the September memory then shows that the choice has had time to harden. The claim depends on the pairing.",
+          note:
+            "A takes the kitchen's 'girl' as the protagonist of a staffing plot the passage is not writing; the girl is there to leave a sound Margaret can ignore. C invents a future bargain the text does not hint at. D hears 'drip' and reaches for tone; nothing in the diction of dust, funeral, and 'did not seem so now' licenses comedy.",
+        },
+        {
+          id: "lit-u9-q4",
+          kind: "multiple-choice",
+          label: "MCQ 4",
+          prompt:
+            "Newland has spent the novel believing that Old New York is what prevents him from joining Ellen. Which analysis of this last refusal is most defensible?",
+          stimulus:
+            "Edith Wharton, The Age of Innocence - the novel's last scene, described rather than quoted. Years after May's death, Newland Archer is in Paris with his son. Ellen Olenska is in an apartment above them. The son goes up to meet her. Newland sits on a bench in the courtyard, watches a servant close the shutters of Ellen's window, and walks away without going in.",
+          choices: [
+            {
+              label: "A",
+              text: "The ending is a plot convenience: Wharton needed Newland unmarried so the book could close on a romantic reunion, and then changed her mind.",
+            },
+            {
+              label: "B",
+              text: "Newland stays outside because he has finally understood Ellen and is protecting her from a meeting that would embarrass her.",
+            },
+            {
+              label: "C",
+              text: "The character who believed himself constrained by other people now completes the constraint as habit; the work's meaning is located in that unchanged posture - remaining below the window - rather than in a last-minute rebellion.",
+            },
+            {
+              label: "D",
+              text: "The closed shutters prove that Ellen has rejected him, so the scene is simply the plot delivering news Newland could not have known.",
+            },
+          ],
+          answer: "C",
+          solution:
+            "The scene is a resolution that refuses reversal. Newland's governing trait - watching a woman's life from a designated place outside it - survives May's death, the son's encouragement, and the literal open invitation of a staircase. Because nothing external stops him now, the limit the novel has been studying is shown to have been his own. That is character remaining unchanged used as interpretation of the work as a whole: Old New York no longer needs to forbid the meeting. He forbids it. The shutters close after he has already chosen the bench.",
+          note:
+            "A treats an ending as an authorial shrug; Q3 readers will not reward speculation about what Wharton 'changed her mind' about. B invents a chivalry the scene does not stage - we are with Newland's refusal, not Ellen's needs. D hands the agency to a servant's gesture and misses the order: he is already on the bench, and the shutters confirm a decision rather than cause one. When a late scene looks like news, check whether the character has already acted.",
+        },
+        {
+          id: "lit-u9-q5",
+          kind: "free-response",
+          label: "FRQ 1",
+          prompt:
+            "In many novels and plays, a narrator or central consciousness understands less of the situation than the reader is invited to see, and a detail that first appears ordinary accumulates meaning until it organizes the work. Choose a full-length work of literary merit you have studied in which both a limited vantage and a recurring detail operate, and analyze how the author uses them to develop the meaning of the work as a whole. Do not merely summarize the plot. Write for 40 minutes.",
+          parts: [
+            {
+              label: "(a)",
+              text: "Before drafting, write one sentence in the form: 'X believes ___; the work shows ___; the recurring detail of ___ is how we are taught to see the gap.'",
+            },
+            {
+              label: "(b)",
+              text: "Choose two appearances of that detail, widely separated in the work, and note what the later one adds that the first could not.",
+            },
+            {
+              label: "(c)",
+              text: "Draft the essay, making the arrangement of those two appearances part of the argument rather than two examples of the same point.",
+            },
+          ],
+          solution:
+            "A strong response on Mary Shelley's Frankenstein might argue: Shelley nested Walton, Victor, and the creature so that each teller needs the story to confirm a theory of himself, and she uses fire and light as the recurring detail that measures what those theories cost.\n\n(a) Victor believes he is the novel's tragic seeker of knowledge; the work shows a man who cannot hear anyone else's origin; fire and light are how we are taught to see the gap.\n\n(b) First appearance: Walton's opening letters, in which polar ice and the 'fire' of ambition are still romance - he wants a flame large enough to justify leaving home. Later appearance: the creature's first experience of fire, which warms and then burns, followed by the destruction of the De Lacey cottage and the final ice on which Walton agrees to turn back. The later cluster adds what the first could not: the same element that looked like enlightenment is now indistinguishable from harm, and the frame narrator is in a position to refuse it.\n\n(c) The essay's line of reasoning should not be 'fire appears several times.' It should be that each narrator seizes light as self-explanation - Walton's voyage, Victor's workshop, the creature's stolen spark - and that Shelley arranges the nest so we hear each claim after we have already watched the previous one fail. Because Walton writes last, his decision to turn the ship is the one place the pattern breaks: a narrator limited by ambition is shown a predecessor's corpse and, uniquely, revises. Victor never does; the creature's last speech over the body still recasts murder as the education Victor withheld. The juxtaposition that matters is not workshop against Arctic in general, but Walton's letters at the start against Walton's choice at the end, with Victor's unreliability in between as the evidence Walton finally uses. The novel's meaning is not that knowledge is dangerous; it is that a limited narrator will call harm a pursuit until someone else's vantage is allowed to interrupt him.\n\nNote how the essay earns the rows. Row A comes from the arguable claim that the nested limits, not the monster, are the work's subject. Row B comes from specific remembered scenes - the letters, the hut, the cottage, the ice - each followed by commentary on what the sequence does. Row C comes from taking seriously the reading the essay rejects, that the book is a warning against science, and showing that Walton's turn is a narrative event, not a moral posted on the last page.",
+          rubric: [
+            {
+              points: "1 pt (Row A)",
+              criterion:
+                "Thesis presents a defensible interpretation of the work in which limited vantage and a recurring detail do interpretive work; naming a symbol without a claim, or restating that the narrator is 'biased,' earns 0.",
+            },
+            {
+              points: "4 pts (Row B)",
+              criterion:
+                "Specific evidence from at least two separated moments; commentary explains how each supports a line of reasoning; the fourth point requires explaining how multiple elements (narration plus motif or structure) contribute to meaning.",
+            },
+            {
+              points: "1 pt (Row C)",
+              criterion:
+                "Sustained attention to a tension the limit creates - a narrator who is persuasive and wrong, a motif that changes owners - or a plausible alternative reading genuinely engaged rather than dismissed.",
+            },
+            {
+              points: "Self-check",
+              criterion:
+                "Underline every sentence that is plot summary. If more than two survive, cut them and replace with commentary before scoring yourself. If both of your examples could be swapped without changing the paragraph, you have not yet used structure.",
+            },
+          ],
+          note:
+            "This is Q3 at the end of the course: you write from memory, so specificity is the whole differentiator. Named objects and remembered turns of phrase read as evidence; 'later in the novel' reads as a general reference. Budget 5 minutes for parts (a) and (b). An essay that discusses only the beginning or only the ending has not used the length of the work, which is what this unit exists to test.",
+        },
+      ],
+    },
+  },
 ];
 
