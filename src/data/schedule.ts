@@ -31,7 +31,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        unit: "Unit 1: Exploring One-Variable Data",
+        unit: "Unit 1: Exploring One-Variable Data and Collecting Data",
         focus:
           "Categorical versus quantitative variables, and describing a distribution in the CED order: shape, center, variability, unusual features.",
       },
@@ -86,9 +86,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        unit: "Unit 1: Exploring One-Variable Data",
+        unit: "Unit 1: Exploring One-Variable Data and Collecting Data",
         focus:
-          "Boxplots and the 1.5 x IQR rule, comparing two distributions, z-scores, and normal percentile work in both directions.",
+          "Boxplots and the 1.5 x IQR rule, comparing two distributions, and the effects of linear transformations on center and spread.",
       },
       {
         course: "ap-physics-2",
@@ -136,9 +136,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        unit: "Unit 2: Exploring Two-Variable Data",
+        unit: "Unit 1: Exploring One-Variable Data and Collecting Data",
         focus:
-          "Two-way tables with joint, marginal, and conditional relative frequencies, segmented bar charts, and describing scatterplots by direction, unusual features, form, and strength.",
+          "Populations versus samples, selecting a simple random sample, stratified and cluster designs, and naming sources of bias precisely.",
       },
       {
         course: "ap-physics-2",
@@ -156,8 +156,8 @@ export const scheduleWeeks: ScheduleWeek[] = [
     practice: [
       {
         course: "ap-statistics",
-        practiceSetId: "stat-u2-ps",
-        label: "Questions 1-3 on two-way tables and scatterplot description; save the regression items for Week 4.",
+        practiceSetId: "stat-u1-ps",
+        label: "Questions 4-7 on sampling methods and bias; write the direction of each bias in a full sentence.",
       },
       {
         course: "ap-calculus-bc",
@@ -175,7 +175,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
     dateRange: "Sep 28 - Oct 4",
     startDate: "2026-09-28",
     phase: "foundations",
-    goal: "Own every basic derivative rule and finish two-variable data, including computer output.",
+    goal: "Own every basic derivative rule and finish study design, including scope of inference.",
     assignments: [
       {
         course: "ap-calculus-bc",
@@ -185,9 +185,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        unit: "Unit 2: Exploring Two-Variable Data",
+        unit: "Unit 1: Exploring One-Variable Data and Collecting Data",
         focus:
-          "Least-squares regression, residual plots, r versus r-squared, influential points, and reading regression computer output.",
+          "Completely randomized designs, blocking and matched pairs, confounding, and scope of inference: generalization versus causation.",
       },
       {
         course: "ap-physics-2",
@@ -210,8 +210,8 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        practiceSetId: "stat-u2-ps",
-        label: "Full set including the regression output item; interpret slope and r-squared in context every time.",
+        practiceSetId: "stat-u1-ps",
+        label: "Complete set; write scope-of-inference sentences in full for every design item.",
       },
       {
         course: "ap-english-literature",
@@ -225,7 +225,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
     dateRange: "Oct 5 - Oct 11",
     startDate: "2026-10-05",
     phase: "foundations",
-    goal: "Chain rule fluency, sampling design vocabulary, and thermodynamics finished.",
+    goal: "Chain rule fluency, two-way tables and probability, and thermodynamics finished.",
     assignments: [
       {
         course: "ap-calculus-bc",
@@ -234,9 +234,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        unit: "Unit 3: Collecting Data",
+        unit: "Unit 2: Probability, Random Variables, and Probability Distributions",
         focus:
-          "Populations versus samples, selecting a simple random sample, stratified and cluster designs, and naming sources of bias precisely.",
+          "Two-way tables with joint, marginal, and conditional relative frequencies, segmented bar charts, and simulation to estimate probability.",
       },
       {
         course: "ap-physics-2",
@@ -274,7 +274,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
     dateRange: "Oct 12 - Oct 18",
     startDate: "2026-10-12",
     phase: "build",
-    goal: "Finish differentiation technique, finish study design, and start the first long literary work.",
+    goal: "Finish differentiation technique, own probability rules, and start the first long literary work.",
     assignments: [
       {
         course: "ap-calculus-bc",
@@ -284,9 +284,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        unit: "Unit 3: Collecting Data",
+        unit: "Unit 2: Probability, Random Variables, and Probability Distributions",
         focus:
-          "Completely randomized designs, blocking and matched pairs, confounding, and scope of inference: generalization versus causation.",
+          "The addition and complement rules, conditional probability, and testing independence numerically.",
       },
       {
         course: "ap-physics-2",
@@ -308,8 +308,8 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        practiceSetId: "stat-u3-ps",
-        label: "Complete set; write scope-of-inference sentences in full for every design item.",
+        practiceSetId: "stat-u2-ps",
+        label: "Questions 1-4 on probability rules, expected value, and binomial conditions.",
       },
       {
         course: "ap-calculus-bc",
@@ -332,9 +332,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        unit: "Unit 4: Probability, Random Variables, and Probability Distributions",
+        unit: "Unit 2: Probability, Random Variables, and Probability Distributions",
         focus:
-          "Simulation to estimate probability, the addition and complement rules, conditional probability, and testing independence numerically.",
+          "Discrete random variables, expected value and standard deviation, and the binomial model: recognizing it, computing probabilities, and using mean and standard deviation correctly.",
       },
       {
         course: "ap-physics-2",
@@ -357,8 +357,8 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        practiceSetId: "stat-u4-ps",
-        label: "Questions 1-3 on probability rules and conditional probability.",
+        practiceSetId: "stat-u2-ps",
+        label: "Questions 1-4 on probability rules and discrete random variables; name the distribution before computing.",
       },
       {
         course: "ap-physics-2",
@@ -382,9 +382,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        unit: "Unit 4: Probability, Random Variables, and Probability Distributions",
+        unit: "Unit 2: Probability, Random Variables, and Probability Distributions",
         focus:
-          "Discrete random variables, expected value and standard deviation, and combining independent random variables.",
+          "The normal distribution, z-scores, the empirical rule, and percentile calculations in both directions.",
       },
       {
         course: "ap-physics-2",
@@ -432,9 +432,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        unit: "Unit 4: Probability, Random Variables, and Probability Distributions",
+        unit: "Unit 2: Probability, Random Variables, and Probability Distributions",
         focus:
-          "Binomial and geometric settings: recognizing them, computing probabilities, and using mean and standard deviation correctly.",
+          "Sampling variability, the Central Limit Theorem, and using a sampling distribution to judge whether a result is surprising.",
       },
       {
         course: "ap-physics-2",
@@ -451,8 +451,8 @@ export const scheduleWeeks: ScheduleWeek[] = [
     practice: [
       {
         course: "ap-statistics",
-        practiceSetId: "stat-u4-ps",
-        label: "Full set, including the binomial free response; name the distribution before computing.",
+        practiceSetId: "stat-u2-ps",
+        label: "Full set, including the binomial and normal free-response items; name the distribution before computing.",
       },
       {
         course: "ap-calculus-bc",
@@ -471,7 +471,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
     dateRange: "Nov 9 - Nov 15",
     startDate: "2026-11-09",
     phase: "build",
-    goal: "Optimization and concavity done properly, and sampling distributions started.",
+    goal: "Optimization and concavity done properly, and inference for a proportion started.",
     assignments: [
       {
         course: "ap-calculus-bc",
@@ -481,9 +481,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        unit: "Unit 5: Sampling Distributions",
+        unit: "Unit 3: Inference for Categorical Data: Proportions",
         focus:
-          "Sampling variability, bias versus variability, and the sampling distribution of a sample proportion with its conditions.",
+          "Unbiased estimators, the sampling distribution of a sample proportion with its conditions, and the logic of a confidence interval for one proportion.",
       },
       {
         course: "ap-physics-2",
@@ -521,7 +521,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
     dateRange: "Nov 16 - Nov 22",
     startDate: "2026-11-16",
     phase: "build",
-    goal: "Open integration, finish sampling distributions, and finish circuits.",
+    goal: "Open integration, run the first significance test for a proportion, and finish circuits.",
     assignments: [
       {
         course: "ap-calculus-bc",
@@ -531,9 +531,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        unit: "Unit 5: Sampling Distributions",
+        unit: "Unit 3: Inference for Categorical Data: Proportions",
         focus:
-          "Sampling distributions of a sample mean, the central limit theorem, and distributions for a difference of proportions or means.",
+          "One-sample significance test for a proportion: hypotheses, conditions, standardized test statistic, p-value, and a conclusion in context.",
       },
       {
         course: "ap-physics-2",
@@ -549,8 +549,8 @@ export const scheduleWeeks: ScheduleWeek[] = [
     practice: [
       {
         course: "ap-statistics",
-        practiceSetId: "stat-u5-ps",
-        label: "Complete set; state shape, center, and variability for every sampling distribution.",
+        practiceSetId: "stat-u3-ps",
+        label: "Questions 1-6 on sampling distributions of p-hat, confidence intervals, and the one-proportion z-test.",
       },
       {
         course: "ap-physics-2",
@@ -579,8 +579,8 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        unit: "Units 1-5 review (no new content)",
-        focus: "Rebuild the sampling-distribution conditions from memory on one page, then check it against notes.",
+        unit: "Units 1-2 review (no new content)",
+        focus: "Rebuild the study-design and probability-rule pages from memory, then check them against notes.",
       },
       {
         course: "ap-physics-2",
@@ -602,8 +602,8 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        practiceSetId: "stat-u3-ps",
-        label: "Spaced retake of the study-design set; these items reappear on every mock exam.",
+        practiceSetId: "stat-u1-ps",
+        label: "Spaced retake of the study-design items; these reappear on every mock exam.",
       },
     ],
     note: "Thanksgiving week: deliberately light. Two short weekday sessions and one weekend session, no timed exam, and no new units. Rest is part of the plan, not a failure of it.",
@@ -613,7 +613,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
     dateRange: "Nov 30 - Dec 6",
     startDate: "2026-11-30",
     phase: "build",
-    goal: "Antidifferentiation technique, the first inference procedure, and magnetic force.",
+    goal: "Antidifferentiation technique, two-proportion inference, and magnetic force.",
     assignments: [
       {
         course: "ap-calculus-bc",
@@ -623,9 +623,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        unit: "Unit 6: Inference for Categorical Data - Proportions",
+        unit: "Unit 3: Inference for Categorical Data: Proportions",
         focus:
-          "The logic of a confidence interval, conditions for inference about one proportion, and interpreting the interval and the level correctly.",
+          "Two-proportion intervals and tests, including the pooled proportion, plus interpreting the interval and the level correctly.",
       },
       {
         course: "ap-physics-2",
@@ -648,8 +648,8 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        practiceSetId: "stat-u6-ps",
-        label: "Questions 1-3 on one-proportion intervals; write the interpretation in context every time.",
+        practiceSetId: "stat-u3-ps",
+        label: "Questions 3-6 on one-proportion intervals and tests; write the interpretation in context every time.",
       },
       {
         course: "ap-english-literature",
@@ -673,9 +673,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        unit: "Unit 6: Inference for Categorical Data - Proportions",
+        unit: "Unit 3: Inference for Categorical Data: Proportions",
         focus:
-          "One-sample significance test for a proportion: hypotheses, conditions, standardized test statistic, p-value, and a conclusion in context.",
+          "Type I and Type II errors and power in context, then selecting among one- and two-proportion procedures.",
       },
       {
         course: "ap-physics-2",
@@ -712,7 +712,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
     dateRange: "Dec 14 - Dec 20",
     startDate: "2026-12-14",
     phase: "build",
-    goal: "Differential equations opened, two-proportion inference done, electromagnetism closed.",
+    goal: "Differential equations opened, chi-square tests started, electromagnetism closed.",
     assignments: [
       {
         course: "ap-calculus-bc",
@@ -722,9 +722,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        unit: "Unit 6: Inference for Categorical Data - Proportions",
+        unit: "Unit 3: Inference for Categorical Data: Proportions",
         focus:
-          "Two-proportion intervals and tests, including the pooled proportion, plus Type I and Type II errors and power in context.",
+          "The chi-square statistic and distributions, expected counts in a two-way table, and the chi-square test for homogeneity. Skip goodness-of-fit: it is not assessed in 2026-27.",
       },
       {
         course: "ap-physics-2",
@@ -741,8 +741,8 @@ export const scheduleWeeks: ScheduleWeek[] = [
     practice: [
       {
         course: "ap-statistics",
-        practiceSetId: "stat-u6-ps",
-        label: "Complete set including both free-response items; conclusions must link p-value to alpha to context.",
+        practiceSetId: "stat-u3-ps",
+        label: "Complete set including both proportion free-response items; conclusions must link p-value to alpha to context.",
       },
       {
         course: "ap-physics-2",
@@ -771,7 +771,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        unit: "Units 1-6 maintenance",
+        unit: "Units 1-3 maintenance",
         focus:
           "One page from memory listing every inference condition met so far, and one interpretation sentence per procedure.",
       },
@@ -796,8 +796,8 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        practiceSetId: "stat-u5-ps",
-        label: "Spaced retake of sampling distributions, six weeks after first study.",
+        practiceSetId: "stat-u2-ps",
+        label: "Spaced retake of probability, binomial, and the Central Limit Theorem, six weeks after first study.",
       },
       {
         course: "ap-english-literature",
@@ -812,7 +812,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
     dateRange: "Jan 4 - Jan 10",
     startDate: "2027-01-04",
     phase: "build",
-    goal: "Restart at full volume: integration applications, t-procedures, and optics.",
+    goal: "Restart at full volume: integration applications, chi-square tests, and optics.",
     assignments: [
       {
         course: "ap-calculus-bc",
@@ -822,9 +822,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        unit: "Unit 7: Inference for Quantitative Data - Means",
+        unit: "Unit 3: Inference for Categorical Data: Proportions",
         focus:
-          "Why t rather than z, degrees of freedom, and the one-sample t interval for a mean with conditions checked in writing.",
+          "Chi-square test for independence, degrees of freedom for a two-way table, and selecting among chi-square, two-proportion, and other categorical procedures.",
       },
       {
         course: "ap-physics-2",
@@ -847,8 +847,8 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        practiceSetId: "stat-u7-ps",
-        label: "Questions 1-3 on one-sample t intervals.",
+        practiceSetId: "stat-u3-ps",
+        label: "Chi-square items from the set, timed; write the hypotheses about association or homogeneity in context every time.",
       },
       {
         course: "ap-physics-2",
@@ -872,9 +872,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        unit: "Units 1-7 checkpoint",
+        unit: "Units 1-3 checkpoint",
         focus:
-          "Full multiple-choice section plus one investigative-task-style free response scored against the official rubric.",
+          "Full multiple-choice section plus one ten-point free-response question scored against the official rubric. There is no Investigative Task on the 2026-27 exam.",
       },
       {
         course: "ap-physics-2",
@@ -913,7 +913,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
     dateRange: "Jan 18 - Jan 24",
     startDate: "2027-01-18",
     phase: "deepen",
-    goal: "Close applications of integration, keep t-procedures moving, and finish geometric optics.",
+    goal: "Close applications of integration, start t-procedures, and finish geometric optics.",
     assignments: [
       {
         course: "ap-calculus-bc",
@@ -923,9 +923,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        unit: "Unit 7: Inference for Quantitative Data - Means",
+        unit: "Unit 4: Inference for Quantitative Data: Means",
         focus:
-          "One-sample t-test for a mean: hypotheses about mu not x-bar, conditions checked in writing, and a conclusion that links p-value to alpha to context.",
+          "Sampling distributions of sample means, why t rather than z, degrees of freedom, and the one-sample t interval for a mean with conditions checked in writing.",
       },
       {
         course: "ap-physics-2",
@@ -947,6 +947,11 @@ export const scheduleWeeks: ScheduleWeek[] = [
         label: "Full set, timed, including the washer-about-a-line and arc-length items.",
       },
       {
+        course: "ap-statistics",
+        practiceSetId: "stat-u4-ps",
+        label: "Questions 1-2 on sampling distributions of means and one-sample t intervals.",
+      },
+      {
         course: "ap-physics-2",
         practiceSetId: "phys-u13-ps",
         label: "Complete geometric optics set with a labeled ray diagram on every lens item.",
@@ -964,7 +969,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
     dateRange: "Jan 25 - Jan 31",
     startDate: "2027-01-25",
     phase: "deepen",
-    goal: "Open parametric calculus, finish matched-pairs t, and start the waves unit.",
+    goal: "Open parametric calculus, run one-sample t-tests, and start the waves unit.",
     assignments: [
       {
         course: "ap-calculus-bc",
@@ -974,9 +979,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        unit: "Unit 7: Inference for Quantitative Data - Means",
+        unit: "Unit 4: Inference for Quantitative Data: Means",
         focus:
-          "Recognizing a matched-pairs design and running a one-sample t procedure on the differences, with df equal to the number of pairs minus one.",
+          "One-sample t-test for a mean: hypotheses about mu not x-bar, conditions checked in writing, and a conclusion that links p-value to alpha to context.",
       },
       {
         course: "ap-physics-2",
@@ -999,8 +1004,8 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        practiceSetId: "stat-u7-ps",
-        label: "Full set, timed; the matched-pairs item is scored zero if you run a two-sample test on it.",
+        practiceSetId: "stat-u4-ps",
+        label: "Questions 1-4 on one-sample t intervals and tests; hypotheses must be about mu, not x-bar.",
       },
       {
         course: "ap-physics-2",
@@ -1014,7 +1019,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
     dateRange: "Feb 1 - Feb 7",
     startDate: "2027-02-01",
     phase: "deepen",
-    goal: "Finish vector-valued motion, close two-sample t, and own standing waves.",
+    goal: "Finish vector-valued motion, finish matched-pairs t, and own standing waves.",
     assignments: [
       {
         course: "ap-calculus-bc",
@@ -1024,9 +1029,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        unit: "Unit 7: Inference for Quantitative Data - Means",
+        unit: "Unit 4: Inference for Quantitative Data: Means",
         focus:
-          "Two-sample t interval and test, conservative df, and the decision not to pool variances unless the problem explicitly says to.",
+          "Recognizing a matched-pairs design and running a one-sample t procedure on the differences, with df equal to the number of pairs minus one.",
       },
       {
         course: "ap-physics-2",
@@ -1049,8 +1054,8 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        practiceSetId: "stat-u7-ps",
-        label: "Retake the two-sample items from memory and rewrite every conclusion in context.",
+        practiceSetId: "stat-u4-ps",
+        label: "Full set, timed; the matched-pairs item is scored zero if you run a two-sample test on it.",
       },
       {
         course: "ap-english-literature",
@@ -1064,7 +1069,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
     dateRange: "Feb 8 - Feb 14",
     startDate: "2027-02-08",
     phase: "deepen",
-    goal: "Close polar calculus, open chi-square, and start physical optics and Poetry III.",
+    goal: "Close polar calculus, close two-sample t, and start physical optics and Poetry III.",
     assignments: [
       {
         course: "ap-calculus-bc",
@@ -1074,9 +1079,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        unit: "Unit 8: Inference for Categorical Data - Chi-Square",
+        unit: "Unit 4: Inference for Quantitative Data: Means",
         focus:
-          "The chi-square statistic and distributions, expected counts in a two-way table, and the chi-square test for homogeneity. Skip goodness-of-fit: it is not assessed in 2026-27.",
+          "Two-sample t interval and test, conservative df, and the decision not to pool variances unless the problem explicitly says to.",
       },
       {
         course: "ap-physics-2",
@@ -1099,8 +1104,8 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        practiceSetId: "stat-u8-ps",
-        label: "Questions 1-3 on expected counts and the homogeneity test.",
+        practiceSetId: "stat-u4-ps",
+        label: "Retake the two-sample items from memory and rewrite every conclusion in context.",
       },
       {
         course: "ap-physics-2",
@@ -1114,7 +1119,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
     dateRange: "Feb 15 - Feb 21",
     startDate: "2027-02-15",
     phase: "deepen",
-    goal: "Open infinite series, finish chi-square, and close physical optics.",
+    goal: "Open infinite series, finish inference for means, and close physical optics.",
     assignments: [
       {
         course: "ap-calculus-bc",
@@ -1124,9 +1129,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        unit: "Unit 8: Inference for Categorical Data - Chi-Square",
+        unit: "Unit 4: Inference for Quantitative Data: Means",
         focus:
-          "Chi-square test for independence, degrees of freedom for a two-way table, and selecting among chi-square, two-proportion, and other categorical procedures.",
+          "Selecting among one-sample, matched-pairs, and two-sample t procedures, and writing state-plan-do-conclude for a mixed means free-response item.",
       },
       {
         course: "ap-physics-2",
@@ -1149,8 +1154,8 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        practiceSetId: "stat-u8-ps",
-        label: "Complete set, timed; write the hypotheses about association or homogeneity in context every time.",
+        practiceSetId: "stat-u4-ps",
+        label: "Complete set, timed; name the procedure first and check conditions with numbers.",
       },
       {
         course: "ap-physics-2",
@@ -1169,7 +1174,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
     dateRange: "Feb 22 - Feb 28",
     startDate: "2027-02-22",
     phase: "deepen",
-    goal: "Comparison tests fluent, mixed inference started, and modern physics opened.",
+    goal: "Comparison tests fluent, regression analysis started, and modern physics opened.",
     assignments: [
       {
         course: "ap-calculus-bc",
@@ -1179,9 +1184,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        unit: "Units 6-8 inference fluency",
+        unit: "Unit 5: Regression Analysis",
         focus:
-          "Procedure selection under time pressure: one versus two groups, categorical versus quantitative, interval versus test. Write state-plan-do-conclude for two mixed free-response items.",
+          "Describing a scatterplot by direction, unusual features, form, and strength, plus correlation r and its properties.",
       },
       {
         course: "ap-physics-2",
@@ -1204,8 +1209,8 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        practiceSetId: "stat-u6-ps",
-        label: "Spaced retake of the proportions set, ten weeks after first study; conclusions must still name alpha.",
+        practiceSetId: "stat-u5-ps",
+        label: "Questions 1-4 on the least-squares line, residuals, r-squared, and properties of r.",
       },
       {
         course: "ap-physics-2",
@@ -1224,7 +1229,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
     dateRange: "Mar 1 - Mar 7",
     startDate: "2027-03-01",
     phase: "deepen",
-    goal: "Ratio test and interval of convergence, optional slope enrichment, and spectra opened.",
+    goal: "Ratio test and interval of convergence, finish regression analysis, and spectra opened.",
     assignments: [
       {
         course: "ap-calculus-bc",
@@ -1234,9 +1239,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        unit: "Unit 9: Inference for Quantitative Data - Slopes (enrichment)",
+        unit: "Unit 5: Regression Analysis",
         focus:
-          "Optional: conditions for regression inference, reading SE of the slope from output, and a slope interval with df = n - 2. This unit is not on the 2026-27 exam; skip it if the error log still has Unit 6-8 holes.",
+          "Least-squares regression, residual plots, r versus r-squared, influential points, and reading regression computer output. Inference for the slope is not on the 2026-27 exam.",
       },
       {
         course: "ap-physics-2",
@@ -1259,8 +1264,8 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        practiceSetId: "stat-u9-ps",
-        label: "Enrichment set only if Units 6-8 are clean; otherwise retake one missed inference item from each of those units instead.",
+        practiceSetId: "stat-u5-ps",
+        label: "Full set including the regression output item; interpret slope and r-squared in context every time, and answer the observational-causation question in a complete sentence.",
       },
       {
         course: "ap-physics-2",
@@ -1268,7 +1273,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
         label: "Questions on energy-level transitions and spectra; compute photon energy with hc = 1240 eV nm.",
       },
     ],
-    note: "Statistics Unit 9 was removed from the 2026-27 course. Treat it as optional enrichment this week, not as May material.",
+    note: "New Statistics content finishes this week with Unit 5: Regression Analysis. Inference for slopes was removed from the 2026-27 course; do not treat it as May material.",
   },
   {
     week: 26,
@@ -1285,7 +1290,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        unit: "Units 6-8 inference fluency",
+        unit: "Units 3-4 inference fluency",
         focus:
           "Two full inference free-response questions under a twenty-minute clock each: name the procedure first, check conditions with numbers, then conclude in context.",
       },
@@ -1310,8 +1315,8 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        practiceSetId: "stat-u7-ps",
-        label: "Spaced retake of the means set, six weeks after first study.",
+        practiceSetId: "stat-u3-ps",
+        label: "Spaced retake of the proportions and chi-square set; conclusions must still name alpha.",
       },
       {
         course: "ap-physics-2",
@@ -1335,7 +1340,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        unit: "Units 6-8 maintenance",
+        unit: "Units 3-5 maintenance",
         focus:
           "One page from memory listing every inference procedure with its hypotheses, statistic, and df; check it against notes only after you have finished.",
       },
@@ -1381,7 +1386,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        unit: "Units 6-8 inference fluency",
+        unit: "Units 3-5 inference fluency",
         focus:
           "Four mixed inference items in forty minutes: two intervals and two tests, covering proportions, means, and chi-square. Procedure name is the first sentence of every solution.",
       },
@@ -1406,8 +1411,8 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        practiceSetId: "stat-u8-ps",
-        label: "Spaced retake of chi-square; write expected-count conditions with numbers.",
+        practiceSetId: "stat-u4-ps",
+        label: "Spaced retake of the means set; write expected conditions with numbers.",
       },
       {
         course: "ap-english-literature",
@@ -1431,7 +1436,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        unit: "Units 6-8 inference fluency",
+        unit: "Units 3-5 inference fluency",
         focus:
           "Procedure-selection drill: twelve stems, name the procedure and the hypotheses in thirty seconds each, then fully work the four you are least sure of.",
       },
@@ -1480,9 +1485,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        unit: "Units 1-8 error-log repair",
+        unit: "Units 1-5 error-log repair",
         focus:
-          "The three weakest Statistics topics from the checkpoint, weighted toward inference conditions and interpretation sentences. Skip Unit 9; it is not assessed.",
+          "The three weakest Statistics topics from the checkpoint, weighted toward inference conditions and interpretation sentences. Do not spend time on slope inference; it is not assessed.",
       },
       {
         course: "ap-physics-2",
@@ -1500,8 +1505,8 @@ export const scheduleWeeks: ScheduleWeek[] = [
     practice: [
       {
         course: "ap-statistics",
-        practiceSetId: "stat-u5-ps",
-        label: "Spaced retake of sampling distributions; state shape, center, and variability for every item.",
+        practiceSetId: "stat-u2-ps",
+        label: "Spaced retake of probability and the Central Limit Theorem; state shape, center, and variability for every sampling-distribution item.",
       },
       {
         course: "ap-physics-2",
@@ -1583,9 +1588,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        unit: "Targeted review: inference Units 6-8",
+        unit: "Targeted review: inference Units 3-4",
         focus:
-          "Every inference miss from the mock. Rewrite each conclusion in context, and run a twelve-stem procedure-selection drill. Do not spend time on Unit 9 slopes.",
+          "Every inference miss from the mock. Rewrite each conclusion in context, and run a twelve-stem procedure-selection drill. Do not spend time on slope inference.",
       },
       {
         course: "ap-physics-2",
@@ -1608,8 +1613,8 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        practiceSetId: "stat-u6-ps",
-        label: "Proportions set plus the two free-response items, scored only on conditions and conclusion language.",
+        practiceSetId: "stat-u3-ps",
+        label: "Proportions and chi-square set plus the free-response items, scored only on conditions and conclusion language.",
       },
       {
         course: "ap-physics-2",
@@ -1715,7 +1720,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-statistics",
-        practiceSetId: "stat-u7-ps",
+        practiceSetId: "stat-u4-ps",
         label: "Two inference items untimed, scored only on the conclusion sentence.",
       },
       {
