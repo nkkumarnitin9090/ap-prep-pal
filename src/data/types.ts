@@ -102,6 +102,19 @@ export interface BigIdea {
   description: string;
 }
 
+/**
+ * AP English Literature has both big ideas and a separate list of numbered
+ * skill categories, each with its own multiple-choice exam weighting.
+ */
+export interface SkillCategory {
+  id: string;
+  number: number;
+  title: string;
+  examWeight: string;
+  examWeightMidpoint: number;
+  description: string;
+}
+
 export interface FrqType {
   id: string;
   number: number;
@@ -137,6 +150,7 @@ export interface Course {
   courseNotes?: CedNote[];
   units: Unit[];
   bigIdeas?: BigIdea[];
+  skillCategories?: SkillCategory[];
   frqTypes?: FrqType[];
   /** Free, legitimate places to get more practice. */
   resources: { label: string; detail: string }[];
