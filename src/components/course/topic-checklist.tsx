@@ -58,7 +58,6 @@ export function TopicChecklist({ topics }: { topics: Topic[] }) {
                   checked={checked}
                   onCheckedChange={(value) => setComplete(topic.id, value === true)}
                   className="mt-0.5"
-                  aria-describedby={`${topic.id}-detail`}
                 />
                 <span className="space-y-0.5">
                   <span
@@ -69,10 +68,7 @@ export function TopicChecklist({ topics }: { topics: Topic[] }) {
                   >
                     {topic.title}
                   </span>
-                  <span
-                    id={`${topic.id}-detail`}
-                    className="block text-xs text-pretty text-muted-foreground"
-                  >
+                  <span className="block text-xs text-pretty text-muted-foreground">
                     {topic.detail}
                   </span>
                 </span>
