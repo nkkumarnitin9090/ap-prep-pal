@@ -908,6 +908,317 @@ export const scheduleWeeks: ScheduleWeek[] = [
     ],
     note: "Midyear checkpoint. Score everything honestly and write down the three weakest topics per course; weeks 19 onward should give those topics extra practice time. Do not start new units this week.",
   },
+  {
+    week: 19,
+    dateRange: "Jan 18 - Jan 24",
+    startDate: "2027-01-18",
+    phase: "deepen",
+    goal: "Close applications of integration, keep t-procedures moving, and finish geometric optics.",
+    assignments: [
+      {
+        course: "ap-calculus-bc",
+        unit: "Unit 8: Applications of Integration",
+        focus:
+          "Volumes of revolution about a line other than an axis, arc length as a definite integral, and total distance versus displacement from velocity.",
+      },
+      {
+        course: "ap-statistics",
+        unit: "Unit 7: Inference for Quantitative Data - Means",
+        focus:
+          "One-sample t-test for a mean: hypotheses about mu not x-bar, conditions checked in writing, and a conclusion that links p-value to alpha to context.",
+      },
+      {
+        course: "ap-physics-2",
+        unit: "Unit 13: Geometric Optics",
+        focus:
+          "The mirror and lens equation with sign conventions, ray diagrams for thin lenses, and converging versus diverging lenses including image character.",
+      },
+      {
+        course: "ap-english-literature",
+        unit: "Unit 7: Short Fiction III",
+        focus:
+          "Sources of narrator unreliability: name the cause (youth, self-interest, limited access) and the sentence where the narration betrays itself.",
+      },
+    ],
+    practice: [
+      {
+        course: "ap-calculus-bc",
+        practiceSetId: "calc-u8-ps",
+        label: "Full set, timed, including the washer-about-a-line and arc-length items.",
+      },
+      {
+        course: "ap-physics-2",
+        practiceSetId: "phys-u13-ps",
+        label: "Complete geometric optics set with a labeled ray diagram on every lens item.",
+      },
+      {
+        course: "ap-english-literature",
+        practiceSetId: "lit-u7-set",
+        label: "Questions 1-3 on narrative distance; mark the words that belong to the character rather than the narrator.",
+      },
+    ],
+    note: "Pull the three weakest topics per course from the Week 18 checkpoint into Friday's repair block this week and keep them there until they leave the error log.",
+  },
+  {
+    week: 20,
+    dateRange: "Jan 25 - Jan 31",
+    startDate: "2027-01-25",
+    phase: "deepen",
+    goal: "Open parametric calculus, finish matched-pairs t, and start the waves unit.",
+    assignments: [
+      {
+        course: "ap-calculus-bc",
+        unit: "Unit 9: Parametric Equations, Polar Coordinates, and Vector-Valued Functions",
+        focus:
+          "Parametric dy/dx as (dy/dt)/(dx/dt), the second derivative with the extra division by dx/dt, and horizontal versus vertical tangents.",
+      },
+      {
+        course: "ap-statistics",
+        unit: "Unit 7: Inference for Quantitative Data - Means",
+        focus:
+          "Recognizing a matched-pairs design and running a one-sample t procedure on the differences, with df equal to the number of pairs minus one.",
+      },
+      {
+        course: "ap-physics-2",
+        unit: "Unit 14: Waves, Sound, and Physical Optics",
+        focus:
+          "Wave pulses and the wave equation, electromagnetic waves and the spectrum, polarization at a boundary, and the Doppler effect from compressed wavefronts.",
+      },
+      {
+        course: "ap-english-literature",
+        unit: "Unit 7: Short Fiction III",
+        focus:
+          "Free indirect discourse and the retrospective narrator: separate the narrating self from the narrated self, and mark idiom that is the character's.",
+      },
+    ],
+    practice: [
+      {
+        course: "ap-calculus-bc",
+        practiceSetId: "calc-u9-ps",
+        label: "Questions 1-3 on parametric derivatives and tangents.",
+      },
+      {
+        course: "ap-statistics",
+        practiceSetId: "stat-u7-ps",
+        label: "Full set, timed; the matched-pairs item is scored zero if you run a two-sample test on it.",
+      },
+      {
+        course: "ap-physics-2",
+        practiceSetId: "phys-u14-ps",
+        label: "Questions 1-3 on wave properties and Doppler reasoning.",
+      },
+    ],
+  },
+  {
+    week: 21,
+    dateRange: "Feb 1 - Feb 7",
+    startDate: "2027-02-01",
+    phase: "deepen",
+    goal: "Finish vector-valued motion, close two-sample t, and own standing waves.",
+    assignments: [
+      {
+        course: "ap-calculus-bc",
+        unit: "Unit 9: Parametric Equations, Polar Coordinates, and Vector-Valued Functions",
+        focus:
+          "Vector-valued position, velocity, and acceleration; speed as a scalar; displacement versus total distance; and recovering position from velocity plus an initial point.",
+      },
+      {
+        course: "ap-statistics",
+        unit: "Unit 7: Inference for Quantitative Data - Means",
+        focus:
+          "Two-sample t interval and test, conservative df, and the decision not to pool variances unless the problem explicitly says to.",
+      },
+      {
+        course: "ap-physics-2",
+        unit: "Unit 14: Waves, Sound, and Physical Optics",
+        focus:
+          "Superposition, interference, and beats, then standing waves on strings and in pipes: nodes versus antinodes, and odd harmonics only in a closed-open pipe.",
+      },
+      {
+        course: "ap-english-literature",
+        unit: "Unit 7: Short Fiction III",
+        focus:
+          "Finish Short Fiction III with a 40-minute prose analysis essay; the thesis must name what the narration does, not what the story is about.",
+      },
+    ],
+    practice: [
+      {
+        course: "ap-calculus-bc",
+        practiceSetId: "calc-u9-ps",
+        label: "Questions 4-6 on vector motion, speed, and total distance.",
+      },
+      {
+        course: "ap-statistics",
+        practiceSetId: "stat-u7-ps",
+        label: "Retake the two-sample items from memory and rewrite every conclusion in context.",
+      },
+      {
+        course: "ap-english-literature",
+        practiceSetId: "lit-u7-set",
+        label: "Finish the set, then rewrite two commentary sentences so they explain the language rather than restate the plot.",
+      },
+    ],
+  },
+  {
+    week: 22,
+    dateRange: "Feb 8 - Feb 14",
+    startDate: "2027-02-08",
+    phase: "deepen",
+    goal: "Close polar calculus, open chi-square, and start physical optics and Poetry III.",
+    assignments: [
+      {
+        course: "ap-calculus-bc",
+        unit: "Unit 9: Parametric Equations, Polar Coordinates, and Vector-Valued Functions",
+        focus:
+          "Polar conversion, dy/dx in polar form, area as (1/2) times the integral of r-squared, and area between two polar curves with the right theta limits.",
+      },
+      {
+        course: "ap-statistics",
+        unit: "Unit 8: Inference for Categorical Data - Chi-Square",
+        focus:
+          "The chi-square statistic and distributions, expected counts in a two-way table, and the chi-square test for homogeneity. Skip goodness-of-fit: it is not assessed in 2026-27.",
+      },
+      {
+        course: "ap-physics-2",
+        unit: "Unit 14: Waves, Sound, and Physical Optics",
+        focus:
+          "Diffraction, double-slit interference and diffraction gratings, and thin-film interference including the half-wavelength phase shift on reflection from a higher-index surface.",
+      },
+      {
+        course: "ap-english-literature",
+        unit: "Unit 8: Poetry III",
+        focus:
+          "Paradox, ambiguity, and juxtaposition: how a contrast or a double meaning produces the poem's argument rather than decorating it.",
+      },
+    ],
+    practice: [
+      {
+        course: "ap-calculus-bc",
+        practiceSetId: "calc-u9-ps",
+        label: "Full set, timed, with the polar-area items written as integrals before any evaluation.",
+      },
+      {
+        course: "ap-statistics",
+        practiceSetId: "stat-u8-ps",
+        label: "Questions 1-3 on expected counts and the homogeneity test.",
+      },
+      {
+        course: "ap-physics-2",
+        practiceSetId: "phys-u14-ps",
+        label: "Remaining items, including double-slit and thin-film; count phase shifts before choosing constructive or destructive.",
+      },
+    ],
+  },
+  {
+    week: 23,
+    dateRange: "Feb 15 - Feb 21",
+    startDate: "2027-02-15",
+    phase: "deepen",
+    goal: "Open infinite series, finish chi-square, and close physical optics.",
+    assignments: [
+      {
+        course: "ap-calculus-bc",
+        unit: "Unit 10: Infinite Sequences and Series",
+        focus:
+          "Nth-term test for divergence only, geometric series with the correct first term, p-series and the harmonic series, and the integral test with a limit written out.",
+      },
+      {
+        course: "ap-statistics",
+        unit: "Unit 8: Inference for Categorical Data - Chi-Square",
+        focus:
+          "Chi-square test for independence, degrees of freedom for a two-way table, and selecting among chi-square, two-proportion, and other categorical procedures.",
+      },
+      {
+        course: "ap-physics-2",
+        unit: "Unit 14: Waves, Sound, and Physical Optics",
+        focus:
+          "Finish the unit with mixed interference and standing-wave items under time pressure, then write one experimental-design outline for measuring wavelength.",
+      },
+      {
+        course: "ap-english-literature",
+        unit: "Unit 8: Poetry III",
+        focus:
+          "Irony and conceit in a denser poem: name which kind of irony operates, who is its target, and whether the speaker is in on it.",
+      },
+    ],
+    practice: [
+      {
+        course: "ap-calculus-bc",
+        practiceSetId: "calc-u10-ps",
+        label: "Questions 1-3 on geometric sums, p-series, and the nth-term test.",
+      },
+      {
+        course: "ap-statistics",
+        practiceSetId: "stat-u8-ps",
+        label: "Complete set, timed; write the hypotheses about association or homogeneity in context every time.",
+      },
+      {
+        course: "ap-physics-2",
+        practiceSetId: "phys-u14-ps",
+        label: "Full retake of any missed interference or standing-wave item, closed notes.",
+      },
+      {
+        course: "ap-english-literature",
+        practiceSetId: "lit-u8-set",
+        label: "First Poetry III passage set; mark the two lines that carry the poem's turn.",
+      },
+    ],
+  },
+  {
+    week: 24,
+    dateRange: "Feb 22 - Feb 28",
+    startDate: "2027-02-22",
+    phase: "deepen",
+    goal: "Comparison tests fluent, mixed inference started, and modern physics opened.",
+    assignments: [
+      {
+        course: "ap-calculus-bc",
+        unit: "Unit 10: Infinite Sequences and Series",
+        focus:
+          "Direct comparison and limit comparison with a named p-series or geometric series, plus the alternating series test and its truncation-error bound.",
+      },
+      {
+        course: "ap-statistics",
+        unit: "Units 6-8 inference fluency",
+        focus:
+          "Procedure selection under time pressure: one versus two groups, categorical versus quantitative, interval versus test. Write state-plan-do-conclude for two mixed free-response items.",
+      },
+      {
+        course: "ap-physics-2",
+        unit: "Unit 15: Modern Physics",
+        focus:
+          "Photon energy E = hf = hc/lambda, de Broglie wavelength, the photoelectric effect with threshold frequency, and stopping potential versus intensity.",
+      },
+      {
+        course: "ap-english-literature",
+        unit: "Unit 8: Poetry III",
+        focus:
+          "Finish Poetry III with a timed poetry analysis essay; the thesis must name the poem's movement and a specific tension, not just its subject.",
+      },
+    ],
+    practice: [
+      {
+        course: "ap-calculus-bc",
+        practiceSetId: "calc-u10-ps",
+        label: "Questions on comparison tests and the alternating-series error bound; the justification sentence is required.",
+      },
+      {
+        course: "ap-statistics",
+        practiceSetId: "stat-u6-ps",
+        label: "Spaced retake of the proportions set, ten weeks after first study; conclusions must still name alpha.",
+      },
+      {
+        course: "ap-physics-2",
+        practiceSetId: "phys-u15-ps",
+        label: "Questions 1-3 on photon energy and the photoelectric effect.",
+      },
+      {
+        course: "ap-english-literature",
+        practiceSetId: "lit-u8-set",
+        label: "Finish the set and log which stem type (shift, diction, structure) keeps costing time.",
+      },
+    ],
+  },
 ];
 
 export const weeklyPlan: DayPlan[] = [
