@@ -37,9 +37,10 @@ export default function DashboardPage() {
   const daysBySlug = new Map(countdowns.map((entry) => [entry.course.slug, entry.daysLeft]));
 
   const weekIndex = getCurrentWeekIndex(today);
-  const currentWeek = weekIndex >= 0 ? (scheduleWeeks[weekIndex] ?? null) : null;
-  const firstWeek = scheduleWeeks[0] ?? null;
   const allExamsPast = countdowns.every((entry) => entry.daysLeft < 0);
+  const currentWeek =
+    weekIndex >= 0 && !allExamsPast ? (scheduleWeeks[weekIndex] ?? null) : null;
+  const firstWeek = scheduleWeeks[0] ?? null;
 
   let weekStatus: string;
   if (allExamsPast) {

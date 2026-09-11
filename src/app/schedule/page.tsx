@@ -110,8 +110,9 @@ export default function SchedulePage() {
                     {group.weeks.length} {group.weeks.length === 1 ? "week" : "weeks"}
                   </Badge>
                   <span className="text-xs text-muted-foreground">
-                    {group.weeks[0].dateRange} &ndash;{" "}
-                    {group.weeks[group.weeks.length - 1].dateRange}
+                    {group.weeks.length === 1
+                      ? group.weeks[0].dateRange
+                      : `${group.weeks[0].dateRange} to ${group.weeks[group.weeks.length - 1].dateRange}`}
                   </span>
                 </div>
                 <ul className="space-y-3">
