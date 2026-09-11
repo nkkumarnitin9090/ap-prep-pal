@@ -1219,6 +1219,303 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
     ],
   },
+  {
+    week: 25,
+    dateRange: "Mar 1 - Mar 7",
+    startDate: "2027-03-01",
+    phase: "deepen",
+    goal: "Ratio test and interval of convergence, optional slope enrichment, and spectra opened.",
+    assignments: [
+      {
+        course: "ap-calculus-bc",
+        unit: "Unit 10: Infinite Sequences and Series",
+        focus:
+          "Ratio test, absolute versus conditional convergence, radius of convergence from the ratio test, and testing both endpoints separately.",
+      },
+      {
+        course: "ap-statistics",
+        unit: "Unit 9: Inference for Quantitative Data - Slopes (enrichment)",
+        focus:
+          "Optional: conditions for regression inference, reading SE of the slope from output, and a slope interval with df = n - 2. This unit is not on the 2026-27 exam; skip it if the error log still has Unit 6-8 holes.",
+      },
+      {
+        course: "ap-physics-2",
+        unit: "Unit 15: Modern Physics",
+        focus:
+          "Bohr model and quantized energy levels, emission and absorption spectra, and blackbody radiation: hotter objects peak at shorter wavelengths.",
+      },
+      {
+        course: "ap-english-literature",
+        unit: "Unit 9: Longer Fiction or Drama III",
+        focus:
+          "Begin the third long work: track how structure, character complexity, and setting interact across the whole text rather than scene by scene.",
+      },
+    ],
+    practice: [
+      {
+        course: "ap-calculus-bc",
+        practiceSetId: "calc-u10-ps",
+        label: "Interval-of-convergence items; write the endpoint tests out in full even when the radius is obvious.",
+      },
+      {
+        course: "ap-statistics",
+        practiceSetId: "stat-u9-ps",
+        label: "Enrichment set only if Units 6-8 are clean; otherwise retake one missed inference item from each of those units instead.",
+      },
+      {
+        course: "ap-physics-2",
+        practiceSetId: "phys-u15-ps",
+        label: "Questions on energy-level transitions and spectra; compute photon energy with hc = 1240 eV nm.",
+      },
+    ],
+    note: "Statistics Unit 9 was removed from the 2026-27 course. Treat it as optional enrichment this week, not as May material.",
+  },
+  {
+    week: 26,
+    dateRange: "Mar 8 - Mar 14",
+    startDate: "2027-03-08",
+    phase: "deepen",
+    goal: "Taylor polynomials with error bounds, mixed inference fluency, and nuclear physics closed.",
+    assignments: [
+      {
+        course: "ap-calculus-bc",
+        unit: "Unit 10: Infinite Sequences and Series",
+        focus:
+          "Taylor and Maclaurin polynomials, the Lagrange error bound with M named and justified, and the alternating-series error bound used only when it applies.",
+      },
+      {
+        course: "ap-statistics",
+        unit: "Units 6-8 inference fluency",
+        focus:
+          "Two full inference free-response questions under a twenty-minute clock each: name the procedure first, check conditions with numbers, then conclude in context.",
+      },
+      {
+        course: "ap-physics-2",
+        unit: "Unit 15: Modern Physics",
+        focus:
+          "Compton scattering, mass-energy equivalence and nuclear binding energy, and radioactive decay, fission, and fusion with charge and mass number conserved.",
+      },
+      {
+        course: "ap-english-literature",
+        unit: "Unit 9: Longer Fiction or Drama III",
+        focus:
+          "Character complexity and social or historical setting as pressure, not backdrop. Keep a running quotation bank of twelve passages for the literary argument essay.",
+      },
+    ],
+    practice: [
+      {
+        course: "ap-calculus-bc",
+        practiceSetId: "calc-u10-ps",
+        label: "Taylor-polynomial and error-bound items; name which error bound you are using before computing.",
+      },
+      {
+        course: "ap-statistics",
+        practiceSetId: "stat-u7-ps",
+        label: "Spaced retake of the means set, six weeks after first study.",
+      },
+      {
+        course: "ap-physics-2",
+        practiceSetId: "phys-u15-ps",
+        label: "Complete modern-physics set, including the nuclear and photoelectric free-response items.",
+      },
+    ],
+  },
+  {
+    week: 27,
+    dateRange: "Mar 15 - Mar 21",
+    startDate: "2027-03-15",
+    phase: "deepen",
+    goal: "Hold series and inference over a lighter week, and keep reading the long work.",
+    assignments: [
+      {
+        course: "ap-calculus-bc",
+        unit: "Unit 10: Infinite Sequences and Series",
+        focus:
+          "Two short sessions only: memorized Maclaurin series for e^x, sin x, cos x, and 1/(1 - x), plus one substitution or differentiation to build a new series.",
+      },
+      {
+        course: "ap-statistics",
+        unit: "Units 6-8 maintenance",
+        focus:
+          "One page from memory listing every inference procedure with its hypotheses, statistic, and df; check it against notes only after you have finished.",
+      },
+      {
+        course: "ap-physics-2",
+        unit: "Units 13-15 maintenance",
+        focus:
+          "Rebuild the optics, waves, and modern-physics concept maps from blank paper; redo one photoelectric or thin-film item you missed.",
+      },
+      {
+        course: "ap-english-literature",
+        unit: "Unit 9: Longer Fiction or Drama III",
+        focus:
+          "Reading push: finish or nearly finish the long work. Light annotation only, no timed essay this week.",
+      },
+    ],
+    practice: [
+      {
+        course: "ap-calculus-bc",
+        practiceSetId: "calc-u10-ps",
+        label: "Maclaurin-manipulation items untimed; write the known series first, then substitute.",
+      },
+      {
+        course: "ap-english-literature",
+        practiceSetId: "lit-u9-set",
+        label: "One passage set on the long work, untimed, for comprehension rather than speed.",
+      },
+    ],
+    note: "Likely spring-break window: deliberately light, on the Thanksgiving-week pattern. Two short weekday sessions and one weekend session, no full timed exam. Adjust to your school's actual break dates.",
+  },
+  {
+    week: 28,
+    dateRange: "Mar 22 - Mar 28",
+    startDate: "2027-03-22",
+    phase: "deepen",
+    goal: "Series free-response fluency, inference under a clock, and the last literary argument on a new work.",
+    assignments: [
+      {
+        course: "ap-calculus-bc",
+        unit: "Unit 10: Infinite Sequences and Series",
+        focus:
+          "A one-page convergence-test decision tree, then two released-style series free-response questions: interval of convergence and a Taylor remainder.",
+      },
+      {
+        course: "ap-statistics",
+        unit: "Units 6-8 inference fluency",
+        focus:
+          "Four mixed inference items in forty minutes: two intervals and two tests, covering proportions, means, and chi-square. Procedure name is the first sentence of every solution.",
+      },
+      {
+        course: "ap-physics-2",
+        unit: "Units 13-15 FRQ formats",
+        focus:
+          "One of each remaining free-response format: Mathematical Routines, Translation Between Representations, Experimental Design, and Qualitative/Quantitative Translation, drawn from optics, waves, or modern physics.",
+      },
+      {
+        course: "ap-english-literature",
+        unit: "Unit 9: Longer Fiction or Drama III",
+        focus:
+          "Finish Unit 9 with a literary argument essay on the third long work, using the quotation bank. The line of reasoning should not be rearrangable.",
+      },
+    ],
+    practice: [
+      {
+        course: "ap-calculus-bc",
+        practiceSetId: "calc-u10-ps",
+        label: "Full series set, timed, half with no calculator.",
+      },
+      {
+        course: "ap-statistics",
+        practiceSetId: "stat-u8-ps",
+        label: "Spaced retake of chi-square; write expected-count conditions with numbers.",
+      },
+      {
+        course: "ap-english-literature",
+        practiceSetId: "lit-u9-set",
+        label: "Finish the set, then outline a Q3 literary argument in ten minutes from memory.",
+      },
+    ],
+  },
+  {
+    week: 29,
+    dateRange: "Mar 29 - Apr 4",
+    startDate: "2027-03-29",
+    phase: "deepen",
+    goal: "All new content is done: spend the extra room on series, mixed inference, and essay speed.",
+    assignments: [
+      {
+        course: "ap-calculus-bc",
+        unit: "Unit 10: Infinite Sequences and Series",
+        focus:
+          "Mixed series multiple-choice under a clock, then rework every miss by naming the test or the known series before restarting the algebra.",
+      },
+      {
+        course: "ap-statistics",
+        unit: "Units 6-8 inference fluency",
+        focus:
+          "Procedure-selection drill: twelve stems, name the procedure and the hypotheses in thirty seconds each, then fully work the four you are least sure of.",
+      },
+      {
+        course: "ap-physics-2",
+        unit: "Units 13-15 mixed review",
+        focus:
+          "Interleaved items from geometric optics, waves, and modern physics. Every explanation has to name a principle, not a formula rearrangement.",
+      },
+      {
+        course: "ap-english-literature",
+        unit: "Units 7-9 mixed review",
+        focus:
+          "One timed essay of each type this week (poetry, prose, literary argument), scored against the six-point rubric on thesis and evidence rows only.",
+      },
+    ],
+    practice: [
+      {
+        course: "ap-calculus-bc",
+        practiceSetId: "calc-u9-ps",
+        label: "Spaced retake of the parametric, polar, and vector set, six weeks after first study.",
+      },
+      {
+        course: "ap-physics-2",
+        practiceSetId: "phys-u13-ps",
+        label: "Spaced retake of geometric optics; redraw every ray diagram from memory.",
+      },
+      {
+        course: "ap-calculus-bc",
+        label: "Saturday timed section: 29 no-calculator Calculus BC multiple-choice questions from Units 8-10 in 62 minutes (2027 format).",
+      },
+    ],
+  },
+  {
+    week: 30,
+    dateRange: "Apr 5 - Apr 11",
+    startDate: "2027-04-05",
+    phase: "deepen",
+    goal: "Clear the checkpoint error log in every course before exam-review starts next week.",
+    assignments: [
+      {
+        course: "ap-calculus-bc",
+        unit: "Units 1-10 error-log repair",
+        focus:
+          "The three weakest Calculus BC topics from the Week 18 checkpoint plus any series misses from Weeks 23-29. A problem leaves the log only after two clean solves on different days.",
+      },
+      {
+        course: "ap-statistics",
+        unit: "Units 1-8 error-log repair",
+        focus:
+          "The three weakest Statistics topics from the checkpoint, weighted toward inference conditions and interpretation sentences. Skip Unit 9; it is not assessed.",
+      },
+      {
+        course: "ap-physics-2",
+        unit: "Units 9-15 error-log repair",
+        focus:
+          "The three weakest Physics 2 topics from the checkpoint plus any waves or photoelectric misses. Rebuild one concept map from blank paper.",
+      },
+      {
+        course: "ap-english-literature",
+        unit: "Units 1-9 error-log repair",
+        focus:
+          "Reread the three essay types that scored lowest on Row B this spring and rewrite one body paragraph of each with embedded evidence and commentary that explains.",
+      },
+    ],
+    practice: [
+      {
+        course: "ap-statistics",
+        practiceSetId: "stat-u5-ps",
+        label: "Spaced retake of sampling distributions; state shape, center, and variability for every item.",
+      },
+      {
+        course: "ap-physics-2",
+        practiceSetId: "phys-u12-ps",
+        label: "Spaced retake of magnetism and induction, fourteen weeks after first study.",
+      },
+      {
+        course: "ap-english-literature",
+        practiceSetId: "lit-u5-set",
+        label: "Spaced retake of a Poetry II set under a 30-minute clock.",
+      },
+    ],
+    note: "Last deepen week. Starting Week 31 the work shifts to full timed mocks and targeted repair; do not open new units after this week.",
+  },
 ];
 
 export const weeklyPlan: DayPlan[] = [
