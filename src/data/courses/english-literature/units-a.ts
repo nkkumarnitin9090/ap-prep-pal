@@ -416,4 +416,234 @@ export const unitsA: Unit[] = [
       ],
     },
   },
+  /* ------------------------------------------------------------------ */
+  {
+    id: "lit-u3",
+    number: "3",
+    title: "Longer Fiction or Drama I",
+    examWeight: "16-20%",
+    examWeightMidpoint: 18,
+    classPeriods: "~18-20 class periods",
+    summary:
+      "Scaling close reading up to a whole book or play: how one scene serves the arc, how character relationships shift, and how a work's setting and structure constrain the people inside them. This unit also starts the long project of banking two or three works you know well enough to argue about from memory.",
+    cedNote: {
+      tone: "info",
+      text: "FRQ 3, the literary argument, asks you to write about a full-length work of your own choosing with no text in front of you. Start a one-page inventory now for each work you study: central conflict, five or six scenes with page references, four short quotations, and two competing interpretations.",
+    },
+    topics: [
+      {
+        id: "lit-u3-t1",
+        title: "Character relationships and their nuances",
+        detail:
+          "A relationship is evidence about both people. Track what each one can and cannot say to the other, and what the silences cost.",
+      },
+      {
+        id: "lit-u3-t2",
+        title: "Character and setting as a single system",
+        detail:
+          "In longer works setting supplies the limits a character strains against - a farm, a boarding house, a court. Explain what the place permits and forbids.",
+      },
+      {
+        id: "lit-u3-t3",
+        title: "The function of a significant event in the whole arc",
+        detail:
+          "For any scene, answer what the work would lose without it. That question turns plot recall into structural analysis.",
+      },
+      {
+        id: "lit-u3-t4",
+        title: "Conflict: external pressure and internal division",
+        detail:
+          "The strongest readings connect the two - the character fighting a landlord is usually also fighting a self-image.",
+      },
+      {
+        id: "lit-u3-t5",
+        title: "Narrative perspective controls emphasis",
+        detail:
+          "Notice what the narration lingers over and what it hurries past. Pacing is an argument about what matters.",
+      },
+      {
+        id: "lit-u3-t6",
+        title: "Dramatic form: dialogue, stage directions, and subtext",
+        detail:
+          "In a play, stage directions are the author's only narration. What a character does while speaking often contradicts what they say.",
+      },
+      {
+        id: "lit-u3-t7",
+        title: "Dramatic irony and unequal knowledge",
+        detail:
+          "When the audience knows more than a character, every ordinary line acquires a second meaning. Identify who lacks what, and what the gap makes the audience feel.",
+      },
+      {
+        id: "lit-u3-t8",
+        title: "Structure: acts, chapters, parallel scenes, and foils",
+        detail:
+          "Long works repeat with variation. A scene that echoes an earlier one is asking you to compare them.",
+      },
+      {
+        id: "lit-u3-t9",
+        title: "Commentary that ties evidence to a line of reasoning",
+        detail:
+          "Across several paragraphs, each piece of evidence must be shown to advance the same thesis. State the link explicitly rather than trusting the reader to see it.",
+      },
+      {
+        id: "lit-u3-t10",
+        title: "Building your FRQ 3 work inventory",
+        detail:
+          "Choose works with enough moral complication to sustain an argument, then memorize specific scenes and short quotations rather than themes.",
+      },
+    ],
+    keySkills: [
+      "Answer 'what would the work lose without this scene?' for every major episode you study",
+      "Read stage directions as authorial commentary and quote them as evidence",
+      "State who knows what at each moment of a scene, then explain what the audience does with the surplus",
+      "Connect an external conflict to the internal one it exposes, in a single sentence",
+      "Open each body paragraph with a claim that advances the thesis, not with a plot event",
+      "Keep a one-page inventory per work: conflict, key scenes, four quotations, two rival interpretations",
+    ],
+    commonMistakes: [
+      "Summarizing the plot of a long work for half the essay on the assumption the reader needs the story.",
+      "Choosing a work for FRQ 3 that you cannot cite specifically, then writing in generalities about its 'message.'",
+      "Treating stage directions as staging notes rather than as evidence about character.",
+      "Asserting dramatic irony without stating what the character does not know.",
+      "Body paragraphs that each prove something true but unrelated, so the essay has claims but no line of reasoning.",
+      "Ending with a moral lesson about life instead of an interpretation of the work.",
+    ],
+    practiceSet: {
+      id: "lit-u3-set",
+      title: "Unit 3 Practice: Scene, Subtext, and the Whole Work",
+      focus:
+        "Mining a single dramatic scene for dramatic irony, contrast, and subtext, then planning a literary argument about a full-length work you know.",
+      estimatedMinutes: 50,
+      calculator: "n/a",
+      problems: [
+        {
+          id: "lit-u3-q1",
+          kind: "multiple-choice",
+          label: "MCQ 1",
+          stimulus:
+            "PRACTICE SCENE (original, written for this exercise - not an excerpt from any published play)\n\nFrom an imagined two-act play. The kitchen of a rented farmhouse, late August. A bank\nenvelope lies unopened on the table, weighted down by a sugar bowl.\n\nHALLORAN  (not looking up from the boot he is oiling)  You went into town.\nEILEEN  I went as far as the post office. Nothing but the almanac.\n          (The envelope is plainly visible between them.)\nHALLORAN  Good. A man can live a long while on nothing.\nEILEEN  Then sit and eat. I made the pie you like.\nHALLORAN  (rising, wiping his hands)  I'll eat at six, the way I do.\n          He goes out. EILEEN lifts the sugar bowl, looks at the envelope, and sets\n          the bowl down on it again.\nEILEEN  (to the closed door)  At six, then.",
+          prompt:
+            "The stage direction \"(The envelope is plainly visible between them.)\" functions chiefly to",
+          choices: [
+            { label: "A", text: "establish the realistic clutter of a working farmhouse kitchen" },
+            { label: "B", text: "create dramatic irony by letting the audience weigh Eileen's answer against what it can see" },
+            { label: "C", text: "show that Halloran has hidden the envelope from Eileen" },
+            { label: "D", text: "indicate that the envelope will be opened before the act ends" },
+            { label: "E", text: "emphasize how little mail the household receives" },
+          ],
+          answer: "B",
+          solution:
+            "The direction exists for the audience, not the characters: it guarantees we see the thing Eileen has just denied receiving. From that moment her line about the almanac reads as a decision rather than a report, and every ordinary exchange in the scene carries a second layer we can hear and Halloran cannot.",
+          note:
+            "A treats a pointed direction as set dressing, the same reflex that turns setting into background. C reverses who is concealing what. D predicts a plot event the text does not promise - stage directions describe the stage, not the future.",
+        },
+        {
+          id: "lit-u3-q2",
+          kind: "multiple-choice",
+          label: "MCQ 2",
+          stimulus:
+            "PRACTICE SCENE (original, written for this exercise - not an excerpt from any published play)\n\nFrom an imagined two-act play. The kitchen of a rented farmhouse, late August. A bank\nenvelope lies unopened on the table, weighted down by a sugar bowl.\n\nHALLORAN  (not looking up from the boot he is oiling)  You went into town.\nEILEEN  I went as far as the post office. Nothing but the almanac.\n          (The envelope is plainly visible between them.)\nHALLORAN  Good. A man can live a long while on nothing.\nEILEEN  Then sit and eat. I made the pie you like.\nHALLORAN  (rising, wiping his hands)  I'll eat at six, the way I do.\n          He goes out. EILEEN lifts the sugar bowl, looks at the envelope, and sets\n          the bowl down on it again.\nEILEEN  (to the closed door)  At six, then.",
+          prompt: "Halloran's line \"A man can live a long while on nothing\" is ironic because",
+          choices: [
+            { label: "A", text: "he intends it as stoic pride, while the audience sees a bank notice that makes \"nothing\" a literal account of his finances" },
+            { label: "B", text: "he is secretly wealthier than his wife believes" },
+            { label: "C", text: "he is mocking the pie Eileen has just offered him" },
+            { label: "D", text: "he has in fact received a great deal of mail that season" },
+            { label: "E", text: "he speaks the line without looking up from his work" },
+          ],
+          answer: "A",
+          solution:
+            "Halloran means the sentence as a boast about endurance. The envelope converts his abstract \"nothing\" into an unread balance, so the audience hears a second meaning he does not intend - the definition of dramatic irony in a single line.",
+          note:
+            "B invents a hidden fortune the scene never suggests. C misreads the sequence; the pie is offered after his line. E notices a real detail - his refusal to look up - but that is characterization of his inattention, not the source of the irony.",
+        },
+        {
+          id: "lit-u3-q3",
+          kind: "multiple-choice",
+          label: "MCQ 3",
+          stimulus:
+            "PRACTICE SCENE (original, written for this exercise - not an excerpt from any published play)\n\nFrom an imagined two-act play. The kitchen of a rented farmhouse, late August. A bank\nenvelope lies unopened on the table, weighted down by a sugar bowl.\n\nHALLORAN  (not looking up from the boot he is oiling)  You went into town.\nEILEEN  I went as far as the post office. Nothing but the almanac.\n          (The envelope is plainly visible between them.)\nHALLORAN  Good. A man can live a long while on nothing.\nEILEEN  Then sit and eat. I made the pie you like.\nHALLORAN  (rising, wiping his hands)  I'll eat at six, the way I do.\n          He goes out. EILEEN lifts the sugar bowl, looks at the envelope, and sets\n          the bowl down on it again.\nEILEEN  (to the closed door)  At six, then.",
+          prompt:
+            "Eileen's handling of the sugar bowl after Halloran leaves most nearly reveals that",
+          choices: [
+            { label: "A", text: "she is tidying the table out of long habit" },
+            { label: "B", text: "she means to open the envelope as soon as supper is over" },
+            { label: "C", text: "she wants Halloran to discover the envelope himself" },
+            { label: "D", text: "her concealment is a choice she renews in private, not merely a lie told under pressure" },
+            { label: "E", text: "she cannot read what the envelope says" },
+          ],
+          answer: "D",
+          solution:
+            "Nobody is watching. She uncovers the envelope, looks at it, and deliberately covers it again, which means the lie she told Halloran was not a flinch in the moment but a policy she reaffirms alone. The gesture is the scene's fullest piece of characterization and it happens without a word.",
+          note:
+            "A drains a deliberate three-part action of meaning. B and C assign intentions the blocking contradicts - she re-covers the envelope rather than setting it out or opening it. E is a literal reading of a woman who has clearly understood what she is hiding.",
+        },
+        {
+          id: "lit-u3-q4",
+          kind: "multiple-choice",
+          label: "MCQ 4",
+          stimulus:
+            "PRACTICE SCENE (original, written for this exercise - not an excerpt from any published play)\n\nFrom an imagined two-act play. The kitchen of a rented farmhouse, late August. A bank\nenvelope lies unopened on the table, weighted down by a sugar bowl.\n\nHALLORAN  (not looking up from the boot he is oiling)  You went into town.\nEILEEN  I went as far as the post office. Nothing but the almanac.\n          (The envelope is plainly visible between them.)\nHALLORAN  Good. A man can live a long while on nothing.\nEILEEN  Then sit and eat. I made the pie you like.\nHALLORAN  (rising, wiping his hands)  I'll eat at six, the way I do.\n          He goes out. EILEEN lifts the sugar bowl, looks at the envelope, and sets\n          the bowl down on it again.\nEILEEN  (to the closed door)  At six, then.",
+          prompt:
+            "The exchange about supper - \"Then sit and eat\" answered by \"I'll eat at six, the way I do\" - chiefly establishes a contrast between",
+          choices: [
+            { label: "A", text: "a wife who improvises to manage the moment and a husband who retreats into fixed routine" },
+            { label: "B", text: "a generous provider and an ungrateful dependent" },
+            { label: "C", text: "a character who fears poverty and one who has never known it" },
+            { label: "D", text: "a rural way of speaking and an urban one" },
+            { label: "E", text: "an affectionate marriage and a hostile one" },
+          ],
+          answer: "A",
+          solution:
+            "Eileen's offer of the pie is an improvisation: she changes the subject with food the second the mail has been discussed. Halloran answers with the clock, refusing the offer by appealing to what he always does. The pairing defines each of them - her management, his rigidity - and explains why the envelope can sit between them undiscussed.",
+          note:
+            "B and E impose a judgment the scene withholds; nothing here is hostile, and no one is ungrateful. C inverts the situation, since Halloran is the one whose line about living on nothing suggests long acquaintance with scarcity.",
+        },
+        {
+          id: "lit-u3-q5",
+          kind: "multiple-choice",
+          label: "MCQ 5",
+          stimulus:
+            "PRACTICE SCENE (original, written for this exercise - not an excerpt from any published play)\n\nFrom an imagined two-act play. The kitchen of a rented farmhouse, late August. A bank\nenvelope lies unopened on the table, weighted down by a sugar bowl.\n\nHALLORAN  (not looking up from the boot he is oiling)  You went into town.\nEILEEN  I went as far as the post office. Nothing but the almanac.\n          (The envelope is plainly visible between them.)\nHALLORAN  Good. A man can live a long while on nothing.\nEILEEN  Then sit and eat. I made the pie you like.\nHALLORAN  (rising, wiping his hands)  I'll eat at six, the way I do.\n          He goes out. EILEEN lifts the sugar bowl, looks at the envelope, and sets\n          the bowl down on it again.\nEILEEN  (to the closed door)  At six, then.",
+          prompt:
+            "Eileen's closing line, delivered \"to the closed door,\" functions primarily to",
+          choices: [
+            { label: "A", text: "reveal that she is too frightened of Halloran to address him directly" },
+            { label: "B", text: "announce to the audience that she has decided to leave the farm" },
+            { label: "C", text: "leave her performing the household's rituals for a listener who has already gone" },
+            { label: "D", text: "break the scene's realism by addressing the audience as a confidante" },
+            { label: "E", text: "suggest that Halloran is still listening on the other side of the door" },
+          ],
+          answer: "C",
+          solution:
+            "The agreement she confirms - supper at six - is the least of what passed between them, and she confirms it to wood. The line closes the scene on a marriage kept running by settled routine and unaddressed news, which is exactly the arrangement the hidden envelope depends on.",
+          note:
+            "A is the most tempting wrong answer, but she has already spoken to Halloran twice without hesitation, including the lie; her problem is not fear of speaking. B invents a resolution. D confuses speech to an absent listener with an aside delivered to the house.",
+        },
+        {
+          id: "lit-u3-q6",
+          kind: "free-response",
+          label: "FRQ 1",
+          prompt:
+            "Literary argument practice, in the form of FRQ 3. Many novels and plays turn on a character who withholds important information from someone close to them. Choose a full-length work you have studied and write a thesis plus a three-paragraph outline explaining how the concealment and its consequences contribute to an interpretation of the work as a whole. Work from memory, as you must on exam day, and cite specific scenes rather than themes.",
+          parts: [
+            { label: "(a)", text: "Name the work and author, then state a thesis that makes a claim about meaning, not about plot." },
+            { label: "(b)", text: "Outline three body paragraphs, each with its own claim and two specific pieces of remembered evidence." },
+            { label: "(c)", text: "For one paragraph, write the commentary out in full and check that it explains how the evidence supports the claim." },
+            { label: "(d)", text: "Add one sentence acknowledging a rival reading and explaining why yours accounts for more of the work." },
+          ],
+          solution:
+            "Worked example using Henrik Ibsen's A Doll's House, described from memory rather than quoted.\n\nThesis: By keeping the loan that saved her husband's life a secret for years, Nora Helmer protects a marriage that can only survive on her silence, and the play uses the unraveling of that secret to argue that the Helmers' domestic happiness was always a performance staged for a man who could not be told the truth.\n\nParagraph 1 claim: The concealment begins as an act of competence, and the play makes sure we notice how much skill it required. Evidence: Nora's quiet management of household money and her private satisfaction at having handled the debt herself; her habit of presenting purchases and needs in the coaxing voice her husband rewards.\n\nParagraph 2 claim: What starts as protection hardens into a second life with its own rules. Evidence: the arrangements she must make with the man who holds the note as he pressures her; her misdirection of Torvald whenever the subject of money comes near the surface, which turns marital affection into stagecraft.\n\nParagraph 3 claim: The revelation matters less for what Torvald learns than for what Nora learns about being managed in return. Evidence: his reaction, which is concerned first with reputation rather than with the debt she carried for him; her decision at the end to leave a house she can no longer play a part in - the door closing as the play's final argument.\n\nRival reading, acknowledged: one could argue the play blames the law and the lender rather than the marriage, since Nora had no legal way to borrow in her own name. That reading explains her predicament but not Torvald's response to it, and it is his response that turns a financial crisis into the end of the marriage.\n\nNotice that every piece of evidence is a scene or a specific action, not a theme, and that the whole outline answers one question: what does the concealment mean?",
+          rubric: [
+            { points: "1 pt", criterion: "Row A - Thesis: a defensible interpretation of the work as a whole. A summary of the concealment, or a claim about life rather than the work, earns 0." },
+            { points: "4 pts", criterion: "Row B - Evidence and Commentary: specific, accurate references to scenes and actions, with commentary explaining how each supports the interpretation. Generalized references to the work's 'message' cap this row at 2." },
+            { points: "1 pt", criterion: "Row C - Sophistication: earned by engaging a rival interpretation or a genuine tension in the work and resolving it, not by ornate phrasing." },
+            { points: "Check", criterion: "Self-check: could a reader who knows the work tell from your outline which scenes you mean? If not, your evidence is not yet specific enough to score." },
+          ],
+          note:
+            "For FRQ 3 you may write about any work of literary merit, so the whole game is preparation. Do this exercise once for each work in your inventory and you will walk into the exam with three arguments already half-written.",
+        },
+      ],
+    },
+  },
 ];
