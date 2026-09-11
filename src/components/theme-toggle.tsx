@@ -19,26 +19,15 @@ const options = [
 ] as const;
 
 export function ThemeToggle() {
-  const { theme, setTheme, resolvedTheme } = useTheme();
+  const { theme, setTheme } = useTheme();
   const mounted = useHydrated();
 
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button variant="ghost" size="icon" aria-label="Change colour theme">
-          {/* Both icons are rendered so the markup matches before the theme is known. */}
-          <Sun
-            className={
-              mounted && resolvedTheme === "dark" ? "hidden" : "size-4"
-            }
-            aria-hidden
-          />
-          <Moon
-            className={
-              mounted && resolvedTheme === "dark" ? "size-4" : "hidden"
-            }
-            aria-hidden
-          />
+          <Sun className="size-4 dark:hidden" aria-hidden />
+          <Moon className="hidden size-4 dark:inline" aria-hidden />
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="w-36">

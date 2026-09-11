@@ -20,17 +20,23 @@ export function SiteFooter() {
           </p>
         </div>
         <nav aria-label="Footer" className="flex flex-col gap-1.5">
-          <Link href="/" className="text-muted-foreground hover:text-foreground">
+          <Link
+            href="/"
+            className="rounded-sm text-muted-foreground outline-none hover:text-foreground focus-visible:ring-3 focus-visible:ring-ring/50"
+          >
             Dashboard
           </Link>
-          <Link href="/schedule" className="text-muted-foreground hover:text-foreground">
+          <Link
+            href="/schedule"
+            className="rounded-sm text-muted-foreground outline-none hover:text-foreground focus-visible:ring-3 focus-visible:ring-ring/50"
+          >
             Schedule
           </Link>
           {courses.map((course) => (
             <Link
               key={course.slug}
               href={`/courses/${course.slug}`}
-              className="text-muted-foreground hover:text-foreground"
+              className="rounded-sm text-muted-foreground outline-none hover:text-foreground focus-visible:ring-3 focus-visible:ring-ring/50"
             >
               {course.name}
             </Link>

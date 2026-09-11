@@ -145,7 +145,7 @@ export function FrqTypes({
                   <PenLine className="size-3.5" aria-hidden />
                   Scoring rubric
                 </h4>
-                <div className="rounded-lg border">
+                <div className="overflow-x-auto rounded-lg border">
                   <Table>
                     <TableHeader>
                       <TableRow>

@@ -25,7 +25,14 @@ npm install
 npm run dev
 ```
 
-Then open [http://localhost:3000](http://localhost:3000).
+Then open [http://localhost:3000](http://localhost:3000). This workspace's
+already-running dev server uses port **43127**:
+
+```bash
+npm run dev -- --port 43127 --hostname 127.0.0.1
+```
+
+Open [http://127.0.0.1:43127](http://127.0.0.1:43127) in that case.
 
 Other scripts:
 
@@ -56,7 +63,7 @@ src/
     course/             Course page sections: unit list, topic checklist, rubrics
     dashboard/          Course cards, exam countdown, weekly focus panel
     practice/           Practice sets, MCQ checking, self-scored FRQs, solution reveal
-    schedule/           Year-plan week rows and the weekly block view
+    schedule/           Year-plan week rows, practice links, and the weekly block view
     ui/                 shadcn/ui primitives (do not hand-roll replacements for these)
   data/                 All course and schedule content (see below)
   hooks/                localStorage progress store, hydration and hash helpers

@@ -95,8 +95,7 @@ export function CourseCard({
 
         {summary.unitCount === 0 ? (
           <p className="rounded-lg border border-dashed px-3 py-2 text-xs text-muted-foreground">
-            Unit content for {summary.name} is being finalized. The exam date and format
-            below are already confirmed.
+            Unit content for {summary.name} is being finalized. The exam date on this card is already confirmed.
           </p>
         ) : null}
       </CardContent>
