@@ -214,4 +214,206 @@ export const unitsA: Unit[] = [
       ],
     },
   },
+  /* ------------------------------------------------------------------ */
+  {
+    id: "lit-u2",
+    number: "2",
+    title: "Poetry I",
+    examWeight: "16-20%",
+    examWeightMidpoint: 18,
+    classPeriods: "~14-16 class periods",
+    summary:
+      "Poetry read as a made object: a constructed speaker, lines that end where the poet decided they should end, and comparisons that do argumentative work. The unit also introduces the defensible thesis, which is the one point on the essay rubric you can win in a single sentence.",
+    topics: [
+      {
+        id: "lit-u2-t1",
+        title: "The speaker is not the poet",
+        detail:
+          "Treat the voice as a character whose attitude you infer from diction and detail. Writing 'the poet feels' throws away the gap between a constructed speaker and a biography you do not have.",
+      },
+      {
+        id: "lit-u2-t2",
+        title: "Lineation and enjambment",
+        detail:
+          "A line break suspends a phrase mid-thought and puts weight on the last word before the drop; an end-stopped line closes a unit of sense. Mastery is naming the word the break isolates and what that isolation does.",
+      },
+      {
+        id: "lit-u2-t3",
+        title: "Stanza units, structure, and the turn",
+        detail:
+          "Stanzas work like paragraphs of an argument. Find the place where the poem's stance, tense, or agency changes, and treat that hinge as the poem's thesis about itself.",
+      },
+      {
+        id: "lit-u2-t4",
+        title: "Diction and connotation",
+        detail:
+          "Ask what a word drags in behind it. A choice is analyzable only against the near-synonym the poet rejected - 'shut' instead of 'closed,' 'stubborn' instead of 'persistent.'",
+      },
+      {
+        id: "lit-u2-t5",
+        title: "Imagery and concrete detail",
+        detail:
+          "Images are sensory, specific, and interpretable; 'imagery of sadness' is not an image. Point to the thing the poem makes you see, then say what seeing it costs or reveals.",
+      },
+      {
+        id: "lit-u2-t6",
+        title: "Simile and metaphor as compressed argument",
+        detail:
+          "Every comparison has a subject and a vehicle, and the vehicle imports associations. Explain what the comparison claims that plain statement could not, rather than labeling it decorative.",
+      },
+      {
+        id: "lit-u2-t7",
+        title: "Personification and the redistribution of agency",
+        detail:
+          "When a poem gives will to weather, plants, or objects, someone in the poem is losing control. Track who acts and who is acted upon.",
+      },
+      {
+        id: "lit-u2-t8",
+        title: "Syntax in verse: inversion, suspension, and where the subject arrives",
+        detail:
+          "Sentences in poems often stretch across several lines. Find the main verb, notice what is delayed, and explain why the delay matters.",
+      },
+      {
+        id: "lit-u2-t9",
+        title: "Writing a defensible thesis about a poem",
+        detail:
+          "A thesis states an interpretation someone could argue with and previews a line of reasoning. 'The poet uses imagery and metaphor' is a list, not a claim.",
+      },
+    ],
+    keySkills: [
+      "Paraphrase the poem literally first, in plain prose, before making any claim about its meaning",
+      "Name the exact word a line break isolates, then explain the emphasis the break creates",
+      "Unpack a comparison in two steps: what is being compared, and what the vehicle imports that a literal statement would not",
+      "Locate the poem's turn and build the thesis around the change rather than around the topic",
+      "Attribute attitude to the speaker, using speaker-specific language ('the speaker admits,' not 'the poet feels')",
+      "Write a thesis that could be disagreed with, then make each body paragraph prove one part of it",
+    ],
+    commonMistakes: [
+      "Paraphrasing the poem line by line and calling it analysis; a walkthrough earns evidence credit but almost no commentary credit.",
+      "Naming devices in a list - 'the poem uses enjambment, metaphor, and personification' - without saying what any of them accomplishes.",
+      "Collapsing speaker into poet and then arguing about the poet's biography instead of the text.",
+      "Claiming a device the poem does not contain (finding 'rhyme scheme' in free verse) because it is the device you know how to discuss.",
+      "Writing a thesis nobody could disagree with, such as 'the poem shows the speaker's complicated emotions about family.'",
+      "Quoting a whole stanza as a block and then commenting on only its last word.",
+    ],
+    practiceSet: {
+      id: "lit-u2-set",
+      title: "Unit 2 Practice: Line, Figure, and Speaker",
+      focus:
+        "Reading line breaks, a simile, and a personified turn as deliberate choices, then converting those observations into a defensible thesis.",
+      estimatedMinutes: 45,
+      calculator: "n/a",
+      problems: [
+        {
+          id: "lit-u2-q1",
+          kind: "multiple-choice",
+          label: "MCQ 1",
+          stimulus:
+            "PRACTICE POEM (original, written for this exercise - not an excerpt from any published work)\n\n 1  All winter I kept the storm window\n 2  shut against my mother's garden, the beds\n 3  she edged in brick the summer she could still\n 4  kneel. I told the neighbors I had no\n 5  time for it. The truth is smaller: I could not\n 6  look at the ground and not see her hands\n 7  in it. Then April came up anyway,\n 8  stubborn as a rumor, and the tulips\n 9  she planted eight Octobers ago\n10  pushed their red mouths through my excuses\n11  and spoke for her.",
+          prompt:
+            "The line break between \"I had no\" (line 4) and \"time for it\" (line 5) functions chiefly to",
+          choices: [
+            { label: "A", text: "stress how demanding the speaker's winter schedule has become" },
+            { label: "B", text: "let the refusal stand as absolute for an instant before the next line shrinks it to an excuse about scheduling" },
+            { label: "C", text: "establish the poem's rhyme scheme at the midpoint of the sentence" },
+            { label: "D", text: "signal that a second speaker has taken over the poem" },
+            { label: "E", text: "separate the speaker's words to the neighbors from her words to her mother" },
+          ],
+          answer: "B",
+          solution:
+            "The break hangs the poem on \"no.\" For the length of the line ending, the speaker has simply refused - no object, no excuse - and then the enjambment delivers \"time for it,\" the socially acceptable version she offers the neighbors. The gap between the two is the poem's first admission that the refusal was never about time, which the next sentence confirms: \"The truth is smaller.\"",
+          note:
+            "A takes the excuse at face value, which is precisely what the line break undercuts. C names a feature the poem does not have; free verse invites device-hunting, and inventing a rhyme scheme is the most common version. D and E misread a shift in candor as a shift in who is talking.",
+        },
+        {
+          id: "lit-u2-q2",
+          kind: "multiple-choice",
+          label: "MCQ 2",
+          stimulus:
+            "PRACTICE POEM (original, written for this exercise - not an excerpt from any published work)\n\n 1  All winter I kept the storm window\n 2  shut against my mother's garden, the beds\n 3  she edged in brick the summer she could still\n 4  kneel. I told the neighbors I had no\n 5  time for it. The truth is smaller: I could not\n 6  look at the ground and not see her hands\n 7  in it. Then April came up anyway,\n 8  stubborn as a rumor, and the tulips\n 9  she planted eight Octobers ago\n10  pushed their red mouths through my excuses\n11  and spoke for her.",
+          prompt:
+            "The simile \"stubborn as a rumor\" (line 8) characterizes the arriving spring primarily as something that",
+          choices: [
+            { label: "A", text: "spreads and takes hold regardless of whether the speaker permits it" },
+            { label: "B", text: "is probably false and will disappoint the speaker" },
+            { label: "C", text: "the speaker's neighbors have been discussing behind her back" },
+            { label: "D", text: "arrives too delicately for the speaker to notice at first" },
+            { label: "E", text: "repeats itself every year in exactly the same form" },
+          ],
+          answer: "A",
+          solution:
+            "The comparison is built on the one property the poem needs: rumors circulate without consent and cannot be recalled. April is not being called untrue; it is being called unstoppable, which sets up the tulips overriding the speaker in the closing lines.",
+          note:
+            "B seizes the association a rumor carries in ordinary speech - unreliability - instead of the property the sentence activates through \"stubborn\" and \"anyway.\" C smuggles the neighbors from line 4 into a simile that has nothing to do with them. Every simile question is a question about which association the poem is actually using.",
+        },
+        {
+          id: "lit-u2-q3",
+          kind: "multiple-choice",
+          label: "MCQ 3",
+          stimulus:
+            "PRACTICE POEM (original, written for this exercise - not an excerpt from any published work)\n\n 1  All winter I kept the storm window\n 2  shut against my mother's garden, the beds\n 3  she edged in brick the summer she could still\n 4  kneel. I told the neighbors I had no\n 5  time for it. The truth is smaller: I could not\n 6  look at the ground and not see her hands\n 7  in it. Then April came up anyway,\n 8  stubborn as a rumor, and the tulips\n 9  she planted eight Octobers ago\n10  pushed their red mouths through my excuses\n11  and spoke for her.",
+          prompt:
+            "The poem's decisive shift in agency - the point at which the poem stops being governed by what the speaker chooses to do - occurs at",
+          choices: [
+            { label: "A", text: "line 1, with \"All winter I kept\"" },
+            { label: "B", text: "line 4, with \"I told the neighbors\"" },
+            { label: "C", text: "line 5, with \"The truth is smaller\"" },
+            { label: "D", text: "line 7, with \"Then April came up anyway\"" },
+            { label: "E", text: "line 11, with \"and spoke for her\"" },
+          ],
+          answer: "D",
+          solution:
+            "Through line 6 the speaker is the grammatical subject of every clause: she keeps the window shut, she tells the neighbors, she cannot look. At \"Then April came up anyway,\" the subject changes and so does the power in the poem - April acts, then the tulips act, and the speaker becomes the obstacle they push through. \"Anyway\" marks the reversal explicitly.",
+          note:
+            "C is the strong distractor, and it is a real shift - from the public excuse to the private confession - but the speaker is still the one narrating and still the one in charge. The question asks about agency, not candor. E names the consequence of the turn rather than the turn.",
+        },
+        {
+          id: "lit-u2-q4",
+          kind: "multiple-choice",
+          label: "MCQ 4",
+          stimulus:
+            "PRACTICE POEM (original, written for this exercise - not an excerpt from any published work)\n\n 1  All winter I kept the storm window\n 2  shut against my mother's garden, the beds\n 3  she edged in brick the summer she could still\n 4  kneel. I told the neighbors I had no\n 5  time for it. The truth is smaller: I could not\n 6  look at the ground and not see her hands\n 7  in it. Then April came up anyway,\n 8  stubborn as a rumor, and the tulips\n 9  she planted eight Octobers ago\n10  pushed their red mouths through my excuses\n11  and spoke for her.",
+          prompt:
+            "The phrase \"pushed their red mouths through my excuses\" (line 10) achieves its effect mainly by",
+          choices: [
+            { label: "A", text: "describing the color and shape of the tulip blossoms with unusual precision" },
+            { label: "B", text: "treating the speaker's excuses as a physical barrier, so an evasion becomes something the flowers can visibly break through" },
+            { label: "C", text: "implying that the speaker has been talking aloud to the garden all winter" },
+            { label: "D", text: "comparing the mother's voice to the sound of wind in the tulip bed" },
+            { label: "E", text: "shifting the poem from the past tense into the present" },
+          ],
+          answer: "B",
+          solution:
+            "\"Excuses\" is an abstraction, and the poem gives it enough substance to be broken. Once the evasion has a surface, the tulips' growth becomes an action against the speaker rather than a seasonal fact, and the personified \"mouths\" that follow can carry the mother's voice into a poem the speaker had tried to keep silent.",
+          note:
+            "A reads the line as description and stops one step short of its work - the mouths matter because they speak, not because they are red. C literalizes a figure into a habit. E is checkable against the text and false; the verbs stay in the past.",
+        },
+        {
+          id: "lit-u2-q5",
+          kind: "free-response",
+          label: "FRQ 1",
+          stimulus:
+            "PRACTICE POEM (original, written for this exercise - not an excerpt from any published work)\n\n 1  All winter I kept the storm window\n 2  shut against my mother's garden, the beds\n 3  she edged in brick the summer she could still\n 4  kneel. I told the neighbors I had no\n 5  time for it. The truth is smaller: I could not\n 6  look at the ground and not see her hands\n 7  in it. Then April came up anyway,\n 8  stubborn as a rumor, and the tulips\n 9  she planted eight Octobers ago\n10  pushed their red mouths through my excuses\n11  and spoke for her.",
+          prompt:
+            "Write a thesis statement and one body paragraph analyzing how the poem's line breaks and figurative language convey the speaker's complex attitude toward her mother's garden. Take 25 minutes, which is the pace FRQ 1 demands on exam day.",
+          parts: [
+            { label: "(a)", text: "Thesis: one sentence naming the speaker's complexity, not the poem's subject." },
+            { label: "(b)", text: "Body paragraph: analyze at least one line break and one figure of speech, embedding brief quotations." },
+            { label: "(c)", text: "Include one sentence that accounts for the poem's turn at line 7." },
+            { label: "(d)", text: "Self-score with the rubric below, then rewrite only the thesis." },
+          ],
+          solution:
+            "Model thesis: The speaker's shut storm window is an act of self-protection she cannot quite defend, and the poem's breaks and figures expose the grief hiding inside her excuse until the garden itself overrules her.\n\nModel body paragraph: The poem's line breaks catch the speaker in the act of editing herself. When she reports that she \"had no\" and then, after the drop, \"time for it,\" the enjambment lets a flat refusal stand alone before it is dressed as a scheduling problem, and the correction that follows - \"The truth is smaller\" - concedes what the break has already revealed. The same suspension works on her confession: \"I could not\" hangs at the end of line 5 as an absolute incapacity before \"look at the ground\" narrows it to a single unbearable sight, her mother's hands in the soil. Once the turn arrives at \"Then April came up anyway,\" the speaker loses the sentence: April is \"stubborn as a rumor,\" a comparison that grants the season the one quality the speaker cannot resist, spreading without her permission. By the final lines her evasions have hardened into something material enough to be broken, and the tulips \"pushed their red mouths through my excuses / and spoke for her\" - a personification that returns her mother's voice to a garden the speaker had closed a window against, so that the poem ends with the grief she avoided speaking on her behalf.\n\nWhy the thesis earns the point: it takes a position (the excuse is self-protection, and the poem dismantles it) and predicts the movement the essay will trace.",
+          rubric: [
+            { points: "1 pt", criterion: "Row A - Thesis: responds to the prompt with a defensible interpretation of the speaker's complex attitude. A restatement of the prompt or a list of devices earns 0." },
+            { points: "4 pts", criterion: "Row B - Evidence and Commentary: specific, brief quotations woven into the writer's sentences, with commentary that explains how each line break or figure creates the attitude. 4 points requires consistent explanation of the how, not the what." },
+            { points: "1 pt", criterion: "Row C - Sophistication: earned by accounting for tension or complexity across the whole poem - here, the reversal of agency at line 7 - rather than by elevated vocabulary." },
+            { points: "Check", criterion: "Self-check: if any sentence in your paragraph could be deleted without losing an argument, it was paraphrase." },
+          ],
+          note:
+            "This is FRQ 1, poetry analysis, which the CED allots about 40 minutes. Practicing thesis plus one paragraph in 25 minutes builds the two habits that decide the score: commit to a claim fast, and never quote without commenting.",
+        },
+      ],
+    },
+  },
 ];
