@@ -1,36 +1,96 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Senior Year AP Plan
 
-## Getting Started
+A study planner for one US high school senior taking four AP exams in May 2027:
+**AP Calculus BC**, **AP Statistics**, **AP Physics 2**, and **AP English Literature and
+Composition**.
 
-First, run the development server:
+It answers three questions the student actually asked:
+
+- **When do I study what?** A week-by-week plan for the 2026-27 school year, grouped into
+  phases, plus the repeating Monday-to-Sunday block schedule the plan assumes.
+- **What do I need to learn?** Every course broken into units, every unit into checkable
+  topics, with the official exam weighting, the skills worth memorising, and the mistakes
+  that reliably cost points.
+- **How do I know it stuck?** A practice set at the end of every unit: multiple-choice
+  questions you answer and check, free-response questions you self-score against the
+  rubric, and fully worked solutions that stay hidden until you ask for them.
+
+Progress is stored in the browser's `localStorage`, so there is no account and no server
+to run beyond Next.js itself.
+
+## Getting started
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Other scripts:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build   # production build; also runs TypeScript and ESLint
+npm run start   # serve the production build
+npm run lint    # ESLint only
+npx tsc --noEmit
+```
 
-## Learn More
+## Routes
 
-To learn more about Next.js, take a look at the following resources:
+| Route              | What it shows                                                                             |
+| ------------------ | ----------------------------------------------------------------------------------------- |
+| `/`                | Dashboard: overall and per-course progress, exam countdowns, and this week's focus         |
+| `/schedule`        | The full year plan grouped by phase, plus the weekly time-block view                       |
+| `/courses/[slug]`  | One course: exam format, units, topic checklists, practice sets, rubrics, and resources    |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Course slugs are `ap-calculus-bc`, `ap-statistics`, `ap-physics-2`, and
+`ap-english-literature`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Project structure
 
-## Deploy on Vercel
+```
+src/
+  app/                  App Router routes (dashboard, schedule, course pages, 404)
+  components/
+    course/             Course page sections: unit list, topic checklist, rubrics
+    dashboard/          Course cards, exam countdown, weekly focus panel
+    practice/           Practice sets, MCQ checking, self-scored FRQs, solution reveal
+    schedule/           Year-plan week rows and the weekly block view
+    ui/                 shadcn/ui primitives (do not hand-roll replacements for these)
+  data/                 All course and schedule content (see below)
+  hooks/                localStorage progress store, hydration and hash helpers
+  lib/                  Accent tokens, date formatting, content helpers
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The UI never hardcodes a course, a unit, or a week. Everything is derived from the data
+modules, so content can grow or shrink without touching a component.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Editing course content
+
+All content lives under `src/data/` and is typed by `src/data/types.ts`, which is the
+place to look first: it documents every field the UI renders.
+
+- `src/data/courses/<course>.ts` exports one `Course`: exam date and sections, optional
+  course-level CED notes, units (weighting, class periods, summary, topics, key skills,
+  common mistakes, and a practice set), and optional big ideas, skill categories,
+  free-response question types, and resources.
+- `src/data/courses/index.ts` is the registry the app consumes: `courses` (display order),
+  `coursesBySlug`, `getCourse(slug)`, and `totalTopicCount()`.
+- `src/data/schedule.ts` exports `scheduleWeeks` (the year plan), `weeklyPlan` (the
+  Monday-to-Sunday blocks), `phaseLabels`, and `getCurrentWeekIndex(date?)`.
+
+Two rules keep edits safe:
+
+1. **Topic ids must be globally unique and stable.** Checkbox progress is keyed by topic
+   id, so renaming an id silently resets that topic for the student.
+2. **Optional fields are genuinely optional.** Empty arrays render real empty states
+   rather than blank pages, so partially written content is fine to commit.
+
+## Accuracy disclaimer
+
+Unit weightings, exam dates, exam formats, and rubric language change from year to year,
+and some of the courses here were recently revised. Confirm every weighting and date
+against the current official College Board Course and Exam Description for your year, and
+confirm exam dates, times, and locations with your school's AP coordinator before relying
+on them.
