@@ -1,54 +1,65 @@
-# AP Senior Year Mastery Suite
+# AP Study Hub
 
-An interactive web application and comprehensive study roadmap specifically designed for US High School Seniors taking **AP Physics 2**, **AP Statistics**, **AP Literature and Composition**, and **AP Calculus BC**.
+A study planner and practice app for a high school senior taking **AP Physics 2**,
+**AP Calculus BC**, **AP Statistics**, and **AP English Literature & Composition**.
 
-## ✨ Features Included
+## What's inside
 
-1. **Structured Weekly Study Schedule (Monday – Sunday)**
-   - Daily targeted breakdown balancing all 4 rigorous subjects.
-   - Specific time allocations per day (e.g., 1 hr 30 min – 2 hours).
-   - Core topics, required active practice tasks, and proven high-score study techniques.
-   - Interactive daily progress tracker and custom senior milestone goals.
+- **Dashboard** (`/`) — overview of all 4 subjects, the weekly study rhythm
+  (~1.5–2 hrs/day), overall progress bars, and the rule-of-three exam tips.
+- **Subject pages** (`/subjects/[id]`) — College Board-aligned units with
+  expandable topic cards: "what to learn" concepts, key formulas/terms, and
+  6-question practice sets (multiple choice + free response) with hints and
+  toggleable solutions. Checkbox progress persists in `localStorage`.
+- **Schedule** (`/schedule`) — interactive 16-week fall semester plan
+  (Sept 14 – Jan 3) with week selector, per-subject focus, task + daily
+  checkboxes, mock-exam weeks (8 & 14), and a spring exam-prep roadmap
+  (Jan → early May).
+- **Practice Hub** (`/practice`) — 9 timed drills (per-subject + mixed) with
+  countdown timers, sampling real questions from the units, plus exam-week tips.
 
-2. **Complete College Board Units & Topics Breakdown**
-   - **AP Calculus BC**: Units 1–10 (Limits through Infinite Series, Taylor Polynomials, Parametric & Polar functions).
-   - **AP Physics 2**: Units 1–7 (Fluids, Thermodynamics, Electrostatics, DC Circuits, Magnetism & Induction, Optics, Modern/Nuclear Physics).
-   - **AP Statistics**: Units 1–9 (Exploring Data, Sampling & Experimental Design, Probability, Sampling Distributions, Inferences for Proportions, Means, Chi-Square, and Linear Regression Slopes).
-   - **AP Literature & Composition**: Units 1–5, the 6-point scoring rubric (Row A, Row B, Row C), literary device glossary, and essential recommended novels for Free-Response Question 3.
-   - **Formula & Rule Cheat Sheets**: Tested equations, rules of thumb, and College Board grader insights.
+**Content totals:** 29 units, 174 practice questions, 16 weekly plans, 9 drills —
+all hardcoded in `lib/` (`data-physics2.ts`, `data-calcbc.ts`, `data-stats.ts`,
+`data-lit.ts`, `data.ts`).
 
-3. **Interactive Multiple Choice Practice Sets (MCQ)**
-   - College Board exam-aligned questions across all 4 subjects.
-   - Instant response validation, real-time score calculation, and visual feedback.
-   - In-depth answer rationales, formula citations, and senior exam speed tips.
+## Run locally
 
-4. **Free-Response Question (FRQ) Rubric & Timer Drills**
-   - High-yield FRQ prompts (Taylor Series error bounds, Thermodynamics PV cycles, 4-step two-sample hypothesis testing, and AP Lit Q3 Literary Argument).
-   - Built-in exam stopwatch and timer.
-   - Multi-part questions with student scratchpad, scoring rubrics, model solutions, and common student mistake warnings.
-
-5. **Exam Strategy, Calculator Guides & May Schedule**
-   - Official 4 mandatory TI-84/TI-Nspire graphing calculator skills for Calc BC.
-   - Qualitative/Quantitative Translation (QQT) mastery guide for Physics 2.
-   - The 25-minute survival guide for the AP Stats Investigative Task (Question 6).
-   - 4 proven pathways to capture the elusive Row C Sophistication Point in AP Lit.
-
-## 🚀 Running Locally
+Requires Node 18+.
 
 ```bash
-# Install dependencies
 npm install
-
-# Start the dev server on port 3456
-npm run dev -- -p 3456
+npm run dev
 ```
 
-Open [http://localhost:3456](http://localhost:3456) in your browser.
+Then open http://localhost:3000.
 
-## 🛠️ Tech Stack
+Production build:
 
-- **Framework**: Next.js 16 (App Router)
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS
-- **Icons**: Lucide React
-- **Interactive Polish**: Canvas Confetti
+```bash
+npm run build
+npm start
+```
+
+## Tech
+
+Next.js (App Router, TypeScript) + Tailwind CSS. No auth, no database —
+progress is stored in the browser via `localStorage` (see `lib/progress.tsx`).
+
+## Study schedule summary
+
+**Weekly rhythm:** Mon Physics 2 (100′) · Tue Calc BC (100′) · Wed Stats (90′) ·
+Thu Lit (90′) · Fri weakest subject (60′) · Sat timed drill + review (120′) ·
+Sun light flashcards (30′).
+
+**Arc:** Weeks 1–4 foundations + first mini-mocks · 5–7 E&M/circuits/magnetism,
+integrals, inference · **Week 8 mock #1** · 9–10 optics, modern, volumes,
+chi-square · 11–13 parametric/polar, series, timed sections · **Week 14 mock #2** ·
+15 winter repair · 16 spring launch → Jan–Feb depth, Mar mock #3, Apr polish,
+early-May exams.
+
+## Also in this repo
+
+`src/` contains the **AP Senior Year Mastery Suite** (shadcn-based UI, quiz/FRQ
+views, schedule views) from parallel work on this branch. The root `app/`
+directory currently takes routing precedence in dev; see that suite's own docs
+in git history for details.
