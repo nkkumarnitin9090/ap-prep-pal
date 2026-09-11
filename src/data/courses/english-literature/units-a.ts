@@ -646,4 +646,227 @@ export const unitsA: Unit[] = [
       ],
     },
   },
+  /* ------------------------------------------------------------------ */
+  {
+    id: "lit-u4",
+    number: "4",
+    title: "Short Fiction II",
+    examWeight: "16-20%",
+    examWeightMidpoint: 18,
+    classPeriods: "~18-20 class periods",
+    summary:
+      "The second pass through short fiction, where narration, character, and structure have to do more than identify themselves. Track how far the telling sits from a mind, when the vantage point shifts, what a foil makes visible, and how the order of revelation manufactures irony the characters cannot hear.",
+    cedNote: {
+      tone: "info",
+      text: "Unit 1 asked you to notice that a narrator can be limited. This unit asks you to argue from that limitation: treat distance, a shift in perspective, and a withheld fact as designs that produce irony, not as defects in the storytelling.",
+    },
+    topics: [
+      {
+        id: "lit-u4-t1",
+        title: "Narrative distance: how close the telling sits to a mind",
+        detail:
+          "Mastery is measuring the gap between a character's feelings and the language that reports them. Close distance borrows the character's diction; far distance describes the same moment as if it belonged to someone else.",
+      },
+      {
+        id: "lit-u4-t2",
+        title: "Shifts in perspective and what they expose",
+        detail:
+          "When a story changes who can see, or when a first-person narrator suddenly regards a past self as a stranger, name the new vantage and the fact that only that vantage makes available.",
+      },
+      {
+        id: "lit-u4-t3",
+        title: "Unreliability as a design the reader can see past",
+        detail:
+          "Escalate past the label. Cite the detail that contradicts the narrator's account, then explain what the story gains by letting the narrator keep believing the version that does not hold.",
+      },
+      {
+        id: "lit-u4-t4",
+        title: "Character foils and the work of pairing",
+        detail:
+          "A foil is not an opposite for decoration. Explain the single quality the pairing isolates - a choice, a fear, a capacity - that neither character would display as clearly alone.",
+      },
+      {
+        id: "lit-u4-t5",
+        title: "Complexities in what characters can say to one another",
+        detail:
+          "Track what each person knows, what each will admit, and what the correspondence or conversation edits out. The relationship is the pattern of those omissions.",
+      },
+      {
+        id: "lit-u4-t6",
+        title: "Structure that creates irony: order, juxtaposition, withheld fact",
+        detail:
+          "Irony here is an effect of arrangement. Show how placing a public image beside a private document, or a boast beside its evidence, makes a second meaning the speaker did not intend.",
+      },
+      {
+        id: "lit-u4-t7",
+        title: "Setting as the pressure a second-pass story will not let you ignore",
+        detail:
+          "The house, the mill, the rented room should constrain a choice. Name what the place permits, what it forbids, and which character the constraint is actually describing.",
+      },
+      {
+        id: "lit-u4-t8",
+        title: "Commentary that accounts for irony instead of announcing it",
+        detail:
+          "Do not write 'this is ironic.' State the two meanings that occupy the same sentence, who can hear each one, and what the mismatch asks the reader to judge.",
+      },
+    ],
+    keySkills: [
+      "Name the distance of the narration in a single clause: whose diction, whose knowledge, whose judgment the sentence is using",
+      "Mark the sentence where perspective shifts, then state the fact that only the new vantage can see",
+      "Prove unreliability with a contradiction the text itself supplies, not with a suspicion you brought to it",
+      "Reduce a foil pairing to one isolated quality and show that quality doing interpretive work",
+      "Treat juxtaposition as an argument: explain what the two adjacent details make visible together",
+      "Write irony as a double meaning with an audience, never as a synonym for 'surprising' or 'sad'",
+    ],
+    commonMistakes: [
+      "Calling any first-person narrator unreliable because first person is on the vocabulary list, without a contradicting detail.",
+      "Treating a foil as a villain-and-hero diagram instead of asking what one quality the pairing isolates.",
+      "Spotting irony and stopping: 'the ending is ironic' earns no commentary unless you state the two meanings and who can hear them.",
+      "Confusing a shift in time with a shift in perspective - a flashback is not automatically a new mind.",
+      "Reading a public account (a speech, a photograph caption, a letter) as the story's last word rather than as a version the narration may undercut.",
+      "Summarizing the plot of the second half of a story and calling the summary a discussion of structure.",
+    ],
+    practiceSet: {
+      id: "lit-u4-set",
+      title: "Unit 4 Practice: Distance, Foil, and Structural Irony",
+      focus:
+        "Reading a first-person account against the evidence it withholds, using a foil and a juxtaposition to name the irony the narrator cannot quite claim.",
+      estimatedMinutes: 45,
+      calculator: "n/a",
+      problems: [
+        {
+          id: "lit-u4-q1",
+          kind: "multiple-choice",
+          label: "MCQ 1",
+          stimulus:
+            "PRACTICE PASSAGE (original, written for this exercise - not an excerpt from any published work)\n\nI told the committee I had been the one to stay. That was accurate enough. After the mill closed, my sister packed a suitcase that would not zip and took the last bus toward a city she had never seen, while I kept the house, the mortgage, the three rooms that still smelled of our father's tobacco. The committee liked that story; they printed it under a photograph of me in the doorway, arms folded, looking as if I had chosen something. What the photograph does not show is the letter I never mailed, the one that asked her to wait until spring. I found it last week in the desk I inherited, still sealed, addressed in a hand I barely recognized as mine. She writes now from a rented room with a window onto a courtyard, and her letters are full of names I do not know. I answer promptly. I tell her the garden is coming along. I do not tell her that I planted nothing this year, or that I have begun to sleep in the front room so I will not have to walk past her empty bed.",
+          prompt:
+            "The narrator's qualifier \"That was accurate enough\" functions primarily to",
+          choices: [
+            { label: "A", text: "confess that the narrator lied outright to the committee about remaining in town" },
+            { label: "B", text: "signal that the public account is technically true and privately incomplete" },
+            { label: "C", text: "show that the narrator can no longer remember what was said to the committee" },
+            { label: "D", text: "blame the committee for twisting a simple statement into a legend of sacrifice" },
+            { label: "E", text: "establish that the sister, not the narrator, invented the story of who stayed" },
+          ],
+          answer: "B",
+          solution:
+            "\"Accurate enough\" grants the facts - the narrator did stay - and withholds the motive. The rest of the passage supplies what the qualifier has already flagged: a photograph that looks like a choice, a letter that asked her to wait, a garden reported but never planted. The phrase is the first crack between the story told and the story lived.",
+          note:
+            "A overstates the gap into a lie; the narrator did stay, which is why the unreliability is limitation rather than fraud. C invents amnesia the voice never claims. D and E move the editing work onto other people, but the hedging is the narrator's own.",
+        },
+        {
+          id: "lit-u4-q2",
+          kind: "multiple-choice",
+          label: "MCQ 2",
+          stimulus:
+            "PRACTICE PASSAGE (original, written for this exercise - not an excerpt from any published work)\n\nI told the committee I had been the one to stay. That was accurate enough. After the mill closed, my sister packed a suitcase that would not zip and took the last bus toward a city she had never seen, while I kept the house, the mortgage, the three rooms that still smelled of our father's tobacco. The committee liked that story; they printed it under a photograph of me in the doorway, arms folded, looking as if I had chosen something. What the photograph does not show is the letter I never mailed, the one that asked her to wait until spring. I found it last week in the desk I inherited, still sealed, addressed in a hand I barely recognized as mine. She writes now from a rented room with a window onto a courtyard, and her letters are full of names I do not know. I answer promptly. I tell her the garden is coming along. I do not tell her that I planted nothing this year, or that I have begun to sleep in the front room so I will not have to walk past her empty bed.",
+          prompt:
+            "The sister functions as a foil chiefly because her departure and new correspondence make visible",
+          choices: [
+            { label: "A", text: "that she is selfish where the narrator is loyal, so the story can judge her for leaving" },
+            { label: "B", text: "that city life is morally superior to life in a mill town" },
+            { label: "C", text: "the difference between a life that has acquired names and a staying that has emptied the house" },
+            { label: "D", text: "that the narrator was legally required to keep the mortgage after the mill closed" },
+            { label: "E", text: "that the two siblings were never close enough for her leaving to matter" },
+          ],
+          answer: "C",
+          solution:
+            "The pairing isolates one quality: motion versus stasis, and what each produces. Her suitcase will not zip; her letters are \"full of names I do not know\"; she has a courtyard window. Against that fullness the narrator's staying becomes three rooms that still smell of a dead father, a garden not planted, a bed he will not walk past. The foil does not villainize her; it measures what his remaining has cost.",
+          note:
+            "A is the foil-as-moral-diagram trap this unit is built to break; the passage never asks you to condemn the sister. B imports a town-versus-city thesis the text does not argue. E contradicts the empty bed and the unsent letter, both of which prove the leaving still governs the house.",
+        },
+        {
+          id: "lit-u4-q3",
+          kind: "multiple-choice",
+          label: "MCQ 3",
+          stimulus:
+            "PRACTICE PASSAGE (original, written for this exercise - not an excerpt from any published work)\n\nI told the committee I had been the one to stay. That was accurate enough. After the mill closed, my sister packed a suitcase that would not zip and took the last bus toward a city she had never seen, while I kept the house, the mortgage, the three rooms that still smelled of our father's tobacco. The committee liked that story; they printed it under a photograph of me in the doorway, arms folded, looking as if I had chosen something. What the photograph does not show is the letter I never mailed, the one that asked her to wait until spring. I found it last week in the desk I inherited, still sealed, addressed in a hand I barely recognized as mine. She writes now from a rented room with a window onto a courtyard, and her letters are full of names I do not know. I answer promptly. I tell her the garden is coming along. I do not tell her that I planted nothing this year, or that I have begun to sleep in the front room so I will not have to walk past her empty bed.",
+          prompt:
+            "Placing the committee's photograph beside the unsent letter is a structural choice that chiefly",
+          choices: [
+            { label: "A", text: "proves the photograph was staged by the committee without the narrator's knowledge" },
+            { label: "B", text: "ironizes the public image of chosen steadfastness against private evidence of a plea the narrator never sent" },
+            { label: "C", text: "establishes a chronology so the reader can date the mill's closing" },
+            { label: "D", text: "suggests that the narrator intends to mail the letter now that it has been found" },
+            { label: "E", text: "identifies the sister, not the narrator, as the true subject of the photograph" },
+          ],
+          answer: "B",
+          solution:
+            "The photograph captions staying as a choice - \"looking as if I had chosen something.\" The next sentence produces the document that contradicts the caption: a sealed request that she wait. Structure does the ironic work. The two images occupy the same life, and only the reader is positioned to hold them at once.",
+          note:
+            "A turns juxtaposition into a conspiracy about how the picture was taken. D predicts an action the passage never takes; finding the letter is the point, not mailing it. C treats arrangement as timeline, which is the plot-summary version of a structure question.",
+        },
+        {
+          id: "lit-u4-q4",
+          kind: "multiple-choice",
+          label: "MCQ 4",
+          stimulus:
+            "PRACTICE PASSAGE (original, written for this exercise - not an excerpt from any published work)\n\nI told the committee I had been the one to stay. That was accurate enough. After the mill closed, my sister packed a suitcase that would not zip and took the last bus toward a city she had never seen, while I kept the house, the mortgage, the three rooms that still smelled of our father's tobacco. The committee liked that story; they printed it under a photograph of me in the doorway, arms folded, looking as if I had chosen something. What the photograph does not show is the letter I never mailed, the one that asked her to wait until spring. I found it last week in the desk I inherited, still sealed, addressed in a hand I barely recognized as mine. She writes now from a rented room with a window onto a courtyard, and her letters are full of names I do not know. I answer promptly. I tell her the garden is coming along. I do not tell her that I planted nothing this year, or that I have begun to sleep in the front room so I will not have to walk past her empty bed.",
+          prompt:
+            "The phrase \"a hand I barely recognized as mine\" most nearly suggests that the narrator",
+          choices: [
+            { label: "A", text: "suspects someone else wrote the letter and left it in the desk" },
+            { label: "B", text: "has grown proud of how his handwriting has improved since the mill closed" },
+            { label: "C", text: "cannot read the address because the ink has faded" },
+            { label: "D", text: "now stands at enough distance from his past self that even his own writing looks like another person's" },
+            { label: "E", text: "intends to deny authorship if the sister ever learns of the letter" },
+          ],
+          answer: "D",
+          solution:
+            "The letter is \"addressed in a hand I barely recognized as mine\": the narrator claims the writing and simultaneously cannot own it. That is narrative distance inside a first-person voice - a present self looking at a past act as if it belonged to a stranger, which is exactly the vantage the rest of the passage needs in order to re-see the story of staying.",
+          note:
+            "A literalizes distance into a forgery plot, the same error Unit 1's signature simile invited. C invents a physical obstacle. E assigns a future tactic the voice never contemplates; the estrangement is inward, not strategic.",
+        },
+        {
+          id: "lit-u4-q5",
+          kind: "multiple-choice",
+          label: "MCQ 5",
+          stimulus:
+            "PRACTICE PASSAGE (original, written for this exercise - not an excerpt from any published work)\n\nI told the committee I had been the one to stay. That was accurate enough. After the mill closed, my sister packed a suitcase that would not zip and took the last bus toward a city she had never seen, while I kept the house, the mortgage, the three rooms that still smelled of our father's tobacco. The committee liked that story; they printed it under a photograph of me in the doorway, arms folded, looking as if I had chosen something. What the photograph does not show is the letter I never mailed, the one that asked her to wait until spring. I found it last week in the desk I inherited, still sealed, addressed in a hand I barely recognized as mine. She writes now from a rented room with a window onto a courtyard, and her letters are full of names I do not know. I answer promptly. I tell her the garden is coming along. I do not tell her that I planted nothing this year, or that I have begun to sleep in the front room so I will not have to walk past her empty bed.",
+          prompt:
+            "The narrator's report that he tells his sister \"the garden is coming along\" works together with what he \"do[es] not tell her\" chiefly to",
+          choices: [
+            { label: "A", text: "prove that he remains a dedicated gardener despite the mill's closing" },
+            { label: "B", text: "show that the correspondence continues the same edited self he offered the committee" },
+            { label: "C", text: "hint that he wants her to return in time to help plant next year's beds" },
+            { label: "D", text: "establish that the climate this year has made gardening impossible" },
+            { label: "E", text: "reveal that he writes poorly and so prefers a conventional remark" },
+          ],
+          answer: "B",
+          solution:
+            "\"I answer promptly. I tell her the garden is coming along. I do not tell her that I planted nothing this year\" restages the committee speech in private. The garden is the new photograph: a picture of tending that conceals an empty plot and an empty bed. The omission is not a new vice; it is the same design, now aimed at the one person whose leaving made the design necessary.",
+          note:
+            "A takes the garden at the value the narrator assigns it in the letter, which is the reliability trap. C and D invent motives and weather the passage never supplies. The question is about what the double report - told / not told - does, not about horticulture.",
+        },
+        {
+          id: "lit-u4-q6",
+          kind: "free-response",
+          label: "FRQ 1",
+          stimulus:
+            "PRACTICE PASSAGE (original, written for this exercise - not an excerpt from any published work)\n\nI told the committee I had been the one to stay. That was accurate enough. After the mill closed, my sister packed a suitcase that would not zip and took the last bus toward a city she had never seen, while I kept the house, the mortgage, the three rooms that still smelled of our father's tobacco. The committee liked that story; they printed it under a photograph of me in the doorway, arms folded, looking as if I had chosen something. What the photograph does not show is the letter I never mailed, the one that asked her to wait until spring. I found it last week in the desk I inherited, still sealed, addressed in a hand I barely recognized as mine. She writes now from a rented room with a window onto a courtyard, and her letters are full of names I do not know. I answer promptly. I tell her the garden is coming along. I do not tell her that I planted nothing this year, or that I have begun to sleep in the front room so I will not have to walk past her empty bed.",
+          prompt:
+            "In one paragraph of roughly 180-220 words, make and support a single defensible claim about how narrative perspective and structural juxtaposition characterize the narrator's relationship to the story of staying. Budget 18 minutes: three to claim, twelve to draft, three to cut summary.",
+          parts: [
+            { label: "(a)", text: "Open with an arguable claim that names an interpretation of the telling, not a topic such as 'unreliability' or 'family.'" },
+            { label: "(b)", text: "Embed at least two short quotations inside your own sentences." },
+            { label: "(c)", text: "Account for one juxtaposition (photograph and letter, or told garden and untold bed) as a structural choice that produces irony." },
+            { label: "(d)", text: "Close by connecting the foil of the sister's letters to the narrator's present distance from his own handwriting, without restating the first sentence." },
+          ],
+          solution:
+            "Model paragraph: The narrator's staying is a story he can recite and can no longer quite inhabit, and the passage characterizes him by letting that gap do the work. He opens with a public sentence - \"I had been the one to stay\" - then immediately qualifies it as \"accurate enough,\" a hedge that admits completeness was never the point. The committee's photograph freezes the hedge into a pose, \"looking as if I had chosen something,\" and the narration undercuts the pose in the next breath by producing the sealed letter that asked his sister to wait. The juxtaposition is the irony: the image of choice sits beside the evidence of a plea he could not send, and only the reader holds both at once. Finding that letter \"in a hand I barely recognized as mine\" is a shift in narrative distance, the present voice regarding a past act as another person's writing. Against that estrangement the sister's foil is almost cruelly specific. Her letters are \"full of names I do not know,\" while his replies continue the committee version in miniature - a garden \"coming along\" that he never planted, an empty bed he will not walk past. What he will not tell her is the same thing the photograph would not show: that remaining was not a virtue he chose so much as a room he has not left.\n\nThe paragraph never retells the mill closing. Every sentence is a claim about how the telling is built.",
+          rubric: [
+            { points: "1 pt", criterion: "Thesis / claim: a defensible interpretation of how perspective and structure characterize the narrator, not a list of devices or a plot summary." },
+            { points: "2 pts", criterion: "Evidence: at least two brief, embedded quotations that actually support the claim (photograph/letter, hedge, handwriting, garden/bed, sister's names)." },
+            { points: "2 pts", criterion: "Commentary: explains how the arrangement and the limited telling produce characterization, with more commentary than quotation; irony is stated as two meanings, not as a label." },
+            { points: "1 pt", criterion: "Line of reasoning: the foil or the final omissions advance the same claim the opening sentence made, rather than starting a second essay." },
+            { points: "0 pts", criterion: "Deduct nothing for style, but if any sentence only retells who stayed and who left, cross it out and confirm the paragraph still stands." },
+          ],
+          note:
+            "This is FRQ 2 compression with Unit 4's extra demand: you have to talk about how the story is arranged, not only about what the narrator feels. If your paragraph could be written without the photograph sitting next to the letter, you have not yet analyzed structure.",
+        },
+      ],
+    },
+  },
 ];
+
