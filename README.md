@@ -18,7 +18,7 @@ A study planner and practice app for a high school senior taking **AP Physics 2*
 - **Practice Hub** (`/practice`) — 9 timed drills (per-subject + mixed) with
   countdown timers, sampling real questions from the units, plus exam-week tips.
 
-**Content totals:** 29 units, 174 practice questions, 16 weekly plans, 9 drills —
+**Content totals:** 28 units, 168 practice questions, 16 weekly plans, 9 drills —
 all hardcoded in `lib/` (`data-physics2.ts`, `data-calcbc.ts`, `data-stats.ts`,
 `data-lit.ts`, `data.ts`).
 
