@@ -1,10 +1,8 @@
 import type { Course } from "@/data/types";
+import { unitsA } from "./units-a";
+import { unitsB } from "./units-b";
+import { bigIdeas, frqTypes, resources, skillCategories } from "./reference";
 
-/**
- * PLACEHOLDER. This module exists so the app compiles while the full AP English
- * Literature and Composition content (9 CED units, skill categories, FRQ
- * rubrics, and passage-based practice) is authored. Replace wholesale.
- */
 export const englishLiterature: Course = {
   slug: "ap-english-literature",
   name: "AP English Literature and Composition",
@@ -12,7 +10,7 @@ export const englishLiterature: Course = {
   accent: "rose",
   tagline: "Read closely, argue precisely.",
   description:
-    "Nine units alternating short fiction, poetry, and longer fiction or drama, built around eight big ideas and three timed essays.",
+    "Nine units alternating short fiction, poetry, and longer fiction or drama, built around the CED big ideas and three timed essays.",
   examDate: "2027-05-05",
   examSession: "Session 1 - typically 8 a.m. local time",
   examSections: [
@@ -31,6 +29,9 @@ export const englishLiterature: Course = {
       calculator: "n/a",
     },
   ],
-  units: [],
-  resources: [],
+  units: [...unitsA, ...unitsB],
+  bigIdeas,
+  skillCategories,
+  frqTypes,
+  resources,
 };
