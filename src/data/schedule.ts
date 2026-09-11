@@ -317,6 +317,297 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
     ],
   },
+  {
+    week: 7,
+    dateRange: "Oct 19 - Oct 25",
+    startDate: "2026-10-19",
+    phase: "build",
+    goal: "Turn derivatives into interpretation: rates in context, and start probability.",
+    assignments: [
+      {
+        course: "ap-calculus-bc",
+        unit: "Unit 4: Contextual Applications of Differentiation",
+        focus:
+          "Interpreting the derivative with units, straight-line motion with position, velocity, and acceleration, and deciding when an object speeds up.",
+      },
+      {
+        course: "ap-statistics",
+        unit: "Unit 4: Probability, Random Variables, and Probability Distributions",
+        focus:
+          "Simulation to estimate probability, the addition and complement rules, conditional probability, and testing independence numerically.",
+      },
+      {
+        course: "ap-physics-2",
+        unit: "Unit 10: Electric Force, Field, and Potential",
+        focus:
+          "Uniform fields between parallel plates, electric potential energy versus potential, and equipotential surfaces.",
+      },
+      {
+        course: "ap-english-literature",
+        unit: "Unit 3: Longer Fiction or Drama I",
+        focus:
+          "Narrative perspective and reliability: what the narrator or speaker can and cannot see, and what that does to the reader.",
+      },
+    ],
+    practice: [
+      {
+        course: "ap-calculus-bc",
+        practiceSetId: "calc-u4-ps",
+        label: "Questions 1-3 on motion and related rates setup.",
+      },
+      {
+        course: "ap-statistics",
+        practiceSetId: "stat-u4-ps",
+        label: "Questions 1-3 on probability rules and conditional probability.",
+      },
+      {
+        course: "ap-physics-2",
+        practiceSetId: "phys-u9-ps",
+        label: "Spaced retake of two thermodynamics items three weeks after first study.",
+      },
+    ],
+  },
+  {
+    week: 8,
+    dateRange: "Oct 26 - Nov 1",
+    startDate: "2026-10-26",
+    phase: "build",
+    goal: "Finish related rates and linearization, and finish the electrostatics unit.",
+    assignments: [
+      {
+        course: "ap-calculus-bc",
+        unit: "Unit 4: Contextual Applications of Differentiation",
+        focus:
+          "Related rates from geometric relationships, linear approximation and whether it over- or underestimates, and L'Hospital's rule.",
+      },
+      {
+        course: "ap-statistics",
+        unit: "Unit 4: Probability, Random Variables, and Probability Distributions",
+        focus:
+          "Discrete random variables, expected value and standard deviation, and combining independent random variables.",
+      },
+      {
+        course: "ap-physics-2",
+        unit: "Unit 10: Electric Force, Field, and Potential",
+        focus:
+          "Capacitors, capacitance and dielectrics, and conservation of energy for a charge moving through a potential difference.",
+      },
+      {
+        course: "ap-english-literature",
+        unit: "Unit 3: Longer Fiction or Drama I",
+        focus:
+          "Finish the work and write a literary argument thesis that makes a defensible interpretive claim about the whole text.",
+      },
+    ],
+    practice: [
+      {
+        course: "ap-calculus-bc",
+        practiceSetId: "calc-u4-ps",
+        label: "Full set, timed; every related-rates answer needs units and a labeled diagram.",
+      },
+      {
+        course: "ap-physics-2",
+        practiceSetId: "phys-u10-ps",
+        label: "Complete electrostatics set with a sketch of the field for each configuration.",
+      },
+      {
+        course: "ap-english-literature",
+        practiceSetId: "lit-u3-set",
+        label: "Longer fiction passage set, then outline a Q3 literary argument in ten minutes.",
+      },
+    ],
+  },
+  {
+    week: 9,
+    dateRange: "Nov 2 - Nov 8",
+    startDate: "2026-11-02",
+    phase: "build",
+    goal: "Curve analysis with justification language, and finish probability distributions.",
+    assignments: [
+      {
+        course: "ap-calculus-bc",
+        unit: "Unit 5: Analytical Applications of Differentiation",
+        focus:
+          "Mean Value and Extreme Value Theorems, increasing and decreasing intervals, and the first derivative test with justification sentences.",
+      },
+      {
+        course: "ap-statistics",
+        unit: "Unit 4: Probability, Random Variables, and Probability Distributions",
+        focus:
+          "Binomial and geometric settings: recognizing them, computing probabilities, and using mean and standard deviation correctly.",
+      },
+      {
+        course: "ap-physics-2",
+        unit: "Unit 11: Electric Circuits",
+        focus: "Current and conventional direction, EMF and terminal voltage, resistance and resistivity, and Ohm's law.",
+      },
+      {
+        course: "ap-english-literature",
+        unit: "Unit 4: Short Fiction II",
+        focus:
+          "Character change over a story: interpret contrasts and inconsistencies instead of smoothing them over.",
+      },
+    ],
+    practice: [
+      {
+        course: "ap-statistics",
+        practiceSetId: "stat-u4-ps",
+        label: "Full set, including the binomial free response; name the distribution before computing.",
+      },
+      {
+        course: "ap-calculus-bc",
+        practiceSetId: "calc-u5-ps",
+        label: "Questions 1-3 on extrema and the first derivative test.",
+      },
+      {
+        course: "ap-english-literature",
+        practiceSetId: "lit-u4-set",
+        label: "Short fiction set under a strict 30-minute clock.",
+      },
+    ],
+  },
+  {
+    week: 10,
+    dateRange: "Nov 9 - Nov 15",
+    startDate: "2026-11-09",
+    phase: "build",
+    goal: "Optimization and concavity done properly, and sampling distributions started.",
+    assignments: [
+      {
+        course: "ap-calculus-bc",
+        unit: "Unit 5: Analytical Applications of Differentiation",
+        focus:
+          "Concavity and the second derivative test, connecting f, f', and f'' across graphs, optimization problems, and implicit relationships.",
+      },
+      {
+        course: "ap-statistics",
+        unit: "Unit 5: Sampling Distributions",
+        focus:
+          "Sampling variability, bias versus variability, and the sampling distribution of a sample proportion with its conditions.",
+      },
+      {
+        course: "ap-physics-2",
+        unit: "Unit 11: Electric Circuits",
+        focus:
+          "Electric power, series and parallel resistors, and the loop and junction rules on multi-branch circuits.",
+      },
+      {
+        course: "ap-english-literature",
+        unit: "Unit 4: Short Fiction II",
+        focus:
+          "Finish Short Fiction II with a timed prose analysis essay focused on commentary that explains, not restates.",
+      },
+    ],
+    practice: [
+      {
+        course: "ap-calculus-bc",
+        practiceSetId: "calc-u5-ps",
+        label: "Full set, timed, with a justification sentence written for every extremum claim.",
+      },
+      {
+        course: "ap-physics-2",
+        practiceSetId: "phys-u10-ps",
+        label: "Retake the two capacitor items from memory before moving deeper into circuits.",
+      },
+      {
+        course: "ap-english-literature",
+        practiceSetId: "lit-u4-set",
+        label: "Finish the set, then rewrite two commentary sentences from the essay to be more specific.",
+      },
+    ],
+  },
+  {
+    week: 11,
+    dateRange: "Nov 16 - Nov 22",
+    startDate: "2026-11-16",
+    phase: "build",
+    goal: "Open integration, finish sampling distributions, and finish circuits.",
+    assignments: [
+      {
+        course: "ap-calculus-bc",
+        unit: "Unit 6: Integration and Accumulation of Change",
+        focus:
+          "Riemann sums and accumulation, the definite integral as accumulated change, and the Fundamental Theorem of Calculus with a variable upper limit.",
+      },
+      {
+        course: "ap-statistics",
+        unit: "Unit 5: Sampling Distributions",
+        focus:
+          "Sampling distributions of a sample mean, the central limit theorem, and distributions for a difference of proportions or means.",
+      },
+      {
+        course: "ap-physics-2",
+        unit: "Unit 11: Electric Circuits",
+        focus: "Capacitors in circuits, RC behavior at t = 0 and long after, and reasoning about brightness and current changes.",
+      },
+      {
+        course: "ap-english-literature",
+        unit: "Unit 5: Poetry II",
+        focus: "Extended metaphor and conceit: how a comparison develops and where it strains or breaks.",
+      },
+    ],
+    practice: [
+      {
+        course: "ap-statistics",
+        practiceSetId: "stat-u5-ps",
+        label: "Complete set; state shape, center, and variability for every sampling distribution.",
+      },
+      {
+        course: "ap-physics-2",
+        practiceSetId: "phys-u11-ps",
+        label: "Complete circuits set, including the multi-loop free response.",
+      },
+      {
+        course: "ap-calculus-bc",
+        practiceSetId: "calc-u6-ps",
+        label: "Questions 1-2 on Riemann sums and accumulation functions.",
+      },
+    ],
+  },
+  {
+    week: 12,
+    dateRange: "Nov 23 - Nov 29",
+    startDate: "2026-11-23",
+    phase: "build",
+    goal: "Consolidate the first half of the fall with no new content and a real break.",
+    assignments: [
+      {
+        course: "ap-calculus-bc",
+        unit: "Units 1-5 review (no new content)",
+        focus:
+          "One 45-minute session clearing the derivative entries in the error log; skip the optimization problems you already own.",
+      },
+      {
+        course: "ap-statistics",
+        unit: "Units 1-5 review (no new content)",
+        focus: "Rebuild the sampling-distribution conditions from memory on one page, then check it against notes.",
+      },
+      {
+        course: "ap-physics-2",
+        unit: "Units 8-11 review (no new content)",
+        focus: "Reread the two conceptual maps that feel weakest and redo one circuits item you missed.",
+      },
+      {
+        course: "ap-english-literature",
+        unit: "Unit 5: Poetry II",
+        focus:
+          "Reading only: two poems a day with light annotation and no essay this week. Keep the habit, drop the intensity.",
+      },
+    ],
+    practice: [
+      {
+        course: "ap-calculus-bc",
+        practiceSetId: "calc-u1-ps",
+        label: "Spaced retake of the limits set, ten weeks after first study.",
+      },
+      {
+        course: "ap-statistics",
+        practiceSetId: "stat-u3-ps",
+        label: "Spaced retake of the study-design set; these items reappear on every mock exam.",
+      },
+    ],
+    note: "Thanksgiving week: deliberately light. Two short weekday sessions and one weekend session, no timed exam, and no new units. Rest is part of the plan, not a failure of it.",
+  },
 ];
 
 export const weeklyPlan: DayPlan[] = [
