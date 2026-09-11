@@ -9,7 +9,6 @@ import {
   CollapsibleContent,
   CollapsibleTrigger,
 } from "@/components/ui/collapsible";
-import { cn } from "@/lib/utils";
 
 /**
  * Worked solutions stay closed until the student explicitly asks for them.
@@ -26,11 +25,7 @@ export function SolutionReveal({
   const [open, setOpen] = React.useState(false);
 
   return (
-    <Collapsible
-      open={open}
-      onOpenChange={setOpen}
-      className={cn(open && "w-full basis-full")}
-    >
+    <Collapsible open={open} onOpenChange={setOpen} className="min-w-0 w-full">
       <CollapsibleTrigger asChild>
         <Button variant="outline" size="sm">
           {open ? (

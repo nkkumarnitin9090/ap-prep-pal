@@ -100,9 +100,7 @@ export function FreeResponseProblem({
         </div>
       ) : null}
 
-      <div className="flex flex-wrap items-center gap-2">
-        <SolutionReveal solution={problem.solution} label="model response" />
-      </div>
+      <SolutionReveal solution={problem.solution} label="model response" />
 
       {problem.note ? (
         <p className="flex items-start gap-2 text-xs text-muted-foreground">

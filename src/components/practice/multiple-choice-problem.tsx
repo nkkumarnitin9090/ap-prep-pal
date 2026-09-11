@@ -98,7 +98,6 @@ export function MultipleChoiceProblem({
             Clear
           </Button>
         ) : null}
-        <SolutionReveal solution={problem.solution} />
       </div>
 
       <div aria-live="polite">
@@ -125,13 +124,14 @@ export function MultipleChoiceProblem({
         ) : null}
       </div>
 
-      {/* Coaching notes often name the tempting distractor, so they wait for an attempt. */}
       {checked && problem.note ? (
         <p className="flex items-start gap-2 text-xs text-muted-foreground">
           <Lightbulb className="mt-0.5 size-3.5 shrink-0" aria-hidden />
           <span className="text-pretty">{problem.note}</span>
         </p>
       ) : null}
+
+      <SolutionReveal solution={problem.solution} />
     </li>
   );
 }
