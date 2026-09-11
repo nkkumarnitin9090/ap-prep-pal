@@ -10,8 +10,9 @@ import { OverallProgress } from "@/components/dashboard/overall-progress";
 import { WeekFocus } from "@/components/dashboard/week-focus";
 import { summarizeCourse } from "@/lib/summaries";
 import { daysUntil, formatLongDate } from "@/lib/dates";
+import { findActiveWeekIndex } from "@/lib/schedule";
 import { courses, totalTopicCount } from "@/data/courses";
-import { getCurrentWeekIndex, scheduleWeeks, weeklyPlan } from "@/data/schedule";
+import { scheduleWeeks, weeklyPlan } from "@/data/schedule";
 
 /** The dashboard is date-driven, so it is rendered per request rather than at build time. */
 export const dynamic = "force-dynamic";
@@ -36,23 +37,26 @@ export default function DashboardPage() {
 
   const daysBySlug = new Map(countdowns.map((entry) => [entry.course.slug, entry.daysLeft]));
 
-  const weekIndex = getCurrentWeekIndex(today);
+  const weekIndex = findActiveWeekIndex(scheduleWeeks, today);
   const allExamsPast = countdowns.every((entry) => entry.daysLeft < 0);
   const currentWeek =
     weekIndex >= 0 && !allExamsPast ? (scheduleWeeks[weekIndex] ?? null) : null;
   const firstWeek = scheduleWeeks[0] ?? null;
+  const lastWeek = scheduleWeeks[scheduleWeeks.length - 1] ?? null;
 
   let weekStatus: string;
   if (allExamsPast) {
     weekStatus = "Every exam date has passed. Keep the checklists as a record of what you covered.";
   } else if (weekIndex < 0) {
-    weekStatus = firstWeek
-      ? `The plan starts the week of ${firstWeek.dateRange}, in ${daysUntil(firstWeek.startDate, today)} days.`
-      : "The week-by-week schedule is being finalized.";
+    if (firstWeek && daysUntil(firstWeek.startDate, today) > 0) {
+      weekStatus = `The plan starts the week of ${firstWeek.dateRange}, in ${daysUntil(firstWeek.startDate, today)} days.`;
+    } else if (lastWeek) {
+      weekStatus = `The published plan currently runs through week ${lastWeek.week} (${lastWeek.dateRange}). Later weeks will appear here as they are written.`;
+    } else {
+      weekStatus = "The week-by-week schedule is being finalized.";
+    }
   } else {
-    weekStatus = currentWeek
-      ? `Today is ${formatLongDate(today.toISOString().slice(0, 10))}.`
-      : "The week-by-week schedule is being finalized.";
+    weekStatus = `Today is ${formatLongDate(today.toISOString().slice(0, 10))}.`;
   }
 
   const weeklyMinutes = weeklyPlan.reduce((sum, day) => sum + day.totalMinutes, 0);

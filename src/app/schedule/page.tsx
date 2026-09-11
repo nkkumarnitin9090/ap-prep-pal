@@ -8,8 +8,9 @@ import { EmptyState, PageHeader, PageShell, SectionHeading } from "@/components/
 import { WeekRow } from "@/components/schedule/week-row";
 import { WeeklyRhythm } from "@/components/schedule/weekly-rhythm";
 import { phaseStyles } from "@/lib/content";
+import { findActiveWeekIndex, isPlanWeekPast } from "@/lib/schedule";
 import { cn } from "@/lib/utils";
-import { getCurrentWeekIndex, phaseLabels, scheduleWeeks, weeklyPlan } from "@/data/schedule";
+import { phaseLabels, scheduleWeeks, weeklyPlan } from "@/data/schedule";
 import type { SchedulePhase, ScheduleWeek } from "@/data/types";
 
 /** The current-week highlight depends on today's date. */
@@ -37,9 +38,11 @@ function groupByPhase(weeks: ScheduleWeek[]): PhaseGroup[] {
 }
 
 export default function SchedulePage() {
-  const currentIndex = getCurrentWeekIndex(new Date());
+  const today = new Date();
+  const currentIndex = findActiveWeekIndex(scheduleWeeks, today);
   const currentWeek = currentIndex >= 0 ? scheduleWeeks[currentIndex] : undefined;
   const groups = groupByPhase(scheduleWeeks);
+  const lastWeek = scheduleWeeks[scheduleWeeks.length - 1];
 
   return (
     <PageShell className="space-y-8">
@@ -87,7 +90,7 @@ export default function SchedulePage() {
           title="Year plan"
           description={
             scheduleWeeks.length > 0
-              ? `${scheduleWeeks.length} planned weeks from September to the May 2027 exams.`
+              ? `${scheduleWeeks.length} planned ${scheduleWeeks.length === 1 ? "week" : "weeks"}, ${scheduleWeeks[0].dateRange} through ${scheduleWeeks[scheduleWeeks.length - 1].dateRange}.`
               : "The week-by-week plan is being written."
           }
         />
@@ -123,13 +126,20 @@ export default function SchedulePage() {
                         key={week.week}
                         week={week}
                         isCurrent={index === currentIndex}
-                        isPast={currentIndex >= 0 && index < currentIndex}
+                        isPast={isPlanWeekPast(scheduleWeeks, index, today)}
                       />
                     );
                   })}
                 </ul>
               </div>
             ))}
+            {lastWeek && lastWeek.phase !== "exam-weeks" ? (
+              <EmptyState
+                icon={<CalendarRange className="size-5" aria-hidden />}
+                title="The rest of the year is being written"
+                description={`The published plan currently ends at week ${lastWeek.week} (${lastWeek.dateRange}). Later weeks will appear here as they are added.`}
+              />
+            ) : null}
           </div>
         )}
       </section>
