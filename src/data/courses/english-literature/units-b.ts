@@ -262,4 +262,258 @@ export const unitsB: Unit[] = [
       ],
     },
   },
+  /* ------------------------------------------------------------------ */
+  {
+    id: "lit-u7",
+    number: "7",
+    title: "Short Fiction III",
+    examWeight: "7-10%",
+    examWeightMidpoint: 8.5,
+    classPeriods: "~10-12 class periods",
+    summary:
+      "The narration unit. Short fiction is where the exam tests whether you can tell the difference between what a story says and what its narrator is willing to say - unreliable narrators, retrospective narrators embarrassed by their younger selves, and free indirect style that fuses a character's idiom with the narrator's sentence.",
+    topics: [
+      {
+        id: "lit-u7-t1",
+        title: "Sources of narrator unreliability",
+        detail:
+          "Unreliability has causes: youth, self-interest, limited access, moral evasion, or secondhand information. Mastery is naming the cause and pointing to the sentence where the narration betrays itself, not merely asserting that a narrator 'cannot be trusted.'",
+      },
+      {
+        id: "lit-u7-t2",
+        title: "Narrative distance and free indirect discourse",
+        detail:
+          "In free indirect style a third-person narrator borrows a character's vocabulary and syntax without quotation marks. Mastery is identifying the words that could only be the character's and explaining what the fusion prevents the reader from doing - usually judging from outside.",
+      },
+      {
+        id: "lit-u7-t3",
+        title: "The retrospective narrator and the gap between selves",
+        detail:
+          "When an older narrator tells a younger self's story, two evaluations run at once. Mastery is separating the boy's belief from the man's verdict and explaining what the story gains by withholding the verdict until the end.",
+      },
+      {
+        id: "lit-u7-t4",
+        title: "Interior representation: reported thought, monologue, stream of consciousness",
+        detail:
+          "Distinguish a narrator summarizing a character's thought from the thought arriving in its own disordered order. Mastery is explaining what a shift into interiority does to the reader's sympathy at that exact point in the story.",
+      },
+      {
+        id: "lit-u7-t5",
+        title: "Frame narrators and secondhand testimony",
+        detail:
+          "A frame narrator who admits to assembling a story from other people's versions makes the act of interpretation part of the story. Mastery is treating that admission as evidence rather than as background.",
+      },
+      {
+        id: "lit-u7-t6",
+        title: "Verbal, situational, and dramatic irony in compressed forms",
+        detail:
+          "In a story of two thousand words a single misapplied word can carry the irony. Mastery is naming which kind of irony operates, who is its target, and whether the narrator is in on it.",
+      },
+      {
+        id: "lit-u7-t7",
+        title: "Epiphany and the weight of the final sentence",
+        detail:
+          "Short fiction often ends on a recognition. Mastery is asking whether the story confirms the recognition, and noticing when the last sentence is the narrator's judgment rather than the character's discovery.",
+      },
+      {
+        id: "lit-u7-t8",
+        title: "Commentary that explains rather than restates",
+        detail:
+          "For every quotation, the next sentence should say what the language does that a paraphrase would lose. If your commentary would survive with the quotation deleted, it is restatement and Row B will cap at 2.",
+      },
+    ],
+    keySkills: [
+      "Ask of every narrator: how do they know this, and what would they prefer not to say?",
+      "Mark words in third-person narration that belong to the character's idiom - the tell for free indirect discourse",
+      "Separate the narrating self from the narrated self in any retrospective story",
+      "Name the irony precisely: verbal (speaker means the opposite), situational (outcome inverts expectation), dramatic (reader knows more)",
+      "Read the last sentence first when a passage set is short, then read forward to see how it was earned",
+      "Quote in fragments of three to eight words embedded in your own sentence, never in block form",
+    ],
+    commonMistakes: [
+      "Calling any narrator with an opinion 'unreliable,' which drains the term of meaning.",
+      "Confusing the narrator with the author, so that an ironic narrator becomes 'Chopin's cruelty' or 'Joyce's bitterness.'",
+      "Treating third-person limited as though it guaranteed accuracy about the character's own feelings.",
+      "Missing free indirect discourse and therefore attributing a character's self-justification to the narrator as fact.",
+      "Writing about a story's theme in general terms when the prompt asks about a particular passage.",
+      "Ending an essay by declaring the story timeless or universal, which readers treat as filler rather than sophistication.",
+    ],
+    practiceSet: {
+      id: "lit-u7-set",
+      title: "Unit 7 Practice: Unreliable and Distant Narration",
+      focus:
+        "Identifying narrative distance, retrospective judgment, and secondhand testimony in Chopin, Joyce, and Wharton, then writing a passage-based prose analysis.",
+      estimatedMinutes: 55,
+      calculator: "n/a",
+      problems: [
+        {
+          id: "lit-u7-q1",
+          kind: "multiple-choice",
+          label: "MCQ 1",
+          prompt:
+            "Which choice best explains the effect of the narration's refusal to name what is approaching Louise Mallard?",
+          stimulus:
+            "Kate Chopin, \"The Story of an Hour\" (1894)\n\nThere was something coming to her and she was waiting for it, fearfully. What was it? She did not know; it was too subtle and elusive to name. But she felt it, creeping out of the sky, reaching toward her through the sounds, the scents, the color that filled the air.\n\nNow her bosom rose and fell tumultuously. She was beginning to recognize this thing that was approaching to possess her, and she was striving to beat it back with her will - as powerless as her two white slender hands would have been.",
+          choices: [
+            {
+              label: "A",
+              text: "It signals that Louise is mentally unwell, so the reader should distrust everything she perceives afterward.",
+            },
+            {
+              label: "B",
+              text: "It keeps the narration a step behind Louise's own understanding, so that the reader watches recognition arrive before either narrator or character will name it.",
+            },
+            {
+              label: "C",
+              text: "It withholds information from the reader that Louise already possesses, creating dramatic irony at her expense.",
+            },
+            {
+              label: "D",
+              text: "It proves the narrator has no access to Louise's mind and is reporting only her outward gestures.",
+            },
+          ],
+          answer: "B",
+          solution:
+            "The narration is close enough to report the question 'What was it?' as Louise's own, but it declines to supply the answer, and the passive, elemental imagery ('creeping out of the sky') keeps the feeling exterior to her for one more beat. That controlled lag is what makes her later whispered 'free, free, free!' land as an admission rather than a statement, and it implicates the reader in the recognition.",
+          note:
+            "A converts narrative technique into diagnosis; her heart trouble is physical and the story never suggests delusion. C reverses the gap - the reader is ahead of Louise here, not behind her. D is contradicted by the interior access on display ('she did not know,' 'striving to beat it back with her will'); the narration is close, just deliberately unhurried.",
+        },
+        {
+          id: "lit-u7-q2",
+          kind: "multiple-choice",
+          label: "MCQ 2",
+          prompt: "The final sentence is best understood as which of the following?",
+          stimulus:
+            "James Joyce, \"Araby,\" from Dubliners (1914) - the closing lines\n\nI lingered before her stall, though I knew my stay was useless, to make my interest in her wares seem the more real. Then I turned away slowly and walked down the middle of the bazaar. I allowed the two pennies to fall against the sixpence in my pocket. I heard a voice call from the end of the gallery that the light was out. The upper part of the hall was now completely dark.\n\nGazing up into the darkness I saw myself as a creature driven and derided by vanity; and my eyes burned with anguish and anger.",
+          choices: [
+            {
+              label: "A",
+              text: "The verdict of an adult narrator on his younger self, in a diction the boy at the bazaar could not have produced.",
+            },
+            {
+              label: "B",
+              text: "The boy's thought recorded at the moment it occurs, which is why it is phrased so formally.",
+            },
+            {
+              label: "C",
+              text: "An intrusion by an omniscient narrator who has otherwise stayed outside the boy's mind.",
+            },
+            {
+              label: "D",
+              text: "Evidence that the narrator is unreliable, since his self-condemnation is clearly excessive.",
+            },
+          ],
+          answer: "A",
+          solution:
+            "'Araby' is retrospective first person: the man tells the boy's story. The closing sentence is where the two selves are furthest apart, because 'a creature driven and derided by vanity' is a moral judgment in an adult's formal register, while the preceding sentences stay in the boy's plain sensory world - pennies, a voice, the dark. The story's structure depends on withholding that verdict until the light goes out.",
+          note:
+            "B is the trap for students who forget that first-person narration has a tense: the boy feels humiliation, but this phrasing is the man's. C is wrong because the narrator is never omniscient - he is the same character, older. D reaches for 'unreliable' because the judgment is harsh, but harshness is not unreliability; nothing in the story suggests the narrator has misrepresented events.",
+        },
+        {
+          id: "lit-u7-q3",
+          kind: "multiple-choice",
+          label: "MCQ 3",
+          prompt:
+            "How does this opening shape the reader's relationship to the story that follows?",
+          stimulus:
+            "Edith Wharton, Ethan Frome (1911), from the prologue\n\nI had the story, bit by bit, from various people, and, as generally happens in such cases, each time it was a different story.\n\n... I simply felt that he lived in a depth of moral isolation too remote for casual access, and I had the sense that his loneliness was not merely the result of his personal plight, tragic as I guessed that to be, but had in it, as Harmon Gow had hinted, the profound accumulated cold of many Starkfield winters.",
+          choices: [
+            {
+              label: "A",
+              text: "It establishes an omniscient narrator whose knowledge of Ethan is complete, so later gaps must be read as Ethan's own repression.",
+            },
+            {
+              label: "B",
+              text: "It announces that the account is assembled from conflicting testimony and from the narrator's inference, making the act of interpretation part of what the reader is asked to judge.",
+            },
+            {
+              label: "C",
+              text: "It discredits the narrator so thoroughly that nothing he reports can be taken as true.",
+            },
+            {
+              label: "D",
+              text: "It shows that the narrator is one of the villagers whose gossip he transcribes without comment.",
+            },
+          ],
+          answer: "B",
+          solution:
+            "Wharton opens by conceding that the versions did not agree, and the second passage is explicitly inference - 'I simply felt,' 'I had the sense,' 'as Harmon Gow had hinted.' The frame therefore does not give us Ethan; it gives us an outsider reconstructing Ethan, and the reader's job includes weighing that reconstruction. Note too that setting is doing character work here, since the isolation is attributed to 'the accumulated cold of many Starkfield winters.'",
+          note:
+            "A is the reflex answer for third-person novels, but this narrator says 'I' in the first sentence. C overcorrects: admitting uncertainty is a bid for credibility, not a forfeit of it, and the distinction between a limited narrator and an untrustworthy one is tested constantly. D is contradicted by 'too remote for casual access' - the narrator is a newcomer, and the whole passage is commentary rather than transcription.",
+        },
+        {
+          id: "lit-u7-q4",
+          kind: "multiple-choice",
+          label: "MCQ 4",
+          prompt:
+            "Louise Mallard has spent the story privately welcoming her widowhood; her husband then walks in unharmed and she dies. Which analysis of the final sentence is most defensible?",
+          stimulus:
+            "Kate Chopin, \"The Story of an Hour\" (1894) - the last sentence\n\nWhen the doctors came they said she had died of heart disease - of joy that kills.",
+          choices: [
+            {
+              label: "A",
+              text: "The narrator states the cause of death directly, confirming that Louise loved her husband after all.",
+            },
+            {
+              label: "B",
+              text: "The sentence is verbal irony on the narrator's part, since the narrator means the exact opposite of every word in it.",
+            },
+            {
+              label: "C",
+              text: "The diagnosis is attributed to the doctors, and because the reader knows what the doctors cannot, the phrase 'joy that kills' indicts a whole way of reading women's lives.",
+            },
+            {
+              label: "D",
+              text: "The ending is situational irony only, since the reversal of Brently's death is unexpected.",
+            },
+          ],
+          answer: "C",
+          solution:
+            "Chopin is careful about attribution: 'they said.' The story's final judgment is quoted from men who assume a wife's joy could only be at her husband's return, and the reader's superior knowledge turns their tidy phrase into the sharpest line in the story. That is dramatic irony operating through a narrator who declines to correct the record.",
+          note:
+            "A ignores 'they said' and hands the doctors' words to the narrator - the single most common misreading of this ending. B misnames the device: the narrator is not speaking ironically, the quoted diagnosis is ironic in context. D is true but incomplete, and 'only' makes it wrong; the reversal is situational, yet the force of the last line comes from the gap between what the doctors and the reader know.",
+        },
+        {
+          id: "lit-u7-q5",
+          kind: "free-response",
+          label: "FRQ 1",
+          prompt:
+            "Read the passage below carefully. Then, in a well-written essay, analyze how Joyce uses narration, setting, and selection of detail to develop Eveline's relationship to her home. Write for 40 minutes.",
+          stimulus:
+            "James Joyce, \"Eveline,\" from Dubliners (1914) - the opening\n\nShe sat at the window watching the evening invade the avenue. Her head was leaned against the window curtains and in her nostrils was the odour of dusty cretonne. She was tired.\n\nFew people passed. The man out of the last house passed on his way home; she heard his footsteps clacking along the concrete pavement and afterwards crunching on the cinder path before the new red houses. One time there used to be a field there in which they used to play every evening with other people's children.\n\nHome! She looked round the room, reviewing all the familiar objects which she had dusted once a week for so many years, wondering where on earth all the dust came from.",
+          parts: [
+            { label: "(a)", text: "Identify two words or phrases that belong to Eveline's own idiom rather than a narrator's, and say how you can tell." },
+            { label: "(b)", text: "Explain what the sequence of sounds in the second paragraph does that a summary of it would lose." },
+            { label: "(c)", text: "Write the essay, building the argument on the narration's closeness to Eveline rather than on a list of devices." },
+          ],
+          solution:
+            "A strong response argues something like: Joyce writes the passage in free indirect style so that Eveline's exhaustion and her attachment are indistinguishable, and the effect is to strip her of the distance she would need in order to choose.\n\n(a) 'Home!' is the clearest case - a one-word exclamation with no attributive tag, punctuated as speech but printed as narration, so the word arrives with her feeling already attached. 'One time there used to be a field there' is the second: the loose, repetitive phrasing ('used to be... used to play') is a speaker's memory, not a narrator's description, and the vague 'one time' is how she dates things, not how a narrator would.\n\n(b) The footsteps move from 'clacking along the concrete pavement' to 'crunching on the cinder path before the new red houses,' and the sequence tracks a man going home past the place where the field used to be. A summary would report that the neighborhood has been built up; the sentence instead makes the loss audible, and it arrives through Eveline's ear rather than through commentary. The verbs also do social work, since concrete and 'new red houses' mark the field's replacement by respectable development.\n\n(c) The essay should then use the third paragraph to show the trap closing: her survey of the room is an inventory of her own labor, 'dusted once a week for so many years,' and the wry question about where the dust comes from is the closest she comes to protest. Setting is not backdrop here - the dust returns no matter what she does, which is the shape her life has. Because the opening verb is 'invade' and the closing gesture is 'looked round the room,' the passage moves inward, not outward, and any reading of her later paralysis has to begin here.",
+          rubric: [
+            {
+              points: "1 pt (Row A)",
+              criterion:
+                "Thesis makes a defensible claim about how the passage develops Eveline's relationship to home; a claim that she feels 'torn' or 'conflicted' with no technique attached earns 0.",
+            },
+            {
+              points: "4 pts (Row B)",
+              criterion:
+                "Specific quoted evidence with commentary explaining how it works; the fourth point requires showing how at least two of narration, setting, and detail selection combine.",
+            },
+            {
+              points: "1 pt (Row C)",
+              criterion:
+                "Sustained engagement with the passage's central tension - that the voice describing the confinement is the confined person's own - or an alternative reading taken seriously.",
+            },
+            {
+              points: "Self-check",
+              criterion:
+                "Count your quotations. Fewer than four in a 40-minute essay usually means the response drifted into paraphrase; more than eight usually means the commentary is thin.",
+            },
+          ],
+          note:
+            "The tempting essay here is a sympathy essay about a sad young woman with a hard life. It will not clear 2 on Row B, because the prompt asks how the passage develops the relationship, which is a question about technique. Anchor every paragraph to a phrase you can point to.",
+        },
+      ],
+    },
+  },
 ];
