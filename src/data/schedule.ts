@@ -1516,6 +1516,221 @@ export const scheduleWeeks: ScheduleWeek[] = [
     ],
     note: "Last deepen week. Starting Week 31 the work shifts to full timed mocks and targeted repair; do not open new units after this week.",
   },
+  {
+    week: 31,
+    dateRange: "Apr 12 - Apr 18",
+    startDate: "2027-04-12",
+    phase: "exam-review",
+    goal: "Sit a full-length timed mock in every course and rewrite the last three weeks around the misses.",
+    assignments: [
+      {
+        course: "ap-calculus-bc",
+        unit: "Full exam mock (2027 format)",
+        focus:
+          "Section I: 29 no-calculator questions in 62 minutes, then 13 calculator questions in 38 minutes. Section II: 2 calculator free-response questions in 30 minutes, then 4 no-calculator in 60 minutes. Classify every miss as knowledge, algebra, or timing.",
+      },
+      {
+        course: "ap-statistics",
+        unit: "Full exam mock (2026-27 format)",
+        focus:
+          "Section I: 42 multiple-choice questions in 90 minutes. Section II: 4 ten-point free-response questions in 90 minutes. Score conclusions and conditions as strictly as the numbers.",
+      },
+      {
+        course: "ap-physics-2",
+        unit: "Full exam mock (redesign format)",
+        focus:
+          "Section I: 40 single-select questions in 80 minutes. Section II: all four free-response formats in 100 minutes. Grade the written reasoning, not the arithmetic.",
+      },
+      {
+        course: "ap-english-literature",
+        unit: "Full exam mock",
+        focus:
+          "Section I: 55 questions in 60 minutes. Section II: poetry analysis, prose fiction analysis, and literary argument in 120 minutes. Self-score every essay on all three rubric rows.",
+      },
+    ],
+    practice: [
+      {
+        course: "ap-calculus-bc",
+        label: "Full Calculus BC mock under official 2027 timing, phone in another room, official directions read aloud.",
+      },
+      {
+        course: "ap-statistics",
+        label: "Full Statistics mock: 42 multiple-choice in 90 minutes and 4 free-response questions in 90 minutes.",
+      },
+      {
+        course: "ap-physics-2",
+        label: "Full Physics 2 mock: 40 multiple-choice in 80 minutes and 4 free-response questions in 100 minutes.",
+      },
+      {
+        course: "ap-english-literature",
+        label: "Full AP Lit mock: 55 questions in 60 minutes and three essays in 120 minutes.",
+      },
+    ],
+    note: "First full mock week. Do not take all four exams on the same day: two on Saturday, two on Sunday, with a real break between sections. Write the three weakest topics per course before Monday.",
+  },
+  {
+    week: 32,
+    dateRange: "Apr 19 - Apr 25",
+    startDate: "2027-04-19",
+    phase: "exam-review",
+    goal: "Repair the mock misses: series and mixed FRQs in Calculus BC, inference sentences in Statistics, written reasoning in Physics 2, and Row B commentary in AP Lit.",
+    assignments: [
+      {
+        course: "ap-calculus-bc",
+        unit: "Targeted review: Unit 10 and mock misses",
+        focus:
+          "Every series miss from the mock, plus two released-style series free-response questions. Rebuild the convergence-test decision tree from blank paper.",
+      },
+      {
+        course: "ap-statistics",
+        unit: "Targeted review: inference Units 6-8",
+        focus:
+          "Every inference miss from the mock. Rewrite each conclusion in context, and run a twelve-stem procedure-selection drill. Do not spend time on Unit 9 slopes.",
+      },
+      {
+        course: "ap-physics-2",
+        unit: "Targeted review: mock misses plus FRQ formats",
+        focus:
+          "Rework every missed multiple-choice with a principle named, then one Experimental Design and one Qualitative/Quantitative Translation from the weakest unit.",
+      },
+      {
+        course: "ap-english-literature",
+        unit: "Targeted review: essay Row B and passage timing",
+        focus:
+          "Rewrite the lowest-scoring body paragraph from each mock essay with embedded evidence, then two 30-minute passage sets focusing on the question type you missed most.",
+      },
+    ],
+    practice: [
+      {
+        course: "ap-calculus-bc",
+        practiceSetId: "calc-u10-ps",
+        label: "Full series set closed-notes, timed; any justification-free convergence claim is a miss.",
+      },
+      {
+        course: "ap-statistics",
+        practiceSetId: "stat-u6-ps",
+        label: "Proportions set plus the two free-response items, scored only on conditions and conclusion language.",
+      },
+      {
+        course: "ap-physics-2",
+        practiceSetId: "phys-u14-ps",
+        label: "Waves and physical-optics set; write a one-sentence principle under every numerical answer.",
+      },
+      {
+        course: "ap-english-literature",
+        practiceSetId: "lit-u8-set",
+        label: "Poetry III set under a strict 30-minute clock, then reread every stem you missed.",
+      },
+    ],
+  },
+  {
+    week: 33,
+    dateRange: "Apr 26 - May 2",
+    startDate: "2027-04-26",
+    phase: "exam-review",
+    goal: "Second full mock in every course, then a short, specific list of what is still shaky.",
+    assignments: [
+      {
+        course: "ap-calculus-bc",
+        unit: "Second full exam mock",
+        focus:
+          "Repeat the 2027-format mock on fresh questions. Compare miss categories to Week 31; timing issues get a pacing plan, knowledge issues get two extra problems each.",
+      },
+      {
+        course: "ap-statistics",
+        unit: "Second full exam mock",
+        focus:
+          "42 multiple-choice and 4 free-response questions on a new set. Any conclusion that does not mention context, the parameter, and the p-value or interval is a miss.",
+      },
+      {
+        course: "ap-physics-2",
+        unit: "Second full exam mock",
+        focus:
+          "40 multiple-choice and 4 free-response questions. After scoring, write one model paragraph for the Qualitative/Quantitative Translation you lost the most points on.",
+      },
+      {
+        course: "ap-english-literature",
+        unit: "Second full exam mock",
+        focus:
+          "55 questions and three essays. After scoring, rewrite only the thesis and the weakest paragraph of each essay, not the whole essay.",
+      },
+    ],
+    practice: [
+      {
+        course: "ap-calculus-bc",
+        label: "Second full Calculus BC mock under 2027 timing. Stop at the official breaks; do not push through fatigue you will not have on exam day.",
+      },
+      {
+        course: "ap-statistics",
+        label: "Second full Statistics mock, 42 + 4, same day-of-week slot you will actually sit.",
+      },
+      {
+        course: "ap-physics-2",
+        label: "Second full Physics 2 mock, 40 + 4. Calculator out, equation sheet only if your administration provides one.",
+      },
+      {
+        course: "ap-english-literature",
+        label: "Second full AP Lit mock. Start the essays in the exam order: poetry, prose, literary argument.",
+      },
+    ],
+    note: "Last full-mock week. Sleep and a normal meal schedule beat an extra problem set. Confirm exam dates, session times, and what to bring with the school's AP coordinator this week; published dates can move.",
+  },
+  {
+    week: 34,
+    dateRange: "May 3 - May 9",
+    startDate: "2027-05-03",
+    phase: "exam-weeks",
+    goal: "Sit AP English Literature and AP Physics 2 this week, and keep Calculus BC and Statistics sharp for Monday and Tuesday of next week.",
+    assignments: [
+      {
+        course: "ap-english-literature",
+        unit: "Exam day: Wednesday, May 5",
+        focus:
+          "Monday and Tuesday: light reread of quotation banks and one untimed poem. No new texts. After the exam, stop AP Lit work entirely.",
+      },
+      {
+        course: "ap-physics-2",
+        unit: "Exam day: Thursday, May 6",
+        focus:
+          "Monday through Wednesday morning: one page of relationship recall (fluids through modern physics) and two qualitative questions. No full mock. After the exam, stop Physics 2 work entirely.",
+      },
+      {
+        course: "ap-calculus-bc",
+        unit: "Exam day: Monday, May 10",
+        focus:
+          "Light daily retrieval: ten mixed series and integration cards, one free-response question untimed on Friday or Saturday, then rest Sunday. The exam is the following Monday.",
+      },
+      {
+        course: "ap-statistics",
+        unit: "Exam day: Tuesday, May 11",
+        focus:
+          "Light daily retrieval: procedure names, conditions, and one interpretation sentence. One short mixed inference item on Saturday. The exam is the following Tuesday.",
+      },
+    ],
+    practice: [
+      {
+        course: "ap-calculus-bc",
+        practiceSetId: "calc-u10-ps",
+        label: "Three series items from memory, untimed, no more. Stop if they are clean.",
+      },
+      {
+        course: "ap-statistics",
+        practiceSetId: "stat-u7-ps",
+        label: "Two inference items untimed, scored only on the conclusion sentence.",
+      },
+      {
+        course: "ap-physics-2",
+        practiceSetId: "phys-u15-ps",
+        label: "Two modern-physics items Monday or Tuesday only, then put the set away.",
+      },
+      {
+        course: "ap-english-literature",
+        practiceSetId: "lit-u7-set",
+        label: "One passage set Monday, untimed, then stop. Do not take a timed section the day before the exam.",
+      },
+    ],
+    note: "Published 2027 dates: AP English Literature Wednesday May 5, AP Physics 2 Thursday May 6, AP Calculus BC Monday May 10, AP Statistics Tuesday May 11. Session times are typically 8 a.m. local for Lit, Physics 2, and Calculus BC, and 12 p.m. local for Statistics. Confirm dates, sessions, and what to bring with the school's AP coordinator; do not treat these dates as final until that confirmation. After each exam, stop that course. Sleep is the study plan for this week.",
+  },
 ];
 
 export const weeklyPlan: DayPlan[] = [
