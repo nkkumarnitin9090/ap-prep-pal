@@ -516,4 +516,268 @@ export const unitsB: Unit[] = [
       ],
     },
   },
+  /* ------------------------------------------------------------------ */
+  {
+    id: "lit-u8",
+    number: "8",
+    title: "Poetry III",
+    examWeight: "10-13%",
+    examWeightMidpoint: 11.5,
+    classPeriods: "~17 class periods",
+    summary:
+      "The last poetry unit, and the one that stops letting you treat a figure as local decoration: a conceit has to be tracked across the whole poem, a paradox has to reveal something a plain contradiction would not, and a defensible reading has to survive the line that seems to refute it. The exam's hardest poetry questions are written at this level because they ask which interpretation the poem can actually bear, not which device you can name.",
+    topics: [
+      {
+        id: "lit-u8-t1",
+        title: "Conceit as a sustained extended metaphor",
+        detail:
+          "A conceit is not a long metaphor you mention once. Mastery is tracing how each new image the comparison generates - winding, hands, stopping - revises the tenor, and saying what the last image does that the first one could not.",
+      },
+      {
+        id: "lit-u8-t2",
+        title: "Form and meter as makers of meaning",
+        detail:
+          "Scan for the poem's governing pattern (pentameter, couplets, a regular stanza), then locate the first substitution, shortened line, or stalled caesura. The claim usually lives in the disruption, not in the regularity you labeled.",
+      },
+      {
+        id: "lit-u8-t3",
+        title: "Paradox: contradiction that discloses a hidden idea",
+        detail:
+          "Paradox is not a stylish way of saying two opposite things. Name the expectation the line violates and the idea that becomes visible only because the contradiction is left standing.",
+      },
+      {
+        id: "lit-u8-t4",
+        title: "Ambiguity and competing defensible readings",
+        detail:
+          "When a pronoun, a turn, or a figure will bear two readings, write the sentence that says what the poem gains by not deciding. Mastery is arguing from the coexistence, not picking a side and ignoring the evidence for the other.",
+      },
+      {
+        id: "lit-u8-t5",
+        title: "Juxtaposition, antithesis, and structural contrast",
+        detail:
+          "Pair the two clauses, images, or stanzas the poem sets side by side and explain what the pairing itself argues. If your claim would survive if the order were reversed, you have described the parts, not the contrast.",
+      },
+      {
+        id: "lit-u8-t6",
+        title: "Irony from unrealized expectations",
+        detail:
+          "Situational irony is an outcome the poem taught us not to expect; verbal irony is a statement whose context unsays it. Name which kind operates, who is its target, and whether the speaker is in on it.",
+      },
+      {
+        id: "lit-u8-t7",
+        title: "Punctuation, pattern, and the interruption that emphasizes",
+        detail:
+          "A full stop in a poem of commas, a fragment after long sentences, a repeated word where the form had been varying - these are structural choices. Point to the mark or the break and say what it isolates.",
+      },
+      {
+        id: "lit-u8-t8",
+        title: "Parts-to-whole argument that revises for nuance",
+        detail:
+          "An interpretation of a stanza is only finished when it is tested against the rest of the poem. If a later line complicates the claim, revise the claim; acknowledging a rival reading in a subordinate clause is not the same as letting evidence change your mind.",
+      },
+    ],
+    keySkills: [
+      "Unpack a conceit in three columns: literal vehicle, imported association, effect on the tenor at that moment",
+      "Paraphrase the poem in plain prose first, then go back and mark where the paraphrase had to cheat - those are the figures",
+      "Scan the governing meter or syntax, then circle the first place the pattern breaks; build the thesis around the break",
+      "For any paradox, write: expectation was ___; the line asserts ___; the hidden idea is ___.",
+      "When two readings both have evidence, write one sentence that says what the poem gains by holding both",
+      "Read the last line, then reread the first, and ask whether the opening has been ironic all along",
+    ],
+    commonMistakes: [
+      "Calling any extended comparison a conceit without showing the surprising or paradoxical pressure that makes it more than a long metaphor.",
+      "Labeling the meter ('iambic pentameter') and never saying what a substitution, a shortened line, or a caesura does.",
+      "Treating paradox as a witty contradiction and stopping before the hidden idea.",
+      "Choosing one reading of an ambiguous poem and silently dropping the evidence that supports the other.",
+      "Naming irony without naming its kind, its target, or whether the speaker shares it.",
+      "Writing a poetry essay that walks through the poem in order and calls the walkthrough a line of reasoning.",
+    ],
+    practiceSet: {
+      id: "lit-u8-set",
+      title: "Unit 8 Practice: Conceit, Paradox, and Competing Readings",
+      focus:
+        "Tracking a sustained conceit, a structural interruption, and a closing paradox in an original lyric, then writing a timed poetry analysis that has to hold two readings at once.",
+      estimatedMinutes: 55,
+      calculator: "n/a",
+      problems: [
+        {
+          id: "lit-u8-q1",
+          kind: "multiple-choice",
+          label: "MCQ 1",
+          prompt:
+            "Which choice best describes the function of the poem's comparison of the addressee to a timepiece?",
+          stimulus:
+            "PRACTICE POEM (original, written for this exercise - not an excerpt from any published work)\n\n 1  I wound you every Sunday, as a priest\n 2  winds prayer around a week, and you kept time\n 3  the way a vow keeps house: quietly, in the hall,\n 4  where guests could hear you mean what we had promised.\n 5  Now you are honest.\n 6  Your hands have found the hour of your leaving\n 7  and will not, for all my turning, take another.\n 8  They call this broken. I call it keeping\n 9  the only hour that still belongs to us:\n10  you stopped, and so the rest of time is late.",
+          choices: [
+            {
+              label: "A",
+              text: "It satirizes religious ritual by reducing prayer to a mechanical weekly chore the speaker resents.",
+            },
+            {
+              label: "B",
+              text: "It sustains a conceit in which winding, hands, and stopping let a household clock carry the history of a vow, so that the object's stillness becomes the poem's figure for loss.",
+            },
+            {
+              label: "C",
+              text: "It uses a single simile in line 1 and then abandons figurative language for a literal description of a broken clock.",
+            },
+            {
+              label: "D",
+              text: "It personifies Time as a guest in the hall who overhears a private promise and later breaks it.",
+            },
+          ],
+          answer: "B",
+          solution:
+            "The comparison is not local. Line 1's winding, line 2's 'kept time,' line 6's 'hands,' line 7's 'turning,' and line 10's 'stopped' are one vehicle developing across the poem, which is the definition of conceit rather than of a single metaphor. Because the clock also 'kept house' and could 'mean what we had promised,' the mechanical images import fidelity, and the stopping can stand for a death or a departure without the poem having to name either. The last image (stillness) does work the first (winding) could not: it converts maintenance into grief.",
+          note:
+            "A seizes the priest simile and ignores that prayer is the vehicle for devotion, not the target of satire. C is the student who stops at 'as a priest' and treats everything after as literal - but 'hands,' 'turning,' and 'keeping' continue the figure. D upgrades a background detail ('guests,' 'hall') into an allegory the poem never builds; guests hear the clock, they do not become Time.",
+        },
+        {
+          id: "lit-u8-q2",
+          kind: "multiple-choice",
+          label: "MCQ 2",
+          prompt:
+            "The poem's sentences run across line breaks until the isolated statement in line 5. That interruption functions chiefly to",
+          stimulus:
+            "PRACTICE POEM (original, written for this exercise - not an excerpt from any published work)\n\n 1  I wound you every Sunday, as a priest\n 2  winds prayer around a week, and you kept time\n 3  the way a vow keeps house: quietly, in the hall,\n 4  where guests could hear you mean what we had promised.\n 5  Now you are honest.\n 6  Your hands have found the hour of your leaving\n 7  and will not, for all my turning, take another.\n 8  They call this broken. I call it keeping\n 9  the only hour that still belongs to us:\n10  you stopped, and so the rest of time is late.",
+          choices: [
+            {
+              label: "A",
+              text: "signal that a second speaker has taken over the poem and will judge the first speaker's devotion.",
+            },
+            {
+              label: "B",
+              text: "complete the priest simile by imitating a moment of silent prayer in the middle of the week.",
+            },
+            {
+              label: "C",
+              text: "mark the volta: the flowing syntax of the living vow stops as abruptly as the clock, so the rest of the poem has to reason from that stillness.",
+            },
+            {
+              label: "D",
+              text: "indicate that the speaker is now quoting the guests from line 4, whose view of honesty the poem endorses.",
+            },
+          ],
+          answer: "C",
+          solution:
+            "Lines 1-4 are one long, enjambed sentence in loosely iambic pentameter; line 5 is a two-beat fragment closed by a full stop. Form does the same work the conceit is doing: a running mechanism is cut. After that cut the verbs belong to the hands, not to the speaker's winding, which is how you know the line is a turn rather than a pause for breath. Meter and punctuation here are not decoration; they are the poem's argument arriving as a stop.",
+          note:
+            "A is the reflex 'new speaker' distractor for any tonal shift; nothing in the grammar changes person or diction enough to split the voice. B over-reads the priest simile into a liturgical structure the poem does not have - there is no week, no office, no second ritual, only a stopped sentence. D smuggles the guests into a line that has no quotation marks and no 'they'; 'They call this broken' is line 8, and even there the speaker refuses their verdict.",
+        },
+        {
+          id: "lit-u8-q3",
+          kind: "multiple-choice",
+          label: "MCQ 3",
+          prompt: "The final line is paradoxical because it",
+          stimulus:
+            "PRACTICE POEM (original, written for this exercise - not an excerpt from any published work)\n\n 1  I wound you every Sunday, as a priest\n 2  winds prayer around a week, and you kept time\n 3  the way a vow keeps house: quietly, in the hall,\n 4  where guests could hear you mean what we had promised.\n 5  Now you are honest.\n 6  Your hands have found the hour of your leaving\n 7  and will not, for all my turning, take another.\n 8  They call this broken. I call it keeping\n 9  the only hour that still belongs to us:\n10  you stopped, and so the rest of time is late.",
+          choices: [
+            {
+              label: "A",
+              text: "claims that a stopped clock, which ought to have fallen behind, has instead made all subsequent time tardy, so loss reorders the world rather than dropping out of it.",
+            },
+            {
+              label: "B",
+              text: "admits that the speaker can no longer read the clock face and therefore cannot tell what hour it shows.",
+            },
+            {
+              label: "C",
+              text: "contradicts lines 1-4 by revealing that the clock never kept accurate time and the vow was already false.",
+            },
+            {
+              label: "D",
+              text: "uses 'late' only in its social sense, scolding the addressee for dying or leaving inconsiderately.",
+            },
+          ],
+          answer: "A",
+          solution:
+            "A stopped clock is the thing that is late; the line inverts that expectation and makes the world late relative to the stopped hour. That inversion is the hidden idea paradox is supposed to deliver: grief does not fall behind ordinary time, it accuses ordinary time of having gone on. Line 8's 'broken' / 'keeping' prepares the same logic - what looks like failure is fidelity - and line 10 is that logic taken all the way to cosmology.",
+          note:
+            "B invents a failure of perception the poem never states; 'the hour of your leaving' is known, not lost. C treats paradox as a retcon, as if a witty last line canceled the opening, but the opening's 'kept time' is what makes the stopping mean anything. D is the tone-deaf reading that hears a social rebuke in 'late' and misses that the grammar blames 'the rest of time,' not the addressee.",
+        },
+        {
+          id: "lit-u8-q4",
+          kind: "multiple-choice",
+          label: "MCQ 4",
+          prompt:
+            "Two readings of the poem are often advanced: that the speaker addresses a stopped clock, and that the speaker addresses a person who has died or left. Which statement is most defensible?",
+          stimulus:
+            "PRACTICE POEM (original, written for this exercise - not an excerpt from any published work)\n\n 1  I wound you every Sunday, as a priest\n 2  winds prayer around a week, and you kept time\n 3  the way a vow keeps house: quietly, in the hall,\n 4  where guests could hear you mean what we had promised.\n 5  Now you are honest.\n 6  Your hands have found the hour of your leaving\n 7  and will not, for all my turning, take another.\n 8  They call this broken. I call it keeping\n 9  the only hour that still belongs to us:\n10  you stopped, and so the rest of time is late.",
+          choices: [
+            {
+              label: "A",
+              text: "Only the clock reading works, because 'wound,' 'hands,' and 'hall' cannot describe a person without becoming nonsense.",
+            },
+            {
+              label: "B",
+              text: "Only the person reading works, because a clock cannot 'mean what we had promised' or have an hour of 'leaving.'",
+            },
+            {
+              label: "C",
+              text: "The two readings are mutually exclusive, so a defensible essay must choose one and dismiss the other as over-reading.",
+            },
+            {
+              label: "D",
+              text: "The conceit is built so that both readings remain available: the addressee is addressable as clock and as person at once, and grief in the poem consists of being unable to separate the two.",
+            },
+          ],
+          answer: "D",
+          solution:
+            "A conceit yokes unlike things and then refuses to let go of either. 'Wound,' 'hands,' and 'stopped' are clock language; 'vow,' 'promised,' and 'leaving' are human language; and the poem assigns both vocabularies to the same 'you' from the first line. The point of not deciding is not indecision. It is the claim that the speaker's loss has fused the household object with the person who shared the house, so that winding a clock and keeping a person alive were already the same Sunday ritual. An essay that picks one reading and drops the other has analyzed half the vehicle.",
+          note:
+            "A and B each take one half of the conceit as a disqualifier for the other half, which is exactly how not to read a conceit: the surprising pressure is the whole device. C is the sophistication-point failure mode in stem form - treating ambiguity as a problem to eliminate rather than as evidence. If a question offers you 'the poem holds both,' and both have textual support, that is almost always the answer written for Row C thinking.",
+        },
+        {
+          id: "lit-u8-q5",
+          kind: "free-response",
+          label: "FRQ 1",
+          prompt:
+            "Read the poem below carefully. Then, in a well-written essay, analyze how the poet uses conceit, structure, and paradox to convey the speaker's complex attitude toward loss. Write for 40 minutes.",
+          stimulus:
+            "PRACTICE POEM (original, written for this exercise - not an excerpt from any published work)\n\n 1  I wound you every Sunday, as a priest\n 2  winds prayer around a week, and you kept time\n 3  the way a vow keeps house: quietly, in the hall,\n 4  where guests could hear you mean what we had promised.\n 5  Now you are honest.\n 6  Your hands have found the hour of your leaving\n 7  and will not, for all my turning, take another.\n 8  They call this broken. I call it keeping\n 9  the only hour that still belongs to us:\n10  you stopped, and so the rest of time is late.",
+          parts: [
+            {
+              label: "(a)",
+              text: "Write a thesis that names the complexity - not 'the speaker feels sad about a clock' - and that could be disagreed with.",
+            },
+            {
+              label: "(b)",
+              text: "In the essay, let the structural stop at line 5 do work; do not only discuss images.",
+            },
+            {
+              label: "(c)",
+              text: "Account for the competing clock/person readings in a way that revises the claim rather than tacking on 'this could also mean many things.'",
+            },
+          ],
+          solution:
+            "A strong response argues something like: The speaker's weekly winding was already a rite of keeping someone alive, and the poem's conceit, its broken syntax, and its closing paradox convert a stopped clock into the only honest record of a vow - not a consolation, but a refusal to let ordinary time resume as if the leaving were merely late.\n\n(a) That thesis is defensible because it takes a position (the stillness is fidelity, not failure) and predicts a movement (rite to stop to paradox) an essay can actually follow. 'The poet uses conceit and paradox to show grief' would earn 0 on Row A.\n\n(b) Structure: lines 1-4 run on in pentameter sentences whose grammatical subject is 'I'; line 5 isolates 'Now you are honest' as a fragment, so the living syntax stops with the clock. After that, agency shifts to 'Your hands,' and the speaker's 'turning' in line 7 is already futile. Form is not a separate paragraph of device-labeling; it is the volta the imagery needs.\n\n(c) The clock reading and the person reading should not be staged as a debate the writer then 'picks.' The conceit fuses them: to wind a clock every Sunday and to keep a promise are the same verb in this poem, which is why 'They call this broken. I call it keeping' can answer both a repairman and a mourner. Line 10 then scales the fusion up - if the addressee has stopped, 'the rest of time is late' - so the essay's last move is cosmological rather than domestic. That is the tension Row C is for: the poem's intimacy (a hall, a Sunday, guests) and its metaphysical claim (time itself is now wrong) have to be held together.\n\nNote the other figures you can use without listing them: 'as a priest / winds prayer' imports ritual without making the poem about church; 'for all my turning' lets turning mean winding and trying to turn time back; the caesura in line 8 ('broken. I call it keeping') is antithesis you can hear.",
+          rubric: [
+            {
+              points: "1 pt (Row A)",
+              criterion:
+                "Thesis presents a defensible interpretation of the speaker's complex attitude toward loss; a restatement of the prompt or a list of devices earns 0.",
+            },
+            {
+              points: "4 pts (Row B)",
+              criterion:
+                "Specific quoted evidence with commentary explaining how it works; the fourth point requires showing how at least two of conceit, structure, and paradox combine, not three isolated device paragraphs.",
+            },
+            {
+              points: "1 pt (Row C)",
+              criterion:
+                "Sustained attention to the poem's central tension - stillness as honesty, or the clock/person fusion - or a genuine alternative reading folded into the claim rather than mentioned and dropped.",
+            },
+            {
+              points: "Self-check",
+              criterion:
+                "If your essay could be rearranged stanza by stanza without loss, you wrote a tour, not a line of reasoning. If you never quoted line 5 or line 10, you skipped the poem's actual argument.",
+            },
+          ],
+          note:
+            "This is FRQ 1 at the Unit 8 level: readers have seen a thousand grief-and-clock essays that never leave paraphrase. The score is decided by whether line 5's stop and line 10's paradox are treated as claims the poem makes, not as tone. Budget the first 10 minutes to find the volta and to decide whether your thesis can survive both readings of 'you.'",
+        },
+      ],
+    },
+  },
 ];
+
