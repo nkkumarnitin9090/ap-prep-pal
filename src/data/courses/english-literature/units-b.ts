@@ -115,12 +115,16 @@ export const unitsB: Unit[] = [
               label: "D",
               text: "The images of nesting and breeding predict that Macbeth's line will flourish, which the rest of the play confirms.",
             },
+            {
+              label: "E",
+              text: "The speeches establish Inverness as a pastoral setting whose sweetness the play will never revisit.",
+            },
           ],
           answer: "B",
           solution:
             "This is textbook dramatic irony: the information gap is between the audience, who has heard the murder planned, and Duncan, who finds the air 'delicate.' Shakespeare loads the speeches with images of shelter and nurture - 'pendent bed and procreant cradle' - precisely so that the audience's knowledge converts hospitality into menace. The right answer states the gap and its effect, which is dread rather than suspicion.",
           note:
-            "A is tempting because Banquo elsewhere does voice suspicion, but nothing in these lines is guarded; he is genuinely admiring the birds. C confuses dramatic irony with verbal irony - the speaker being ironic on purpose. D reverses the play's actual prophecy, which promises the succession to Banquo's line, not Macbeth's, and 'the rest of the play confirms' should always make you check.",
+            "A is tempting because Banquo elsewhere does voice suspicion, but nothing in these lines is guarded; he is genuinely admiring the birds. C confuses dramatic irony with verbal irony - the speaker being ironic on purpose. D reverses the play's actual prophecy, which promises the succession to Banquo's line, not Macbeth's, and 'the rest of the play confirms' should always make you check. E treats atmosphere as scene-setting the play will drop, but the delicacy is here so that the later blood can undo it.",
         },
         {
           id: "lit-u6-q2",
@@ -146,12 +150,16 @@ export const unitsB: Unit[] = [
               label: "D",
               text: "He blames fortune and death for making decisive action impossible for anyone.",
             },
+            {
+              label: "E",
+              text: "He treats Fortinbras as a rival claimant to the Danish throne and uses the army to justify killing Claudius at once.",
+            },
           ],
           answer: "B",
           solution:
             "Hamlet explicitly frames the army as exhortation - 'Examples gross as earth exhort me' - so Fortinbras functions as a foil whose readiness to stake thousands of lives measures Hamlet's own dullness. But Hamlet chooses the words: the ambition is 'puff'd,' the cause is 'an egg-shell.' The soliloquy therefore does two things at once, praising the action while devaluing its object, and the defensible answer is the one that keeps both.",
           note:
-            "A grabs the 'egg-shell' and drops 'exhort me,' which is exactly backwards; the negative diction is aimed at the cause, not at the choice to act. C misreads the rhetorical question, since Hamlet's point is that a man who only sleeps and feeds is 'a beast, no more.' D borrows real words from the passage ('fortune, death and danger') to build a claim the passage never makes - a common distractor design worth learning to spot.",
+            "A grabs the 'egg-shell' and drops 'exhort me,' which is exactly backwards; the negative diction is aimed at the cause, not at the choice to act. C misreads the rhetorical question, since Hamlet's point is that a man who only sleeps and feeds is 'a beast, no more.' D borrows real words from the passage ('fortune, death and danger') to build a claim the passage never makes - a common distractor design worth learning to spot. E imports a succession plot this excerpt does not argue; Fortinbras is an example, not a claimant Hamlet is answering.",
         },
         {
           id: "lit-u6-q3",
@@ -178,12 +186,16 @@ export const unitsB: Unit[] = [
               label: "D",
               text: "Blood is an allegory for the Scottish civil war, with each stain representing a specific historical battle.",
             },
+            {
+              label: "E",
+              text: "The hyperbole shows Macbeth's practical interest in whether seawater can dissolve blood, a question the play later answers empirically.",
+            },
           ],
           answer: "A",
           solution:
             "A motif is a recurring element that accrues meaning by repetition; a symbol is a particular thing standing for something beyond itself. Here the single image does symbolic work - Macbeth's hand will redden an ocean rather than be cleansed by it, so the blood is guilt in its indelible form - and because the image returns across the play, blood is also the play's governing motif. Naming both, and explaining what the repetition adds, is the whole analytic move.",
           note:
-            "B inverts the terms: one appearance cannot be a motif, and a symbol does not require a later scene to become one. C is the literalist trap - the hyperbole of 'multitudinous seas incarnadine' is not describing a cleanup problem. D upgrades symbol to allegory, which requires a systematic one-to-one correspondence the play never sets up.",
+            "B inverts the terms: one appearance cannot be a motif, and a symbol does not require a later scene to become one. C is the literalist trap - the hyperbole of 'multitudinous seas incarnadine' is not describing a cleanup problem. D upgrades symbol to allegory, which requires a systematic one-to-one correspondence the play never sets up. E doubles down on the literalist trap by turning a figure of indelible guilt into a chemistry experiment.",
         },
         {
           id: "lit-u6-q4",
@@ -209,12 +221,16 @@ export const unitsB: Unit[] = [
               label: "D",
               text: "An unreliable narrator whose factual errors about New York undercut the account of the Academy.",
             },
+            {
+              label: "E",
+              text: "Second-person narration that addresses the reader as a fellow member of 'the world of fashion.'",
+            },
           ],
           answer: "C",
           solution:
             "The narrator stands well outside the scene, dating it loosely ('the early seventies') and speaking of 'the world of fashion' as a collective. The irony comes from adopting that world's own justifications - cherishing a hall for being 'small and inconvenient' because inconvenience excludes the wrong people - and letting the absurdity show. Wharton also quotes the group's phrases, 'above the Forties' and 'new people,' rather than her own, which is how the distance is measured.",
           note:
-            "A misreads the confident social overview as personal memoir; there is no 'I.' B is the most attractive wrong answer because Archer dominates the novel, but he has not appeared yet and the survey of the Academy is not filtered through anyone's mind. D applies 'unreliable' to a narrator who has told us nothing false - unreliability requires evidence that the narration itself cannot be trusted, not merely that it is ironic.",
+            "A misreads the confident social overview as personal memoir; there is no 'I.' B is the most attractive wrong answer because Archer dominates the novel, but he has not appeared yet and the survey of the Academy is not filtered through anyone's mind. D applies 'unreliable' to a narrator who has told us nothing false - unreliability requires evidence that the narration itself cannot be trusted, not merely that it is ironic. E invents a 'you' the passage never uses; collective 'the world of fashion' is not second person.",
         },
         {
           id: "lit-u6-q5",
@@ -240,17 +256,17 @@ export const unitsB: Unit[] = [
             "A strong response on Hamlet might argue: Shakespeare uses Laertes not to show that Hamlet is slow but to show that speed is unthinking. In Act 1 the two young men are interchangeable - both sons under a father's instruction, both leaving Denmark - so that Laertes' return in Act 4, storming the castle within a hundred lines of learning of Polonius' death, is felt as the path Hamlet declined. The play then gives Laertes the poisoned foil, which converts his decisiveness into a tool for Claudius; by Act 5 the man who acted immediately dies asking forgiveness of the man who did not. The arrangement matters: because the audience meets Laertes as Hamlet's equal and leaves him as Claudius' instrument, the play's meaning is not that revenge should be prompt but that promptness can be borrowed by whoever is willing to aim it.\n\nNote how the essay earns the rows. Row A comes from the arguable claim that Laertes' function is to indict speed rather than to shame delay. Row B comes from specific evidence - the parallel departures, the interval between news and action, the poisoned foil, the dying apology - each followed by commentary on what the parallel does rather than on what happens. Row C comes from taking seriously the reading the essay rejects, that Laertes is simply the better avenger, and showing where the play withdraws that endorsement.",
           rubric: [
             {
-              points: "1 pt (Row A)",
+              points: "Row A: 0-1 pt",
               criterion:
                 "Thesis presents a defensible interpretation of the work in which the character contrast does interpretive work; naming a foil without a claim earns 0.",
             },
             {
-              points: "4 pts (Row B)",
+              points: "Row B: 0-4 pts",
               criterion:
                 "Specific evidence from at least two separated moments; commentary explains how each supports a line of reasoning; the fourth point requires explaining how multiple elements (characterization plus structure) contribute to meaning.",
             },
             {
-              points: "1 pt (Row C)",
+              points: "Row C: 0-1 pt",
               criterion:
                 "Sustained attention to a tension the contrast creates, or a plausible alternative reading genuinely engaged rather than dismissed.",
             },
@@ -375,12 +391,16 @@ export const unitsB: Unit[] = [
               label: "D",
               text: "It proves the narrator has no access to Louise's mind and is reporting only her outward gestures.",
             },
+            {
+              label: "E",
+              text: "It substitutes landscape description for character, so that the sky and scents become the passage's true subject.",
+            },
           ],
           answer: "B",
           solution:
             "The narration is close enough to report the question 'What was it?' as Louise's own, but it declines to supply the answer, and the passive, elemental imagery ('creeping out of the sky') keeps the feeling exterior to her for one more beat. Louise 'did not know' either: the delay is shared, not a gap the reader can see past. That controlled lag is what makes her later whispered 'free, free, free!' land as an admission rather than a statement, and it implicates the reader in the recognition.",
           note:
-            "A converts narrative technique into diagnosis; her heart trouble is physical and the story never suggests delusion. C reverses who knows what - Louise does not yet possess the name either, so this is not dramatic irony at her expense. D is contradicted by the interior access on display ('she did not know,' 'striving to beat it back with her will'); the narration is close, just deliberately unhurried.",
+            "A converts narrative technique into diagnosis; her heart trouble is physical and the story never suggests delusion. C reverses who knows what - Louise does not yet possess the name either, so this is not dramatic irony at her expense. D is contradicted by the interior access on display ('she did not know,' 'striving to beat it back with her will'); the narration is close, just deliberately unhurried. E takes the sky and scents as the topic; they are the vehicle by which an unnamed feeling approaches her.",
         },
         {
           id: "lit-u7-q2",
@@ -406,12 +426,16 @@ export const unitsB: Unit[] = [
               label: "D",
               text: "Evidence that the narrator is unreliable, since his self-condemnation is clearly excessive.",
             },
+            {
+              label: "E",
+              text: "A shift into stream of consciousness that abandons retrospective narration for the rest of the story.",
+            },
           ],
           answer: "A",
           solution:
             "'Araby' is retrospective first person: the man tells the boy's story. The closing sentence is where the two selves are furthest apart, because 'a creature driven and derided by vanity' is a moral judgment in an adult's formal register, while the preceding sentences stay in the boy's plain sensory world - pennies, a voice, the dark. The story's structure depends on withholding that verdict until the light goes out.",
           note:
-            "B is the trap for students who forget that first-person narration has a tense: the boy feels humiliation, but this phrasing is the man's. C is wrong because the narrator is never omniscient - he is the same character, older. D reaches for 'unreliable' because the judgment is harsh, but harshness is not unreliability; nothing in the story suggests the narrator has misrepresented events.",
+            "B is the trap for students who forget that first-person narration has a tense: the boy feels humiliation, but this phrasing is the man's. C is wrong because the narrator is never omniscient - he is the same character, older. D reaches for 'unreliable' because the judgment is harsh, but harshness is not unreliability; nothing in the story suggests the narrator has misrepresented events. E names a technique the last sentence does not use; the diction is more formal than the boy's, not less ordered.",
         },
         {
           id: "lit-u7-q3",
@@ -438,12 +462,16 @@ export const unitsB: Unit[] = [
               label: "D",
               text: "It shows that the narrator is one of the villagers whose gossip he transcribes without comment.",
             },
+            {
+              label: "E",
+              text: "It promises a detective plot in which the narrator will expose a crime Harmon Gow has been concealing.",
+            },
           ],
           answer: "B",
           solution:
             "Wharton opens by conceding that the versions did not agree, and the second passage is explicitly inference - 'I simply felt,' 'I had the sense,' 'as Harmon Gow had hinted.' The frame therefore does not give us Ethan; it gives us an outsider reconstructing Ethan, and the reader's job includes weighing that reconstruction. Note too that setting is doing character work here, since the isolation is attributed to 'the accumulated cold of many Starkfield winters.'",
           note:
-            "A is the reflex answer for third-person novels, but this narrator says 'I' in the first sentence. C overcorrects: admitting uncertainty is a bid for credibility, not a forfeit of it, and the distinction between a limited narrator and an untrustworthy one is tested constantly. D is contradicted by 'too remote for casual access' - the narrator is a newcomer, and the whole passage is commentary rather than transcription.",
+            "A is the reflex answer for third-person novels, but this narrator says 'I' in the first sentence. C overcorrects: admitting uncertainty is a bid for credibility, not a forfeit of it, and the distinction between a limited narrator and an untrustworthy one is tested constantly. D is contradicted by 'too remote for casual access' - the narrator is a newcomer, and the whole passage is commentary rather than transcription. E upgrades Gow's hint into a crime the prologue never names; the mystery is moral isolation, not a concealed offense.",
         },
         {
           id: "lit-u7-q4",
@@ -470,12 +498,16 @@ export const unitsB: Unit[] = [
               label: "D",
               text: "The ending is situational irony only, since the reversal of Brently's death is unexpected.",
             },
+            {
+              label: "E",
+              text: "The doctors function as a chorus, and their diagnosis is the story's official moral, which the narrator endorses.",
+            },
           ],
           answer: "C",
           solution:
             "Chopin is careful about attribution: 'they said.' The story's final judgment is quoted from men who assume a wife's joy could only be at her husband's return, and the reader's superior knowledge turns their tidy phrase into the sharpest line in the story. That is dramatic irony operating through a narrator who declines to correct the record.",
           note:
-            "A ignores 'they said' and hands the doctors' words to the narrator - the single most common misreading of this ending. B misnames the device: the narrator is not speaking ironically, the quoted diagnosis is ironic in context. D is true but incomplete, and 'only' makes it wrong; the reversal is situational, yet the force of the last line comes from the gap between what the doctors and the reader know.",
+            "A ignores 'they said' and hands the doctors' words to the narrator - the single most common misreading of this ending. B misnames the device: the narrator is not speaking ironically, the quoted diagnosis is ironic in context. D is true but incomplete, and 'only' makes it wrong; the reversal is situational, yet the force of the last line comes from the gap between what the doctors and the reader know. E is A in chorus clothing: the whole point of 'they said' is that the narrator does not endorse the diagnosis.",
         },
         {
           id: "lit-u7-q5",
@@ -494,17 +526,17 @@ export const unitsB: Unit[] = [
             "A strong response argues something like: Joyce writes the passage in free indirect style so that Eveline's exhaustion and her attachment are indistinguishable, and the effect is to strip her of the distance she would need in order to choose.\n\n(a) 'Home!' is the clearest case - a one-word exclamation with no attributive tag, punctuated as speech but printed as narration, so the word arrives with her feeling already attached. 'One time there used to be a field there' is the second: the loose, repetitive phrasing ('used to be... used to play') is a speaker's memory, not a narrator's description, and the vague 'one time' is how she dates things, not how a narrator would.\n\n(b) The footsteps move from 'clacking along the concrete pavement' to 'crunching on the cinder path before the new red houses,' and the sequence tracks a man going home past the place where the field used to be. A summary would report that the neighborhood has been built up; the sentence instead makes the loss audible, and it arrives through Eveline's ear rather than through commentary. The verbs also do social work, since concrete and 'new red houses' mark the field's replacement by respectable development.\n\n(c) The essay should then use the third paragraph to show the trap closing: her survey of the room is an inventory of her own labor, 'dusted once a week for so many years,' and the wry question about where the dust comes from is the closest she comes to protest. Setting is not backdrop here - the dust returns no matter what she does, which is the shape her life has. Because the opening verb is 'invade' and the closing gesture is 'looked round the room,' the passage moves inward, not outward, and any reading of her later paralysis has to begin here.",
           rubric: [
             {
-              points: "1 pt (Row A)",
+              points: "Row A: 0-1 pt",
               criterion:
                 "Thesis makes a defensible claim about how the passage develops Eveline's relationship to home; a claim that she feels 'torn' or 'conflicted' with no technique attached earns 0.",
             },
             {
-              points: "4 pts (Row B)",
+              points: "Row B: 0-4 pts",
               criterion:
                 "Specific quoted evidence with commentary explaining how it works; the fourth point requires showing how at least two of narration, setting, and detail selection combine.",
             },
             {
-              points: "1 pt (Row C)",
+              points: "Row C: 0-1 pt",
               criterion:
                 "Sustained engagement with the passage's central tension - that the voice describing the confinement is the confined person's own - or an alternative reading taken seriously.",
             },
@@ -629,12 +661,16 @@ export const unitsB: Unit[] = [
               label: "D",
               text: "It personifies Time as a guest in the hall who overhears a private promise and later breaks it.",
             },
+            {
+              label: "E",
+              text: "It argues that grief is best managed by keeping strict household schedules, with Sunday winding as the model.",
+            },
           ],
           answer: "B",
           solution:
             "The comparison is not local. Line 1's winding, line 2's 'kept time,' line 6's 'hands,' line 7's 'turning,' and line 10's 'stopped' are one vehicle developing across the poem, which is the definition of conceit rather than of a single metaphor. Because the clock also 'kept house' and could 'mean what we had promised,' the mechanical images import fidelity, and the stopping can stand for a death or a departure without the poem having to name either. The last image (stillness) does work the first (winding) could not: it converts maintenance into grief.",
           note:
-            "A seizes the priest simile and ignores that prayer is the vehicle for devotion, not the target of satire. C is the student who stops at 'as a priest' and treats everything after as literal - but 'hands,' 'turning,' and 'keeping' continue the figure. D upgrades a background detail ('guests,' 'hall') into an allegory the poem never builds; guests hear the clock, they do not become Time.",
+            "A seizes the priest simile and ignores that prayer is the vehicle for devotion, not the target of satire. C is the student who stops at 'as a priest' and treats everything after as literal - but 'hands,' 'turning,' and 'keeping' continue the figure. D upgrades a background detail ('guests,' 'hall') into an allegory the poem never builds; guests hear the clock, they do not become Time. E moralizes the conceit into time-management advice; the poem is about a stop, not a schedule.",
         },
         {
           id: "lit-u8-q2",
@@ -661,12 +697,16 @@ export const unitsB: Unit[] = [
               label: "D",
               text: "indicate that the speaker is now quoting the guests from line 4, whose view of honesty the poem endorses.",
             },
+            {
+              label: "E",
+              text: "supply a missing iamb so that the poem can return to a regular ballad stanza in lines 6-10.",
+            },
           ],
           answer: "C",
           solution:
             "Lines 1-4 are one long, enjambed sentence in loosely iambic pentameter; line 5 is a two-beat fragment closed by a full stop. Form does the same work the conceit is doing: a running mechanism is cut. After that cut the verbs belong to the hands, not to the speaker's winding, which is how you know the line is a turn rather than a pause for breath. Meter and punctuation here are not decoration; they are the poem's argument arriving as a stop.",
           note:
-            "A is the reflex 'new speaker' distractor for any tonal shift; nothing in the grammar changes person or diction enough to split the voice. B over-reads the priest simile into a liturgical structure the poem does not have - there is no week, no office, no second ritual, only a stopped sentence. D smuggles the guests into a line that has no quotation marks and no 'they'; 'They call this broken' is line 8, and even there the speaker refuses their verdict.",
+            "A is the reflex 'new speaker' distractor for any tonal shift; nothing in the grammar changes person or diction enough to split the voice. B over-reads the priest simile into a liturgical structure the poem does not have - there is no week, no office, no second ritual, only a stopped sentence. D smuggles the guests into a line that has no quotation marks and no 'they'; 'They call this broken' is line 8, and even there the speaker refuses their verdict. E invents a ballad stanza the poem never uses; the interruption is a cut, not a missing beat being filled.",
         },
         {
           id: "lit-u8-q3",
@@ -692,12 +732,16 @@ export const unitsB: Unit[] = [
               label: "D",
               text: "uses 'late' only in its social sense, scolding the addressee for dying or leaving inconsiderately.",
             },
+            {
+              label: "E",
+              text: "restates line 2's 'kept time' in different words, so the ending is a summary rather than a turn.",
+            },
           ],
           answer: "A",
           solution:
             "A stopped clock is the thing that is late; the line inverts that expectation and makes the world late relative to the stopped hour. That inversion is the hidden idea paradox is supposed to deliver: grief does not fall behind ordinary time, it accuses ordinary time of having gone on. Line 8's 'broken' / 'keeping' prepares the same logic - what looks like failure is fidelity - and line 10 is that logic taken all the way to cosmology.",
           note:
-            "B invents a failure of perception the poem never states; 'the hour of your leaving' is known, not lost. C treats paradox as a retcon, as if a witty last line canceled the opening, but the opening's 'kept time' is what makes the stopping mean anything. D is the tone-deaf reading that hears a social rebuke in 'late' and misses that the grammar blames 'the rest of time,' not the addressee.",
+            "B invents a failure of perception the poem never states; 'the hour of your leaving' is known, not lost. C treats paradox as a retcon, as if a witty last line canceled the opening, but the opening's 'kept time' is what makes the stopping mean anything. D is the tone-deaf reading that hears a social rebuke in 'late' and misses that the grammar blames 'the rest of time,' not the addressee. E is the paraphrase trap: line 10 inverts the expectation line 2 set; it does not repeat it.",
         },
         {
           id: "lit-u8-q4",
@@ -724,12 +768,16 @@ export const unitsB: Unit[] = [
               label: "D",
               text: "The conceit is built so that both readings remain available: the addressee is addressable as clock and as person at once, and grief in the poem consists of being unable to separate the two.",
             },
+            {
+              label: "E",
+              text: "A third reading - that the speaker is a clock addressing its owner - is the only one the grammar of 'I wound you' will support.",
+            },
           ],
           answer: "D",
           solution:
             "A conceit yokes unlike things and then refuses to let go of either. 'Wound,' 'hands,' and 'stopped' are clock language; 'vow,' 'promised,' and 'leaving' are human language; and the poem assigns both vocabularies to the same 'you' from the first line. The point of not deciding is not indecision. It is the claim that the speaker's loss has fused the household object with the person who shared the house, so that winding a clock and keeping a person alive were already the same Sunday ritual. An essay that picks one reading and drops the other has analyzed half the vehicle.",
           note:
-            "A and B each take one half of the conceit as a disqualifier for the other half, which is exactly how not to read a conceit: the surprising pressure is the whole device. C is the sophistication-point failure mode in stem form - treating ambiguity as a problem to eliminate rather than as evidence. If a question offers you 'the poem holds both,' and both have textual support, that is almost always the answer written for Row C thinking.",
+            "A and B each take one half of the conceit as a disqualifier for the other half, which is exactly how not to read a conceit: the surprising pressure is the whole device. C is the sophistication-point failure mode in stem form - treating ambiguity as a problem to eliminate rather than as evidence. If a question offers you 'the poem holds both,' and both have textual support, that is almost always the answer written for Row C thinking. E inverts the grammar: 'I wound you' makes the speaker the winder, not the clock.",
         },
         {
           id: "lit-u8-q5",
@@ -757,17 +805,17 @@ export const unitsB: Unit[] = [
             "A strong response argues something like: The speaker's weekly winding was already a rite of keeping someone alive, and the poem's conceit, its broken syntax, and its closing paradox convert a stopped clock into the only honest record of a vow - not a consolation, but a refusal to let ordinary time resume as if the leaving were merely late.\n\n(a) That thesis is defensible because it takes a position (the stillness is fidelity, not failure) and predicts a movement (rite to stop to paradox) an essay can actually follow. 'The poet uses conceit and paradox to show grief' would earn 0 on Row A.\n\n(b) Structure: lines 1-4 run on in pentameter sentences whose grammatical subject is 'I'; line 5 isolates 'Now you are honest' as a fragment, so the living syntax stops with the clock. After that, agency shifts to 'Your hands,' and the speaker's 'turning' in line 7 is already futile. Form is not a separate paragraph of device-labeling; it is the volta the imagery needs.\n\n(c) The clock reading and the person reading should not be staged as a debate the writer then 'picks.' The conceit fuses them: to wind a clock every Sunday and to keep a promise are the same verb in this poem, which is why 'They call this broken. I call it keeping' can answer both a repairman and a mourner. Line 10 then scales the fusion up - if the addressee has stopped, 'the rest of time is late' - so the essay's last move is cosmological rather than domestic. That is the tension Row C is for: the poem's intimacy (a hall, a Sunday, guests) and its metaphysical claim (time itself is now wrong) have to be held together.\n\nNote the other figures you can use without listing them: 'as a priest / winds prayer' imports ritual without making the poem about church; 'for all my turning' lets turning mean winding and trying to turn time back; the caesura in line 8 ('broken. I call it keeping') is antithesis you can hear.",
           rubric: [
             {
-              points: "1 pt (Row A)",
+              points: "Row A: 0-1 pt",
               criterion:
                 "Thesis presents a defensible interpretation of the speaker's complex attitude toward loss; a restatement of the prompt or a list of devices earns 0.",
             },
             {
-              points: "4 pts (Row B)",
+              points: "Row B: 0-4 pts",
               criterion:
                 "Specific quoted evidence with commentary explaining how it works; the fourth point requires showing how at least two of conceit, structure, and paradox combine, not three isolated device paragraphs.",
             },
             {
-              points: "1 pt (Row C)",
+              points: "Row C: 0-1 pt",
               criterion:
                 "Sustained attention to the poem's central tension - stillness as honesty, or the clock/person fusion - or a genuine alternative reading folded into the claim rather than mentioned and dropped.",
             },
@@ -892,12 +940,16 @@ export const unitsB: Unit[] = [
               label: "D",
               text: "The piano is an allegory of the legal transfer of property, with the dust representing unpaid debts from the solicitor's visit.",
             },
+            {
+              label: "E",
+              text: "The piano stands for Margaret's mother as a character who will reappear, so it is neither symbol nor motif but foreshadowing of a return.",
+            },
           ],
           answer: "C",
           solution:
             "A symbol is a particular thing standing for something beyond itself; a motif is a recurring element that accrues meaning by repetition. The shut piano does symbolic work here - it is her mother's, then hers, and she will not lift the lid, so the instrument stands for a inherited life she will not play - and because the passage returns to it from September, when it was 'already shut,' the later appearance adds what the first could not: duration made visible as dust. Naming both, and explaining the addition, is the whole analytic move at this level.",
           note:
-            "A inverts the terms: a symbol does not require a future scene to become one, and one present-tense appearance plus a memory already is recurrence. B is the literalist trap - 'a seam of dust' along ivory the lid 'did not quite meet' is not an inventory of the furniture. D upgrades symbol to allegory, which needs a systematic one-to-one code the passage never sets up; the solicitor is how we date the first shutting, not a creditor.",
+            "A inverts the terms: a symbol does not require a future scene to become one, and one present-tense appearance plus a memory already is recurrence. B is the literalist trap - 'a seam of dust' along ivory the lid 'did not quite meet' is not an inventory of the furniture. D upgrades symbol to allegory, which needs a systematic one-to-one code the passage never sets up; the solicitor is how we date the first shutting, not a creditor. E turns a shut instrument into a ghost plot; nothing here promises the mother will walk in.",
         },
         {
           id: "lit-u9-q2",
@@ -924,12 +976,16 @@ export const unitsB: Unit[] = [
               label: "D",
               text: "The narrator is unreliable because the facts of the room cannot be trusted: there may be no piano and no tap.",
             },
+            {
+              label: "E",
+              text: "Free indirect style here is complete fusion: every detail in the room is only as Margaret perceives it, so the reader has no independent vantage.",
+            },
           ],
           answer: "B",
           solution:
             "The grammatical person is third, but the diction of justification is Margaret's: 'told herself this was for the furniture,' 'a reasonable thing to wait for,' 'chose not to hear.' The narration does not correct her in its own voice. It does not need to. Blinds down past eleven, a seam of dust, a tap she will not hear, and the admission that the quiet 'did not seem so now' are placed where a reader can see past the reasonableness she claims. That is a designed limit, not a defective narrator: interpretation of the passage is the gap between her account and the room.",
           note:
-            "A misreads 'told herself' as a confession in the first person; there is no 'I.' C invents a denunciation; the passage never editorializes, which is why the reader has to do the judging. D applies 'unreliable' to a narrator who has told us nothing false about the furniture - unreliability requires evidence that the report itself cannot be trusted, not merely that the character's reasons are self-serving.",
+            "A misreads 'told herself' as a confession in the first person; there is no 'I.' C invents a denunciation; the passage never editorializes, which is why the reader has to do the judging. D applies 'unreliable' to a narrator who has told us nothing false about the furniture - unreliability requires evidence that the report itself cannot be trusted, not merely that the character's reasons are self-serving. E overstates the closeness: blinds down past eleven, the seam of dust, and the tap she will not hear are arranged where the reader can see past her.",
         },
         {
           id: "lit-u9-q3",
@@ -956,12 +1012,16 @@ export const unitsB: Unit[] = [
               label: "D",
               text: "provide comic relief after the funeral by reducing grief to a household nuisance.",
             },
+            {
+              label: "E",
+              text: "establish a realistic soundscape of a large house; the two sounds have no relation to one another.",
+            },
           ],
           answer: "B",
           solution:
             "The piano is silence she maintains; the tap is sound she refuses to acknowledge. Neither detail would mean as much alone: a shut piano could be mourning, a dripping tap could be a servant's oversight. Set against each other they argue that Margaret is not the passive occupant of a quiet house but the person deciding which noises count. 'Patience she chose not to hear' makes the contrast a matter of will, and the September memory then shows that the choice has had time to harden. The claim depends on the pairing.",
           note:
-            "A takes the kitchen's 'girl' as the protagonist of a staffing plot the passage is not writing; the girl is there to leave a sound Margaret can ignore. C invents a future bargain the text does not hint at. D hears 'drip' and reaches for tone; nothing in the diction of dust, funeral, and 'did not seem so now' licenses comedy.",
+            "A takes the kitchen's 'girl' as the protagonist of a staffing plot the passage is not writing; the girl is there to leave a sound Margaret can ignore. C invents a future bargain the text does not hint at. D hears 'drip' and reaches for tone; nothing in the diction of dust, funeral, and 'did not seem so now' licenses comedy. E is the juxtaposition-as-background trap: if the pairing did no work, the tap would not be 'patience she chose not to hear.'",
         },
         {
           id: "lit-u9-q4",
@@ -988,12 +1048,16 @@ export const unitsB: Unit[] = [
               label: "D",
               text: "The closed shutters prove that Ellen has rejected him, so the scene is simply the plot delivering news Newland could not have known.",
             },
+            {
+              label: "E",
+              text: "The scene is verbal irony: Newland says he will go up and then does the opposite, so the meaning is hypocrisy in his speech.",
+            },
           ],
           answer: "C",
           solution:
             "The scene is a resolution that refuses reversal. Newland's governing trait - watching a woman's life from a designated place outside it - survives May's death, the son's encouragement, and the literal open invitation of a staircase. Because nothing external stops him now, the limit the novel has been studying is shown to have been his own. That is character remaining unchanged used as interpretation of the work as a whole: Old New York no longer needs to forbid the meeting. He forbids it. The shutters close after he has already chosen the bench.",
           note:
-            "A treats an ending as an authorial shrug; Q3 readers will not reward speculation about what Wharton 'changed her mind' about. B invents a chivalry the scene does not stage - we are with Newland's refusal, not Ellen's needs. D hands the agency to a servant's gesture and misses the order: he is already on the bench, and the shutters confirm a decision rather than cause one. When a late scene looks like news, check whether the character has already acted.",
+            "A treats an ending as an authorial shrug; Q3 readers will not reward speculation about what Wharton 'changed her mind' about. B invents a chivalry the scene does not stage - we are with Newland's refusal, not Ellen's needs. D hands the agency to a servant's gesture and misses the order: he is already on the bench, and the shutters confirm a decision rather than cause one. When a late scene looks like news, check whether the character has already acted. E invents a spoken promise the description does not give him; the irony is situational (nothing now stops him) rather than verbal.",
         },
         {
           id: "lit-u9-q5",
@@ -1019,17 +1083,17 @@ export const unitsB: Unit[] = [
             "A strong response on Mary Shelley's Frankenstein might argue: Shelley nested Walton, Victor, and the creature so that each teller needs the story to confirm a theory of himself, and she uses fire and light as the recurring detail that measures what those theories cost.\n\n(a) Victor believes he is the novel's tragic seeker of knowledge; the work shows a man who cannot hear anyone else's origin; fire and light are how we are taught to see the gap.\n\n(b) First appearance: Walton's opening letters, in which polar ice and the 'fire' of ambition are still romance - he wants a flame large enough to justify leaving home. Later appearance: the creature's first experience of fire, which warms and then burns, followed by the destruction of the De Lacey cottage and the final ice on which Walton agrees to turn back. The later cluster adds what the first could not: the same element that looked like enlightenment is now indistinguishable from harm, and the frame narrator is in a position to refuse it.\n\n(c) The essay's line of reasoning should not be 'fire appears several times.' It should be that each narrator seizes light as self-explanation - Walton's voyage, Victor's workshop, the creature's stolen spark - and that Shelley arranges the nest so we hear each claim after we have already watched the previous one fail. Because Walton writes last, his decision to turn the ship is the one place the pattern breaks: a narrator limited by ambition is shown a predecessor's corpse and, uniquely, revises. Victor never does; the creature's last speech over the body still recasts murder as the education Victor withheld. The juxtaposition that matters is not workshop against Arctic in general, but Walton's letters at the start against Walton's choice at the end, with Victor's unreliability in between as the evidence Walton finally uses. The novel's meaning is not that knowledge is dangerous; it is that a limited narrator will call harm a pursuit until someone else's vantage is allowed to interrupt him.\n\nNote how the essay earns the rows. Row A comes from the arguable claim that the nested limits, not the monster, are the work's subject. Row B comes from specific remembered scenes - the letters, the hut, the cottage, the ice - each followed by commentary on what the sequence does. Row C comes from taking seriously the reading the essay rejects, that the book is a warning against science, and showing that Walton's turn is a narrative event, not a moral posted on the last page.",
           rubric: [
             {
-              points: "1 pt (Row A)",
+              points: "Row A: 0-1 pt",
               criterion:
                 "Thesis presents a defensible interpretation of the work in which limited vantage and a recurring detail do interpretive work; naming a symbol without a claim, or restating that the narrator is 'biased,' earns 0.",
             },
             {
-              points: "4 pts (Row B)",
+              points: "Row B: 0-4 pts",
               criterion:
                 "Specific evidence from at least two separated moments; commentary explains how each supports a line of reasoning; the fourth point requires explaining how multiple elements (narration plus motif or structure) contribute to meaning.",
             },
             {
-              points: "1 pt (Row C)",
+              points: "Row C: 0-1 pt",
               criterion:
                 "Sustained attention to a tension the limit creates - a narrator who is persuasive and wrong, a motif that changes owners - or a plausible alternative reading genuinely engaged rather than dismissed.",
             },

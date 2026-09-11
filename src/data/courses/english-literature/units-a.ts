@@ -41,19 +41,19 @@ export const unitsA: Unit[] = [
         id: "lit-u1-t2",
         title: "Character change, and the choice not to change",
         detail:
-          "A character who refuses to change is doing interpretive work too. Name what the stasis costs them and what it asks the reader to judge.",
+          "A character who refuses to change is doing interpretive work too. Name what the stasis costs them and what it asks the reader to judge - remaining is a choice, not a failure of plot.",
       },
       {
         id: "lit-u1-t3",
         title: "Setting as a pressure on character, not a backdrop",
         detail:
-          "Where and when matters only insofar as it constrains, exposes, or contradicts someone. A described room is usually a described mind.",
+          "Where and when matters only insofar as it constrains, exposes, or contradicts someone. Name the detail (an unwashed window, a season) and the pressure it exerts; a described room is usually a described mind.",
       },
       {
         id: "lit-u1-t4",
         title: "Plot: the order events are told versus the order they happened",
         detail:
-          "Separate the sequence of events from the sequence of telling, then ask why the writer withheld or front-loaded a particular fact.",
+          "Separate the sequence of events from the sequence of telling, then ask why the writer withheld or front-loaded a particular fact. The delay is the argument, not a delay in the argument.",
       },
       {
         id: "lit-u1-t5",
@@ -71,7 +71,7 @@ export const unitsA: Unit[] = [
         id: "lit-u1-t7",
         title: "Contrast, juxtaposition, and foils",
         detail:
-          "When two things are set side by side, explain what the pairing makes visible that neither element would show alone.",
+          "When two things are set side by side, explain what the pairing makes visible that neither element would show alone. If the claim would survive with the two details pages apart, you have not yet read the juxtaposition.",
       },
       {
         id: "lit-u1-t8",
@@ -101,7 +101,7 @@ export const unitsA: Unit[] = [
       title: "Unit 1 Practice: Narration, Detail, and Character",
       focus:
         "Reading a narrator's selection and omission of detail as characterization, and writing a single paragraph of claim-evidence-commentary about it.",
-      estimatedMinutes: 40,
+      estimatedMinutes: 45,
       calculator: "n/a",
       problems: [
         {
@@ -189,6 +189,27 @@ export const unitsA: Unit[] = [
         },
         {
           id: "lit-u1-q5",
+          kind: "multiple-choice",
+          label: "MCQ 5",
+          stimulus:
+            "PRACTICE PASSAGE (original, written for this exercise - not an excerpt from any published work)\n\nMr. Pell had kept the hardware store for thirty-one years, and he liked to say that he could read a man's character off the nails he bought. The Ames boy came in on a Tuesday for a pound of two-inch finish nails and paid in coins counted twice, which Mr. Pell entered in the ledger as slow. He did not enter that the boy had swept the spilled sawdust back under the bin while he waited, or that he had asked after Mrs. Pell, who had been dead four months. The window behind the counter had not been washed since the funeral, and through it the street arrived grey and reduced, as though the town itself had thinned. When the boy had gone, Mr. Pell turned the ledger to the light and studied his own handwriting for a long while, the way a man studies a signature he is not certain is his.",
+          prompt:
+            "Pell's opening boast that he could \"read a man's character off the nails he bought\" functions primarily to",
+          choices: [
+            { label: "A", text: "establish Pell as a shrewd judge whose reading of the Ames boy the story will confirm" },
+            { label: "B", text: "set a standard of character-reading that the rest of the passage will show him failing to meet" },
+            { label: "C", text: "explain why finish nails, rather than another item, are the store's most telling merchandise" },
+            { label: "D", text: "hint that the Ames boy has come to steal hardware rather than to buy it" },
+            { label: "E", text: "introduce a comic type of the eccentric small-town shopkeeper" },
+          ],
+          answer: "B",
+          solution:
+            "The boast is a thesis the narration immediately tests. Pell claims he can read character from a purchase; what he actually records is one word, \"slow,\" while the boy's care for the room and for Pell himself never reaches the page. By the closing simile he cannot even recognize his own hand. The opening sentence exists so that claim can fail in public.",
+          note:
+            "A takes the boast at face value, which is the reliability trap this unit is built on. C treats a characterizing claim as product knowledge. D and E invent a theft plot and a comic tone the diction never licenses.",
+        },
+        {
+          id: "lit-u1-q6",
           kind: "free-response",
           label: "FRQ 1",
           stimulus:
@@ -391,6 +412,27 @@ export const unitsA: Unit[] = [
         },
         {
           id: "lit-u2-q5",
+          kind: "multiple-choice",
+          label: "MCQ 5",
+          stimulus:
+            "PRACTICE POEM (original, written for this exercise - not an excerpt from any published work)\n\n 1  All winter I kept the storm window\n 2  shut against my mother's garden, the beds\n 3  she edged in brick the summer she could still\n 4  kneel. I told the neighbors I had no\n 5  time for it. The truth is smaller: I could not\n 6  look at the ground and not see her hands\n 7  in it. Then April came up anyway,\n 8  stubborn as a rumor, and the tulips\n 9  she planted eight Octobers ago\n10  pushed their red mouths through my excuses\n11  and spoke for her.",
+          prompt:
+            "The phrase \"shut against my mother's garden\" (lines 1-2) characterizes the speaker's winter chiefly as",
+          choices: [
+            { label: "A", text: "a season of ordinary household repair, with the storm window as practical maintenance" },
+            { label: "B", text: "an act of willed separation from a place that still holds her mother" },
+            { label: "C", text: "evidence that the garden has grown dangerous and must be kept out of the house" },
+            { label: "D", text: "a property dispute with the neighbors mentioned in line 4" },
+            { label: "E", text: "the poet's advice, in her own person, about how to winterize a house" },
+          ],
+          answer: "B",
+          solution:
+            "\"Against\" makes the garden an adversary, not a view. The window is not keeping weather out so much as keeping the speaker from having to look at beds her mother edged \"the summer she could still / kneel.\" Winter here is a chosen barricade against a grief that is located in a specific plot of ground.",
+          note:
+            "A takes \"storm window\" as home-repair vocabulary and ignores \"against.\" C inflates the garden into a threat the poem never makes; the threat is memory, not brambles. E collapses speaker into poet, the Unit 2 error the first topic is there to prevent.",
+        },
+        {
+          id: "lit-u2-q6",
           kind: "free-response",
           label: "FRQ 1",
           stimulus:
@@ -448,19 +490,19 @@ export const unitsA: Unit[] = [
         id: "lit-u3-t3",
         title: "The function of a significant event in the whole arc",
         detail:
-          "For any scene, answer what the work would lose without it. That question turns plot recall into structural analysis.",
+          "For any scene, answer what the work would lose without it. That question turns plot recall into structural analysis: if cutting the scene would not change your thesis, you have not yet said what the scene is for.",
       },
       {
         id: "lit-u3-t4",
         title: "Conflict: external pressure and internal division",
         detail:
-          "The strongest readings connect the two - the character fighting a landlord is usually also fighting a self-image.",
+          "The strongest readings connect the two - the character fighting a landlord is usually also fighting a self-image. State both pressures in one sentence so the essay cannot treat them as separate topics.",
       },
       {
         id: "lit-u3-t5",
         title: "Narrative perspective controls emphasis",
         detail:
-          "Notice what the narration lingers over and what it hurries past. Pacing is an argument about what matters.",
+          "Notice what the narration lingers over and what it hurries past. Pacing is an argument about what matters, and a skipped year or a page of dinner can be the most loaded choice in the chapter.",
       },
       {
         id: "lit-u3-t6",
@@ -478,7 +520,7 @@ export const unitsA: Unit[] = [
         id: "lit-u3-t8",
         title: "Structure: acts, chapters, parallel scenes, and foils",
         detail:
-          "Long works repeat with variation. A scene that echoes an earlier one is asking you to compare them.",
+          "Long works repeat with variation. A scene that echoes an earlier one is asking you to compare them, and the claim should depend on what has changed between the two appearances.",
       },
       {
         id: "lit-u3-t9",
@@ -490,7 +532,7 @@ export const unitsA: Unit[] = [
         id: "lit-u3-t10",
         title: "Building your FRQ 3 work inventory",
         detail:
-          "Choose works with enough moral complication to sustain an argument, then memorize specific scenes and short quotations rather than themes.",
+          "Choose works with enough moral complication to sustain an argument, then memorize specific scenes and short quotations rather than themes. A Q3 essay that can only name a 'message' has not yet banked the book.",
       },
     ],
     keySkills: [
