@@ -250,7 +250,7 @@ export const frqTypes: FrqType[] = [
         context:
           "Prompt: choose a work in which a character's pursuit of an ideal proves destructive, and analyze how that pursuit contributes to the meaning of the work. Text: Henrik Ibsen, A Doll's House.",
         thesis:
-          "Ibsen makes Torvald's ideal of the untainted home, not Nora's forgery, the play's real engine of ruin: because he can imagine reputation only as something a wife might damage, his 'miracle' never arrives, and Nora's exit converts the domestic ideal from a shelter into the thing she must break to exist.",
+          "Ibsen makes Torvald's ideal of the untainted home, not Nora's forgery, the play's real engine of ruin: because he can imagine reputation only as something a wife might damage, the transformation Nora waits for never arrives, and her exit converts the domestic ideal from a shelter into the thing she must break to exist.",
         why:
           "It reassigns the prompt's 'destructive pursuit' to the character readers usually treat as background, which makes the claim defensible rather than obvious, and it commits the essay to the play's ending as evidence.",
       },
