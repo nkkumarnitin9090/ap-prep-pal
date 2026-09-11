@@ -608,6 +608,306 @@ export const scheduleWeeks: ScheduleWeek[] = [
     ],
     note: "Thanksgiving week: deliberately light. Two short weekday sessions and one weekend session, no timed exam, and no new units. Rest is part of the plan, not a failure of it.",
   },
+  {
+    week: 13,
+    dateRange: "Nov 30 - Dec 6",
+    startDate: "2026-11-30",
+    phase: "build",
+    goal: "Antidifferentiation technique, the first inference procedure, and magnetic force.",
+    assignments: [
+      {
+        course: "ap-calculus-bc",
+        unit: "Unit 6: Integration and Accumulation of Change",
+        focus:
+          "Both parts of the Fundamental Theorem, basic antiderivatives, u-substitution, and properties of definite integrals.",
+      },
+      {
+        course: "ap-statistics",
+        unit: "Unit 6: Inference for Categorical Data - Proportions",
+        focus:
+          "The logic of a confidence interval, conditions for inference about one proportion, and interpreting the interval and the level correctly.",
+      },
+      {
+        course: "ap-physics-2",
+        unit: "Unit 12: Magnetism and Electromagnetism",
+        focus:
+          "Magnetic fields and field direction, force on a moving charge, and circular motion of a charge in a uniform field.",
+      },
+      {
+        course: "ap-english-literature",
+        unit: "Unit 5: Poetry II",
+        focus:
+          "Extended metaphor continued plus sound and syntax: how meter, rhyme, and sentence shape support the poem's argument.",
+      },
+    ],
+    practice: [
+      {
+        course: "ap-calculus-bc",
+        practiceSetId: "calc-u6-ps",
+        label: "Questions 3-4 on the Fundamental Theorem and u-substitution.",
+      },
+      {
+        course: "ap-statistics",
+        practiceSetId: "stat-u6-ps",
+        label: "Questions 1-3 on one-proportion intervals; write the interpretation in context every time.",
+      },
+      {
+        course: "ap-english-literature",
+        practiceSetId: "lit-u5-set",
+        label: "Poetry passage set, then annotate the two questions you spent longest on.",
+      },
+    ],
+  },
+  {
+    week: 14,
+    dateRange: "Dec 7 - Dec 13",
+    startDate: "2026-12-07",
+    phase: "build",
+    goal: "Finish integration technique, run your first significance test, and finish Poetry II.",
+    assignments: [
+      {
+        course: "ap-calculus-bc",
+        unit: "Unit 6: Integration and Accumulation of Change",
+        focus:
+          "BC-only technique: integration by parts, partial fractions, and improper integrals with a limit written explicitly.",
+      },
+      {
+        course: "ap-statistics",
+        unit: "Unit 6: Inference for Categorical Data - Proportions",
+        focus:
+          "One-sample significance test for a proportion: hypotheses, conditions, standardized test statistic, p-value, and a conclusion in context.",
+      },
+      {
+        course: "ap-physics-2",
+        unit: "Unit 12: Magnetism and Electromagnetism",
+        focus: "Force on a current-carrying wire, fields from wires and loops, and magnetic flux through a surface.",
+      },
+      {
+        course: "ap-english-literature",
+        unit: "Unit 5: Poetry II",
+        focus:
+          "Finish Poetry II with a timed poetry analysis essay; the thesis must name the poem's movement, not just its subject.",
+      },
+    ],
+    practice: [
+      {
+        course: "ap-calculus-bc",
+        practiceSetId: "calc-u6-ps",
+        label: "Full integration set, timed, half with no calculator.",
+      },
+      {
+        course: "ap-physics-2",
+        practiceSetId: "phys-u12-ps",
+        label: "Questions 1-3 on magnetic force and field direction; use the right-hand rule deliberately.",
+      },
+      {
+        course: "ap-english-literature",
+        practiceSetId: "lit-u5-set",
+        label: "Finish the set and log every question type you rushed.",
+      },
+    ],
+  },
+  {
+    week: 15,
+    dateRange: "Dec 14 - Dec 20",
+    startDate: "2026-12-14",
+    phase: "build",
+    goal: "Differential equations opened, two-proportion inference done, electromagnetism closed.",
+    assignments: [
+      {
+        course: "ap-calculus-bc",
+        unit: "Unit 7: Differential Equations",
+        focus:
+          "Verifying solutions, sketching and reading slope fields, separation of variables with an initial condition, and exponential models.",
+      },
+      {
+        course: "ap-statistics",
+        unit: "Unit 6: Inference for Categorical Data - Proportions",
+        focus:
+          "Two-proportion intervals and tests, including the pooled proportion, plus Type I and Type II errors and power in context.",
+      },
+      {
+        course: "ap-physics-2",
+        unit: "Unit 12: Magnetism and Electromagnetism",
+        focus: "Faraday's law, Lenz's law, and induced EMF from a changing flux, including the direction of induced current.",
+      },
+      {
+        course: "ap-english-literature",
+        unit: "Unit 6: Longer Fiction or Drama II",
+        focus:
+          "Begin the second long work: chart how structure, foils, and setting shifts advance a central tension.",
+      },
+    ],
+    practice: [
+      {
+        course: "ap-statistics",
+        practiceSetId: "stat-u6-ps",
+        label: "Complete set including both free-response items; conclusions must link p-value to alpha to context.",
+      },
+      {
+        course: "ap-physics-2",
+        practiceSetId: "phys-u12-ps",
+        label: "Complete set with the induction free response written as a full paragraph argument.",
+      },
+      {
+        course: "ap-calculus-bc",
+        practiceSetId: "calc-u7-ps",
+        label: "Questions 1-3 on slope fields and separable equations.",
+      },
+    ],
+  },
+  {
+    week: 16,
+    dateRange: "Dec 21 - Jan 3",
+    startDate: "2026-12-21",
+    phase: "build",
+    goal: "Hold the fall's gains over the break and read the long work without exam pressure.",
+    assignments: [
+      {
+        course: "ap-calculus-bc",
+        unit: "Unit 7: Differential Equations",
+        focus:
+          "Two short sessions only: Euler's method and logistic growth, plus a slow rework of the fall's messiest integration problems.",
+      },
+      {
+        course: "ap-statistics",
+        unit: "Units 1-6 maintenance",
+        focus:
+          "One page from memory listing every inference condition met so far, and one interpretation sentence per procedure.",
+      },
+      {
+        course: "ap-physics-2",
+        unit: "Units 8-12 maintenance",
+        focus:
+          "Rebuild the electricity and magnetism concept maps from blank paper; check them only after you have finished.",
+      },
+      {
+        course: "ap-english-literature",
+        unit: "Unit 6: Longer Fiction or Drama II",
+        focus:
+          "Break reading push: finish the long work and keep a running quotation bank of twelve passages for the literary argument essay.",
+      },
+    ],
+    practice: [
+      {
+        course: "ap-calculus-bc",
+        practiceSetId: "calc-u7-ps",
+        label: "Finish the differential equations set at a relaxed pace, untimed.",
+      },
+      {
+        course: "ap-statistics",
+        practiceSetId: "stat-u5-ps",
+        label: "Spaced retake of sampling distributions, six weeks after first study.",
+      },
+      {
+        course: "ap-english-literature",
+        practiceSetId: "lit-u6-set",
+        label: "One passage set on the long work, untimed, for comprehension rather than speed.",
+      },
+    ],
+    note: "This entry covers the two-week winter break (Dec 21 - Jan 3). Plan roughly half the usual weekly load: reading stays daily, everything else drops to two or three sessions per week, and there are no timed exams. Adjust to your school's actual break dates.",
+  },
+  {
+    week: 17,
+    dateRange: "Jan 4 - Jan 10",
+    startDate: "2027-01-04",
+    phase: "build",
+    goal: "Restart at full volume: integration applications, t-procedures, and optics.",
+    assignments: [
+      {
+        course: "ap-calculus-bc",
+        unit: "Unit 8: Applications of Integration",
+        focus:
+          "Average value, area between curves, and volumes by cross sections and by the disc and washer methods.",
+      },
+      {
+        course: "ap-statistics",
+        unit: "Unit 7: Inference for Quantitative Data - Means",
+        focus:
+          "Why t rather than z, degrees of freedom, and the one-sample t interval for a mean with conditions checked in writing.",
+      },
+      {
+        course: "ap-physics-2",
+        unit: "Unit 13: Geometric Optics",
+        focus:
+          "Reflection and refraction, index of refraction, total internal reflection, and ray diagrams for plane and curved mirrors.",
+      },
+      {
+        course: "ap-english-literature",
+        unit: "Unit 6: Longer Fiction or Drama II",
+        focus:
+          "Finish Unit 6 with a literary argument essay on the long work, using the quotation bank built over the break.",
+      },
+    ],
+    practice: [
+      {
+        course: "ap-calculus-bc",
+        practiceSetId: "calc-u8-ps",
+        label: "Questions 1-2 on area between curves and volume by cross sections.",
+      },
+      {
+        course: "ap-statistics",
+        practiceSetId: "stat-u7-ps",
+        label: "Questions 1-3 on one-sample t intervals.",
+      },
+      {
+        course: "ap-physics-2",
+        practiceSetId: "phys-u13-ps",
+        label: "Questions 1-2 on refraction and mirror ray diagrams.",
+      },
+    ],
+  },
+  {
+    week: 18,
+    dateRange: "Jan 11 - Jan 17",
+    startDate: "2027-01-11",
+    phase: "midyear-checkpoint",
+    goal: "Take a full-length timed section in every course and rewrite the spring plan around the results.",
+    assignments: [
+      {
+        course: "ap-calculus-bc",
+        unit: "Units 1-8 checkpoint",
+        focus:
+          "Full Section I under exam timing, then classify every miss as knowledge, algebra, or timing before doing anything else.",
+      },
+      {
+        course: "ap-statistics",
+        unit: "Units 1-7 checkpoint",
+        focus:
+          "Full multiple-choice section plus one investigative-task-style free response scored against the official rubric.",
+      },
+      {
+        course: "ap-physics-2",
+        unit: "Units 8-13 checkpoint",
+        focus:
+          "Timed multiple-choice section, then one paragraph-length argument question graded for physics reasoning, not prose.",
+      },
+      {
+        course: "ap-english-literature",
+        unit: "Units 1-6 checkpoint",
+        focus: "Full 55-question multiple-choice section in 60 minutes plus one timed essay of each of the three types.",
+      },
+    ],
+    practice: [
+      {
+        course: "ap-calculus-bc",
+        label: "Full Calculus BC Section I: 30 no-calculator questions in 60 minutes, then 15 calculator questions in 45 minutes.",
+      },
+      {
+        course: "ap-statistics",
+        label: "Full Statistics Section I: 40 multiple-choice questions in 90 minutes.",
+      },
+      {
+        course: "ap-physics-2",
+        label: "Physics 2 Section I: 40 multiple-choice questions in 80 minutes, calculator allowed.",
+      },
+      {
+        course: "ap-english-literature",
+        label: "AP Lit Section I: 55 questions in 60 minutes, followed on Sunday by two timed essays.",
+      },
+    ],
+    note: "Midyear checkpoint. Score everything honestly and write down the three weakest topics per course; weeks 19 onward should give those topics extra practice time. Do not start new units this week.",
+  },
 ];
 
 export const weeklyPlan: DayPlan[] = [
