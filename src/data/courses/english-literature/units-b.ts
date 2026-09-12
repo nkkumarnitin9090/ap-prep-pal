@@ -629,16 +629,12 @@ export const unitsB: Unit[] = [
               label: "D",
               text: "It personifies Time as a guest in the hall who overhears a private promise and later breaks it.",
             },
-            {
-              label: "E",
-              text: "It argues that grief is best managed by keeping strict household schedules, with Sunday winding as the model.",
-            },
           ],
           answer: "B",
           solution:
             "The comparison is not local. Line 1's winding, line 2's 'kept time,' line 6's 'hands,' line 7's 'turning,' and line 10's 'stopped' are one vehicle developing across the poem, which is the definition of conceit rather than of a single metaphor. Because the clock also 'kept house' and could 'mean what we had promised,' the mechanical images import fidelity, and the stopping can stand for a death or a departure without the poem having to name either. The last image (stillness) does work the first (winding) could not: it converts maintenance into grief.",
           note:
-            "A seizes the priest simile and ignores that prayer is the vehicle for devotion, not the target of satire. C is the student who stops at 'as a priest' and treats everything after as literal - but 'hands,' 'turning,' and 'keeping' continue the figure. D upgrades a background detail ('guests,' 'hall') into an allegory the poem never builds; guests hear the clock, they do not become Time. E moralizes the conceit into time-management advice; the poem is about a stop, not a schedule.",
+            "A seizes the priest simile and ignores that prayer is the vehicle for devotion, not the target of satire. C is the student who stops at 'as a priest' and treats everything after as literal - but 'hands,' 'turning,' and 'keeping' continue the figure. D upgrades a background detail ('guests,' 'hall') into an allegory the poem never builds; guests hear the clock, they do not become Time.",
         },
         {
           id: "lit-u8-q2",
@@ -665,16 +661,12 @@ export const unitsB: Unit[] = [
               label: "D",
               text: "indicate that the speaker is now quoting the guests from line 4, whose view of honesty the poem endorses.",
             },
-            {
-              label: "E",
-              text: "supply a missing iamb so that the poem can return to a regular ballad stanza in lines 6-10.",
-            },
           ],
           answer: "C",
           solution:
             "Lines 1-4 are one long, enjambed sentence in loosely iambic pentameter; line 5 is a two-beat fragment closed by a full stop. Form does the same work the conceit is doing: a running mechanism is cut. After that cut the verbs belong to the hands, not to the speaker's winding, which is how you know the line is a turn rather than a pause for breath. Meter and punctuation here are not decoration; they are the poem's argument arriving as a stop.",
           note:
-            "A is the reflex 'new speaker' distractor for any tonal shift; nothing in the grammar changes person or diction enough to split the voice. B over-reads the priest simile into a liturgical structure the poem does not have - there is no week, no office, no second ritual, only a stopped sentence. D smuggles the guests into a line that has no quotation marks and no 'they'; 'They call this broken' is line 8, and even there the speaker refuses their verdict. E invents a ballad stanza the poem never uses; the interruption is a cut, not a missing beat being filled.",
+            "A is the reflex 'new speaker' distractor for any tonal shift; nothing in the grammar changes person or diction enough to split the voice. B over-reads the priest simile into a liturgical structure the poem does not have - there is no week, no office, no second ritual, only a stopped sentence. D smuggles the guests into a line that has no quotation marks and no 'they'; 'They call this broken' is line 8, and even there the speaker refuses their verdict.",
         },
         {
           id: "lit-u8-q3",
@@ -690,18 +682,14 @@ export const unitsB: Unit[] = [
             },
             {
               label: "B",
-              text: "admits that the speaker can no longer read the clock face and therefore cannot tell what hour it shows.",
-            },
-            {
-              label: "C",
               text: "contradicts lines 1-4 by revealing that the clock never kept accurate time and the vow was already false.",
             },
             {
-              label: "D",
+              label: "C",
               text: "uses 'late' only in its social sense, scolding the addressee for dying or leaving inconsiderately.",
             },
             {
-              label: "E",
+              label: "D",
               text: "restates line 2's 'kept time' in different words, so the ending is a summary rather than a turn.",
             },
           ],
@@ -709,7 +697,7 @@ export const unitsB: Unit[] = [
           solution:
             "A stopped clock is the thing that is late; the line inverts that expectation and makes the world late relative to the stopped hour. That inversion is the hidden idea paradox is supposed to deliver: grief does not fall behind ordinary time, it accuses ordinary time of having gone on. Line 8's 'broken' / 'keeping' prepares the same logic - what looks like failure is fidelity - and line 10 is that logic taken all the way to cosmology.",
           note:
-            "B invents a failure of perception the poem never states; 'the hour of your leaving' is known, not lost. C treats paradox as a retcon, as if a witty last line canceled the opening, but the opening's 'kept time' is what makes the stopping mean anything. D is the tone-deaf reading that hears a social rebuke in 'late' and misses that the grammar blames 'the rest of time,' not the addressee. E is the paraphrase trap: line 10 inverts the expectation line 2 set; it does not repeat it.",
+            "B treats paradox as a retcon, as if a witty last line canceled the opening, but the opening's 'kept time' is what makes the stopping mean anything. C is the tone-deaf reading that hears a social rebuke in 'late' and misses that the grammar blames 'the rest of time,' not the addressee. D is the paraphrase trap: line 10 inverts the expectation line 2 set; it does not repeat it.",
         },
         {
           id: "lit-u8-q4",
@@ -736,16 +724,12 @@ export const unitsB: Unit[] = [
               label: "D",
               text: "The conceit is built so that both readings remain available: the addressee is addressable as clock and as person at once, and grief in the poem consists of being unable to separate the two.",
             },
-            {
-              label: "E",
-              text: "A third reading - that the speaker is a clock addressing its owner - is the only one the grammar of 'I wound you' will support.",
-            },
           ],
           answer: "D",
           solution:
             "A conceit yokes unlike things and then refuses to let go of either. 'Wound,' 'hands,' and 'stopped' are clock language; 'vow,' 'promised,' and 'leaving' are human language; and the poem assigns both vocabularies to the same 'you' from the first line. The point of not deciding is not indecision. It is the claim that the speaker's loss has fused the household object with the person who shared the house, so that winding a clock and keeping a person alive were already the same Sunday ritual. An essay that picks one reading and drops the other has analyzed half the vehicle.",
           note:
-            "A and B each take one half of the conceit as a disqualifier for the other half, which is exactly how not to read a conceit: the surprising pressure is the whole device. C is the sophistication-point failure mode in stem form - treating ambiguity as a problem to eliminate rather than as evidence. If a question offers you 'the poem holds both,' and both have textual support, that is almost always the answer written for Row C thinking. E inverts the grammar: 'I wound you' makes the speaker the winder, not the clock.",
+            "A and B each take one half of the conceit as a disqualifier for the other half, which is exactly how not to read a conceit: the surprising pressure is the whole device. C is the sophistication-point failure mode in stem form - treating ambiguity as a problem to eliminate rather than as evidence. If a question offers you 'the poem holds both,' and both have textual support, that is almost always the answer written for Row C thinking.",
         },
         {
           id: "lit-u8-q5",
@@ -908,16 +892,12 @@ export const unitsB: Unit[] = [
               label: "D",
               text: "The piano is an allegory of the legal transfer of property, with the dust representing unpaid debts from the solicitor's visit.",
             },
-            {
-              label: "E",
-              text: "The piano stands for Margaret's mother as a character who will reappear, so it is neither symbol nor motif but foreshadowing of a return.",
-            },
           ],
           answer: "C",
           solution:
             "A symbol is a particular thing standing for something beyond itself; a motif is a recurring element that accrues meaning by repetition. The shut piano does symbolic work here - it is her mother's, then hers, and she will not lift the lid, so the instrument stands for a inherited life she will not play - and because the passage returns to it from September, when it was 'already shut,' the later appearance adds what the first could not: duration made visible as dust. Naming both, and explaining the addition, is the whole analytic move at this level.",
           note:
-            "A inverts the terms: a symbol does not require a future scene to become one, and one present-tense appearance plus a memory already is recurrence. B is the literalist trap - 'a seam of dust' along ivory the lid 'did not quite meet' is not an inventory of the furniture. D upgrades symbol to allegory, which needs a systematic one-to-one code the passage never sets up; the solicitor is how we date the first shutting, not a creditor. E turns a shut instrument into a ghost plot; nothing here promises the mother will walk in.",
+            "A inverts the terms: a symbol does not require a future scene to become one, and one present-tense appearance plus a memory already is recurrence. B is the literalist trap - 'a seam of dust' along ivory the lid 'did not quite meet' is not an inventory of the furniture. D upgrades symbol to allegory, which needs a systematic one-to-one code the passage never sets up; the solicitor is how we date the first shutting, not a creditor.",
         },
         {
           id: "lit-u9-q2",
@@ -930,30 +910,26 @@ export const unitsB: Unit[] = [
           choices: [
             {
               label: "A",
-              text: "A first-person retrospective narrator confesses that she has been lying about the furniture all along.",
-            },
-            {
-              label: "B",
               text: "The narration stays close enough to report Margaret's own explanations - 'told herself,' 'a reasonable thing to wait for' - while arranging the hour, the dust, and the ignored tap so that the reader can judge those explanations as inadequate.",
             },
             {
-              label: "C",
-              text: "An omniscient narrator denounces Margaret's grief as selfish, so the reader's job is simply to agree.",
+              label: "B",
+              text: "An omniscient narrator who can report both Margaret's justifications and the ignored tap has already judged her, so the passage's irony is the narrator's rather than the reader's to produce.",
             },
             {
-              label: "D",
+              label: "C",
               text: "The narrator is unreliable because the facts of the room cannot be trusted: there may be no piano and no tap.",
             },
             {
-              label: "E",
+              label: "D",
               text: "Free indirect style here is complete fusion: every detail in the room is only as Margaret perceives it, so the reader has no independent vantage.",
             },
           ],
-          answer: "B",
+          answer: "A",
           solution:
             "The grammatical person is third, but the diction of justification is Margaret's: 'told herself this was for the furniture,' 'a reasonable thing to wait for,' 'chose not to hear.' The narration does not correct her in its own voice. It does not need to. Blinds down past eleven, a seam of dust, a tap she will not hear, and the admission that the quiet 'did not seem so now' are placed where a reader can see past the reasonableness she claims. That is a designed limit, not a defective narrator: interpretation of the passage is the gap between her account and the room.",
           note:
-            "A misreads 'told herself' as a confession in the first person; there is no 'I.' C invents a denunciation; the passage never editorializes, which is why the reader has to do the judging. D applies 'unreliable' to a narrator who has told us nothing false about the furniture - unreliability requires evidence that the report itself cannot be trusted, not merely that the character's reasons are self-serving. E overstates the closeness: blinds down past eleven, the seam of dust, and the tap she will not hear are arranged where the reader can see past her.",
+            "B treats the arranged details as the narrator's verdict; the passage never editorializes in its own voice, which is why the reader has to do the judging. C applies 'unreliable' to a narrator who has told us nothing false about the furniture - unreliability requires evidence that the report itself cannot be trusted, not merely that the character's reasons are self-serving. D overstates the closeness: blinds down past eleven, the seam of dust, and the tap she will not hear are arranged where the reader can see past her.",
         },
         {
           id: "lit-u9-q3",
@@ -974,14 +950,10 @@ export const unitsB: Unit[] = [
             },
             {
               label: "C",
-              text: "predict that Margaret will soon sell the piano in order to repair the plumbing.",
-            },
-            {
-              label: "D",
               text: "provide comic relief after the funeral by reducing grief to a household nuisance.",
             },
             {
-              label: "E",
+              label: "D",
               text: "establish a realistic soundscape of a large house; the two sounds have no relation to one another.",
             },
           ],
@@ -989,7 +961,7 @@ export const unitsB: Unit[] = [
           solution:
             "The piano is silence she maintains; the tap is sound she refuses to acknowledge. Neither detail would mean as much alone: a shut piano could be mourning, a dripping tap could be a servant's oversight. Set against each other they argue that Margaret is not the passive occupant of a quiet house but the person deciding which noises count. 'Patience she chose not to hear' makes the contrast a matter of will, and the September memory then shows that the choice has had time to harden. The claim depends on the pairing.",
           note:
-            "A takes the kitchen's 'girl' as the protagonist of a staffing plot the passage is not writing; the girl is there to leave a sound Margaret can ignore. C invents a future bargain the text does not hint at. D hears 'drip' and reaches for tone; nothing in the diction of dust, funeral, and 'did not seem so now' licenses comedy. E is the juxtaposition-as-background trap: if the pairing did no work, the tap would not be 'patience she chose not to hear.'",
+            "A takes the kitchen's 'girl' as the protagonist of a staffing plot the passage is not writing; the girl is there to leave a sound Margaret can ignore. C hears 'drip' and reaches for tone; nothing in the diction of dust, funeral, and 'did not seem so now' licenses comedy. D is the juxtaposition-as-background trap: if the pairing did no work, the tap would not be 'patience she chose not to hear.'",
         },
         {
           id: "lit-u9-q4",
@@ -1002,7 +974,7 @@ export const unitsB: Unit[] = [
           choices: [
             {
               label: "A",
-              text: "The ending is a plot convenience: Wharton needed Newland unmarried so the book could close on a romantic reunion, and then changed her mind.",
+              text: "The ending is unresolved on purpose, leaving open whether Newland and Ellen will meet later, so the work declines to interpret his sitting down.",
             },
             {
               label: "B",
@@ -1016,16 +988,12 @@ export const unitsB: Unit[] = [
               label: "D",
               text: "The closed shutters prove that Ellen has rejected him, so the scene is simply the plot delivering news Newland could not have known.",
             },
-            {
-              label: "E",
-              text: "The scene is verbal irony: Newland says he will go up and then does the opposite, so the meaning is hypocrisy in his speech.",
-            },
           ],
           answer: "C",
           solution:
             "The scene is a resolution that refuses reversal. Newland's governing trait - watching a woman's life from a designated place outside it - survives May's death, the son's encouragement, and the literal open invitation of a staircase. Because nothing external stops him now, the limit the novel has been studying is shown to have been his own. That is character remaining unchanged used as interpretation of the work as a whole: Old New York no longer needs to forbid the meeting. He forbids it. The shutters close after he has already chosen the bench.",
           note:
-            "A treats an ending as an authorial shrug; Q3 readers will not reward speculation about what Wharton 'changed her mind' about. B invents a chivalry the scene does not stage - we are with Newland's refusal, not Ellen's needs. D hands the agency to a servant's gesture and misses the order: he is already on the bench, and the shutters confirm a decision rather than cause one. When a late scene looks like news, check whether the character has already acted. E invents a spoken promise the description does not give him; the irony is situational (nothing now stops him) rather than verbal.",
+            "A treats an interpreted refusal as an open ending; he watches the shutters close and walks away, which is the novel's last claim about him, not a withheld sequel. B invents a chivalry the scene does not stage - we are with Newland's refusal, not Ellen's needs. D hands the agency to a servant's gesture and misses the order: he is already on the bench, and the shutters confirm a decision rather than cause one. When a late scene looks like news, check whether the character has already acted.",
         },
         {
           id: "lit-u9-q5",
