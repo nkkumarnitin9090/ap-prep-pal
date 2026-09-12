@@ -18,22 +18,27 @@ It answers three questions the student actually asked:
 Progress is stored in the browser's `localStorage`, so there is no account and no server
 to run beyond Next.js itself.
 
+## In this Cursor project
+
+A dev server is already running in this Cloud Agent environment. **Do not run
+`npm run dev` a second time.** Click **Preview**, or open
+[http://127.0.0.1:43127](http://127.0.0.1:43127). A browser tab will not pop
+open on its own.
+
+If you do run `npm run dev` while that server is up, it prints this reminder
+and exits 0 instead of crashing with `EADDRINUSE`.
+
 ## Getting started
+
+On a fresh clone on your laptop:
 
 ```bash
 npm install
 npm run dev
 ```
 
-Then open [http://127.0.0.1:43127](http://127.0.0.1:43127). Both `npm run dev`
-and `npm start` bind that address already, so you do not need extra flags.
-
-If the port is already in use (`EADDRINUSE`), either stop the process that is
-already serving 43127 or start on a different port:
-
-```bash
-npm run dev -- --port 43128
-```
+Then open [http://127.0.0.1:43127](http://127.0.0.1:43127). `npm run dev` and
+`npm start` listen on port 43127 (`0.0.0.0`, reachable as 127.0.0.1).
 
 Other scripts:
 
