@@ -115,16 +115,12 @@ export const unitsB: Unit[] = [
               label: "D",
               text: "The images of nesting and breeding predict that Macbeth's line will flourish, which the rest of the play confirms.",
             },
-            {
-              label: "E",
-              text: "The speeches establish Inverness as a pastoral setting whose sweetness the play will never revisit.",
-            },
           ],
           answer: "B",
           solution:
             "This is textbook dramatic irony: the information gap is between the audience, who has heard the murder planned, and Duncan, who finds the air 'delicate.' Shakespeare loads the speeches with images of shelter and nurture - 'pendent bed and procreant cradle' - precisely so that the audience's knowledge converts hospitality into menace. The right answer states the gap and its effect, which is dread rather than suspicion.",
           note:
-            "A is tempting because Banquo elsewhere does voice suspicion, but nothing in these lines is guarded; he is genuinely admiring the birds. C confuses dramatic irony with verbal irony - the speaker being ironic on purpose. D reverses the play's actual prophecy, which promises the succession to Banquo's line, not Macbeth's, and 'the rest of the play confirms' should always make you check. E treats atmosphere as scene-setting the play will drop, but the delicacy is here so that the later blood can undo it.",
+            "A is tempting because Banquo elsewhere does voice suspicion, but nothing in these lines is guarded; he is genuinely admiring the birds. C confuses dramatic irony with verbal irony - the speaker being ironic on purpose. D reverses the play's actual prophecy, which promises the succession to Banquo's line, not Macbeth's, and 'the rest of the play confirms' should always make you check.",
         },
         {
           id: "lit-u6-q2",
@@ -144,14 +140,10 @@ export const unitsB: Unit[] = [
             },
             {
               label: "C",
-              text: "He concludes that reason is worthless and that a man should live only to 'sleep and feed.'",
-            },
-            {
-              label: "D",
               text: "He blames fortune and death for making decisive action impossible for anyone.",
             },
             {
-              label: "E",
+              label: "D",
               text: "He treats Fortinbras as a rival claimant to the Danish throne and uses the army to justify killing Claudius at once.",
             },
           ],
@@ -159,7 +151,7 @@ export const unitsB: Unit[] = [
           solution:
             "Hamlet explicitly frames the army as exhortation - 'Examples gross as earth exhort me' - so Fortinbras functions as a foil whose readiness to stake thousands of lives measures Hamlet's own dullness. But Hamlet chooses the words: the ambition is 'puff'd,' the cause is 'an egg-shell.' The soliloquy therefore does two things at once, praising the action while devaluing its object, and the defensible answer is the one that keeps both.",
           note:
-            "A grabs the 'egg-shell' and drops 'exhort me,' which is exactly backwards; the negative diction is aimed at the cause, not at the choice to act. C misreads the rhetorical question, since Hamlet's point is that a man who only sleeps and feeds is 'a beast, no more.' D borrows real words from the passage ('fortune, death and danger') to build a claim the passage never makes - a common distractor design worth learning to spot. E imports a succession plot this excerpt does not argue; Fortinbras is an example, not a claimant Hamlet is answering.",
+            "A grabs the 'egg-shell' and drops 'exhort me,' which is exactly backwards; the negative diction is aimed at the cause, not at the choice to act. C borrows real words from the passage ('fortune, death and danger') to build a claim the passage never makes - a common distractor design worth learning to spot. D imports a succession plot this excerpt does not argue; Fortinbras is an example, not a claimant Hamlet is answering.",
         },
         {
           id: "lit-u6-q3",
@@ -186,16 +178,12 @@ export const unitsB: Unit[] = [
               label: "D",
               text: "Blood is an allegory for the Scottish civil war, with each stain representing a specific historical battle.",
             },
-            {
-              label: "E",
-              text: "The hyperbole shows Macbeth's practical interest in whether seawater can dissolve blood, a question the play later answers empirically.",
-            },
           ],
           answer: "A",
           solution:
             "A motif is a recurring element that accrues meaning by repetition; a symbol is a particular thing standing for something beyond itself. Here the single image does symbolic work - Macbeth's hand will redden an ocean rather than be cleansed by it, so the blood is guilt in its indelible form - and because the image returns across the play, blood is also the play's governing motif. Naming both, and explaining what the repetition adds, is the whole analytic move.",
           note:
-            "B inverts the terms: one appearance cannot be a motif, and a symbol does not require a later scene to become one. C is the literalist trap - the hyperbole of 'multitudinous seas incarnadine' is not describing a cleanup problem. D upgrades symbol to allegory, which requires a systematic one-to-one correspondence the play never sets up. E doubles down on the literalist trap by turning a figure of indelible guilt into a chemistry experiment.",
+            "B inverts the terms: one appearance cannot be a motif, and a symbol does not require a later scene to become one. C is the literalist trap - the hyperbole of 'multitudinous seas incarnadine' is not describing a cleanup problem. D upgrades symbol to allegory, which requires a systematic one-to-one correspondence the play never sets up.",
         },
         {
           id: "lit-u6-q4",
@@ -221,16 +209,12 @@ export const unitsB: Unit[] = [
               label: "D",
               text: "An unreliable narrator whose factual errors about New York undercut the account of the Academy.",
             },
-            {
-              label: "E",
-              text: "Second-person narration that addresses the reader as a fellow member of 'the world of fashion.'",
-            },
           ],
           answer: "C",
           solution:
             "The narrator stands well outside the scene, dating it loosely ('the early seventies') and speaking of 'the world of fashion' as a collective. The irony comes from adopting that world's own justifications - cherishing a hall for being 'small and inconvenient' because inconvenience excludes the wrong people - and letting the absurdity show. Wharton also quotes the group's phrases, 'above the Forties' and 'new people,' rather than her own, which is how the distance is measured.",
           note:
-            "A misreads the confident social overview as personal memoir; there is no 'I.' B is the most attractive wrong answer because Archer dominates the novel, but he has not appeared yet and the survey of the Academy is not filtered through anyone's mind. D applies 'unreliable' to a narrator who has told us nothing false - unreliability requires evidence that the narration itself cannot be trusted, not merely that it is ironic. E invents a 'you' the passage never uses; collective 'the world of fashion' is not second person.",
+            "A misreads the confident social overview as personal memoir; there is no 'I.' B is the most attractive wrong answer because Archer dominates the novel, but he has not appeared yet and the survey of the Academy is not filtered through anyone's mind. D applies 'unreliable' to a narrator who has told us nothing false - unreliability requires evidence that the narration itself cannot be trusted, not merely that it is ironic.",
         },
         {
           id: "lit-u6-q5",
@@ -391,16 +375,12 @@ export const unitsB: Unit[] = [
               label: "D",
               text: "It proves the narrator has no access to Louise's mind and is reporting only her outward gestures.",
             },
-            {
-              label: "E",
-              text: "It substitutes landscape description for character, so that the sky and scents become the passage's true subject.",
-            },
           ],
           answer: "B",
           solution:
             "The narration is close enough to report the question 'What was it?' as Louise's own, but it declines to supply the answer, and the passive, elemental imagery ('creeping out of the sky') keeps the feeling exterior to her for one more beat. Louise 'did not know' either: the delay is shared, not a gap the reader can see past. That controlled lag is what makes her later whispered 'free, free, free!' land as an admission rather than a statement, and it implicates the reader in the recognition.",
           note:
-            "A converts narrative technique into diagnosis; her heart trouble is physical and the story never suggests delusion. C reverses who knows what - Louise does not yet possess the name either, so this is not dramatic irony at her expense. D is contradicted by the interior access on display ('she did not know,' 'striving to beat it back with her will'); the narration is close, just deliberately unhurried. E takes the sky and scents as the topic; they are the vehicle by which an unnamed feeling approaches her.",
+            "A converts narrative technique into diagnosis; her heart trouble is physical and the story never suggests delusion. C reverses who knows what - Louise does not yet possess the name either, so this is not dramatic irony at her expense. D is contradicted by the interior access on display ('she did not know,' 'striving to beat it back with her will'); the narration is close, just deliberately unhurried.",
         },
         {
           id: "lit-u7-q2",
@@ -426,16 +406,12 @@ export const unitsB: Unit[] = [
               label: "D",
               text: "Evidence that the narrator is unreliable, since his self-condemnation is clearly excessive.",
             },
-            {
-              label: "E",
-              text: "A shift into stream of consciousness that abandons retrospective narration for the rest of the story.",
-            },
           ],
           answer: "A",
           solution:
             "'Araby' is retrospective first person: the man tells the boy's story. The closing sentence is where the two selves are furthest apart, because 'a creature driven and derided by vanity' is a moral judgment in an adult's formal register, while the preceding sentences stay in the boy's plain sensory world - pennies, a voice, the dark. The story's structure depends on withholding that verdict until the light goes out.",
           note:
-            "B is the trap for students who forget that first-person narration has a tense: the boy feels humiliation, but this phrasing is the man's. C is wrong because the narrator is never omniscient - he is the same character, older. D reaches for 'unreliable' because the judgment is harsh, but harshness is not unreliability; nothing in the story suggests the narrator has misrepresented events. E names a technique the last sentence does not use; the diction is more formal than the boy's, not less ordered.",
+            "B is the trap for students who forget that first-person narration has a tense: the boy feels humiliation, but this phrasing is the man's. C is wrong because the narrator is never omniscient - he is the same character, older. D reaches for 'unreliable' because the judgment is harsh, but harshness is not unreliability; nothing in the story suggests the narrator has misrepresented events.",
         },
         {
           id: "lit-u7-q3",
@@ -462,16 +438,12 @@ export const unitsB: Unit[] = [
               label: "D",
               text: "It shows that the narrator is one of the villagers whose gossip he transcribes without comment.",
             },
-            {
-              label: "E",
-              text: "It promises a detective plot in which the narrator will expose a crime Harmon Gow has been concealing.",
-            },
           ],
           answer: "B",
           solution:
             "Wharton opens by conceding that the versions did not agree, and the second passage is explicitly inference - 'I simply felt,' 'I had the sense,' 'as Harmon Gow had hinted.' The frame therefore does not give us Ethan; it gives us an outsider reconstructing Ethan, and the reader's job includes weighing that reconstruction. Note too that setting is doing character work here, since the isolation is attributed to 'the accumulated cold of many Starkfield winters.'",
           note:
-            "A is the reflex answer for third-person novels, but this narrator says 'I' in the first sentence. C overcorrects: admitting uncertainty is a bid for credibility, not a forfeit of it, and the distinction between a limited narrator and an untrustworthy one is tested constantly. D is contradicted by 'too remote for casual access' - the narrator is a newcomer, and the whole passage is commentary rather than transcription. E upgrades Gow's hint into a crime the prologue never names; the mystery is moral isolation, not a concealed offense.",
+            "A is the reflex answer for third-person novels, but this narrator says 'I' in the first sentence. C overcorrects: admitting uncertainty is a bid for credibility, not a forfeit of it, and the distinction between a limited narrator and an untrustworthy one is tested constantly. D is contradicted by 'too remote for casual access' - the narrator is a newcomer, and the whole passage is commentary rather than transcription.",
         },
         {
           id: "lit-u7-q4",
@@ -498,16 +470,12 @@ export const unitsB: Unit[] = [
               label: "D",
               text: "The ending is situational irony only, since the reversal of Brently's death is unexpected.",
             },
-            {
-              label: "E",
-              text: "The doctors function as a chorus, and their diagnosis is the story's official moral, which the narrator endorses.",
-            },
           ],
           answer: "C",
           solution:
             "Chopin is careful about attribution: 'they said.' The story's final judgment is quoted from men who assume a wife's joy could only be at her husband's return, and the reader's superior knowledge turns their tidy phrase into the sharpest line in the story. That is dramatic irony operating through a narrator who declines to correct the record.",
           note:
-            "A ignores 'they said' and hands the doctors' words to the narrator - the single most common misreading of this ending. B misnames the device: the narrator is not speaking ironically, the quoted diagnosis is ironic in context. D is true but incomplete, and 'only' makes it wrong; the reversal is situational, yet the force of the last line comes from the gap between what the doctors and the reader know. E is A in chorus clothing: the whole point of 'they said' is that the narrator does not endorse the diagnosis.",
+            "A ignores 'they said' and hands the doctors' words to the narrator - the single most common misreading of this ending. B misnames the device: the narrator is not speaking ironically, the quoted diagnosis is ironic in context. D is true but incomplete, and 'only' makes it wrong; the reversal is situational, yet the force of the last line comes from the gap between what the doctors and the reader know.",
         },
         {
           id: "lit-u7-q5",
