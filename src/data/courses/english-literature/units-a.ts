@@ -117,7 +117,6 @@ export const unitsA: Unit[] = [
             { label: "B", text: "show that Mr. Pell deliberately falsifies his business records" },
             { label: "C", text: "expose how little of the boy's conduct Mr. Pell's judgment actually takes in" },
             { label: "D", text: "establish the ledger as an emblem of the town's economic decline" },
-            { label: "E", text: "explain why Mr. Pell has managed to keep the store for thirty-one years" },
           ],
           answer: "C",
           solution:
@@ -137,14 +136,13 @@ export const unitsA: Unit[] = [
             { label: "A", text: "situate the store in a commercial district that is failing" },
             { label: "B", text: "present the street as Pell's grief presents it, so that the setting reports his condition rather than the town's" },
             { label: "C", text: "foreshadow the sale of the hardware store" },
-            { label: "D", text: "contrast the boy's youth with Pell's advanced age" },
-            { label: "E", text: "fix the season in which the scene takes place" },
+            { label: "D", text: "fix the season in which the scene takes place" },
           ],
           answer: "B",
           solution:
             "The narration ties the greyness to a specific cause: the window \"had not been washed since the funeral,\" so the street only \"arrived\" that way after passing through Pell's neglect. The hedge \"as though the town itself had thinned\" marks the thinning as an impression rather than a fact about the town. The setting is doing characterization.",
           note:
-            "A reads \"grey and reduced\" as economic reportage and ignores the window standing between Pell and the street. C invents a plot event the passage never supplies - a common trap when a detail feels ominous. E treats atmospheric language as mere scene-setting, which is exactly the reflex this unit is trying to break.",
+            "A reads \"grey and reduced\" as economic reportage and ignores the window standing between Pell and the street. C invents a plot event the passage never supplies - a common trap when a detail feels ominous. D treats atmospheric language as mere scene-setting, which is exactly the reflex this unit is trying to break.",
         },
         {
           id: "lit-u1-q3",
@@ -158,13 +156,12 @@ export const unitsA: Unit[] = [
             { label: "B", text: "Pell's single word records the boy's hands and misses his attention to the room and to Pell himself" },
             { label: "C", text: "Pell's own record-keeping has grown careless in the months since his wife's death" },
             { label: "D", text: "the word describes the town more accurately than it describes any person in it" },
-            { label: "E", text: "the boy will prove to be the most decisive figure in the story" },
           ],
           answer: "B",
           solution:
             "Counting the coins twice really is slow, so the entry is not factually false - it is ironically small. The same stretch of time in which the boy's hands move slowly is the stretch in which he tidies the sawdust and remembers a widower's loss, and none of that fits in the ledger's one word. The irony lies in the mismatch between an accurate label and an inadequate one.",
           note:
-            "A denies the literal truth of the entry, but irony here does not require the word to be wrong. C is tempting because the unwashed window does suggest neglect, yet the ledger is precise; it is precise about the wrong things. D and E import claims the passage never makes.",
+            "A denies the literal truth of the entry, but irony here does not require the word to be wrong. C is tempting because the unwashed window does suggest neglect, yet the ledger is precise; it is precise about the wrong things. D imports a claim about the town the passage never makes - the thinning is Pell's impression through an unwashed window, not a verdict the ledger is secretly recording.",
         },
         {
           id: "lit-u1-q4",
@@ -178,14 +175,13 @@ export const unitsA: Unit[] = [
             { label: "A", text: "suspects that someone has forged an entry in his ledger" },
             { label: "B", text: "takes quiet pride in the steadiness of his penmanship" },
             { label: "C", text: "has begun to find his own habits of judgment strange to him" },
-            { label: "D", text: "intends to sell the store and settle his outstanding accounts" },
-            { label: "E", text: "cannot read well enough to verify what he has written" },
+            { label: "D", text: "cannot read well enough to verify what he has written" },
           ],
           answer: "C",
           solution:
             "The simile is about self-recognition: a signature is the mark of an identity, and Pell cannot quite claim this one. Placed immediately after a page that recorded the wrong thing about a generous boy, the doubt attaches to the judging self that filled the page. The story's opening boast has quietly come apart by the last clause.",
           note:
-            "A literalizes the comparison into a plot event, the most frequent error with similes in the multiple-choice section. B reverses the tone of a man staring at a page \"for a long while.\" E mistakes a figure of estrangement for a statement about literacy.",
+            "A literalizes the comparison into a plot event, the most frequent error with similes in the multiple-choice section. B reverses the tone of a man staring at a page \"for a long while.\" D mistakes a figure of estrangement for a statement about literacy.",
         },
         {
           id: "lit-u1-q5",
@@ -198,15 +194,14 @@ export const unitsA: Unit[] = [
           choices: [
             { label: "A", text: "establish Pell as a shrewd judge whose reading of the Ames boy the story will confirm" },
             { label: "B", text: "set a standard of character-reading that the rest of the passage will show him failing to meet" },
-            { label: "C", text: "explain why finish nails, rather than another item, are the store's most telling merchandise" },
+            { label: "C", text: "present the hardware purchase as the passage's most reliable evidence of the Ames boy's character" },
             { label: "D", text: "hint that the Ames boy has come to steal hardware rather than to buy it" },
-            { label: "E", text: "introduce a comic type of the eccentric small-town shopkeeper" },
           ],
           answer: "B",
           solution:
             "The boast is a thesis the narration immediately tests. Pell claims he can read character from a purchase; what he actually records is one word, \"slow,\" while the boy's care for the room and for Pell himself never reaches the page. By the closing simile he cannot even recognize his own hand. The opening sentence exists so that claim can fail in public.",
           note:
-            "A takes the boast at face value, which is the reliability trap this unit is built on. C treats a characterizing claim as product knowledge. D and E invent a theft plot and a comic tone the diction never licenses.",
+            "A takes the boast at face value, which is the reliability trap this unit is built on. C treats the nails as the evidence the passage actually trusts, which is Pell's theory rather than the narrator's. D invents a theft plot the twice-counted coins might seem to license; the diction never does.",
         },
         {
           id: "lit-u1-q6",
@@ -339,13 +334,12 @@ export const unitsA: Unit[] = [
             { label: "B", text: "let the refusal stand as absolute for an instant before the next line shrinks it to an excuse about scheduling" },
             { label: "C", text: "establish the poem's rhyme scheme at the midpoint of the sentence" },
             { label: "D", text: "signal that a second speaker has taken over the poem" },
-            { label: "E", text: "separate the speaker's words to the neighbors from her words to her mother" },
           ],
           answer: "B",
           solution:
             "The break hangs the poem on \"no.\" For the length of the line ending, the speaker has simply refused - no object, no excuse - and then the enjambment delivers \"time for it,\" the socially acceptable version she offers the neighbors. The gap between the two is the poem's first admission that the refusal was never about time, which the next sentence confirms: \"The truth is smaller.\"",
           note:
-            "A takes the excuse at face value, which is precisely what the line break undercuts. C names a feature the poem does not have; free verse invites device-hunting, and inventing a rhyme scheme is the most common version. D and E misread a shift in candor as a shift in who is talking.",
+            "A takes the excuse at face value, which is precisely what the line break undercuts. C names a feature the poem does not have; free verse invites device-hunting, and inventing a rhyme scheme is the most common version. D misreads a shift in candor as a shift in who is talking.",
         },
         {
           id: "lit-u2-q2",
@@ -360,13 +354,12 @@ export const unitsA: Unit[] = [
             { label: "B", text: "is probably false and will disappoint the speaker" },
             { label: "C", text: "the speaker's neighbors have been discussing behind her back" },
             { label: "D", text: "arrives too delicately for the speaker to notice at first" },
-            { label: "E", text: "repeats itself every year in exactly the same form" },
           ],
           answer: "A",
           solution:
             "The comparison is built on the one property the poem needs: rumors circulate without consent and cannot be recalled. April is not being called untrue; it is being called unstoppable, which sets up the tulips overriding the speaker in the closing lines.",
           note:
-            "B seizes the association a rumor carries in ordinary speech - unreliability - instead of the property the sentence activates through \"stubborn\" and \"anyway.\" C smuggles the neighbors from line 4 into a simile that has nothing to do with them. Every simile question is a question about which association the poem is actually using.",
+            "B seizes the association a rumor carries in ordinary speech - unreliability - instead of the property the sentence activates through \"stubborn\" and \"anyway.\" C smuggles the neighbors from line 4 into a simile that has nothing to do with them. D ignores \"stubborn\" and \"anyway,\" which mark April as insistent rather than faint. Every simile question is a question about which association the poem is actually using.",
         },
         {
           id: "lit-u2-q3",
@@ -377,17 +370,16 @@ export const unitsA: Unit[] = [
           prompt:
             "The poem's decisive shift in agency - the point at which the poem stops being governed by what the speaker chooses to do - occurs at",
           choices: [
-            { label: "A", text: "line 1, with \"All winter I kept\"" },
-            { label: "B", text: "line 4, with \"I told the neighbors\"" },
-            { label: "C", text: "line 5, with \"The truth is smaller\"" },
-            { label: "D", text: "line 7, with \"Then April came up anyway\"" },
-            { label: "E", text: "line 11, with \"and spoke for her\"" },
+            { label: "A", text: "line 4, with \"I told the neighbors\"" },
+            { label: "B", text: "line 5, with \"The truth is smaller\"" },
+            { label: "C", text: "line 7, with \"Then April came up anyway\"" },
+            { label: "D", text: "line 11, with \"and spoke for her\"" },
           ],
-          answer: "D",
+          answer: "C",
           solution:
             "Through line 6 the speaker is the grammatical subject of every clause: she keeps the window shut, she tells the neighbors, she cannot look. At \"Then April came up anyway,\" the subject changes and so does the power in the poem - April acts, then the tulips act, and the speaker becomes the obstacle they push through. \"Anyway\" marks the reversal explicitly.",
           note:
-            "C is the strong distractor, and it is a real shift - from the public excuse to the private confession - but the speaker is still the one narrating and still the one in charge. The question asks about agency, not candor. E names the consequence of the turn rather than the turn.",
+            "B is the strong distractor, and it is a real shift - from the public excuse to the private confession - but the speaker is still the one narrating and still the one in charge. The question asks about agency, not candor. A keeps the speaker as the grammatical subject (\"I told\"). D names the consequence of the turn rather than the turn.",
         },
         {
           id: "lit-u2-q4",
@@ -401,14 +393,13 @@ export const unitsA: Unit[] = [
             { label: "A", text: "describing the color and shape of the tulip blossoms with unusual precision" },
             { label: "B", text: "treating the speaker's excuses as a physical barrier, so an evasion becomes something the flowers can visibly break through" },
             { label: "C", text: "implying that the speaker has been talking aloud to the garden all winter" },
-            { label: "D", text: "comparing the mother's voice to the sound of wind in the tulip bed" },
-            { label: "E", text: "shifting the poem from the past tense into the present" },
+            { label: "D", text: "attributing speech to the blossoms in order to suggest the mother is physically present in the garden" },
           ],
           answer: "B",
           solution:
             "\"Excuses\" is an abstraction, and the poem gives it enough substance to be broken. Once the evasion has a surface, the tulips' growth becomes an action against the speaker rather than a seasonal fact, and the personified \"mouths\" that follow can carry the mother's voice into a poem the speaker had tried to keep silent.",
           note:
-            "A reads the line as description and stops one step short of its work - the mouths matter because they speak, not because they are red. C literalizes a figure into a habit. E is checkable against the text and false; the verbs stay in the past.",
+            "A reads the line as description and stops one step short of its work - the mouths matter because they speak, not because they are red. C literalizes a figure into a habit. D takes the personified mouths as evidence that the mother has returned in the flesh; they speak for her because she cannot.",
         },
         {
           id: "lit-u2-q5",
@@ -422,14 +413,13 @@ export const unitsA: Unit[] = [
             { label: "A", text: "a season of ordinary household repair, with the storm window as practical maintenance" },
             { label: "B", text: "an act of willed separation from a place that still holds her mother" },
             { label: "C", text: "evidence that the garden has grown dangerous and must be kept out of the house" },
-            { label: "D", text: "a property dispute with the neighbors mentioned in line 4" },
-            { label: "E", text: "the poet's advice, in her own person, about how to winterize a house" },
+            { label: "D", text: "the poet's advice, in her own person, about how to winterize a house" },
           ],
           answer: "B",
           solution:
             "\"Against\" makes the garden an adversary, not a view. The window is not keeping weather out so much as keeping the speaker from having to look at beds her mother edged \"the summer she could still / kneel.\" Winter here is a chosen barricade against a grief that is located in a specific plot of ground.",
           note:
-            "A takes \"storm window\" as home-repair vocabulary and ignores \"against.\" C inflates the garden into a threat the poem never makes; the threat is memory, not brambles. E collapses speaker into poet, the Unit 2 error the first topic is there to prevent.",
+            "A takes \"storm window\" as home-repair vocabulary and ignores \"against.\" C inflates the garden into a threat the poem never makes; the threat is memory, not brambles. D collapses speaker into poet, the Unit 2 error the first topic is there to prevent.",
         },
         {
           id: "lit-u2-q6",
