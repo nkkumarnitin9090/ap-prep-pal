@@ -562,7 +562,6 @@ export const unitsA: Unit[] = [
             { label: "B", text: "create dramatic irony by letting the audience weigh Eileen's answer against what it can see" },
             { label: "C", text: "show that Halloran has hidden the envelope from Eileen" },
             { label: "D", text: "indicate that the envelope will be opened before the act ends" },
-            { label: "E", text: "emphasize how little mail the household receives" },
           ],
           answer: "B",
           solution:
@@ -581,14 +580,13 @@ export const unitsA: Unit[] = [
             { label: "A", text: "he intends it as stoic pride, while the audience sees a bank notice that makes \"nothing\" a literal account of his finances" },
             { label: "B", text: "he is secretly wealthier than his wife believes" },
             { label: "C", text: "he is mocking the pie Eileen has just offered him" },
-            { label: "D", text: "he has in fact received a great deal of mail that season" },
-            { label: "E", text: "he speaks the line without looking up from his work" },
+            { label: "D", text: "he speaks the line without looking up from his work" },
           ],
           answer: "A",
           solution:
             "Halloran means the sentence as a boast about endurance. The envelope converts his abstract \"nothing\" into an unread balance, so the audience hears a second meaning he does not intend - the definition of dramatic irony in a single line.",
           note:
-            "B invents a hidden fortune the scene never suggests. C misreads the sequence; the pie is offered after his line. E notices a real detail - his refusal to look up - but that is characterization of his inattention, not the source of the irony.",
+            "B invents a hidden fortune the scene never suggests. C misreads the sequence; the pie is offered after his line. D notices a real detail - his refusal to look up - but that is characterization of his inattention, not the source of the irony.",
         },
         {
           id: "lit-u3-q3",
@@ -603,13 +601,12 @@ export const unitsA: Unit[] = [
             { label: "B", text: "she means to open the envelope as soon as supper is over" },
             { label: "C", text: "she wants Halloran to discover the envelope himself" },
             { label: "D", text: "her concealment is a choice she renews in private, not merely a lie told under pressure" },
-            { label: "E", text: "she cannot read what the envelope says" },
           ],
           answer: "D",
           solution:
             "Nobody is watching. She uncovers the envelope, looks at it, and deliberately covers it again, which means the lie she told Halloran was not a flinch in the moment but a policy she reaffirms alone. The gesture is the scene's fullest piece of characterization and it happens without a word.",
           note:
-            "A drains a deliberate three-part action of meaning. B and C assign intentions the blocking contradicts - she re-covers the envelope rather than setting it out or opening it. E is a literal reading of a woman who has clearly understood what she is hiding.",
+            "A drains a deliberate three-part action of meaning. B and C assign intentions the blocking contradicts - she re-covers the envelope rather than setting it out or opening it. The remaining wrong options all invent a next move; the gesture's meaning is that she does not make one.",
         },
         {
           id: "lit-u3-q4",
@@ -623,14 +620,13 @@ export const unitsA: Unit[] = [
             { label: "A", text: "a wife who improvises to manage the moment and a husband who retreats into fixed routine" },
             { label: "B", text: "a generous provider and an ungrateful dependent" },
             { label: "C", text: "a character who fears poverty and one who has never known it" },
-            { label: "D", text: "a rural way of speaking and an urban one" },
-            { label: "E", text: "an affectionate marriage and a hostile one" },
+            { label: "D", text: "an affectionate marriage and a hostile one" },
           ],
           answer: "A",
           solution:
             "Eileen's offer of the pie is an improvisation: she changes the subject with food the second the mail has been discussed. Halloran answers with the clock, refusing the offer by appealing to what he always does. The pairing defines each of them - her management, his rigidity - and explains why the envelope can sit between them undiscussed.",
           note:
-            "B and E impose a judgment the scene withholds; nothing here is hostile, and no one is ungrateful. C inverts the situation, since Halloran is the one whose line about living on nothing suggests long acquaintance with scarcity.",
+            "B and D impose a judgment the scene withholds; nothing here is hostile, and no one is ungrateful. C inverts the situation, since Halloran is the one whose line about living on nothing suggests long acquaintance with scarcity.",
         },
         {
           id: "lit-u3-q5",
@@ -645,7 +641,6 @@ export const unitsA: Unit[] = [
             { label: "B", text: "announce to the audience that she has decided to leave the farm" },
             { label: "C", text: "leave her performing the household's rituals for a listener who has already gone" },
             { label: "D", text: "break the scene's realism by addressing the audience as a confidante" },
-            { label: "E", text: "suggest that Halloran is still listening on the other side of the door" },
           ],
           answer: "C",
           solution:
@@ -780,13 +775,12 @@ export const unitsA: Unit[] = [
             { label: "B", text: "signal that the public account is technically true and privately incomplete" },
             { label: "C", text: "show that the narrator can no longer remember what was said to the committee" },
             { label: "D", text: "blame the committee for twisting a simple statement into a legend of sacrifice" },
-            { label: "E", text: "establish that the sister, not the narrator, invented the story of who stayed" },
           ],
           answer: "B",
           solution:
             "\"Accurate enough\" grants the facts - the narrator did stay - and withholds the motive. The rest of the passage supplies what the qualifier has already flagged: a photograph that looks like a choice, a letter that asked her to wait, a garden reported but never planted. The phrase is the first crack between the story told and the story lived.",
           note:
-            "A overstates the gap into a lie; the narrator did stay, which is why the unreliability is limitation rather than fraud. C invents amnesia the voice never claims. D and E move the editing work onto other people, but the hedging is the narrator's own.",
+            "A overstates the gap into a lie; the narrator did stay, which is why the unreliability is limitation rather than fraud. C invents amnesia the voice never claims. D moves the editing work onto the committee, but the hedging is the narrator's own.",
         },
         {
           id: "lit-u4-q2",
@@ -800,14 +794,13 @@ export const unitsA: Unit[] = [
             { label: "A", text: "that she is selfish where the narrator is loyal, so the story can judge her for leaving" },
             { label: "B", text: "that city life is morally superior to life in a mill town" },
             { label: "C", text: "the difference between a life that has acquired names and a staying that has emptied the house" },
-            { label: "D", text: "that the narrator was legally required to keep the mortgage after the mill closed" },
-            { label: "E", text: "that the two siblings were never close enough for her leaving to matter" },
+            { label: "D", text: "that the two siblings were never close enough for her leaving to matter" },
           ],
           answer: "C",
           solution:
             "The pairing isolates one quality: motion versus stasis, and what each produces. Her suitcase will not zip; her letters are \"full of names I do not know\"; she has a courtyard window. Against that fullness the narrator's staying becomes three rooms that still smell of a dead father, a garden not planted, a bed he will not walk past. The foil does not villainize her; it measures what his remaining has cost.",
           note:
-            "A is the foil-as-moral-diagram trap this unit is built to break; the passage never asks you to condemn the sister. B imports a town-versus-city thesis the text does not argue. E contradicts the empty bed and the unsent letter, both of which prove the leaving still governs the house.",
+            "A is the foil-as-moral-diagram trap this unit is built to break; the passage never asks you to condemn the sister. B imports a town-versus-city thesis the text does not argue. D contradicts the empty bed and the unsent letter, both of which prove the leaving still governs the house.",
         },
         {
           id: "lit-u4-q3",
@@ -822,7 +815,6 @@ export const unitsA: Unit[] = [
             { label: "B", text: "ironizes the public image of chosen steadfastness against private evidence of a plea the narrator never sent" },
             { label: "C", text: "establishes a chronology so the reader can date the mill's closing" },
             { label: "D", text: "suggests that the narrator intends to mail the letter now that it has been found" },
-            { label: "E", text: "identifies the sister, not the narrator, as the true subject of the photograph" },
           ],
           answer: "B",
           solution:
@@ -840,16 +832,15 @@ export const unitsA: Unit[] = [
             "The phrase \"a hand I barely recognized as mine\" most nearly suggests that the narrator",
           choices: [
             { label: "A", text: "suspects someone else wrote the letter and left it in the desk" },
-            { label: "B", text: "has grown proud of how his handwriting has improved since the mill closed" },
-            { label: "C", text: "cannot read the address because the ink has faded" },
-            { label: "D", text: "now stands at enough distance from his past self that even his own writing looks like another person's" },
-            { label: "E", text: "intends to deny authorship if the sister ever learns of the letter" },
+            { label: "B", text: "cannot read the address because the ink has faded" },
+            { label: "C", text: "now stands at enough distance from his past self that even his own writing looks like another person's" },
+            { label: "D", text: "intends to deny authorship if the sister ever learns of the letter" },
           ],
-          answer: "D",
+          answer: "C",
           solution:
             "The letter is \"addressed in a hand I barely recognized as mine\": the narrator claims the writing and simultaneously cannot own it. That is narrative distance inside a first-person voice - a present self looking at a past act as if it belonged to a stranger, which is exactly the vantage the rest of the passage needs in order to re-see the story of staying.",
           note:
-            "A literalizes distance into a forgery plot, the same error Unit 1's signature simile invited. C invents a physical obstacle. E assigns a future tactic the voice never contemplates; the estrangement is inward, not strategic.",
+            "A literalizes distance into a forgery plot, the same error Unit 1's signature simile invited. B invents a physical obstacle. D assigns a future tactic the voice never contemplates; the estrangement is inward, not strategic.",
         },
         {
           id: "lit-u4-q5",
@@ -864,7 +855,6 @@ export const unitsA: Unit[] = [
             { label: "B", text: "show that the correspondence continues the same edited self he offered the committee" },
             { label: "C", text: "hint that he wants her to return in time to help plant next year's beds" },
             { label: "D", text: "establish that the climate this year has made gardening impossible" },
-            { label: "E", text: "reveal that he writes poorly and so prefers a conventional remark" },
           ],
           answer: "B",
           solution:
@@ -1007,7 +997,6 @@ export const unitsA: Unit[] = [
             { label: "B", text: "maintains by routine, and whose silences the speaker would rather treat as mechanical faults than as failures of attention" },
             { label: "C", text: "regards as cold and impersonal, since clocks cannot feel" },
             { label: "D", text: "hopes to end, because a clock that must be wound is a burden" },
-            { label: "E", text: "understands as public display, since clocks belong on a visible wall" },
           ],
           answer: "B",
           solution:
@@ -1028,13 +1017,12 @@ export const unitsA: Unit[] = [
             { label: "B", text: "introduce a second speaker who contradicts the first" },
             { label: "C", text: "let the speaker's denial name the two agents - setting and the speaker's own hand - that the conceit had been designed to excuse" },
             { label: "D", text: "indicate that the clock is broken in two separate places and needs repair" },
-            { label: "E", text: "shift the poem from addressing \"you\" to addressing the reader" },
           ],
           answer: "C",
           solution:
             "Anaphora plus negation is a confession that will not call itself one. \"Never the room that would not hear\" and \"never the hand that would not wind\" specify the very causes the speaker has just refused: a setting that ignores the hour, and a hand - grammatically the speaker's - that will not do the winding. The conceit's machinery is named at the moment it is disowned.",
           note:
-            "A hunts for a form the poem does not claim; these lines do not rhyme, and stanza 2 does not complete a scheme. B and E misread a shift in candor as a shift in who is speaking. D literalizes the vehicle into a repair plot.",
+            "A hunts for a form the poem does not claim; these lines do not rhyme, and stanza 2 does not complete a scheme. B misreads a shift in candor as a shift in who is speaking. D literalizes the vehicle into a repair plot.",
         },
         {
           id: "lit-u5-q3",
@@ -1045,17 +1033,16 @@ export const unitsA: Unit[] = [
           prompt:
             "The poem's decisive tonal shift - the point at which the conceit stops flattering the relationship and begins to judge it - occurs at",
           choices: [
-            { label: "A", text: "line 1, with the opening comparison to a clock" },
-            { label: "B", text: "line 5, with \"and if the striking hour goes mute\"" },
-            { label: "C", text: "line 9, with \"One evening, though, the clock ran down\"" },
-            { label: "D", text: "line 12, with \"The quiet was not rest\"" },
-            { label: "E", text: "line 16, with \"and would not, for my asking, move\"" },
+            { label: "A", text: "line 5, with \"and if the striking hour goes mute\"" },
+            { label: "B", text: "line 9, with \"One evening, though, the clock ran down\"" },
+            { label: "C", text: "line 12, with \"The quiet was not rest\"" },
+            { label: "D", text: "line 16, with \"and would not, for my asking, move\"" },
           ],
-          answer: "C",
+          answer: "B",
           solution:
             "\"Though\" is the hinge. Stanza 1 maintains the clock by ritual and by blame assigned to parts; stanza 2 begins when that maintenance fails as an event - \"the clock ran down\" - and the speaker who \"had praised its even pace\" is left in a house \"without an hour.\" Agency leaves the speaker's morning winding and passes to the clock's stopping, which is the tonal drop from protective pride to aftermath.",
           note:
-            "B is a hypothetical mute hour still managed by the speaker's system of blame; the attitude has not yet changed. D and E are consequences of the turn, not the turn. A names the conceit's start, which is the first stanza's project, not its revision.",
+            "A is a hypothetical mute hour still managed by the speaker's system of blame; the attitude has not yet changed. C and D are consequences of the turn, not the turn. The opening comparison in line 1 is the first stanza's project, not its revision.",
         },
         {
           id: "lit-u5-q4",
@@ -1069,14 +1056,13 @@ export const unitsA: Unit[] = [
             { label: "A", text: "complete a heroic couplet that has been building since line 11" },
             { label: "B", text: "imitate the ticking of a clock by adding a beat the first stanza never used" },
             { label: "C", text: "let the even tetrameter the speaker had praised overrun and stall, so the conceit's 'even pace' fails in the line that names captivity" },
-            { label: "D", text: "signal that a new speaker has taken over the second stanza" },
-            { label: "E", text: "create a rhyme with \"apart\" in line 14" },
+            { label: "D", text: "create a rhyme with \"apart\" in line 14" },
           ],
           answer: "C",
           solution:
             "Lines 1-6 move in even iambic tetrameter, the metrical version of the \"even pace\" line 10 will admit to having praised. Line 12 stops mid-thought at \"rest.\" Line 13 then overruns the eight-syllable pattern on the feminine ending \"keeping.\" Form enacts content: the regular winding will not resolve on a stress at the exact moment the speaker hears care and captivity as one sound.",
           note:
-            "B reverses the effect - an extra unstressed ending is a stumble, not a tick. A invents a couplet (and heroic couplets are iambic pentameter). E is checkable and false: \"keeping\" and \"apart\" do not rhyme. Meter questions on this exam punish the student who names a form the poem does not have.",
+            "B reverses the effect - an extra unstressed ending is a stumble, not a tick. A invents a couplet (and heroic couplets are iambic pentameter). D is checkable and false: \"keeping\" and \"apart\" do not rhyme. Meter questions on this exam punish the student who names a form the poem does not have.",
         },
         {
           id: "lit-u5-q5",
@@ -1087,17 +1073,16 @@ export const unitsA: Unit[] = [
           prompt:
             "The ambiguity of \"being kept, and keeping\" (line 13) is productive chiefly because it",
           choices: [
-            { label: "A", text: "leaves open whether the speaker owns one clock or several" },
-            { label: "B", text: "collapses the distinction between the speaker as winder and the speaker as the thing wound, so care and captivity occupy the same sound" },
-            { label: "C", text: "hints that the addressee has already left the house for good" },
-            { label: "D", text: "suggests the speaker cannot remember how clocks work" },
-            { label: "E", text: "creates uncertainty about whether the poem is set at dawn or at night" },
+            { label: "A", text: "collapses the distinction between the speaker as winder and the speaker as the thing wound, so care and captivity occupy the same sound" },
+            { label: "B", text: "hints that the addressee has already left the house for good" },
+            { label: "C", text: "lets \"keeping\" mean both the clock's continued running and the speaker's refusal to discard a stopped object" },
+            { label: "D", text: "creates uncertainty about whether the poem is set at dawn or at night" },
           ],
-          answer: "B",
+          answer: "A",
           solution:
             "\"Kept\" and \"keeping\" are the two roles the conceit assigned to different parties: the clock is kept (wound, set), and the speaker does the keeping. The line makes those roles a single \"sound\" the speaker \"could not tell... apart.\" Both meanings are grammatically live, and the poem needs both: the relationship was maintenance and it was confinement, and the second stanza's quiet is the noise of not being able to separate them.",
           note:
-            "A and D treat ambiguity as confusion about objects or facts. C infers a plot event the syntax does not force. E grabs \"evening\" and \"dark\" from later lines and pretends the phrase is about the time of day. If you cannot state two meanings of the same words, you do not yet have ambiguity - you have a guess.",
+            "C splits \"keeping\" into running versus not throwing away, which are two jobs for one verb; the line's productive fork is grammatical - \"being kept\" versus \"keeping\" as patient and agent. B infers a plot event the syntax does not force. D grabs \"evening\" and \"dark\" from later lines and pretends the phrase is about the time of day. If you cannot state two meanings of the same words, you do not yet have ambiguity - you have a guess.",
         },
         {
           id: "lit-u5-q6",
