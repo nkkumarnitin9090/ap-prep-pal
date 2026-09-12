@@ -25,20 +25,21 @@ npm install
 npm run dev
 ```
 
-Then open [http://localhost:3000](http://localhost:3000). This workspace's
-already-running dev server uses port **43127**:
+Then open [http://127.0.0.1:43127](http://127.0.0.1:43127). Both `npm run dev`
+and `npm start` bind that address already, so you do not need extra flags.
+
+If the port is already in use (`EADDRINUSE`), either stop the process that is
+already serving 43127 or start on a different port:
 
 ```bash
-npm run dev -- --port 43127 --hostname 127.0.0.1
+npm run dev -- --port 43128
 ```
-
-Open [http://127.0.0.1:43127](http://127.0.0.1:43127) in that case.
 
 Other scripts:
 
 ```bash
 npm run build   # production build; also runs TypeScript and ESLint
-npm run start   # serve the production build
+npm run start   # serve the production build on 127.0.0.1:43127
 npm run lint    # ESLint only
 npx tsc --noEmit
 ```
