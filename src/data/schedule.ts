@@ -2097,13 +2097,3 @@ export const weeklyPlan: DayPlan[] = [
     ],
   },
 ];
-
-/** Index of the week containing `date`, or -1 when the plan has not started. */
-export function getCurrentWeekIndex(date: Date = new Date()): number {
-  for (let i = scheduleWeeks.length - 1; i >= 0; i -= 1) {
-    if (new Date(`${scheduleWeeks[i].startDate}T00:00:00`) <= date) {
-      return i;
-    }
-  }
-  return -1;
-}
