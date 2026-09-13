@@ -44,6 +44,15 @@ When asked:
 
 ## Getting started
 
+On the new laptop
+-- Install Git and Node.js 20+ (LTS from https://nodejs.org).
+-- Open Command Prompt (on Windows, not PowerShell).
+
+Get the code from the existing repo:
+
+-- git clone https://github.com/nkkumarnitin9090/ap-prep-pal.git
+-- cd ap-prep-pal
+
 On a fresh clone on your laptop:
 
 ```bash
