@@ -42,7 +42,6 @@ When asked:
 - Username: YOUR_GITHUB_USER
 - Password: the token that created above
 
-
 ## Getting started
 
 On a fresh clone on your laptop:
@@ -63,12 +62,15 @@ npm run start   # serve the production build on 127.0.0.1:43127
 npm run lint    # ESLint only
 npx tsc --noEmit
 ```
+
 Later updates on that laptop
 
 - cd ap-prep-pal
 - git add -A
 - git commit -m "Describe the change"
 - git push
+  
+npm.cmd run dev
 
 ## Routes
 
