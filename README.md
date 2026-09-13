@@ -28,6 +28,20 @@ open on its own.
 If you do run `npm run dev` while that server is up, it prints this reminder
 and exits 0 instead of crashing with `EADDRINUSE`.
 
+## mirror from cursor repo to github
+- Log into that GitHub account and create a new empty repo (no README, no license).
+- Create a token for that account: https://github.com/settings/personal-access-tokens
+- Fine-grained → that account as owner → only that new repo → Contents: Read and write.
+
+In the project folder:
+- git remote remove origin
+- git remote add origin https://github.com/YOUR_GITHUB_USER/YOUR_REPO.git
+- git branch -M main
+- git push -u origin main
+When asked:
+- Username: YOUR_GITHUB_USER
+- Password: the token that created above
+
 ## Getting started
 
 On a fresh clone on your laptop:
@@ -48,6 +62,15 @@ npm run start   # serve the production build on 127.0.0.1:43127
 npm run lint    # ESLint only
 npx tsc --noEmit
 ```
+
+Later updates on that laptop
+
+- cd ap-prep-pal
+- git add -A
+- git commit -m "Describe the change"
+- git push
+  
+npm.cmd run dev
 
 ## Routes
 
