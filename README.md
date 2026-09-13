@@ -45,13 +45,13 @@ When asked:
 ## Getting started
 
 On the new laptop
--- Install Git and Node.js 20+ (LTS from https://nodejs.org).
--- Open Command Prompt (on Windows, not PowerShell).
+- Install Git and Node.js 20+ (LTS from https://nodejs.org).
+- Open Command Prompt (on Windows, not PowerShell).
 
 Get the code from the existing repo:
 
--- git clone https://github.com/nkkumarnitin9090/ap-prep-pal.git
--- cd ap-prep-pal
+- git clone https://github.com/nkkumarnitin9090/ap-prep-pal.git
+- cd ap-prep-pal
 
 On a fresh clone on your laptop:
 
@@ -59,24 +59,12 @@ On a fresh clone on your laptop:
 npm install
 npm run dev
 ```
+In case, you are behind company firewall then use following command to to run application
+
+npx.cmd next dev --port 43127 --hostname 127.0.0.1
 
 Then open [http://127.0.0.1:43127](http://127.0.0.1:43127). `npm run dev` and
-`npm start` listen on port 43127 (`127.0.0.1` only). Set `HOST` or `HOSTNAME`
-to `0.0.0.0` if you need to bind all interfaces (for example cloud preview).
-
-**Windows firewall / localhost**
-
-Prefer `npm.cmd run dev`, then open [http://127.0.0.1:43127](http://127.0.0.1:43127).
-
-If Windows Firewall pops up, allow Node.js on **private** networks, or from an
-elevated Command Prompt:
-
-```bat
-netsh advfirewall firewall add rule name="AP Prep Pal localhost" dir=in action=allow protocol=TCP localport=43127
-```
-
-and/or allow `node.exe` from your Node.js folder. Loopback (`127.0.0.1`) is
-enough; you do not need to expose the app on the LAN.
+`npm start` listen on port 43127 (`0.0.0.0`, reachable as 127.0.0.1).
 
 Other scripts:
 
@@ -93,6 +81,8 @@ Later updates on that laptop
 - git add -A
 - git commit -m "Describe the change"
 - git push
+  
+npm.cmd run dev
 
 ## Routes
 
