@@ -15,7 +15,7 @@ export const calculusBC: Course = {
   accent: "indigo",
   tagline: "Ten units, two semesters, one very long free-response section.",
   description:
-    "Calculus BC is AB plus parametric/polar/vector calculus and infinite series. The two heaviest units on the exam are Unit 6 (Integration and Accumulation of Change) and Unit 10 (Infinite Sequences and Series), which together are roughly a third of the multiple-choice section. Series is the unit students most often meet for the first time in March and then panic about in May, so this plan front-loads Taylor polynomials into the winter.",
+    "Calculus BC is AB plus parametric/polar/vector calculus and infinite series. The two heaviest units on the exam are Unit 6 (Integration and Accumulation of Change) and Unit 10 (Infinite Sequences and Series), which together are roughly a third of the multiple-choice section. This school's year reviews all AB topics first (CED Units 1-8), then spends extra weeks on new BC topics: integration techniques, parametric/polar calculus, and infinite series (the heaviest BC block, including Taylor and Maclaurin series).",
   examDate: "2027-05-10",
   examSession: "Session 1 - typically 8 a.m. local time",
   examSections: [
@@ -57,6 +57,10 @@ export const calculusBC: Course = {
       tone: "info",
       text: "AP Central currently lists the unit weightings as wider ranges (for example Unit 1 at 5-10%) than the 2019-20 CED did (4-7%). The ranges below follow the current course page. Treat every percentage as approximate and confirm against the CED you are issued.",
     },
+    {
+      tone: "info",
+      text: "This school's year is AB review first, then BC-only topics: integration techniques (by parts, partial fractions, improper integrals), infinite series and their convergence tests, Taylor and Maclaurin series, parametric calculus, and polar derivatives and integrals. The 34-week plan labels each week AB review or New BC to match class. Homework is a daily journal; if you use class time, keep outside-class Calc to about 1-2 hours per week rather than the app's 2-3 hour weekday block. Mastery quizzes cover formulas not on the AP formula sheet (retake to 100%). Reflection quizzes (1-2 per unit, no corrections) and one handwritten Reflection Write Up per unit are class assessments. Preferred calculator: TI-83 or TI-84.",
+    },
   ],
   resources: [
     {
@@ -72,7 +76,7 @@ export const calculusBC: Course = {
     {
       label: "Your graphing calculator manual",
       detail:
-        "You need four calculator skills cold: graph in a window, find a zero, compute a numerical derivative, and compute a definite integral. Practice them until they are muscle memory.",
+        "TI-83 or TI-84 preferred. You need four calculator skills cold: graph in a window (including parametric and polar modes), find a zero, compute a numerical derivative, and compute a definite integral. Practice them until they are muscle memory.",
     },
   ],
   units: [

@@ -27,7 +27,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
         course: "ap-calculus-bc",
         unit: "Unit 1: Limits and Continuity",
         focus:
-          "Limit notation, estimating limits from graphs and tables, and the algebra toolkit: factoring, conjugates, and common denominators.",
+          "AB review: diagnostic on limit notation, algebra (factoring, conjugates, common denominators), continuity, squeeze theorem, limits at infinity, and the Intermediate Value Theorem. Find gaps; do not restudy what you already own.",
       },
       {
         course: "ap-statistics",
@@ -52,7 +52,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       {
         course: "ap-calculus-bc",
         practiceSetId: "calc-u1-ps",
-        label: "Baseline attempt untimed - the point is to find gaps, not to score well.",
+        label: "AB review diagnostic, untimed: limits set to find gaps, not to score well.",
       },
       {
         course: "ap-statistics",
@@ -81,9 +81,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
     assignments: [
       {
         course: "ap-calculus-bc",
-        unit: "Unit 1: Limits and Continuity",
+        unit: "Unit 2: Differentiation - Definition and Fundamental Properties",
         focus:
-          "Trigonometric limits and the squeeze theorem, continuity at a point and on an interval, classifying discontinuities, limits at infinity, and the Intermediate Value Theorem.",
+          "AB review: average versus instantaneous rate of change, the limit definition, differentiability implies continuity, and every basic rule (power, product, quotient, trig, e^x, ln x) plus tangent lines.",
       },
       {
         course: "ap-statistics",
@@ -107,8 +107,8 @@ export const scheduleWeeks: ScheduleWeek[] = [
     practice: [
       {
         course: "ap-calculus-bc",
-        practiceSetId: "calc-u1-ps",
-        label: "Full retake, timed, closed notes - target every item you missed in Week 1.",
+        practiceSetId: "calc-u2-ps",
+        label: "AB review: full derivative-rules set, timed. Any item solved by pattern-matching gets rewritten with the rule named.",
       },
       {
         course: "ap-physics-2",
@@ -131,9 +131,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
     assignments: [
       {
         course: "ap-calculus-bc",
-        unit: "Unit 2: Differentiation - Definition and Fundamental Properties",
+        unit: "Unit 3: Differentiation - Composite, Implicit, and Inverse Functions",
         focus:
-          "Average versus instantaneous rate of change, the limit definition of the derivative, differentiability implies continuity, and the power, sum, and constant-multiple rules.",
+          "AB review: chain rule on nested compositions, implicit differentiation with tangent lines, inverse and inverse-trig derivatives, and higher-order derivatives. Name the procedure before the algebra.",
       },
       {
         course: "ap-statistics",
@@ -162,8 +162,8 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-calculus-bc",
-        practiceSetId: "calc-u1-ps",
-        label: "Spaced retrieval: three limit items from memory before starting derivative work.",
+        practiceSetId: "calc-u3-ps",
+        label: "AB review: full chain-rule / implicit / inverse set, timed, with the procedure named before any algebra.",
       },
       {
         course: "ap-english-literature",
@@ -180,9 +180,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
     assignments: [
       {
         course: "ap-calculus-bc",
-        unit: "Unit 2: Differentiation - Definition and Fundamental Properties",
+        unit: "Unit 4: Contextual Applications of Differentiation",
         focus:
-          "Product and quotient rules, derivatives of the six trigonometric functions, e^x and ln x, and tangent line equations.",
+          "AB review: interpreting the derivative with units, straight-line motion (position, velocity, acceleration, speeding up), related rates from a labeled diagram, linearization, and L'Hospital's rule.",
       },
       {
         course: "ap-statistics",
@@ -206,8 +206,8 @@ export const scheduleWeeks: ScheduleWeek[] = [
     practice: [
       {
         course: "ap-calculus-bc",
-        practiceSetId: "calc-u2-ps",
-        label: "Full set, timed. Any item solved by pattern-matching gets rewritten with the rule named.",
+        practiceSetId: "calc-u4-ps",
+        label: "AB review: full set, timed; every related-rates answer needs units and a labeled diagram.",
       },
       {
         course: "ap-statistics",
@@ -230,8 +230,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
     assignments: [
       {
         course: "ap-calculus-bc",
-        unit: "Unit 3: Differentiation - Composite, Implicit, and Inverse Functions",
-        focus: "Chain rule on nested compositions and implicit differentiation, including tangent lines to curves.",
+        unit: "Unit 5: Analytical Applications of Differentiation",
+        focus:
+          "AB review: Mean Value and Extreme Value Theorems, increasing/decreasing intervals, concavity, connecting f/f'/f'' across graphs, optimization, and a justification sentence for every extremum claim.",
       },
       {
         course: "ap-statistics",
@@ -260,8 +261,8 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-calculus-bc",
-        practiceSetId: "calc-u3-ps",
-        label: "Questions 1-3 on chain rule and implicit differentiation.",
+        practiceSetId: "calc-u5-ps",
+        label: "AB review: full set, timed, with a justification sentence written for every extremum claim.",
       },
       {
         course: "ap-english-literature",
@@ -279,9 +280,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
     assignments: [
       {
         course: "ap-calculus-bc",
-        unit: "Unit 3: Differentiation - Composite, Implicit, and Inverse Functions",
+        unit: "Unit 6: Integration and Accumulation of Change (AB)",
         focus:
-          "Derivatives of inverse and inverse trigonometric functions, higher-order derivatives, and choosing a differentiation procedure under time pressure.",
+          "AB review: Riemann sums from a table, accumulation, both parts of the Fundamental Theorem (including a variable upper limit), basic antiderivatives, u-substitution, and properties of definite integrals. Stop before by-parts and partial fractions.",
       },
       {
         course: "ap-statistics",
@@ -304,8 +305,8 @@ export const scheduleWeeks: ScheduleWeek[] = [
     practice: [
       {
         course: "ap-calculus-bc",
-        practiceSetId: "calc-u3-ps",
-        label: "Full set, timed, with the procedure named before any algebra.",
+        practiceSetId: "calc-u6-ps",
+        label: "AB review: questions 1-2 on Riemann sums and accumulation functions only; save by-parts items for Week 9.",
       },
       {
         course: "ap-statistics",
@@ -314,7 +315,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-calculus-bc",
-        label: "Saturday timed section: 20 no-calculator Calculus BC multiple-choice questions from Units 1-3 in 40 minutes.",
+        label: "Saturday timed section: 20 no-calculator AB-review multiple-choice questions from Units 1-5 in 40 minutes.",
       },
     ],
   },
@@ -327,9 +328,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
     assignments: [
       {
         course: "ap-calculus-bc",
-        unit: "Unit 4: Contextual Applications of Differentiation",
+        unit: "Unit 7: Differential Equations",
         focus:
-          "Interpreting the derivative with units, straight-line motion with position, velocity, and acceleration, and deciding when an object speeds up.",
+          "AB review: verifying solutions, slope fields, separation of variables with an initial condition, and exponential models. Brief BC extras while you are here: Euler's method and logistic growth.",
       },
       {
         course: "ap-statistics",
@@ -353,8 +354,8 @@ export const scheduleWeeks: ScheduleWeek[] = [
     practice: [
       {
         course: "ap-calculus-bc",
-        practiceSetId: "calc-u4-ps",
-        label: "Questions 1-3 on motion and related rates setup.",
+        practiceSetId: "calc-u7-ps",
+        label: "AB review: questions 1-3 on slope fields and separable equations, plus a slow look at the Euler/logistic items.",
       },
       {
         course: "ap-statistics",
@@ -377,9 +378,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
     assignments: [
       {
         course: "ap-calculus-bc",
-        unit: "Unit 4: Contextual Applications of Differentiation",
+        unit: "Unit 8: Applications of Integration",
         focus:
-          "Related rates from geometric relationships, linear approximation and whether it over- or underestimates, and L'Hospital's rule.",
+          "AB review: average value, area between curves, volumes by cross sections and by disc/washer (including about a line other than an axis), and displacement versus total distance from velocity. Brief BC extra: arc length of y = f(x).",
       },
       {
         course: "ap-statistics",
@@ -403,8 +404,8 @@ export const scheduleWeeks: ScheduleWeek[] = [
     practice: [
       {
         course: "ap-calculus-bc",
-        practiceSetId: "calc-u4-ps",
-        label: "Full set, timed; every related-rates answer needs units and a labeled diagram.",
+        practiceSetId: "calc-u8-ps",
+        label: "AB review: full applications set, timed, including washer-about-a-line and arc-length items.",
       },
       {
         course: "ap-physics-2",
@@ -427,9 +428,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
     assignments: [
       {
         course: "ap-calculus-bc",
-        unit: "Unit 5: Analytical Applications of Differentiation",
+        unit: "Unit 6: Integration and Accumulation of Change (BC techniques)",
         focus:
-          "Mean Value and Extreme Value Theorems, increasing and decreasing intervals, and the first derivative test with justification sentences.",
+          "New BC: integration by parts. Choose u by LIATE, write uv - integral of v du every time, and be ready to repeat parts or combine with a substitution. Mastery-quiz the by-parts formula; it is not on the AP sheet.",
       },
       {
         course: "ap-statistics",
@@ -457,8 +458,8 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-calculus-bc",
-        practiceSetId: "calc-u5-ps",
-        label: "Questions 1-3 on extrema and the first derivative test.",
+        practiceSetId: "calc-u6-ps",
+        label: "New BC: by-parts items from the integration set. Write u, dv, du, and v before integrating.",
       },
       {
         course: "ap-english-literature",
@@ -476,9 +477,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
     assignments: [
       {
         course: "ap-calculus-bc",
-        unit: "Unit 5: Analytical Applications of Differentiation",
+        unit: "Unit 6: Integration and Accumulation of Change (BC techniques)",
         focus:
-          "Concavity and the second derivative test, connecting f, f', and f'' across graphs, optimization problems, and implicit relationships.",
+          "New BC: long division, completing the square, and linear partial fractions. Split distinct linear factors, clear denominators, and substitute each root. These algebra steps are daily journal work, not a one-night cram.",
       },
       {
         course: "ap-statistics",
@@ -502,8 +503,8 @@ export const scheduleWeeks: ScheduleWeek[] = [
     practice: [
       {
         course: "ap-calculus-bc",
-        practiceSetId: "calc-u5-ps",
-        label: "Full set, timed, with a justification sentence written for every extremum claim.",
+        practiceSetId: "calc-u6-ps",
+        label: "New BC: partial-fraction and long-division items; split, clear denominators, substitute each root.",
       },
       {
         course: "ap-physics-2",
@@ -526,9 +527,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
     assignments: [
       {
         course: "ap-calculus-bc",
-        unit: "Unit 6: Integration and Accumulation of Change",
+        unit: "Unit 6: Integration and Accumulation of Change (BC techniques)",
         focus:
-          "Riemann sums and accumulation, the definite integral as accumulated change, and the Fundamental Theorem of Calculus with a variable upper limit.",
+          "New BC: improper integrals. Replace an infinite bound or a discontinuity with a limit variable, integrate, then take the limit. Say diverges when it does; never write infinity as if it were a number.",
       },
       {
         course: "ap-statistics",
@@ -562,9 +563,10 @@ export const scheduleWeeks: ScheduleWeek[] = [
       {
         course: "ap-calculus-bc",
         practiceSetId: "calc-u6-ps",
-        label: "Questions 1-2 on Riemann sums and accumulation functions.",
+        label: "New BC: improper-integral items with an explicit limit in every solution; diverges is an acceptable answer.",
       },
     ],
+    note: "Calc homework this week should stay in the school's 1-2 hour band if you use class time for the journal; do not expand it to the weekday 2-3 hour block.",
   },
   {
     week: 12,
@@ -575,9 +577,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
     assignments: [
       {
         course: "ap-calculus-bc",
-        unit: "Units 1-5 review (no new content)",
+        unit: "Units 1-6 review (no new content)",
         focus:
-          "One 45-minute session clearing the derivative entries in the error log; skip the optimization problems you already own.",
+          "AB review plus New BC so far (no new content): one short session clearing remaining derivative misses, then a journal pass on by-parts, partial fractions, and improper-integral setups from Weeks 9-11.",
       },
       {
         course: "ap-statistics",
@@ -600,8 +602,8 @@ export const scheduleWeeks: ScheduleWeek[] = [
     practice: [
       {
         course: "ap-calculus-bc",
-        practiceSetId: "calc-u1-ps",
-        label: "Spaced retake of the limits set, ten weeks after first study.",
+        practiceSetId: "calc-u6-ps",
+        label: "Light journal retake: two by-parts or improper-integral items untimed. No timed exam.",
       },
       {
         course: "ap-statistics",
@@ -620,9 +622,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
     assignments: [
       {
         course: "ap-calculus-bc",
-        unit: "Unit 6: Integration and Accumulation of Change",
+        unit: "Unit 6: Integration and Accumulation of Change (BC techniques)",
         focus:
-          "Both parts of the Fundamental Theorem, basic antiderivatives, u-substitution, and properties of definite integrals.",
+          "New BC: mixed integration-technique fluency. Given an integrand, choose substitution, parts, or partial fractions before any algebra, then finish a released-style accumulation free-response that also uses a table Riemann sum.",
       },
       {
         course: "ap-statistics",
@@ -647,7 +649,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       {
         course: "ap-calculus-bc",
         practiceSetId: "calc-u6-ps",
-        label: "Questions 3-4 on the Fundamental Theorem and u-substitution.",
+        label: "New BC: full integration set, timed, half with no calculator. Name the technique before the algebra.",
       },
       {
         course: "ap-statistics",
@@ -670,9 +672,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
     assignments: [
       {
         course: "ap-calculus-bc",
-        unit: "Unit 6: Integration and Accumulation of Change",
+        unit: "Unit 9: Parametric Equations, Polar Coordinates, and Vector-Valued Functions",
         focus:
-          "BC-only technique: integration by parts, partial fractions, and improper integrals with a limit written explicitly.",
+          "New BC: parametric calculus. dy/dx = (dy/dt)/(dx/dt), the second derivative with the extra division by dx/dt, and horizontal versus vertical tangents from dy/dt = 0 or dx/dt = 0 (not both).",
       },
       {
         course: "ap-statistics",
@@ -695,8 +697,8 @@ export const scheduleWeeks: ScheduleWeek[] = [
     practice: [
       {
         course: "ap-calculus-bc",
-        practiceSetId: "calc-u6-ps",
-        label: "Full integration set, timed, half with no calculator.",
+        practiceSetId: "calc-u9-ps",
+        label: "New BC: questions 1-3 on parametric derivatives and tangents.",
       },
       {
         course: "ap-physics-2",
@@ -719,9 +721,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
     assignments: [
       {
         course: "ap-calculus-bc",
-        unit: "Unit 7: Differential Equations",
+        unit: "Unit 9: Parametric Equations, Polar Coordinates, and Vector-Valued Functions",
         focus:
-          "Verifying solutions, sketching and reading slope fields, separation of variables with an initial condition, and exponential models.",
+          "New BC: parametric motion and arc length. Speed as sqrt((dx/dt)^2 + (dy/dt)^2), total distance as the integral of speed, displacement from integrating the components, and parametric arc length.",
       },
       {
         course: "ap-statistics",
@@ -754,8 +756,8 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-calculus-bc",
-        practiceSetId: "calc-u7-ps",
-        label: "Questions 1-3 on slope fields and separable equations.",
+        practiceSetId: "calc-u9-ps",
+        label: "New BC: parametric arc-length and total-distance items; write the speed integrand before evaluating.",
       },
     ],
   },
@@ -768,9 +770,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
     assignments: [
       {
         course: "ap-calculus-bc",
-        unit: "Unit 7: Differential Equations",
+        unit: "Unit 9: Parametric Equations, Polar Coordinates, and Vector-Valued Functions",
         focus:
-          "Two short sessions only: Euler's method and logistic growth, plus a slow rework of the fall's messiest integration problems.",
+          "New BC (no new content): two short sessions only, reworking parametric derivatives and arc-length setups from Weeks 14-15. Polar waits until after the break.",
       },
       {
         course: "ap-statistics",
@@ -794,8 +796,8 @@ export const scheduleWeeks: ScheduleWeek[] = [
     practice: [
       {
         course: "ap-calculus-bc",
-        practiceSetId: "calc-u7-ps",
-        label: "Finish the differential equations set at a relaxed pace, untimed.",
+        practiceSetId: "calc-u9-ps",
+        label: "Break pace, untimed: two parametric derivative items from Weeks 14-15. No polar yet.",
       },
       {
         course: "ap-statistics",
@@ -819,9 +821,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
     assignments: [
       {
         course: "ap-calculus-bc",
-        unit: "Unit 8: Applications of Integration",
+        unit: "Unit 9: Parametric Equations, Polar Coordinates, and Vector-Valued Functions",
         focus:
-          "Average value, area between curves, and volumes by cross sections and by the disc and washer methods.",
+          "New BC: vector-valued position, velocity, and acceleration; speed as a scalar; displacement versus total distance; and recovering position from velocity plus an initial point. TI-83/TI-84: graph parametric mode in an appropriate window.",
       },
       {
         course: "ap-statistics",
@@ -845,8 +847,8 @@ export const scheduleWeeks: ScheduleWeek[] = [
     practice: [
       {
         course: "ap-calculus-bc",
-        practiceSetId: "calc-u8-ps",
-        label: "Questions 1-2 on area between curves and volume by cross sections.",
+        practiceSetId: "calc-u9-ps",
+        label: "New BC: questions 4-6 on vector motion, speed, and total distance.",
       },
       {
         course: "ap-statistics",
@@ -869,9 +871,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
     assignments: [
       {
         course: "ap-calculus-bc",
-        unit: "Units 1-8 checkpoint",
+        unit: "Units 1-9 checkpoint (AB plus BC so far)",
         focus:
-          "Full Section I under exam timing, then classify every miss as knowledge, algebra, or timing before doing anything else.",
+          "AB review plus New BC so far: full Section I under exam timing on Units 1-8, BC integration techniques, and parametric/vector calculus (polar is next). Classify every miss as knowledge, algebra, or timing before doing anything else.",
       },
       {
         course: "ap-statistics",
@@ -895,7 +897,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
     practice: [
       {
         course: "ap-calculus-bc",
-        label: "Full Calculus BC Section I: 29 no-calculator questions in 62 minutes, then 13 calculator questions in 38 minutes.",
+        label: "Full Calculus BC Section I: 29 no-calculator questions in 62 minutes, then 13 calculator questions in 38 minutes. Score AB, integration-technique, and parametric/vector items separately.",
       },
       {
         course: "ap-statistics",
@@ -921,9 +923,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
     assignments: [
       {
         course: "ap-calculus-bc",
-        unit: "Unit 8: Applications of Integration",
+        unit: "Unit 9: Parametric Equations, Polar Coordinates, and Vector-Valued Functions",
         focus:
-          "Volumes of revolution about a line other than an axis, arc length as a definite integral, and total distance versus displacement from velocity.",
+          "New BC: polar derivatives. Convert between polar and rectangular, write dy/dx from r and theta, and identify horizontal versus vertical tangents. Sketch r(theta) before differentiating so the graph matches the formula.",
       },
       {
         course: "ap-statistics",
@@ -947,8 +949,8 @@ export const scheduleWeeks: ScheduleWeek[] = [
     practice: [
       {
         course: "ap-calculus-bc",
-        practiceSetId: "calc-u8-ps",
-        label: "Full set, timed, including the washer-about-a-line and arc-length items.",
+        practiceSetId: "calc-u9-ps",
+        label: "New BC: polar-derivative items; convert and write dy/dx before using the calculator.",
       },
       {
         course: "ap-statistics",
@@ -979,7 +981,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
         course: "ap-calculus-bc",
         unit: "Unit 9: Parametric Equations, Polar Coordinates, and Vector-Valued Functions",
         focus:
-          "Parametric dy/dx as (dy/dt)/(dx/dt), the second derivative with the extra division by dx/dt, and horizontal versus vertical tangents.",
+          "New BC: polar integrals. Area as (1/2) times the integral of r-squared, area between two polar curves with the correct theta limits, and writing the integral before any calculator evaluation.",
       },
       {
         course: "ap-statistics",
@@ -1004,7 +1006,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       {
         course: "ap-calculus-bc",
         practiceSetId: "calc-u9-ps",
-        label: "Questions 1-3 on parametric derivatives and tangents.",
+        label: "New BC: full parametric/polar/vector set, timed, with polar-area items written as integrals before any evaluation.",
       },
       {
         course: "ap-statistics",
@@ -1027,9 +1029,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
     assignments: [
       {
         course: "ap-calculus-bc",
-        unit: "Unit 9: Parametric Equations, Polar Coordinates, and Vector-Valued Functions",
+        unit: "Unit 10: Infinite Sequences and Series",
         focus:
-          "Vector-valued position, velocity, and acceleration; speed as a scalar; displacement versus total distance; and recovering position from velocity plus an initial point.",
+          "New BC: sequences, the nth-term test for divergence only, geometric series with the correct first term, p-series and the harmonic series. This is the start of the heaviest BC block; keep the journal to the school's 1-2 hour band if class time is carrying the rest.",
       },
       {
         course: "ap-statistics",
@@ -1053,8 +1055,8 @@ export const scheduleWeeks: ScheduleWeek[] = [
     practice: [
       {
         course: "ap-calculus-bc",
-        practiceSetId: "calc-u9-ps",
-        label: "Questions 4-6 on vector motion, speed, and total distance.",
+        practiceSetId: "calc-u10-ps",
+        label: "New BC: questions 1-3 on geometric sums, p-series, and the nth-term test.",
       },
       {
         course: "ap-statistics",
@@ -1067,6 +1069,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
         label: "Finish the Short Fiction III set, then rewrite two commentary sentences so they explain the language rather than restate the plot.",
       },
     ],
+    note: "Calc homework this week should stay in the school's 1-2 hour band if you use class time for the journal; do not expand it to the weekday 2-3 hour block.",
   },
   {
     week: 22,
@@ -1077,9 +1080,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
     assignments: [
       {
         course: "ap-calculus-bc",
-        unit: "Unit 9: Parametric Equations, Polar Coordinates, and Vector-Valued Functions",
+        unit: "Unit 10: Infinite Sequences and Series",
         focus:
-          "Polar conversion, dy/dx in polar form, area as (1/2) times the integral of r-squared, and area between two polar curves with the right theta limits.",
+          "New BC: integral test with a limit written out, direct comparison, and limit comparison against a named p-series or geometric series. The justification sentence (which test, which comparison series) is required.",
       },
       {
         course: "ap-statistics",
@@ -1103,8 +1106,8 @@ export const scheduleWeeks: ScheduleWeek[] = [
     practice: [
       {
         course: "ap-calculus-bc",
-        practiceSetId: "calc-u9-ps",
-        label: "Full set, timed, with the polar-area items written as integrals before any evaluation.",
+        practiceSetId: "calc-u10-ps",
+        label: "New BC: comparison-test items; the justification sentence naming the comparison series is required.",
       },
       {
         course: "ap-statistics",
@@ -1129,7 +1132,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
         course: "ap-calculus-bc",
         unit: "Unit 10: Infinite Sequences and Series",
         focus:
-          "Nth-term test for divergence only, geometric series with the correct first term, p-series and the harmonic series, and the integral test with a limit written out.",
+          "New BC: alternating series test and its truncation-error bound, plus the ratio test. Mastery-quiz the conditions of each test; they are not on the AP formula sheet.",
       },
       {
         course: "ap-statistics",
@@ -1154,7 +1157,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       {
         course: "ap-calculus-bc",
         practiceSetId: "calc-u10-ps",
-        label: "Questions 1-3 on geometric sums, p-series, and the nth-term test.",
+        label: "New BC: alternating-series error bound and ratio-test items; write the conditions before the algebra.",
       },
       {
         course: "ap-statistics",
@@ -1184,7 +1187,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
         course: "ap-calculus-bc",
         unit: "Unit 10: Infinite Sequences and Series",
         focus:
-          "Direct comparison and limit comparison with a named p-series or geometric series, plus the alternating series test and its truncation-error bound.",
+          "New BC: absolute versus conditional convergence, radius of convergence from the ratio test, and testing both endpoints separately. Write the endpoint tests in full even when the radius is obvious.",
       },
       {
         course: "ap-statistics",
@@ -1209,7 +1212,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       {
         course: "ap-calculus-bc",
         practiceSetId: "calc-u10-ps",
-        label: "Questions on comparison tests and the alternating-series error bound; the justification sentence is required.",
+        label: "New BC: interval-of-convergence items; write both endpoint tests out in full even when the radius is obvious.",
       },
       {
         course: "ap-statistics",
@@ -1239,7 +1242,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
         course: "ap-calculus-bc",
         unit: "Unit 10: Infinite Sequences and Series",
         focus:
-          "Ratio test, absolute versus conditional convergence, radius of convergence from the ratio test, and testing both endpoints separately.",
+          "New BC: power series centered at a, term-by-term differentiation and integration, and building a new series by substituting into a geometric series. Interval of convergence must be rechecked after you operate on the series.",
       },
       {
         course: "ap-statistics",
@@ -1264,7 +1267,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       {
         course: "ap-calculus-bc",
         practiceSetId: "calc-u10-ps",
-        label: "Interval-of-convergence items; write the endpoint tests out in full even when the radius is obvious.",
+        label: "New BC: power-series manipulation items; recheck the interval of convergence after differentiating or integrating.",
       },
       {
         course: "ap-statistics",
@@ -1290,7 +1293,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
         course: "ap-calculus-bc",
         unit: "Unit 10: Infinite Sequences and Series",
         focus:
-          "Taylor and Maclaurin polynomials, the Lagrange error bound with M named and justified, and the alternating-series error bound used only when it applies.",
+          "New BC: Taylor and Maclaurin polynomials. Write the definition with f^(n)(a)/n!, then the Lagrange error bound with M named and justified. Use the alternating-series error bound only when it applies.",
       },
       {
         course: "ap-statistics",
@@ -1315,7 +1318,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       {
         course: "ap-calculus-bc",
         practiceSetId: "calc-u10-ps",
-        label: "Taylor-polynomial and error-bound items; name which error bound you are using before computing.",
+        label: "New BC: Taylor-polynomial and error-bound items; name which error bound you are using before computing.",
       },
       {
         course: "ap-statistics",
@@ -1328,6 +1331,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
         label: "Complete modern-physics set, including the nuclear and photoelectric free-response items.",
       },
     ],
+    note: "Calc homework this week should stay in the school's 1-2 hour band if you use class time for the journal; do not expand it to the weekday 2-3 hour block.",
   },
   {
     week: 27,
@@ -1340,7 +1344,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
         course: "ap-calculus-bc",
         unit: "Unit 10: Infinite Sequences and Series",
         focus:
-          "Two short sessions only: memorized Maclaurin series for e^x, sin x, cos x, and 1/(1 - x), plus one substitution or differentiation to build a new series.",
+          "New BC (no new content): two short sessions only. Memorize Maclaurin series for e^x, sin x, cos x, and 1/(1 - x), then one substitution to build a new series. No timed exam this week.",
       },
       {
         course: "ap-statistics",
@@ -1365,7 +1369,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       {
         course: "ap-calculus-bc",
         practiceSetId: "calc-u10-ps",
-        label: "Maclaurin-manipulation items untimed; write the known series first, then substitute.",
+        label: "New BC, untimed: Maclaurin-manipulation items. Write the known series first, then substitute.",
       },
       {
         course: "ap-english-literature",
@@ -1386,7 +1390,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
         course: "ap-calculus-bc",
         unit: "Unit 10: Infinite Sequences and Series",
         focus:
-          "A one-page convergence-test decision tree, then two released-style series free-response questions: interval of convergence and a Taylor remainder.",
+          "New BC: a one-page convergence-test decision tree from memory, then two released-style series free-response questions (interval of convergence and a Taylor remainder). Keep Calc homework in the 1-2 hour band if class time is carrying the journal.",
       },
       {
         course: "ap-statistics",
@@ -1411,7 +1415,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       {
         course: "ap-calculus-bc",
         practiceSetId: "calc-u10-ps",
-        label: "Full series set, timed, half with no calculator.",
+        label: "New BC: full series set, timed, half with no calculator.",
       },
       {
         course: "ap-statistics",
@@ -1436,7 +1440,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
         course: "ap-calculus-bc",
         unit: "Unit 10: Infinite Sequences and Series",
         focus:
-          "Mixed series multiple-choice under a clock, then rework every miss by naming the test or the known series before restarting the algebra.",
+          "New BC: mixed series multiple-choice under a clock, then rework every miss by naming the test or the known series before restarting the algebra. All new BC content is done after this week.",
       },
       {
         course: "ap-statistics",
@@ -1461,7 +1465,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       {
         course: "ap-calculus-bc",
         practiceSetId: "calc-u9-ps",
-        label: "Spaced retake of the parametric, polar, and vector set, six weeks after first study.",
+        label: "Spaced retake of the parametric, polar, and vector set from Weeks 14-20.",
       },
       {
         course: "ap-physics-2",
@@ -1470,7 +1474,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-calculus-bc",
-        label: "Saturday timed section: 29 no-calculator Calculus BC multiple-choice questions from Units 8-10 in 62 minutes (2027 format).",
+        label: "Saturday timed section: 29 no-calculator Calculus BC multiple-choice questions from Units 6, 9, and 10 in 62 minutes (2027 format).",
       },
     ],
   },
@@ -1485,7 +1489,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
         course: "ap-calculus-bc",
         unit: "Units 1-10 error-log repair",
         focus:
-          "The three weakest Calculus BC topics from the Week 18 checkpoint plus any series misses from Weeks 23-29. A problem leaves the log only after two clean solves on different days.",
+          "AB review plus New BC: the three weakest Calculus BC topics from the Week 18 checkpoint plus any series, polar, or integration-technique misses from Weeks 9-29. A problem leaves the log only after two clean solves on different days.",
       },
       {
         course: "ap-statistics",
@@ -1507,6 +1511,11 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
     ],
     practice: [
+      {
+        course: "ap-calculus-bc",
+        practiceSetId: "calc-u10-ps",
+        label: "Error-log repair: series items you missed in Weeks 21-29, then one mixed by-parts or polar-area item if those are still in the log.",
+      },
       {
         course: "ap-statistics",
         practiceSetId: "stat-u2-ps",
@@ -1536,7 +1545,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
         course: "ap-calculus-bc",
         unit: "Full exam mock (2027 format)",
         focus:
-          "Section I: 29 no-calculator questions in 62 minutes, then 13 calculator questions in 38 minutes. Section II: 2 calculator free-response questions in 30 minutes, then 4 no-calculator in 60 minutes. Classify every miss as knowledge, algebra, or timing.",
+          "Exam review: Section I: 29 no-calculator questions in 62 minutes, then 13 calculator questions in 38 minutes. Section II: 2 calculator free-response questions in 30 minutes, then 4 no-calculator in 60 minutes. Expect series, polar/parametric, and integration techniques. Classify every miss as knowledge, algebra, or timing.",
       },
       {
         course: "ap-statistics",
@@ -1588,7 +1597,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
         course: "ap-calculus-bc",
         unit: "Targeted review: Unit 10 and mock misses",
         focus:
-          "Every series miss from the mock, plus two released-style series free-response questions. Rebuild the convergence-test decision tree from blank paper.",
+          "Exam review / New BC: every series miss from the mock, plus two released-style series free-response questions. Rebuild the convergence-test decision tree from blank paper, then one polar-area or by-parts item if those appeared in the miss list.",
       },
       {
         course: "ap-statistics",
@@ -1643,7 +1652,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
         course: "ap-calculus-bc",
         unit: "Second full exam mock",
         focus:
-          "Repeat the 2027-format mock on fresh questions. Compare miss categories to Week 31; timing issues get a pacing plan, knowledge issues get two extra problems each.",
+          "Exam review: repeat the 2027-format mock on fresh questions. Compare miss categories to Week 31; timing issues get a pacing plan, knowledge issues (especially series tests and polar integrals) get two extra problems each.",
       },
       {
         course: "ap-statistics",
@@ -1707,7 +1716,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
         course: "ap-calculus-bc",
         unit: "Exam day: Monday, May 10",
         focus:
-          "Light daily retrieval: ten mixed series and integration cards, one free-response question untimed on Friday or Saturday, then rest Sunday. The exam is the following Monday.",
+          "Exam review: light daily retrieval of series tests, known Maclaurin series, integration-by-parts, and polar area. Ten mixed cards, one free-response question untimed on Friday or Saturday, then rest Sunday. The exam is the following Monday.",
       },
       {
         course: "ap-statistics",
