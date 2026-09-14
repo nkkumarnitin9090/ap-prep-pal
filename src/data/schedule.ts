@@ -37,8 +37,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-physics-2",
-        unit: "Unit 8: Fluids (bridge unit)",
-        focus: "Density, pressure as force per area, and pressure as a function of depth in a static fluid.",
+        unit: "Optional P1 review: Fluids (not a class unit)",
+        focus:
+          "Skip unless you want a Physics 1 refresh: density, pressure as force per area, and pressure versus depth. This school's Physics 2 sequence starts at Unit 9 Thermodynamics next week; Fluids is not taught as a class unit.",
       },
       {
         course: "ap-english-literature",
@@ -61,7 +62,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       {
         course: "ap-physics-2",
         practiceSetId: "phys-u8-ps",
-        label: "Fluids bridge set, questions 1-2, to see how much Physics 1 survived the summer.",
+        label: "Optional Fluids P1 review, questions 1-2 only. Skip this set if you are starting Unit 9 with the class.",
       },
       {
         course: "ap-english-literature",
@@ -92,9 +93,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-physics-2",
-        unit: "Unit 8: Fluids (bridge unit)",
+        unit: "Unit 9: Thermodynamics",
         focus:
-          "Pascal's principle, buoyant force and fraction submerged, the continuity equation, and Bernoulli's equation.",
+          "Kinetic theory of temperature and pressure, and root-mean-square molecular speed. This is the first taught Physics 2 unit at school.",
       },
       {
         course: "ap-english-literature",
@@ -111,8 +112,8 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-physics-2",
-        practiceSetId: "phys-u8-ps",
-        label: "Complete set with written justifications for the buoyancy items.",
+        practiceSetId: "phys-u9-ps",
+        label: "Thermodynamics set, questions 1-2, on kinetic theory and molecular speed.",
       },
       {
         course: "ap-english-literature",
@@ -144,7 +145,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
         course: "ap-physics-2",
         unit: "Unit 9: Thermodynamics",
         focus:
-          "Kinetic theory of temperature and pressure, root-mean-square molecular speed, and the ideal gas law with consistent units.",
+          "The ideal gas law with consistent units, then PV diagrams and the four standard processes: isothermal, isobaric, isochoric, and adiabatic.",
       },
       {
         course: "ap-english-literature",
@@ -193,7 +194,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
         course: "ap-physics-2",
         unit: "Unit 9: Thermodynamics",
         focus:
-          "PV diagrams and the four standard processes, work as area under a PV curve, and the first law with sign conventions.",
+          "Work as area under a PV curve, the first law with sign conventions, and internal energy of a monatomic ideal gas.",
       },
       {
         course: "ap-english-literature",
@@ -242,7 +243,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
         course: "ap-physics-2",
         unit: "Unit 9: Thermodynamics",
         focus:
-          "Internal energy of a monatomic ideal gas, specific and latent heat, conduction and radiation, and entropy with the second law.",
+          "Specific and latent heat, conduction and radiation, and entropy with the second law. Close the first taught school unit this week.",
       },
       {
         course: "ap-english-literature",
@@ -290,7 +291,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-physics-2",
-        unit: "Unit 10: Electric Force, Field, and Potential",
+        unit: "Unit 10: Electrostatics (Electric Force, Field, and Potential)",
         focus: "Coulomb's law, charging by conduction and induction, field lines, and superposition of fields.",
       },
       {
@@ -338,7 +339,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-physics-2",
-        unit: "Unit 10: Electric Force, Field, and Potential",
+        unit: "Unit 10: Electrostatics (Electric Force, Field, and Potential)",
         focus:
           "Uniform fields between parallel plates, electric potential energy versus potential, and equipotential surfaces.",
       },
@@ -363,7 +364,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       {
         course: "ap-physics-2",
         practiceSetId: "phys-u9-ps",
-        label: "Spaced retake of two thermodynamics items three weeks after first study.",
+        label: "Spaced retake of two thermodynamics items, two weeks after finishing the unit.",
       },
     ],
   },
@@ -388,7 +389,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-physics-2",
-        unit: "Unit 10: Electric Force, Field, and Potential",
+        unit: "Unit 10: Electrostatics (Electric Force, Field, and Potential)",
         focus:
           "Capacitors, capacitance and dielectrics, and conservation of energy for a charge moving through a potential difference.",
       },
@@ -584,8 +585,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-physics-2",
-        unit: "Units 8-11 review (no new content)",
-        focus: "Reread the two conceptual maps that feel weakest and redo one circuits item you missed.",
+        unit: "Units 9-11 review (no new content)",
+        focus:
+          "Reread the two conceptual maps that feel weakest among thermodynamics, electrostatics, and circuits, and redo one circuits item you missed. Fluids is not a class unit.",
       },
       {
         course: "ap-english-literature",
@@ -777,9 +779,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-physics-2",
-        unit: "Units 8-12 maintenance",
+        unit: "Units 9-12 maintenance",
         focus:
-          "Rebuild the electricity and magnetism concept maps from blank paper; check them only after you have finished.",
+          "Rebuild the thermodynamics, electrostatics, circuits, and magnetism concept maps from blank paper; check them only after you have finished.",
       },
       {
         course: "ap-english-literature",
@@ -878,9 +880,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-physics-2",
-        unit: "Units 8-13 checkpoint",
+        unit: "Units 9-13 checkpoint",
         focus:
-          "Timed multiple-choice section, then one paragraph-length argument question graded for physics reasoning, not prose.",
+          "Timed multiple-choice section covering thermodynamics through geometric optics, then one paragraph-length argument question graded for physics reasoning, not prose.",
       },
       {
         course: "ap-english-literature",
@@ -1542,9 +1544,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-physics-2",
-        unit: "Full exam mock (redesign format)",
+        unit: "Unit 16: AP Test Prep (full exam mock)",
         focus:
-          "Section I: 42 single-select questions in 85 minutes. Section II: all four free-response formats in 95 minutes. Grade the written reasoning, not the arithmetic.",
+          "Unofficial school Unit 16. Section I: 42 single-select questions in 85 minutes. Section II: all four free-response formats in 95 minutes. Grade the written reasoning, not the arithmetic.",
       },
       {
         course: "ap-english-literature",
@@ -1594,9 +1596,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-physics-2",
-        unit: "Targeted review: mock misses plus FRQ formats",
+        unit: "Unit 16: AP Test Prep (targeted review)",
         focus:
-          "Rework every missed multiple-choice with a principle named, then one Experimental Design and one Qualitative/Quantitative Translation from the weakest unit.",
+          "Rework every missed multiple-choice with a principle named, then one Experimental Design and one Qualitative/Quantitative Translation from the weakest unit among 9-15.",
       },
       {
         course: "ap-english-literature",
@@ -1649,9 +1651,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-physics-2",
-        unit: "Second full exam mock",
+        unit: "Unit 16: AP Test Prep (second full mock)",
         focus:
-          "42 multiple-choice and 4 free-response questions. After scoring, write one model paragraph for the Qualitative/Quantitative Translation you lost the most points on.",
+          "42 multiple-choice questions in 85 minutes and 4 free-response questions in 95 minutes. After scoring, write one model paragraph for the Qualitative/Quantitative Translation you lost the most points on.",
       },
       {
         course: "ap-english-literature",
@@ -1695,9 +1697,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-physics-2",
-        unit: "Exam day: Thursday, May 6",
+        unit: "Unit 16: AP Test Prep — exam day Thursday, May 6",
         focus:
-          "Monday through Wednesday morning: one page of relationship recall (fluids through modern physics) and two qualitative questions. No full mock. After the exam, stop Physics 2 work entirely.",
+          "Monday through Wednesday morning: one page of relationship recall (thermodynamics through modern physics, Units 9-15) and two qualitative questions. No full mock. After the exam, stop Physics 2 work entirely.",
       },
       {
         course: "ap-calculus-bc",

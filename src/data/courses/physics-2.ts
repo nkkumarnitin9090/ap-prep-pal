@@ -76,7 +76,11 @@ export const physics2: Course = {
     },
     {
       tone: "info",
-      text: "The Fluids unit below is labeled Unit 8 and marked as not assessed. Keep it if your teacher covers it or if you want the review; skip it entirely if you are short on time before the May exam.",
+      text: "This school's Physics 2 sequence is second-semester college physics in CED order: Units 9-15 (Thermodynamics; Electrostatics, titled Electric Force, Field, and Potential in the CED; Electric Circuits; Magnetism and Electromagnetism; Geometric Optics; Waves, Sound, and Physical Optics; Modern Physics), then unofficial Unit 16 AP test prep for the May 2027 format (42 MCQ in 85 minutes and 4 FRQ in 95 minutes). Fluids is not a taught class unit.",
+    },
+    {
+      tone: "info",
+      text: "The Fluids unit below is labeled Unit 8 and marked as not assessed. This school does not teach it as a Physics 2 unit. Keep it only as optional AP Physics 1 review; skip it if you are starting Unit 9 with the class or are short on time before the May exam.",
     },
   ],
   resources: [
