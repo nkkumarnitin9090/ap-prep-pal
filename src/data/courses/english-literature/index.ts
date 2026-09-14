@@ -10,7 +10,7 @@ export const englishLiterature: Course = {
   accent: "rose",
   tagline: "Read closely, argue precisely.",
   description:
-    "Nine units alternating short fiction, poetry, and longer fiction or drama, built around the CED big ideas and three timed essays.",
+    "Nine CED units alternating short fiction, poetry, and longer fiction or drama, attached to this year's school texts: the Jago anthology, Antigone, Their Eyes Were Watching God, Never Let Me Go, and a choice novel.",
   examDate: "2027-05-05",
   examSession: "Session 1 - typically 8 a.m. local time",
   examSections: [
@@ -34,4 +34,14 @@ export const englishLiterature: Course = {
   skillCategories,
   frqTypes,
   resources,
+  courseNotes: [
+    {
+      tone: "info",
+      text: "This year's classroom follows the College Board AP Lit CED. Required texts: Literature & Composition by Jago, Shea, Scanlon, and Aufses (Bedford/St. Martin's, 2011) for short fiction and poetry; Antigone by Sophocles; Their Eyes Were Watching God by Zora Neale Hurston; Never Let Me Go by Kazuo Ishiguro; and a student-chosen work of fiction as an independent Q3 literary-argument bank. The nine CED units stay in College Board order; school titles are attached to those units rather than replacing them.",
+    },
+    {
+      tone: "info",
+      text: "School weighting: formative 20% (reading responses, annotations, discussion prep, practice-writes, some MCQs, writing process, presentations) and summative 80% (final essays, projects, seminars, exams, research, some MCQs). Timed essays and passage sets in this study plan are practice for both.",
+    },
+  ],
 };

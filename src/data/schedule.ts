@@ -43,9 +43,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-english-literature",
-        unit: "Unit 1: Short Fiction I",
+        unit: "Unit 1: Short Fiction I (Jago anthology)",
         focus:
-          "Annotate one short story closely: how action, dialogue, and telling detail reveal character rather than describe it.",
+          "From Literature & Composition (Jago, Shea, Scanlon, and Aufses): annotate one short story closely: how action, dialogue, and telling detail reveal character rather than describe it.",
       },
     ],
     practice: [
@@ -67,7 +67,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       {
         course: "ap-english-literature",
         practiceSetId: "lit-u1-set",
-        label: "One passage set to calibrate multiple-choice reading pace.",
+        label: "One short-fiction passage set (Jago-style close reading) to calibrate multiple-choice reading pace.",
       },
     ],
     note: "Build the two tools the rest of the year assumes: a single error log for missed problems and one flashcard deck covering all four courses.",
@@ -99,9 +99,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-english-literature",
-        unit: "Unit 1: Short Fiction I",
+        unit: "Unit 1: Short Fiction I (Jago anthology)",
         focus:
-          "Setting and structure: how sequencing, contrast, and narrative distance shape meaning. Draft your first prose fiction thesis.",
+          "Jago anthology: setting and structure in a second short story. How sequencing, contrast, and narrative distance shape meaning. Draft your first prose fiction thesis.",
       },
     ],
     practice: [
@@ -118,7 +118,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       {
         course: "ap-english-literature",
         practiceSetId: "lit-u1-set",
-        label: "Finish the set, then reread every stem you got wrong to see what the question actually asked.",
+        label: "Finish the Short Fiction I set, then reread every stem you got wrong to see what the question actually asked.",
       },
     ],
   },
@@ -149,9 +149,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-english-literature",
-        unit: "Unit 1: Short Fiction I",
+        unit: "Unit 1: Short Fiction I (Jago anthology)",
         focus:
-          "Close out Short Fiction I with a 40-minute prose fiction analysis essay, then self-score the thesis and evidence rows.",
+          "Close out Short Fiction I with a 40-minute prose fiction analysis essay on a Jago anthology story, then self-score the thesis and evidence rows.",
       },
     ],
     practice: [
@@ -167,7 +167,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-english-literature",
-        label: "Saturday timed section: 26 multiple-choice questions on two prose passages in 30 minutes.",
+        label: "Saturday timed section: 26 multiple-choice questions on two short-fiction passages (Jago-style prose) in 30 minutes.",
       },
     ],
   },
@@ -198,9 +198,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-english-literature",
-        unit: "Unit 2: Poetry I",
+        unit: "Unit 2: Poetry I (Jago anthology)",
         focus:
-          "Line and stanza structure, punctuation and enjambment, and how imagery builds a controlling idea in a short poem.",
+          "From the Jago anthology: line and stanza structure, punctuation and enjambment, and how imagery builds a controlling idea in a short poem.",
       },
     ],
     practice: [
@@ -217,7 +217,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       {
         course: "ap-english-literature",
         practiceSetId: "lit-u2-set",
-        label: "First poetry passage set; mark the two lines that carry the poem's turn.",
+        label: "First Jago-style poetry passage set; mark the two lines that carry the poem's turn.",
       },
     ],
   },
@@ -247,9 +247,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-english-literature",
-        unit: "Unit 2: Poetry I",
+        unit: "Unit 2: Poetry I (Jago anthology)",
         focus:
-          "Finish Poetry I with a timed poetry analysis essay; practice quoting a line fragment inside your own sentence.",
+          "Finish Poetry I with a timed poetry analysis essay on a Jago anthology poem; practice quoting a line fragment inside your own sentence.",
       },
     ],
     practice: [
@@ -266,7 +266,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       {
         course: "ap-english-literature",
         practiceSetId: "lit-u2-set",
-        label: "Finish the poetry set and log which distractor type keeps catching you.",
+        label: "Finish the Poetry I set and log which distractor type keeps catching you.",
       },
     ],
   },
@@ -296,9 +296,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-english-literature",
-        unit: "Unit 3: Longer Fiction or Drama I",
+        unit: "Unit 3: Longer Fiction or Drama I (Antigone)",
         focus:
-          "Start the first novel or play: track the protagonist's central conflict and how exposition sets up later reversals.",
+          "Start Antigone: track Antigone's and Creon's central conflict, and how the prologue and early episodes set up later reversals of law, family, and the state.",
       },
     ],
     practice: [
@@ -345,9 +345,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-english-literature",
-        unit: "Unit 3: Longer Fiction or Drama I",
+        unit: "Unit 3: Longer Fiction or Drama I (Antigone)",
         focus:
-          "Narrative perspective and reliability: what the narrator or speaker can and cannot see, and what that does to the reader.",
+          "Antigone: dramatic irony and character. What Antigone, Creon, and the Chorus can and cannot see, and how those limits produce the play's argument.",
       },
     ],
     practice: [
@@ -395,9 +395,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-english-literature",
-        unit: "Unit 3: Longer Fiction or Drama I",
+        unit: "Unit 3: Longer Fiction or Drama I (Antigone)",
         focus:
-          "Finish the work and write a literary argument thesis that makes a defensible interpretive claim about the whole text.",
+          "Finish Antigone and write a literary argument thesis that makes a defensible interpretive claim about the whole play (structure, character, and competing claims of duty).",
       },
     ],
     practice: [
@@ -414,7 +414,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       {
         course: "ap-english-literature",
         practiceSetId: "lit-u3-set",
-        label: "Longer fiction passage set, then outline a Q3 literary argument in ten minutes.",
+        label: "Longer fiction or drama passage set, then outline a Q3 literary argument on Antigone in ten minutes.",
       },
     ],
   },
@@ -444,9 +444,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-english-literature",
-        unit: "Unit 4: Short Fiction II",
+        unit: "Unit 4: Short Fiction II (Jago anthology)",
         focus:
-          "Character change over a story: interpret contrasts and inconsistencies instead of smoothing them over.",
+          "Jago anthology: character change over a story. Interpret contrasts and inconsistencies instead of smoothing them over.",
       },
     ],
     practice: [
@@ -463,7 +463,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       {
         course: "ap-english-literature",
         practiceSetId: "lit-u4-set",
-        label: "Short fiction set under a strict 30-minute clock.",
+        label: "Short Fiction II set (Jago-style prose) under a strict 30-minute clock.",
       },
     ],
   },
@@ -494,9 +494,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-english-literature",
-        unit: "Unit 4: Short Fiction II",
+        unit: "Unit 4: Short Fiction II (Jago anthology)",
         focus:
-          "Finish Short Fiction II with a timed prose analysis essay focused on commentary that explains, not restates.",
+          "Finish Short Fiction II with a timed prose analysis essay on a Jago anthology story, focused on commentary that explains, not restates.",
       },
     ],
     practice: [
@@ -513,7 +513,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       {
         course: "ap-english-literature",
         practiceSetId: "lit-u4-set",
-        label: "Finish the set, then rewrite two commentary sentences from the essay to be more specific.",
+        label: "Finish the Short Fiction II set, then rewrite two commentary sentences from the essay to be more specific.",
       },
     ],
   },
@@ -543,8 +543,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-english-literature",
-        unit: "Unit 5: Poetry II",
-        focus: "Extended metaphor and conceit: how a comparison develops and where it strains or breaks.",
+        unit: "Unit 5: Poetry II (Jago anthology)",
+        focus:
+          "Jago anthology: extended metaphor and conceit. How a comparison develops and where it strains or breaks.",
       },
     ],
     practice: [
@@ -591,9 +592,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-english-literature",
-        unit: "Unit 5: Poetry II",
+        unit: "Unit 5: Poetry II (Jago anthology)",
         focus:
-          "Reading only: two poems a day with light annotation and no essay this week. Keep the habit, drop the intensity.",
+          "Jago anthology, reading only: two poems a day with light annotation and no essay this week. Keep the habit, drop the intensity.",
       },
     ],
     practice: [
@@ -637,9 +638,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-english-literature",
-        unit: "Unit 5: Poetry II",
+        unit: "Unit 5: Poetry II (Jago anthology)",
         focus:
-          "Extended metaphor continued plus sound and syntax: how meter, rhyme, and sentence shape support the poem's argument.",
+          "Jago anthology: extended metaphor continued plus sound and syntax. How meter, rhyme, and sentence shape support the poem's argument.",
       },
     ],
     practice: [
@@ -656,7 +657,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       {
         course: "ap-english-literature",
         practiceSetId: "lit-u5-set",
-        label: "Poetry passage set, then annotate the two questions you spent longest on.",
+        label: "Poetry II passage set, then annotate the two questions you spent longest on.",
       },
     ],
   },
@@ -686,9 +687,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-english-literature",
-        unit: "Unit 5: Poetry II",
+        unit: "Unit 5: Poetry II (Jago anthology)",
         focus:
-          "Finish Poetry II with a timed poetry analysis essay; the thesis must name the poem's movement, not just its subject.",
+          "Finish Poetry II with a timed poetry analysis essay on a Jago anthology poem; the thesis must name the poem's movement, not just its subject.",
       },
     ],
     practice: [
@@ -705,7 +706,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       {
         course: "ap-english-literature",
         practiceSetId: "lit-u5-set",
-        label: "Finish the set and log every question type you rushed.",
+        label: "Finish the Poetry II set and log every question type you rushed.",
       },
     ],
   },
@@ -735,9 +736,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-english-literature",
-        unit: "Unit 6: Longer Fiction or Drama II",
+        unit: "Unit 6: Longer Fiction or Drama II (Their Eyes Were Watching God)",
         focus:
-          "Begin the second long work: chart how structure, foils, and setting shifts advance a central tension.",
+          "Begin Their Eyes Were Watching God: chart how structure, foils, and setting shifts (Eatonville, the muck) advance Janie's central tension. Track narration and dialect as they reveal character.",
       },
     ],
     practice: [
@@ -785,9 +786,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-english-literature",
-        unit: "Unit 6: Longer Fiction or Drama II",
+        unit: "Unit 6: Longer Fiction or Drama II (Their Eyes Were Watching God)",
         focus:
-          "Break reading push: finish the long work and keep a running quotation bank of twelve passages for the literary argument essay.",
+          "Break reading push: finish Their Eyes Were Watching God and keep a running quotation bank of twelve passages for the literary argument essay. Attend to narration, dialect, and who is allowed to tell Janie's story.",
       },
     ],
     practice: [
@@ -804,7 +805,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       {
         course: "ap-english-literature",
         practiceSetId: "lit-u6-set",
-        label: "One passage set on the long work, untimed, for comprehension rather than speed.",
+        label: "One passage set on Their Eyes Were Watching God, untimed, for comprehension rather than speed.",
       },
     ],
     note: "This entry covers the two-week winter break (Dec 21 - Jan 3). Plan roughly half the usual weekly load: reading stays daily, everything else drops to two or three sessions per week, and there are no timed exams. Adjust to your school's actual break dates.",
@@ -836,9 +837,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-english-literature",
-        unit: "Unit 6: Longer Fiction or Drama II",
+        unit: "Unit 6: Longer Fiction or Drama II (Their Eyes Were Watching God)",
         focus:
-          "Finish Unit 6 with a literary argument essay on the long work, using the quotation bank built over the break.",
+          "Finish Unit 6 with a literary argument essay on Their Eyes Were Watching God, using the quotation bank built over the break.",
       },
     ],
     practice: [
@@ -886,8 +887,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-english-literature",
-        unit: "Units 1-6 checkpoint",
-        focus: "Full 55-question multiple-choice section in 60 minutes plus one timed essay of each of the three types.",
+        unit: "Units 1-6 checkpoint (Jago, Antigone, Their Eyes)",
+        focus:
+          "Full 55-question multiple-choice section in 60 minutes plus one timed essay of each of the three types. Write Q3 from memory on Antigone or Their Eyes Were Watching God.",
       },
     ],
     practice: [
@@ -905,7 +907,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-english-literature",
-        label: "AP Lit Section I: 55 questions in 60 minutes, followed on Sunday by two timed essays.",
+        label: "AP Lit Section I: 55 questions in 60 minutes, followed on Sunday by two timed essays (include a Q3 from Antigone or Their Eyes Were Watching God).",
       },
     ],
     note: "Midyear checkpoint. Score everything honestly and write down the three weakest topics per course; weeks 19 onward should give those topics extra practice time. Do not start new units this week.",
@@ -937,9 +939,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-english-literature",
-        unit: "Unit 7: Short Fiction III",
+        unit: "Unit 7: Short Fiction III (Jago anthology)",
         focus:
-          "Sources of narrator unreliability: name the cause (youth, self-interest, limited access) and the sentence where the narration betrays itself.",
+          "Jago anthology: sources of narrator unreliability. Name the cause (youth, self-interest, limited access) and the sentence where the narration betrays itself.",
       },
     ],
     practice: [
@@ -961,7 +963,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       {
         course: "ap-english-literature",
         practiceSetId: "lit-u7-set",
-        label: "Questions 1-3 on narrative distance; mark the words that belong to the character rather than the narrator.",
+        label: "Short Fiction III set, questions 1-3 on narrative distance; mark the words that belong to the character rather than the narrator.",
       },
     ],
     note: "Pull the three weakest topics per course from the Week 18 checkpoint into Friday's repair block this week and keep them there until they leave the error log.",
@@ -993,9 +995,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-english-literature",
-        unit: "Unit 7: Short Fiction III",
+        unit: "Unit 7: Short Fiction III (Jago anthology)",
         focus:
-          "Free indirect discourse and the retrospective narrator: separate the narrating self from the narrated self, and mark idiom that is the character's.",
+          "Jago anthology: free indirect discourse and the retrospective narrator. Separate the narrating self from the narrated self, and mark idiom that is the character's.",
       },
     ],
     practice: [
@@ -1043,9 +1045,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-english-literature",
-        unit: "Unit 7: Short Fiction III",
+        unit: "Unit 7: Short Fiction III (Jago anthology)",
         focus:
-          "Finish Short Fiction III with a 40-minute prose analysis essay; the thesis must name what the narration does, not what the story is about.",
+          "Finish Short Fiction III with a 40-minute prose analysis essay on a Jago anthology story; the thesis must name what the narration does, not what the story is about.",
       },
     ],
     practice: [
@@ -1062,7 +1064,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       {
         course: "ap-english-literature",
         practiceSetId: "lit-u7-set",
-        label: "Finish the set, then rewrite two commentary sentences so they explain the language rather than restate the plot.",
+        label: "Finish the Short Fiction III set, then rewrite two commentary sentences so they explain the language rather than restate the plot.",
       },
     ],
   },
@@ -1093,9 +1095,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-english-literature",
-        unit: "Unit 8: Poetry III",
+        unit: "Unit 8: Poetry III (Jago anthology)",
         focus:
-          "Paradox, ambiguity, and juxtaposition: how a contrast or a double meaning produces the poem's argument rather than decorating it.",
+          "Jago anthology: paradox, ambiguity, and juxtaposition. How a contrast or a double meaning produces the poem's argument rather than decorating it.",
       },
     ],
     practice: [
@@ -1143,9 +1145,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-english-literature",
-        unit: "Unit 8: Poetry III",
+        unit: "Unit 8: Poetry III (Jago anthology)",
         focus:
-          "Irony and conceit in a denser poem: name which kind of irony operates, who is its target, and whether the speaker is in on it.",
+          "Jago anthology: irony and conceit in a denser poem. Name which kind of irony operates, who is its target, and whether the speaker is in on it.",
       },
     ],
     practice: [
@@ -1167,7 +1169,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       {
         course: "ap-english-literature",
         practiceSetId: "lit-u8-set",
-        label: "First Poetry III passage set; mark the two lines that carry the poem's turn.",
+        label: "First Poetry III passage set (Jago-style); mark the two lines that carry the poem's turn.",
       },
     ],
   },
@@ -1198,9 +1200,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-english-literature",
-        unit: "Unit 8: Poetry III",
+        unit: "Unit 8: Poetry III (Jago anthology)",
         focus:
-          "Finish Poetry III with a timed poetry analysis essay; the thesis must name the poem's movement and a specific tension, not just its subject.",
+          "Finish Poetry III with a timed poetry analysis essay on a Jago anthology poem; the thesis must name the poem's movement and a specific tension, not just its subject.",
       },
     ],
     practice: [
@@ -1222,7 +1224,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       {
         course: "ap-english-literature",
         practiceSetId: "lit-u8-set",
-        label: "Finish the set and log which stem type (shift, diction, structure) keeps costing time.",
+        label: "Finish the Poetry III set and log which stem type (shift, diction, structure) keeps costing time.",
       },
     ],
   },
@@ -1253,9 +1255,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-english-literature",
-        unit: "Unit 9: Longer Fiction or Drama III",
+        unit: "Unit 9: Longer Fiction or Drama III (Never Let Me Go + choice novel)",
         focus:
-          "Begin the third long work: track how structure, character complexity, and setting interact across the whole text rather than scene by scene.",
+          "Begin Never Let Me Go: track how structure, character complexity, and setting interact across Hailsham rather than scene by scene. Also choose (or continue) your independent novel for the Q3 literary-argument bank.",
       },
     ],
     practice: [
@@ -1304,9 +1306,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-english-literature",
-        unit: "Unit 9: Longer Fiction or Drama III",
+        unit: "Unit 9: Longer Fiction or Drama III (Never Let Me Go + choice novel)",
         focus:
-          "Character complexity and social or historical setting as pressure, not backdrop. Keep a running quotation bank of twelve passages for the literary argument essay.",
+          "Never Let Me Go: character complexity and social or historical setting as pressure, not backdrop. Keep a running quotation bank of twelve passages. Read the choice novel in parallel for Q3.",
       },
     ],
     practice: [
@@ -1354,9 +1356,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-english-literature",
-        unit: "Unit 9: Longer Fiction or Drama III",
+        unit: "Unit 9: Longer Fiction or Drama III (Never Let Me Go + choice novel)",
         focus:
-          "Reading push: finish or nearly finish the long work. Light annotation only, no timed essay this week.",
+          "Reading push: finish or nearly finish Never Let Me Go. Light annotation only, no timed essay this week. Keep the choice novel moving.",
       },
     ],
     practice: [
@@ -1368,7 +1370,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       {
         course: "ap-english-literature",
         practiceSetId: "lit-u9-set",
-        label: "One passage set on the long work, untimed, for comprehension rather than speed.",
+        label: "One Unit 9 passage set (skills for Never Let Me Go), untimed, for comprehension rather than speed.",
       },
     ],
     note: "Likely spring-break window: deliberately light, on the Thanksgiving-week pattern. Two short weekday sessions and one weekend session, no full timed exam. Adjust to your school's actual break dates.",
@@ -1400,9 +1402,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-english-literature",
-        unit: "Unit 9: Longer Fiction or Drama III",
+        unit: "Unit 9: Longer Fiction or Drama III (Never Let Me Go + choice novel)",
         focus:
-          "Finish Unit 9 with a literary argument essay on the third long work, using the quotation bank. The line of reasoning should not be rearrangable.",
+          "Finish Unit 9 with a literary argument essay on Never Let Me Go, using the quotation bank. The line of reasoning should not be rearrangable. Add the choice novel to the Q3 bank with two or three scenes you can write from memory.",
       },
     ],
     practice: [
@@ -1419,7 +1421,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       {
         course: "ap-english-literature",
         practiceSetId: "lit-u9-set",
-        label: "Finish the set, then outline a Q3 literary argument in ten minutes from memory.",
+        label: "Finish the Unit 9 set, then outline a Q3 literary argument from memory on Never Let Me Go or the choice novel.",
       },
     ],
   },
@@ -1450,9 +1452,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-english-literature",
-        unit: "Units 7-9 mixed review",
+        unit: "Units 7-9 mixed review (Jago, Never Let Me Go, choice novel)",
         focus:
-          "One timed essay of each type this week (poetry, prose, literary argument), scored against the six-point rubric on thesis and evidence rows only.",
+          "One timed essay of each type this week (poetry, prose, literary argument). Write Q3 from the school bank: Antigone, Their Eyes Were Watching God, Never Let Me Go, or the choice novel. Score thesis and evidence rows only.",
       },
     ],
     practice: [
@@ -1501,7 +1503,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
         course: "ap-english-literature",
         unit: "Units 1-9 error-log repair",
         focus:
-          "Reread the three essay types that scored lowest on Row B this spring and rewrite one body paragraph of each with embedded evidence and commentary that explains.",
+          "Reread the three essay types that scored lowest on Row B this spring and rewrite one body paragraph of each with embedded evidence. For Q3, use a scene from Antigone, Their Eyes Were Watching God, Never Let Me Go, or the choice novel.",
       },
     ],
     practice: [
@@ -1552,7 +1554,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
         course: "ap-english-literature",
         unit: "Full exam mock",
         focus:
-          "Section I: 55 questions in 60 minutes. Section II: poetry analysis, prose fiction analysis, and literary argument in 120 minutes. Self-score every essay on all three rubric rows.",
+          "Section I: 55 questions in 60 minutes. Section II: poetry analysis, prose fiction analysis, and a literary argument from the school Q3 bank (Antigone, Their Eyes Were Watching God, Never Let Me Go, or the choice novel) in 120 minutes. Self-score every essay on all three rubric rows.",
       },
     ],
     practice: [
@@ -1570,7 +1572,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-english-literature",
-        label: "Full AP Lit mock: 55 questions in 60 minutes and three essays in 120 minutes.",
+        label: "Full AP Lit mock: 55 questions in 60 minutes and three essays in 120 minutes. Q3 from the school literary-argument bank.",
       },
     ],
     note: "First full mock week. Do not take all four exams on the same day: two on Saturday, two on Sunday, with a real break between sections. Write the three weakest topics per course before Monday.",
@@ -1604,7 +1606,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
         course: "ap-english-literature",
         unit: "Targeted review: essay Row B and passage timing",
         focus:
-          "Rewrite the lowest-scoring body paragraph from each mock essay with embedded evidence, then two 30-minute passage sets focusing on the question type you missed most.",
+          "Rewrite the lowest-scoring body paragraph from each mock essay with embedded evidence. For Q3, rebuild from the school bank (Antigone, Their Eyes Were Watching God, Never Let Me Go, or the choice novel). Then two 30-minute passage sets on the question type you missed most.",
       },
     ],
     practice: [
@@ -1659,7 +1661,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
         course: "ap-english-literature",
         unit: "Second full exam mock",
         focus:
-          "55 questions and three essays. After scoring, rewrite only the thesis and the weakest paragraph of each essay, not the whole essay.",
+          "55 questions and three essays. Write Q3 from the school bank (Antigone, Their Eyes Were Watching God, Never Let Me Go, or the choice novel). After scoring, rewrite only the thesis and the weakest paragraph of each essay, not the whole essay.",
       },
     ],
     practice: [
@@ -1677,7 +1679,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-english-literature",
-        label: "Second full AP Lit mock. Start the essays in the exam order: poetry, prose, literary argument.",
+        label: "Second full AP Lit mock. Start the essays in the exam order: poetry, prose, literary argument from the school Q3 bank.",
       },
     ],
     note: "Last full-mock week. Sleep and a normal meal schedule beat an extra problem set. Confirm exam dates, session times, and what to bring with the school's AP coordinator this week; published dates can move.",
@@ -1693,7 +1695,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
         course: "ap-english-literature",
         unit: "Exam day: Wednesday, May 5",
         focus:
-          "Monday and Tuesday: light reread of quotation banks and one untimed poem. No new texts. After the exam, stop AP Lit work entirely.",
+          "Monday and Tuesday: light reread of quotation banks (Antigone, Their Eyes Were Watching God, Never Let Me Go, choice novel) and one untimed poem from the Jago anthology. No new texts. After the exam, stop AP Lit work entirely.",
       },
       {
         course: "ap-physics-2",

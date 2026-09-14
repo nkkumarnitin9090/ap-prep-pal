@@ -25,7 +25,7 @@ export const unitsA: Unit[] = [
     examWeightMidpoint: 15,
     classPeriods: "~10 class periods",
     summary:
-      "The foundation unit: reading a short story closely enough that character, setting, plot order, and narration stop looking like background information and start looking like choices a writer made. The habit to build here is asking what a detail does rather than what it says.",
+      "The foundation unit: reading a short story closely enough that character, setting, plot order, and narration stop looking like background information and start looking like choices a writer made. The habit to build here is asking what a detail does rather than what it says. This year's stories come from Literature & Composition (Jago, Shea, Scanlon, and Aufses).",
     cedNote: {
       tone: "info",
       text: "The CED publishes Section I weightings by genre, not by unit: short fiction (Units 1, 4, 7) is 42-49% of the multiple-choice section. Each short-fiction card shows that group range and a one-third midpoint so the bars stay comparable across the nine units. Section II is three essays on one six-point rubric (thesis 0-1, evidence and commentary 0-4, sophistication 0-1), so these skills are worth far more than the bar suggests.",
@@ -240,7 +240,7 @@ export const unitsA: Unit[] = [
     examWeightMidpoint: 13.5,
     classPeriods: "~10 class periods",
     summary:
-      "Poetry read as a made object: a constructed speaker, lines that end where the poet decided they should end, and comparisons that do argumentative work. The unit also introduces the defensible thesis, which is the one point on the essay rubric you can win in a single sentence.",
+      "Poetry read as a made object: a constructed speaker, lines that end where the poet decided they should end, and comparisons that do argumentative work. The unit also introduces the defensible thesis, which is the one point on the essay rubric you can win in a single sentence. This year's poems come from the Jago anthology.",
     topics: [
       {
         id: "lit-u2-t1",
@@ -458,7 +458,7 @@ export const unitsA: Unit[] = [
     examWeightMidpoint: 5.5,
     classPeriods: "~17 class periods",
     summary:
-      "Scaling close reading up to a whole book or play: how one scene serves the arc, how character relationships shift, and how a work's setting and structure constrain the people inside them. This unit also starts the long project of banking two or three works you know well enough to argue about from memory.",
+      "Scaling close reading up to a whole book or play: how one scene serves the arc, how character relationships shift, and how a work's setting and structure constrain the people inside them. This unit also starts the long project of banking two or three works you know well enough to argue about from memory. This year's school text is Sophocles' Antigone.",
     cedNote: {
       tone: "info",
       text: "FRQ 3, the literary argument, asks you to write about a full-length work of your own choosing with no text in front of you. Start a one-page inventory now for each work you study: central conflict, five or six scenes with page references, four short quotations, and two competing interpretations.",

@@ -15,7 +15,7 @@ export const unitsB: Unit[] = [
     examWeightMidpoint: 5.5,
     classPeriods: "~17 class periods",
     summary:
-      "Your second full-length novel or play, read with the assumption that character is built out of contrast and that the reader often knows more than the characters do. The unit's real difficulty is scale: an interpretation of four hundred pages has to be held together by a line of reasoning, not by a list of things you noticed.",
+      "Your second full-length novel or play, read with the assumption that character is built out of contrast and that the reader often knows more than the characters do. The unit's real difficulty is scale: an interpretation of four hundred pages has to be held together by a line of reasoning, not by a list of things you noticed. This year's school text is Zora Neale Hurston's Their Eyes Were Watching God.",
     topics: [
       {
         id: "lit-u6-t1",
@@ -792,7 +792,7 @@ export const unitsB: Unit[] = [
     examWeightMidpoint: 5.5,
     classPeriods: "~17 class periods",
     summary:
-      "The last long-work unit, which assumes you can already name a foil and a motif and now asks you to hold an entire novel or play together as an argument. Symbol and motif have to be tracked from first appearance to last; a narrator's limits have to be treated as a design that shapes what the work can mean; and the essay you write from memory has to be a line of reasoning about the whole, not a tour of scenes you happen to remember.",
+      "The last long-work unit, which assumes you can already name a foil and a motif and now asks you to hold an entire novel or play together as an argument. Symbol and motif have to be tracked from first appearance to last; a narrator's limits have to be treated as a design that shapes what the work can mean; and the essay you write from memory has to be a line of reasoning about the whole, not a tour of scenes you happen to remember. This year's school texts are Kazuo Ishiguro's Never Let Me Go and a student-chosen novel for the Q3 bank.",
     topics: [
       {
         id: "lit-u9-t1",

@@ -276,6 +276,11 @@ export const frqTypes: FrqType[] = [
 
 export const resources: { label: string; detail: string }[] = [
   {
+    label: "School texts (2026-27)",
+    detail:
+      "Literature & Composition, Jago, Shea, Scanlon, and Aufses (Bedford/St. Martin's, 2011) - anthology for Short Fiction I-III and Poetry I-III. Antigone (Sophocles) - Longer Fiction or Drama I. Their Eyes Were Watching God (Hurston) - Longer Fiction or Drama II. Never Let Me Go (Ishiguro) - Longer Fiction or Drama III. Choice work of fiction - independent Q3 literary-argument bank. Use titles and your own notes; do not paste copyrighted novel text into shared materials.",
+  },
+  {
     label: "AP Classroom (College Board)",
     detail:
       "Your teacher's AP Classroom account has the official Personal Progress Checks for all nine units and a bank of released multiple-choice sets and free-response questions. These items are written by the same people who write the exam, so a passage set from AP Classroom is worth three from a commercial prep book. Do the Progress Check for each unit the week you finish it, not in May.",
