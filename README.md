@@ -55,6 +55,8 @@ Get the code from the existing repo:
 
 On a fresh clone on your laptop:
 
+set PATH=C:\node-v24.21.0-win-x64;%PATH%
+
 ```bash
 npm install
 npm run dev
