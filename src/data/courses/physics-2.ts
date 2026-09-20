@@ -3,13 +3,14 @@ import type { Course } from "../types";
 /**
  * AP Physics 2: Algebra-Based.
  *
- * IMPORTANT CONTENT NOTE: the 2024 redesign restructured this course. The
- * current CED has seven assessed units, numbered 9 through 15 to follow the
- * eight units of AP Physics 1. Fluids moved OUT of Physics 2 into AP Physics 1
- * (Unit 8), a full treatment of waves and sound moved IN, and the old single
- * optics unit was split into Geometric Optics and Waves, Sound, and Physical
- * Optics. This module follows the real current structure and keeps Fluids as a
- * clearly-labeled bridge unit, because many Physics 2 students still want it.
+ * Source of truth: College Board AP Physics 2: Algebra-Based Course and Exam
+ * Description, Effective Fall 2024 (V.1, copyright 2026 on the current PDF).
+ * The 2026-27 clarifications keep the same seven units and update May 2027
+ * exam timing to 42 multiple-choice questions in 85 minutes and 4 free-response
+ * questions in 95 minutes.
+ *
+ * The CED numbers Physics 2 units 9 through 15 so they follow AP Physics 1
+ * Units 1-8. Fluids is AP Physics 1 Unit 8 and is not a Physics 2 unit.
  *
  * Every numeric answer below was computed in Python before being written down.
  * g = 9.8 m/s², k = 8.99 x 10^9 N m²/C², and the photon shortcut
@@ -20,15 +21,15 @@ export const physics2: Course = {
   name: "AP Physics 2: Algebra-Based",
   shortName: "Physics 2",
   accent: "amber",
-  tagline: "Seven units, four free-response formats, and a lot of explaining.",
+  tagline: "Seven CED units (9-15), four free-response formats, and a lot of explaining.",
   description:
-    "Physics 2 is conceptually broader than Physics 1 and much lighter on algebra than you expect. Since the 2024 redesign, all four free-response questions are distinct formats - Mathematical Routines, Translation Between Representations, Experimental Design and Analysis, and Qualitative/Quantitative Translation - and three of the four are mostly writing, drawing, and deriving. Practice explaining physics in words and sketches, not just plugging into equations.",
+    "Physics 2 is the second-semester algebra-based college physics course: thermodynamics through modern physics. The Fall 2024 CED has seven assessed units numbered 9-15. Fluids is not on this exam. All four free-response questions are distinct formats - Mathematical Routines, Translation Between Representations, Experimental Design and Analysis, and Qualitative/Quantitative Translation - and three of the four are mostly writing, drawing, and deriving. Practice explaining physics in words and sketches, not just plugging into equations.",
   examDate: "2027-05-06",
   examSession: "Session 1 - typically 8 a.m. local time",
   examSections: [
     {
       name: "Section I: Multiple Choice",
-      detail: "42 single-select questions (no multiselect since the 2024 redesign)",
+      detail: "42 multiple-choice questions (single-select; no multiselect since the 2024 redesign). Calculator allowed.",
       weight: "50% of exam score",
       time: "1 hour 25 minutes",
       calculator: "allowed",
@@ -68,26 +69,27 @@ export const physics2: Course = {
   courseNotes: [
     {
       tone: "warning",
-      text: "AP Physics 2 was redesigned effective 2024-25. Fluids are no longer part of AP Physics 2 - they moved to AP Physics 1 as Unit 8. Waves, sound, standing waves, and the Doppler effect moved INTO Physics 2. The units are numbered 9 through 15 in the CED so that they follow the eight Physics 1 units.",
+      text: "The current Course and Exam Description is Effective Fall 2024. Fluids moved to AP Physics 1 as Unit 8 and will not appear on the Physics 2 exam. Waves, sound, standing waves, and the Doppler effect moved INTO Physics 2 as Unit 14. Units are numbered 9-15 so they follow Physics 1 Units 1-8.",
     },
     {
       tone: "warning",
-      text: "The 2024 redesign dropped multiselect questions and introduced four free-response formats. For the May 2027 exam, College Board updated the counts and timing again: 42 multiple-choice questions in 85 minutes (not 40 in 80) and four free-response questions in 95 minutes (not 100). Any prep book printed before 2024 has the wrong unit list; anything still listing 40/80 or 50/90 has the wrong exam structure for May 2027.",
+      text: "The 2024 redesign dropped multiselect questions and introduced four free-response formats. For the May 2027 exam, College Board's 2026-27 clarifications set Section I at 42 multiple-choice questions in 85 minutes (not 40 in 80) and Section II at four free-response questions in 95 minutes (not 100). Any prep book printed before 2024 has the wrong unit list; anything still listing 40/80 or 50/90 has the wrong exam structure for May 2027.",
     },
     {
       tone: "info",
-      text: "This school's Physics 2 sequence is second-semester college physics in CED order: Units 9-15 (Thermodynamics; Electrostatics, titled Electric Force, Field, and Potential in the CED; Electric Circuits; Magnetism and Electromagnetism; Geometric Optics; Waves, Sound, and Physical Optics; Modern Physics), then unofficial Unit 16 AP test prep for the May 2027 format (42 MCQ in 85 minutes and 4 FRQ in 95 minutes). Fluids is not a taught class unit.",
-    },
-    {
-      tone: "info",
-      text: "The Fluids unit below is labeled Unit 8 and marked as not assessed. This school does not teach it as a Physics 2 unit. Keep it only as optional AP Physics 1 review; skip it if you are starting Unit 9 with the class or are short on time before the May exam.",
+      text: "Study the seven CED units in order: 9 Thermodynamics; 10 Electric Force, Field, and Potential; 11 Electric Circuits; 12 Magnetism and Electromagnetism; 13 Geometric Optics; 14 Waves, Sound, and Physical Optics; 15 Modern Physics. School calendars often add unofficial AP test prep after Unit 15 for the May 2027 format (42 MCQ in 85 minutes and 4 FRQ in 95 minutes).",
     },
   ],
   resources: [
     {
+      label: "AP Physics 2 Course and Exam Description (Effective Fall 2024)",
+      detail:
+        "The official College Board CED is the source of the unit list, topic titles, exam weightings, and May 2027 format (42 MCQ in 85 minutes, 4 FRQ in 95 minutes). Use it to check that a review book is actually current.",
+    },
+    {
       label: "The AP Physics 2 equation sheet",
       detail:
-        "You get it on exam day, so stop memorizing formulas and start memorizing which formula applies when. Print it now and work every problem with it in front of you.",
+        "You get the reference tables on exam day, so stop memorizing formulas and start memorizing which relationship applies when. Print the CED tables now and work every problem with them in front of you.",
     },
     {
       label: "Released free-response questions for the redesigned exam",
@@ -103,161 +105,6 @@ export const physics2: Course = {
   units: [
     /* ------------------------------------------------------------------ */
     {
-      id: "phys-u8",
-      number: "8",
-      title: "Fluids (bridge unit - AP Physics 1 content)",
-      examWeight: "Not assessed on the AP Physics 2 exam",
-      examWeightMidpoint: 0,
-      classPeriods: "~6-8 class periods if covered",
-      summary:
-        "Density, pressure, buoyancy, and fluid flow. This was Unit 1 of the old Physics 2 course; the 2024 redesign moved it to AP Physics 1 as Unit 8. It is included here as review because it is genuinely useful physics and because many courses still teach it, but it will not appear on the May 2027 Physics 2 exam.",
-      cedNote: {
-        tone: "warning",
-        text: "NOT ASSESSED on the AP Physics 2 exam. Fluids moved to AP Physics 1 (Unit 8) in the 2024 redesign. Treat this unit as optional review.",
-      },
-      topics: [
-        {
-          id: "phys-u8-t1",
-          title: "Density and pressure",
-          detail:
-            "Density is mass per volume; pressure is force per area. Pressure is a scalar and acts perpendicular to any surface.",
-        },
-        {
-          id: "phys-u8-t2",
-          title: "Pressure as a function of depth",
-          detail:
-            "Absolute pressure P = P0 + (rho)gh. Gauge pressure is the (rho)gh part alone and depends only on depth, not on container shape.",
-        },
-        {
-          id: "phys-u8-t3",
-          title: "Pascal's principle and hydraulics",
-          detail:
-            "Pressure applied to an enclosed fluid transmits undiminished. A hydraulic lift trades force for distance, conserving work.",
-        },
-        {
-          id: "phys-u8-t4",
-          title: "Buoyant force and Archimedes' principle",
-          detail:
-            "The buoyant force equals the weight of displaced fluid, (rho_fluid)(V_displaced)g. A floating object displaces its own weight.",
-        },
-        {
-          id: "phys-u8-t5",
-          title: "Floating, sinking, and fraction submerged",
-          detail:
-            "For a floating object, the fraction submerged equals the ratio of object density to fluid density.",
-        },
-        {
-          id: "phys-u8-t6",
-          title: "Continuity equation for incompressible flow",
-          detail:
-            "A1v1 = A2v2. Halving a pipe's diameter quarters its area and quadruples the speed.",
-        },
-        {
-          id: "phys-u8-t7",
-          title: "Bernoulli's equation",
-          detail:
-            "P + (1/2)(rho)v² + (rho)gy is constant along a streamline. Where the fluid moves faster, the pressure is lower.",
-        },
-      ],
-      keySkills: [
-        "P = P0 + (rho)gh",
-        "Buoyant force = (rho_fluid)(V_displaced)g",
-        "Fraction submerged = (rho_object)/(rho_fluid)",
-        "Continuity: A1v1 = A2v2",
-        "Torricelli: speed from a hole at depth h is sqrt(2gh)",
-      ],
-      commonMistakes: [
-        "Using the object's own volume for V_displaced when the object floats. Only the submerged part displaces fluid.",
-        "Adding atmospheric pressure when the question asks for gauge pressure.",
-        "Thinking pressure depends on the total amount of fluid rather than only on depth.",
-      ],
-      practiceSet: {
-        id: "phys-u8-ps",
-        title: "Unit 8 Practice: Fluids (optional review)",
-        focus:
-          "Pressure with depth, buoyancy, continuity, and a floating-block calculation. Not assessed on the 2027 Physics 2 exam.",
-        estimatedMinutes: 30,
-        calculator: "allowed",
-        problems: [
-          {
-            id: "phys-u8-p1",
-            kind: "multiple-choice",
-            label: "MCQ 1",
-            prompt:
-              "What is the gauge pressure at a depth of 5.0 m in fresh water (density 1000 kg/m³)? Use g = 9.8 m/s².",
-            choices: [
-              { label: "A", text: "4.9 x 10³ Pa" },
-              { label: "B", text: "4.9 x 10⁴ Pa" },
-              { label: "C", text: "1.5 x 10⁵ Pa" },
-              { label: "D", text: "9.8 x 10⁵ Pa" },
-            ],
-            answer: "B",
-            solution:
-              "Gauge pressure is (rho)gh = (1000)(9.8)(5.0) = 49,000 Pa = 4.9 x 10⁴ Pa. (The absolute pressure would be 101,325 + 49,000 = 1.5 x 10⁵ Pa, which is choice C.)",
-            note: "Choice C is the absolute pressure. Read whether the question says gauge or absolute.",
-          },
-          {
-            id: "phys-u8-p2",
-            kind: "multiple-choice",
-            label: "MCQ 2",
-            prompt:
-              "An object of volume 0.0020 m³ is fully submerged in water. What is the magnitude of the buoyant force on it?",
-            choices: [
-              { label: "A", text: "2.0 N" },
-              { label: "B", text: "9.8 N" },
-              { label: "C", text: "19.6 N" },
-              { label: "D", text: "It depends on the object's mass." },
-            ],
-            answer: "C",
-            solution:
-              "Buoyant force = (rho_fluid)(V_displaced)g = (1000)(0.0020)(9.8) = 19.6 N. Because the object is fully submerged, the displaced volume is the object's whole volume, and the object's own density and mass are irrelevant to the buoyant force.",
-            note: "Choice D is the trap. Mass determines whether the object floats, but not the buoyant force when fully submerged.",
-          },
-          {
-            id: "phys-u8-p3",
-            kind: "multiple-choice",
-            label: "MCQ 3",
-            prompt:
-              "Water flows at 2.0 m/s through a pipe. The pipe narrows so that its diameter is halved. What is the new speed?",
-            choices: [
-              { label: "A", text: "1.0 m/s" },
-              { label: "B", text: "4.0 m/s" },
-              { label: "C", text: "8.0 m/s" },
-              { label: "D", text: "16 m/s" },
-            ],
-            answer: "C",
-            solution:
-              "Cross-sectional area is proportional to diameter squared, so halving the diameter divides the area by 4. By continuity A1v1 = A2v2, the speed must multiply by 4: v2 = 4(2.0) = 8.0 m/s.",
-            note: "Choice B is the answer if you scale with diameter instead of area. The squared relationship is the whole point.",
-          },
-          {
-            id: "phys-u8-p4",
-            kind: "free-response",
-            label: "FRQ 1",
-            prompt:
-              "A solid wooden cube of side length 0.20 m and density 600 kg/m³ floats in fresh water. A small hole is later opened in the side of a separate water tank 3.0 m below the water's surface.",
-            parts: [
-              { label: "(a)", text: "Find the cube's mass and weight." },
-              { label: "(b)", text: "Find the volume of water the cube displaces while floating." },
-              { label: "(c)", text: "Find the depth to which the cube sinks, and the fraction of the cube that is submerged." },
-              { label: "(d)", text: "Find the speed at which water exits the hole 3.0 m below the surface of the separate tank." },
-            ],
-            solution:
-              "(a) The volume is (0.20)³ = 0.0080 m³, so the mass is (600)(0.0080) = 4.8 kg and the weight is (4.8)(9.8) = 47.04 N, about 47 N.\n\n(b) A floating object displaces its own weight of fluid, so the buoyant force equals 47.04 N. Setting (rho_water)(V_disp)g = 47.04 gives V_disp = 47.04/((1000)(9.8)) = 0.0048 m³.\n\n(c) The horizontal cross-section is (0.20)(0.20) = 0.040 m², so the submerged depth is 0.0048/0.040 = 0.12 m. The fraction submerged is 0.0048/0.0080 = 0.60, which matches the density ratio 600/1000 = 0.60 exactly, as it must.\n\n(d) Apply Bernoulli's equation from the open top surface to the hole, where both are at atmospheric pressure and the surface speed is negligible. The pressure terms cancel and (rho)gh = (1/2)(rho)v², giving v = sqrt(2gh) = sqrt(2(9.8)(3.0)) = sqrt(58.8) = 7.7 m/s.",
-            rubric: [
-              { points: "1 pt", criterion: "Correct mass 4.8 kg and weight 47 N." },
-              { points: "2 pts", criterion: "Sets buoyant force equal to weight and finds V_disp = 0.0048 m³." },
-              { points: "2 pts", criterion: "Submerged depth 0.12 m and fraction 0.60." },
-              { points: "1 pt", criterion: "Notes the fraction equals the density ratio." },
-              { points: "2 pts", criterion: "Applies Bernoulli correctly and gets 7.7 m/s." },
-            ],
-            note: "The density-ratio shortcut in part (c) is worth internalizing: a floating object always sinks to the fraction of its depth equal to its relative density.",
-          },
-        ],
-      },
-    },
-    /* ------------------------------------------------------------------ */
-    {
       id: "phys-u9",
       number: "9",
       title: "Thermodynamics",
@@ -265,81 +112,57 @@ export const physics2: Course = {
       examWeightMidpoint: 16.5,
       classPeriods: "~10-16 class periods",
       summary:
-        "Microscopic kinetic theory and macroscopic gas laws, joined by the first law. The single most-tested skill is reading a PV diagram: area under the curve is work, and the sign convention will decide whether you get the problem right.",
+        "Microscopic kinetic theory and macroscopic gas laws, joined by the first law. The single most-tested skill is reading a PV diagram: area under the curve is work, and the AP sign convention (W is work done on the gas) will decide whether you get the problem right.",
       topics: [
         {
           id: "phys-u9-t1",
-          title: "Kinetic theory of temperature and pressure",
+          title: "9.1 Kinetic Theory of Temperature and Pressure",
           detail:
-            "Absolute temperature measures average translational kinetic energy: K_avg = (3/2)k_B T. Pressure comes from molecular collisions with the walls.",
+            "Gas pressure is the force of molecular collisions per area of the container. Absolute temperature measures average translational kinetic energy: K_avg = (3/2)k_B T. The rms speed is v_rms = sqrt(3k_B T/m) = sqrt(3RT/M); doubling T multiplies v_rms by sqrt(2), not by 2.",
         },
         {
           id: "phys-u9-t2",
-          title: "Root-mean-square molecular speed",
+          title: "9.2 The Ideal Gas Law",
           detail:
-            "v_rms = sqrt(3k_B T/m) = sqrt(3RT/M). Doubling the absolute temperature multiplies v_rms by sqrt(2), not by 2.",
+            "PV = nRT = N k_B T, with T always in kelvin. An ideal gas has random velocities, negligible particle volume, elastic collisions, and no long-range forces. P-V-T graphs describe the state; the P versus T intercept at zero pressure is absolute zero.",
         },
         {
           id: "phys-u9-t3",
-          title: "The ideal gas law",
+          title: "9.3 Thermal Energy Transfer and Equilibrium",
           detail:
-            "PV = nRT = N k_B T. Temperature must be in kelvin, always.",
+            "Heating and cooling transfer energy by conduction, convection, or radiation. Energy flows spontaneously from higher temperature to lower temperature until the two systems in thermal contact reach the same temperature.",
         },
         {
           id: "phys-u9-t4",
-          title: "PV diagrams and the four standard processes",
+          title: "9.4 The First Law of Thermodynamics",
           detail:
-            "Isothermal (constant T, hyperbola), isobaric (horizontal), isochoric (vertical), adiabatic (Q = 0, steeper than isothermal).",
+            "Internal energy of a monatomic ideal gas is U = (3/2)nRT = (3/2)PV. The first law is change in U = Q + W, with W the work done on the gas. Work equals the area under a PV curve (negative for expansion). Know isovolumetric, isothermal, isobaric, and adiabatic processes.",
         },
         {
           id: "phys-u9-t5",
-          title: "Work as area under a PV curve",
+          title: "9.5 Specific Heat and Thermal Conductivity",
           detail:
-            "Work done on the gas is negative of the area under the curve. Expansion means work done by the gas; compression means work done on it.",
+            "Q = mc(change in T). Conduction rate is kA(change in T)/L: thicker material lowers the rate; larger area or larger temperature difference raises it. Specific heat and thermal conductivity are material properties.",
         },
         {
           id: "phys-u9-t6",
-          title: "The first law of thermodynamics",
+          title: "9.6 Entropy and the Second Law of Thermodynamics",
           detail:
-            "Change in internal energy = Q + W, with W the work done ON the gas in the AP sign convention. For a closed cycle the net change in internal energy is zero.",
-        },
-        {
-          id: "phys-u9-t7",
-          title: "Internal energy of a monatomic ideal gas",
-          detail:
-            "U = (3/2)nRT = (3/2)PV, so any change in internal energy can be computed from the change in the product PV.",
-        },
-        {
-          id: "phys-u9-t8",
-          title: "Specific heat and latent heat",
-          detail:
-            "Q = mc(change in T) for temperature changes; Q = mL during a phase change, where temperature stays constant.",
-        },
-        {
-          id: "phys-u9-t9",
-          title: "Thermal conduction, convection, and radiation",
-          detail:
-            "Conduction rate = kA(change in T)/L. Thicker insulation lowers the rate; larger area and larger temperature difference raise it.",
-        },
-        {
-          id: "phys-u9-t10",
-          title: "Entropy and the second law",
-          detail:
-            "Total entropy of an isolated system never decreases. Heat spontaneously flows from hot to cold, and no cycle converts heat entirely into work.",
+            "The total entropy of an isolated system never decreases and is constant only for reversible processes. Entropy is a state function that tracks how spread out energy is. Isolated systems move toward equilibrium, and no cycle converts heat entirely into work.",
         },
       ],
       keySkills: [
         "PV = nRT = N k_B T, with T in kelvin",
         "K_avg = (3/2)k_B T and v_rms = sqrt(3k_B T/m)",
         "Change in U = Q + W, with W the work done on the gas",
-        "For a monatomic ideal gas, U = (3/2)PV, so change in U = (3/2)(change in PV)",
+        "For a monatomic ideal gas, U = (3/2)nRT = (3/2)PV",
         "Q = mc(change in T); conduction rate = kA(change in T)/L",
       ],
       commonMistakes: [
         "Using Celsius in the ideal gas law or in kinetic-theory formulas. Always convert to kelvin.",
         "Getting the sign of work backwards. In the AP convention W is work done on the gas, so expansion gives negative W.",
         "Saying v_rms doubles when T doubles. The square root matters.",
-        "Forgetting that temperature is constant during a phase change, so Q = mc(change in T) does not apply there.",
+        "Treating an adiabatic process as if it were isothermal just because both have changing pressure and volume. Adiabatic means Q = 0 and is steeper than an isotherm on a PV diagram.",
       ],
       practiceSet: {
         id: "phys-u9-ps",
@@ -480,71 +303,53 @@ export const physics2: Course = {
       topics: [
         {
           id: "phys-u10-t1",
-          title: "Electric charge and Coulomb's law",
+          title: "10.1 Electric Charge and Electric Force",
           detail:
-            "F = kq1q2/r², an inverse-square law along the line joining the charges. Like charges repel; opposite charges attract.",
+            "Charge is positive or negative and quantized in units of e. Coulomb's law, F = k q1 q2 / r², is an inverse-square force along the line joining the charges. Like charges repel; opposite charges attract.",
         },
         {
           id: "phys-u10-t2",
-          title: "Conservation of charge and methods of charging",
+          title: "10.2 Conservation of Electric Charge and the Process of Charging",
           detail:
-            "Friction, conduction, and induction. Charge is quantized in units of e = 1.60 x 10^-19 C and is never created or destroyed.",
+            "Net charge of a system changes only by transfer with the surroundings. Charge by friction, contact, or induction (including polarizing a neutral object). Grounding connects a system to a much larger approximately neutral system such as Earth.",
         },
         {
           id: "phys-u10-t3",
-          title: "Polarization and conductors versus insulators",
+          title: "10.3 Electric Fields",
           detail:
-            "A neutral object can be attracted to a charged one through induced polarization. In a conductor at equilibrium the interior field is zero.",
+            "E = F/q for a positive test charge, and E = kQ/r² for a point charge. Fields add as vectors. Field lines start on positive charge and end on negative. In electrostatic equilibrium the field inside a conductor is zero and excess charge lives on the surface.",
         },
         {
           id: "phys-u10-t4",
-          title: "Electric fields and field lines",
+          title: "10.4 Electric Potential Energy",
           detail:
-            "E = F/q for a positive test charge, and E = kQ/r² for a point charge. Field lines start on positive charge and end on negative, never crossing.",
+            "U = k q1 q2 / r for a pair of point charges. Potential energy is a scalar and depends on the configuration of charges. Moving with the field lowers U for a positive charge and raises it for a negative charge.",
         },
         {
           id: "phys-u10-t5",
-          title: "Superposition of electric fields",
+          title: "10.5 Electric Potential",
           detail:
-            "Add contributions as vectors. Along a line, assign signs by direction; off a line, break into components.",
+            "Potential is potential energy per unit charge: V = kQ/r for a point charge. Potentials add as signed scalars. Equipotentials are perpendicular to field lines, and the average field between two points is E = (change in V)/d. Conductors in contact share the same potential.",
         },
         {
           id: "phys-u10-t6",
-          title: "Uniform fields between parallel plates",
+          title: "10.6 Capacitors",
           detail:
-            "E = V/d, directed from the high-potential plate to the low. A charged particle in this region feels a constant force qE.",
+            "C = Q/V. For parallel plates, C = kappa (epsilon_0) A / d. Stored energy is (1/2) C V² = Q²/(2C). Inserting a dielectric multiplies C by kappa. Only parallel-plate capacitors are required; ignore edge effects unless the question says otherwise.",
         },
         {
           id: "phys-u10-t7",
-          title: "Electric potential energy and electric potential",
+          title: "10.7 Conservation of Electric Energy",
           detail:
-            "U = kq1q2/r for a pair of point charges; V = kQ/r for the potential of a point charge. Both are signed scalars that add algebraically.",
-        },
-        {
-          id: "phys-u10-t8",
-          title: "Equipotential surfaces",
-          detail:
-            "Equipotentials are perpendicular to field lines everywhere, and no work is required to move a charge along one.",
-        },
-        {
-          id: "phys-u10-t9",
-          title: "Capacitors, capacitance, and dielectrics",
-          detail:
-            "C = Q/V and C = (epsilon_0)A/d for parallel plates. Stored energy is (1/2)CV² = Q²/(2C). Inserting a dielectric multiplies C by kappa.",
-        },
-        {
-          id: "phys-u10-t10",
-          title: "Conservation of energy for moving charges",
-          detail:
-            "Work done by the field is q times the potential difference, and it converts into kinetic energy: qV = (1/2)mv².",
+            "When a charge moves through a potential difference, the change in electric potential energy is q(change in V). That change appears as kinetic energy unless another force does work: qV = change in K for a charge released from rest in the field.",
         },
       ],
       keySkills: [
-        "F = kq1q2/r² and E = kQ/r², with k = 8.99 x 10⁹ N m²/C²",
-        "E = V/d for a uniform field between parallel plates",
+        "F = k q1 q2 / r² and E = kQ/r², with k = 8.99 x 10⁹ N m²/C²",
+        "E = (change in V)/d for the average field between two points, including parallel plates",
         "V = kQ/r adds as a signed scalar; E adds as a vector",
-        "C = Q/V = (epsilon_0)A/d; energy stored = (1/2)CV² = Q²/(2C)",
-        "Energy conservation for a charge: qV = change in kinetic energy",
+        "C = Q/V = kappa (epsilon_0) A / d; energy stored = (1/2) C V² = Q²/(2C)",
+        "Energy conservation for a charge: q(change in V) = change in kinetic energy",
       ],
       commonMistakes: [
         "Adding potentials with vector arrows or adding fields without direction. Potential is a scalar; field is a vector.",
@@ -685,69 +490,63 @@ export const physics2: Course = {
       examWeightMidpoint: 16.5,
       classPeriods: "~12-20 class periods",
       summary:
-        "The redesign expanded circuits to include a fuller treatment of Kirchhoff's rules and RC circuits. The highest-yield habit is drawing a clean circuit diagram and labeling the current in every branch before touching a calculator.",
+        "Current, resistance, power, compound DC circuits, Kirchhoff's rules, and RC circuits. The highest-yield habit is drawing a clean circuit diagram and labeling the current in every branch before touching a calculator.",
       topics: [
         {
           id: "phys-u11-t1",
-          title: "Electric current and conventional current direction",
+          title: "11.1 Electric Current",
           detail:
-            "I = change in charge over change in time. Conventional current flows from + to - outside the battery, opposite the electrons' drift.",
+            "Current is the rate at which charge passes a cross-section: I = (change in q)/(change in t). Conventional current is the direction positive charge would flow, from higher to lower potential outside the battery.",
         },
         {
           id: "phys-u11-t2",
-          title: "Simple circuits, EMF, and terminal voltage",
+          title: "11.2 Simple Circuits",
           detail:
-            "A real battery has internal resistance, so terminal voltage = EMF - I(r_internal) and drops as current increases.",
+            "A closed loop with a source of emf and one or more circuit elements. A real battery has internal resistance, so terminal voltage is EMF minus I times r_internal and drops as current increases.",
         },
         {
           id: "phys-u11-t3",
-          title: "Resistance, resistivity, and Ohm's law",
+          title: "11.3 Resistance, Resistivity, and Ohm's Law",
           detail:
-            "R = (rho)L/A and V = IR. Doubling length doubles resistance; doubling diameter quarters it because area goes as diameter squared.",
+            "R = (rho) L / A and V = IR. Doubling length doubles resistance; doubling diameter quarters it because area goes as diameter squared. Resistivity is a material property.",
         },
         {
           id: "phys-u11-t4",
-          title: "Electric power",
+          title: "11.4 Electric Power",
           detail:
-            "P = IV = I²R = V²/R. Pick the version that uses the two quantities you already know.",
+            "The rate of energy transfer is P = IV = I²R = V²/R. Pick the version that uses the two quantities you already know, and use the voltage and current for that element, not the whole circuit.",
         },
         {
           id: "phys-u11-t5",
-          title: "Resistors in series and in parallel",
+          title: "11.5 Compound Direct Current (DC) Circuits",
           detail:
-            "Series resistances add and share the same current. Parallel reciprocals add and share the same voltage. Parallel resistance is always less than the smallest branch.",
+            "Series resistances add and share the same current. Parallel reciprocals add and share the same voltage. Collapse a network to one equivalent resistance, find the total current, then expand back out to get branch values.",
         },
         {
           id: "phys-u11-t6",
-          title: "Compound direct-current circuits",
+          title: "11.6 Kirchhoff's Loop Rule",
           detail:
-            "Collapse the network to a single equivalent resistance, find the total current, then expand back out to get branch values.",
+            "The algebraic sum of potential differences around any closed loop is zero. It is conservation of energy per unit charge: rises through emfs equal drops through resistors.",
         },
         {
           id: "phys-u11-t7",
-          title: "Kirchhoff's loop rule",
+          title: "11.7 Kirchhoff's Junction Rule",
           detail:
-            "The algebraic sum of potential changes around any closed loop is zero. It is conservation of energy per unit charge.",
+            "Current into a junction equals current out. It is conservation of charge: charge does not pile up at a node in a DC circuit.",
         },
         {
           id: "phys-u11-t8",
-          title: "Kirchhoff's junction rule",
+          title: "11.8 Resistor-Capacitor (RC) Circuits",
           detail:
-            "Current in equals current out at every junction. It is conservation of charge.",
-        },
-        {
-          id: "phys-u11-t9",
-          title: "RC circuits: charging and discharging",
-          detail:
-            "The time constant is (tau) = RC. At t = 0 an uncharged capacitor behaves like a wire; after a long time it behaves like a break in the circuit.",
+            "The time constant is tau = RC. An uncharged capacitor behaves like a wire at t = 0 and like a break after a long time. Series capacitors add as reciprocals; parallel capacitors add.",
         },
       ],
       keySkills: [
         "V = IR and P = IV = I²R = V²/R",
         "Series: R_eq = R1 + R2 + ...; Parallel: 1/R_eq = 1/R1 + 1/R2 + ...",
-        "R = (rho)L/A, with A proportional to diameter squared",
+        "R = (rho) L / A, with A proportional to diameter squared",
         "Loop rule is energy conservation; junction rule is charge conservation",
-        "RC: (tau) = RC; uncharged capacitor acts as a wire at t = 0 and as an open circuit at steady state",
+        "RC: tau = RC; uncharged capacitor acts as a wire at t = 0 and as an open circuit at steady state",
       ],
       commonMistakes: [
         "Adding parallel resistances directly instead of adding reciprocals.",
@@ -893,77 +692,41 @@ export const physics2: Course = {
       topics: [
         {
           id: "phys-u12-t1",
-          title: "Magnetic fields and field lines",
+          title: "12.1 Magnetic Fields",
           detail:
-            "Field lines form closed loops, exiting a magnet's north pole and entering its south. There are no magnetic monopoles.",
+            "Magnetic fields are produced by dipoles, never monopoles. Field lines form closed loops, exiting a magnet's north pole and entering its south. Like poles repel; opposite poles attract. A compass aligns with the field.",
         },
         {
           id: "phys-u12-t2",
-          title: "Magnetic force on a moving charge",
+          title: "12.2 Magnetism and Moving Charges",
           detail:
-            "F = qvB sin(theta), perpendicular to both v and B by the right-hand rule, with the direction reversed for negative charges.",
+            "F = q v B sin(theta), perpendicular to both v and B by the right-hand rule (reverse for negative charges). Magnetic forces do no work: they change direction, never speed. Circular motion has r = mv/(qB).",
         },
         {
           id: "phys-u12-t3",
-          title: "Why magnetic forces do no work",
+          title: "12.3 Magnetism and Current-Carrying Wires",
           detail:
-            "The force is always perpendicular to velocity, so it changes direction but never speed or kinetic energy.",
+            "A long straight wire makes B = (mu_0) I / (2 pi r), circling the wire. A current in a field feels F = B I L sin(theta). Two parallel wires with currents in the same direction attract.",
         },
         {
           id: "phys-u12-t4",
-          title: "Circular motion in a uniform magnetic field",
+          title: "12.4 Electromagnetic Induction and Faraday's Law",
           detail:
-            "Setting qvB equal to mv²/r gives r = mv/(qB). Heavier or faster particles curve less; stronger fields curve them more.",
-        },
-        {
-          id: "phys-u12-t5",
-          title: "Velocity selectors and mass spectrometers",
-          detail:
-            "Crossed electric and magnetic fields pass only particles with v = E/B. A following magnetic region then sorts them by mass.",
-        },
-        {
-          id: "phys-u12-t6",
-          title: "Magnetic force on a current-carrying wire",
-          detail:
-            "F = BIL sin(theta). Two parallel wires with currents in the same direction attract each other.",
-        },
-        {
-          id: "phys-u12-t7",
-          title: "Magnetic field of a long straight wire",
-          detail:
-            "B = (mu_0)I/(2 pi r), circling the wire in the direction your right-hand fingers curl when your thumb points along the current.",
-        },
-        {
-          id: "phys-u12-t8",
-          title: "Magnetic flux",
-          detail:
-            "Flux = BA cos(theta), where theta is measured from the normal to the loop. Flux changes if B, A, or the orientation changes.",
-        },
-        {
-          id: "phys-u12-t9",
-          title: "Faraday's law and induced EMF",
-          detail:
-            "The induced EMF equals the negative rate of change of magnetic flux. A steady field through a stationary loop induces nothing.",
-        },
-        {
-          id: "phys-u12-t10",
-          title: "Lenz's law and motional EMF",
-          detail:
-            "The induced current opposes the flux change that created it. For a rod of length L moving at speed v, the EMF is BLv.",
+            "Flux is BA cos(theta), with theta from the normal to the loop. Faraday: induced emf equals the negative rate of change of flux. Lenz's law: the induced current opposes the flux change. Motional emf for a rod is B L v.",
         },
       ],
       keySkills: [
-        "F = qvB sin(theta) and F = BIL sin(theta)",
+        "F = q v B sin(theta) and F = B I L sin(theta)",
         "Radius of circular motion: r = mv/(qB)",
-        "Field of a long wire: B = (mu_0)I/(2 pi r), with mu_0 = 4 pi x 10⁻⁷ T m/A",
-        "Flux = BA cos(theta); induced EMF = -(change in flux)/(change in time)",
-        "Velocity selector: v = E/B",
+        "Field of a long wire: B = (mu_0) I / (2 pi r), with mu_0 = 4 pi x 10⁻⁷ T m/A",
+        "Flux = BA cos(theta); induced emf = -(change in flux)/(change in time)",
+        "Motional emf for a sliding rod: emf = B L v",
       ],
       commonMistakes: [
         "Forgetting to reverse the right-hand rule result for a negative charge.",
         "Claiming a magnetic field does work on a moving charge. It cannot - the force is always perpendicular to the motion.",
         "Measuring the flux angle from the plane of the loop instead of from its normal.",
-        "Expecting an induced current when the field is strong but unchanging. Only a changing flux induces EMF.",
+        "Expecting an induced current when the field is strong but unchanging. Only a changing flux induces emf.",
       ],
       practiceSet: {
         id: "phys-u12-ps",
@@ -1098,75 +861,39 @@ export const physics2: Course = {
       examWeightMidpoint: 13.5,
       classPeriods: "~8-12 class periods",
       summary:
-        "Reflection, refraction, mirrors, and lenses - one equation and a sign convention. The 2024 redesign separated this from physical optics, so expect focused questions on ray diagrams and image characteristics.",
+        "Reflection, refraction, mirrors, and lenses - ray optics with one equation and a sign convention. Physical optics (interference and diffraction) is Unit 14, not this unit.",
       topics: [
         {
           id: "phys-u13-t1",
-          title: "Law of reflection and specular versus diffuse reflection",
+          title: "13.1 Reflection",
           detail:
-            "The angle of incidence equals the angle of reflection, both measured from the normal. Rough surfaces scatter in all directions.",
+            "Model light as a ray. The law of reflection: angle of incidence equals angle of reflection, both from the normal. Specular reflection is from a smooth surface; diffuse reflection scatters from a rough surface.",
         },
         {
           id: "phys-u13-t2",
-          title: "Plane mirror images",
+          title: "13.2 Images Formed by Mirrors",
           detail:
-            "Virtual, upright, the same size, and as far behind the mirror as the object is in front.",
+            "A plane-mirror image is virtual, upright, the same size, and as far behind as the object is in front. For a spherical mirror, f = R/2. Use 1/f = 1/d_o + 1/d_i and m = -d_i/d_o, plus ray diagrams: parallel, focal, and center rays.",
         },
         {
           id: "phys-u13-t3",
-          title: "Spherical mirrors and focal length",
+          title: "13.3 Refraction",
           detail:
-            "For a spherical mirror, f = R/2. Concave mirrors have positive f and can form real images; convex mirrors have negative f and cannot.",
+            "n = c/v. Snell's law: n1 sin(theta_1) = n2 sin(theta_2). Light entering a larger n bends toward the normal. Frequency does not change at a boundary; wavelength and speed do. Total internal reflection requires going to a smaller n and exceeding the critical angle sin(theta_c) = n2/n1.",
         },
         {
           id: "phys-u13-t4",
-          title: "The mirror and lens equation",
+          title: "13.4 Images Formed by Lenses",
           detail:
-            "1/f = 1/d_o + 1/d_i, with magnification m = -d_i/d_o. Negative d_i means a virtual image; negative m means inverted.",
-        },
-        {
-          id: "phys-u13-t5",
-          title: "Ray diagrams",
-          detail:
-            "Draw the parallel ray through the focal point, the focal ray emerging parallel, and the center ray. Their intersection locates the image.",
-        },
-        {
-          id: "phys-u13-t6",
-          title: "Index of refraction and wave speed",
-          detail:
-            "n = c/v, so a larger index means slower light and a shorter wavelength. The frequency never changes on crossing a boundary.",
-        },
-        {
-          id: "phys-u13-t7",
-          title: "Snell's law",
-          detail:
-            "n1 sin(theta_1) = n2 sin(theta_2). Light entering a denser medium bends toward the normal.",
-        },
-        {
-          id: "phys-u13-t8",
-          title: "Total internal reflection and the critical angle",
-          detail:
-            "Possible only going from higher to lower index, when sin(theta_c) = n2/n1 is exceeded. This is how optical fibers work.",
-        },
-        {
-          id: "phys-u13-t9",
-          title: "Dispersion",
-          detail:
-            "Index varies slightly with wavelength, so violet bends more than red - the origin of prism spectra and rainbows.",
-        },
-        {
-          id: "phys-u13-t10",
-          title: "Converging and diverging thin lenses",
-          detail:
-            "A diverging lens always produces a virtual, upright, reduced image no matter where the object sits.",
+            "The same thin-lens equation 1/f = 1/d_o + 1/d_i. A converging lens has f > 0; a diverging lens has f < 0 and always produces a virtual, upright, reduced image. Draw ray diagrams before trusting the algebra.",
         },
       ],
       keySkills: [
-        "1/f = 1/d_o + 1/d_i and m = -d_i/d_o",
+        "Law of reflection: theta_i = theta_r, measured from the normal",
+        "1/f = 1/d_o + 1/d_i and m = -d_i/d_o; f = R/2 for a spherical mirror",
         "Sign conventions: concave mirror and converging lens have f > 0; virtual images have d_i < 0",
         "n = c/v; Snell's law n1 sin(theta_1) = n2 sin(theta_2)",
         "Critical angle: sin(theta_c) = n2/n1, only for n1 > n2",
-        "f = R/2 for a spherical mirror",
       ],
       commonMistakes: [
         "Measuring angles from the surface instead of from the normal.",
@@ -1306,79 +1033,73 @@ export const physics2: Course = {
       examWeightMidpoint: 13.5,
       classPeriods: "~14-23 class periods",
       summary:
-        "The unit the 2024 redesign added to Physics 2, combining the full treatment of mechanical waves and sound (formerly in Physics 1) with interference and diffraction. It is the longest unit by class time in the whole course.",
+        "The unit the 2024 redesign added to Physics 2, combining mechanical waves and sound with interference and diffraction. It is the longest unit by class time in the whole course.",
       cedNote: {
         tone: "info",
-        text: "This unit is new to AP Physics 2 as of the 2024 redesign. Mechanical waves, standing waves, sound, and the Doppler effect moved here from AP Physics 1, and physical optics was split off from the old combined optics unit.",
+        text: "Unit 14 is new to AP Physics 2 as of the Fall 2024 CED. Mechanical waves, standing waves, sound, and the Doppler effect moved here from AP Physics 1. Physical optics is here; geometric optics is Unit 13.",
       },
       topics: [
         {
           id: "phys-u14-t1",
-          title: "Wave pulses and wave properties",
+          title: "14.1 Properties of Wave Pulses and Waves",
           detail:
-            "Transverse versus longitudinal, amplitude, wavelength, period, frequency, and the fact that waves transport energy without transporting matter.",
+            "Waves transfer energy without transferring matter. A pulse is a single disturbance; a periodic wave has a well-defined wavelength and frequency. Mechanical waves need a medium; electromagnetic waves do not. Speed is set by the type of wave and the medium.",
         },
         {
           id: "phys-u14-t2",
-          title: "Periodic waves and the wave equation",
+          title: "14.2 Periodic Waves",
           detail:
-            "v = f(lambda). Wave speed is set by the medium, so changing the source frequency changes the wavelength, not the speed.",
+            "v = f(lambda). Wave speed is set by the medium, so changing the source frequency changes the wavelength, not the speed. Know amplitude, period, frequency, and the difference between transverse and longitudinal waves.",
         },
         {
           id: "phys-u14-t3",
-          title: "Boundary behavior and polarization",
+          title: "14.3 Boundary Behavior of Waves and Polarization",
           detail:
-            "A pulse reflecting from a denser medium inverts; from a less dense medium it does not. Polarizing filters pass only one orientation of a transverse wave.",
+            "A pulse reflecting from a denser medium inverts; from a less dense medium it does not. Transmitted speed matches the new medium. Polarizing filters pass only one orientation of a transverse wave.",
         },
         {
           id: "phys-u14-t4",
-          title: "Electromagnetic waves and the spectrum",
+          title: "14.4 Electromagnetic Waves",
           detail:
-            "All electromagnetic waves travel at c in vacuum. Order the spectrum from radio through gamma by increasing frequency and energy.",
+            "All electromagnetic waves travel at c in vacuum. Order the spectrum from radio through gamma by increasing frequency and energy. In a medium, photon or wave speed is c/n.",
         },
         {
           id: "phys-u14-t5",
-          title: "The Doppler effect",
+          title: "14.5 The Doppler Effect",
           detail:
-            "Relative approach raises the observed frequency; relative recession lowers it. Reason about compressed or stretched wavefronts rather than memorizing the formula.",
+            "Relative approach raises the observed frequency; relative recession lowers it. Reason about compressed or stretched wavefronts. The source frequency itself does not change.",
         },
         {
           id: "phys-u14-t6",
-          title: "Superposition, interference, and beats",
+          title: "14.6 Wave Interference and Standing Waves",
           detail:
-            "Path differences of whole wavelengths give constructive interference; half-integer wavelengths give destructive. Beat frequency equals the difference of the two frequencies.",
+            "Superposition: path differences of whole wavelengths are constructive; half-integer wavelengths are destructive. Beat frequency is |f1 - f2|. Standing waves: fixed or closed ends are nodes; free or open ends are antinodes. A pipe closed at one end supports only odd harmonics.",
         },
         {
           id: "phys-u14-t7",
-          title: "Standing waves on strings and in pipes",
-          detail:
-            "Fixed ends and closed pipe ends are nodes; free ends and open pipe ends are antinodes. A pipe closed at one end supports only odd harmonics.",
-        },
-        {
-          id: "phys-u14-t8",
-          title: "Diffraction",
+          title: "14.7 Diffraction",
           detail:
             "Spreading is significant when the aperture is comparable to the wavelength. Narrower slits produce wider central maxima.",
         },
         {
-          id: "phys-u14-t9",
-          title: "Double-slit interference and diffraction gratings",
+          id: "phys-u14-t8",
+          title: "14.8 Double-Slit Interference and Diffraction Gratings",
           detail:
-            "Bright fringes at d sin(theta) = m(lambda), with small-angle fringe spacing (lambda)L/d. Gratings have much smaller d and therefore much wider spacing.",
+            "Bright fringes at d sin(theta) = m(lambda). Small-angle fringe spacing on a distant screen is (lambda) L / d. Gratings have much smaller d and therefore much larger angles; the highest order is limited by sin(theta) not exceeding 1.",
         },
         {
-          id: "phys-u14-t10",
-          title: "Thin-film interference",
+          id: "phys-u14-t9",
+          title: "14.9 Thin-Film Interference",
           detail:
-            "Reflection off a higher-index medium adds a half-wavelength phase shift. Count shifts before deciding which path difference is constructive.",
+            "Reflection off a higher-index medium adds a half-wavelength phase shift. Count the number of shifts before deciding which path difference is constructive or destructive.",
         },
       ],
       keySkills: [
         "v = f(lambda), with v fixed by the medium",
-        "Standing waves, string fixed at both ends: f_n = nv/(2L)",
-        "Open pipe: f_n = nv/(2L). Closed-open pipe: f_n = nv/(4L) for odd n only",
-        "Double slit: d sin(theta) = m(lambda); fringe spacing on a distant screen is (lambda)L/d",
-        "Beat frequency = |f1 - f2|",
+        "Standing waves, string fixed at both ends: f_n = n v / (2L)",
+        "Open pipe: f_n = n v / (2L). Closed-open pipe: f_n = n v / (4L) for odd n only",
+        "Double slit: d sin(theta) = m(lambda); fringe spacing on a distant screen is (lambda) L / d",
+        "Beat frequency = |f1 - f2|; thin-film: count the half-wavelength phase shifts first",
       ],
       commonMistakes: [
         "Thinking a higher-frequency source makes a wave travel faster. Speed is a property of the medium.",
@@ -1520,85 +1241,73 @@ export const physics2: Course = {
       examWeightMidpoint: 13.5,
       classPeriods: "~14-22 class periods",
       summary:
-        "Photons, atoms, and nuclei. The redesign added blackbody radiation and Compton scattering. Almost every calculation reduces to photon energy, energy-level differences, or conservation of charge and mass number.",
+        "Photons, atoms, and nuclei. The Fall 2024 CED includes blackbody radiation and Compton scattering. Almost every calculation reduces to photon energy, energy-level differences, or conservation of nucleon number and charge.",
       cedNote: {
         tone: "info",
-        text: "The CED calls this Unit 15: Modern Physics. It covers what older resources label 'Quantum, Atomic, and Nuclear Physics', plus blackbody radiation and Compton scattering, which the 2024 redesign added.",
+        text: "CED Unit 15: Modern Physics covers quantum theory, the Bohr model, spectra, blackbody radiation, the photoelectric effect, Compton scattering, fission/fusion/nuclear decay, and types of radioactive decay. Older books may still label this 'Quantum, Atomic, and Nuclear Physics'.",
       },
       topics: [
         {
           id: "phys-u15-t1",
-          title: "Quantum theory and wave-particle duality",
+          title: "15.1 Quantum Theory and Wave-Particle Duality",
           detail:
-            "Light and matter both show wave and particle behavior depending on the experiment. Photon energy is E = hf = hc/(lambda).",
+            "Light and matter both show wave and particle behavior. Photons are massless, uncharged, with E = hf = hc/(lambda). Particles have a de Broglie wavelength lambda = h/p, which matters when that wavelength is comparable to the size of the system.",
         },
         {
           id: "phys-u15-t2",
-          title: "The de Broglie wavelength",
+          title: "15.2 The Bohr Model of Atomic Structure",
           detail:
-            "Any particle with momentum p has wavelength (lambda) = h/p. Electrons diffract; baseballs technically do too, immeasurably.",
+            "Bound electrons occupy quantized energy levels. For hydrogen, E_n = -13.6 / n² eV. Only transitions between allowed levels are possible, which is why atomic spectra are discrete.",
         },
         {
           id: "phys-u15-t3",
-          title: "The Bohr model and quantized energy levels",
+          title: "15.3 Emission and Absorption Spectra",
           detail:
-            "For hydrogen, E_n = -13.6/n² eV. Only transitions between allowed levels are possible, which is why spectra are discrete.",
+            "Emission lines appear when electrons drop to lower levels; absorption lines appear at the same wavelengths when photons are taken up. Photon energy equals the difference between the two levels.",
         },
         {
           id: "phys-u15-t4",
-          title: "Emission and absorption spectra",
+          title: "15.4 Blackbody Radiation",
           detail:
-            "Emission lines appear when electrons drop to lower levels; absorption lines appear at the same wavelengths when photons are taken up.",
+            "Every object radiates a continuous spectrum. Hotter objects radiate more total power and peak at shorter wavelengths. Classical physics could not explain the spectrum; quantum theory could.",
         },
         {
           id: "phys-u15-t5",
-          title: "Blackbody radiation",
+          title: "15.5 The Photoelectric Effect",
           detail:
-            "Every object radiates a continuous spectrum. Hotter objects radiate more total power and peak at shorter wavelengths.",
+            "K_max = hf - (work function). Below the threshold frequency, no electrons are emitted no matter how intense the light. Intensity controls how many electrons leave; frequency controls their maximum kinetic energy. Stopping potential is K_max / e.",
         },
         {
           id: "phys-u15-t6",
-          title: "The photoelectric effect",
+          title: "15.6 Compton Scattering",
           detail:
-            "K_max = hf - (work function). Below the threshold frequency no electrons are emitted no matter how intense the light.",
+            "A photon colliding with a free electron transfers energy and momentum. The scattered photon has lower energy and longer wavelength, with a larger shift at larger scattering angles. Treat the photon as a particle and conserve energy and momentum.",
         },
         {
           id: "phys-u15-t7",
-          title: "Stopping potential and intensity versus frequency",
+          title: "15.7 Fission, Fusion, and Nuclear Decay",
           detail:
-            "Intensity controls how many electrons are emitted; frequency controls their maximum kinetic energy. The stopping potential equals K_max divided by e.",
+            "Nucleon number, energy-mass equivalence (E = mc²), and momentum constrain nuclear reactions. Fusion combines smaller nuclei; fission splits a larger one. Radioactive decay is random for a single nucleus; half-life is the time for half of a sample to decay.",
         },
         {
           id: "phys-u15-t8",
-          title: "Compton scattering",
+          title: "15.8 Types of Radioactive Decay",
           detail:
-            "A photon scattering off an electron transfers energy and momentum, so the scattered photon has lower energy and longer wavelength.",
-        },
-        {
-          id: "phys-u15-t9",
-          title: "Mass-energy equivalence and nuclear binding energy",
-          detail:
-            "E = mc². The mass defect of a nucleus, multiplied by 931.5 MeV per atomic mass unit, gives its binding energy.",
-        },
-        {
-          id: "phys-u15-t10",
-          title: "Types of radioactive decay, fission, and fusion",
-          detail:
-            "Alpha, beta-minus, beta-plus, and gamma decay all conserve charge and mass number. Both fission and fusion release energy by moving toward more tightly bound nuclei.",
+            "Alpha (helium-4 nucleus), beta-minus (electron + antineutrino), beta-plus (positron + neutrino), and gamma (photon from an excited nucleus). Nucleon number, lepton number, and charge are conserved in every decay.",
         },
       ],
       keySkills: [
-        "E = hf = hc/(lambda); the shortcut hc = 1240 eV nm gives energy in eV directly from wavelength in nm",
-        "Photoelectric: K_max = hf - (work function); threshold wavelength = 1240/(work function in eV) nm",
-        "Hydrogen: E_n = -13.6/n² eV, so the transition energy is 13.6(1/n_f² - 1/n_i²) in magnitude",
-        "de Broglie: (lambda) = h/p, with p = sqrt(2mK) for a nonrelativistic particle",
-        "Binding energy = (mass defect in u) x 931.5 MeV/u",
+        "E = hf = hc/(lambda); the shortcut hc = 1240 eV nm gives energy in eV from wavelength in nm",
+        "de Broglie: lambda = h/p, with p = sqrt(2mK) for a nonrelativistic particle",
+        "Photoelectric: K_max = hf - (work function); stopping potential = K_max / e",
+        "Hydrogen: E_n = -13.6 / n² eV, so the photon energy is 13.6 |1/n_f² - 1/n_i²|",
+        "Binding energy = (mass defect in u) x 931.5 MeV/u; half-life t_1/2 is when N = N0 / 2",
       ],
       commonMistakes: [
         "Mixing joules and electron volts in the same equation. Pick one system and convert first.",
         "Expecting more intense light to eject faster electrons. Intensity changes the number of electrons, not their maximum energy.",
         "Using n = 1 and n = 2 for a transition described as the second line of a series without checking which levels are involved.",
-        "Failing to balance both charge and mass number in a decay equation.",
+        "Failing to balance nucleon number, charge, and lepton number in a decay equation.",
       ],
       practiceSet: {
         id: "phys-u15-ps",

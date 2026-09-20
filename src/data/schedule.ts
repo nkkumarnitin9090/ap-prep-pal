@@ -37,9 +37,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-physics-2",
-        unit: "Optional P1 review: Fluids (not a class unit)",
+        unit: "Unit 9: Thermodynamics",
         focus:
-          "Skip unless you want a Physics 1 refresh: density, pressure as force per area, and pressure versus depth. This school's Physics 2 sequence starts at Unit 9 Thermodynamics next week; Fluids is not taught as a class unit.",
+          "Start the CED course: Topic 9.1 Kinetic Theory of Temperature and Pressure. Connect pressure to molecular collisions and temperature to average kinetic energy. Fluids is AP Physics 1, not this exam.",
       },
       {
         course: "ap-english-literature",
@@ -61,8 +61,8 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-physics-2",
-        practiceSetId: "phys-u8-ps",
-        label: "Optional Fluids P1 review, questions 1-2 only. Skip this set if you are starting Unit 9 with the class.",
+        practiceSetId: "phys-u9-ps",
+        label: "Thermodynamics set, questions 1-2: kinetic theory and rms speed.",
       },
       {
         course: "ap-english-literature",
@@ -95,7 +95,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
         course: "ap-physics-2",
         unit: "Unit 9: Thermodynamics",
         focus:
-          "Kinetic theory of temperature and pressure, and root-mean-square molecular speed. This is the first taught Physics 2 unit at school.",
+          "Finish 9.1 and start 9.2 The Ideal Gas Law with T in kelvin. Sketch a P versus T graph and know that the zero-pressure intercept is absolute zero.",
       },
       {
         course: "ap-english-literature",
@@ -113,7 +113,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       {
         course: "ap-physics-2",
         practiceSetId: "phys-u9-ps",
-        label: "Thermodynamics set, questions 1-2, on kinetic theory and molecular speed.",
+        label: "Thermodynamics set, questions 1-3: kinetic theory, rms speed, and the ideal gas law.",
       },
       {
         course: "ap-english-literature",
@@ -145,7 +145,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
         course: "ap-physics-2",
         unit: "Unit 9: Thermodynamics",
         focus:
-          "The ideal gas law with consistent units, then PV diagrams and the four standard processes: isothermal, isobaric, isochoric, and adiabatic.",
+          "Topic 9.3 Thermal Energy Transfer and Equilibrium: conduction, convection, radiation, and thermal equilibrium. Then open 9.4 with PV diagrams.",
       },
       {
         course: "ap-english-literature",
@@ -194,7 +194,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
         course: "ap-physics-2",
         unit: "Unit 9: Thermodynamics",
         focus:
-          "Work as area under a PV curve, the first law with sign conventions, and internal energy of a monatomic ideal gas.",
+          "Topic 9.4 The First Law: change in U = Q + W (W on the gas), U = (3/2)nRT for a monatomic gas, and isovolumetric, isothermal, isobaric, and adiabatic processes.",
       },
       {
         course: "ap-english-literature",
@@ -244,7 +244,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
         course: "ap-physics-2",
         unit: "Unit 9: Thermodynamics",
         focus:
-          "Specific and latent heat, conduction and radiation, and entropy with the second law. Close the first taught school unit this week.",
+          "Topics 9.5 and 9.6: specific heat and thermal conductivity, then entropy and the second law. Close Unit 9 this week.",
       },
       {
         course: "ap-english-literature",
@@ -292,8 +292,8 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-physics-2",
-        unit: "Unit 10: Electrostatics (Electric Force, Field, and Potential)",
-        focus: "Coulomb's law, charging by conduction and induction, field lines, and superposition of fields.",
+        unit: "Unit 10: Electric Force, Field, and Potential",
+        focus: "Topics 10.1-10.3: electric charge and Coulomb's law, conservation of charge and charging processes, and electric fields with superposition.",
       },
       {
         course: "ap-english-literature",
@@ -340,9 +340,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-physics-2",
-        unit: "Unit 10: Electrostatics (Electric Force, Field, and Potential)",
+        unit: "Unit 10: Electric Force, Field, and Potential",
         focus:
-          "Uniform fields between parallel plates, electric potential energy versus potential, and equipotential surfaces.",
+          "Topics 10.4-10.5: electric potential energy versus electric potential, equipotentials, and E = (change in V)/d between parallel plates.",
       },
       {
         course: "ap-english-literature",
@@ -374,7 +374,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
     dateRange: "Oct 26 - Nov 1",
     startDate: "2026-10-26",
     phase: "build",
-    goal: "Finish related rates and linearization, and finish the electrostatics unit.",
+    goal: "Finish related rates and linearization, and finish Unit 10 Electric Force, Field, and Potential.",
     assignments: [
       {
         course: "ap-calculus-bc",
@@ -390,9 +390,9 @@ export const scheduleWeeks: ScheduleWeek[] = [
       },
       {
         course: "ap-physics-2",
-        unit: "Unit 10: Electrostatics (Electric Force, Field, and Potential)",
+        unit: "Unit 10: Electric Force, Field, and Potential",
         focus:
-          "Capacitors, capacitance and dielectrics, and conservation of energy for a charge moving through a potential difference.",
+          "Topics 10.6-10.7: capacitors and dielectrics, then conservation of electric energy for a charge moving through a potential difference.",
       },
       {
         course: "ap-english-literature",
@@ -410,7 +410,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       {
         course: "ap-physics-2",
         practiceSetId: "phys-u10-ps",
-        label: "Complete electrostatics set with a sketch of the field for each configuration.",
+        label: "Complete Unit 10 set with a sketch of the field for each configuration.",
       },
       {
         course: "ap-english-literature",
@@ -441,7 +441,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       {
         course: "ap-physics-2",
         unit: "Unit 11: Electric Circuits",
-        focus: "Current and conventional direction, EMF and terminal voltage, resistance and resistivity, and Ohm's law.",
+        focus: "Topics 11.1-11.3: electric current, simple circuits with emf and terminal voltage, and resistance, resistivity, and Ohm's law.",
       },
       {
         course: "ap-english-literature",
@@ -491,7 +491,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
         course: "ap-physics-2",
         unit: "Unit 11: Electric Circuits",
         focus:
-          "Electric power, series and parallel resistors, and the loop and junction rules on multi-branch circuits.",
+          "Topics 11.4-11.7: electric power, compound DC circuits (series and parallel), and Kirchhoff's loop and junction rules.",
       },
       {
         course: "ap-english-literature",
@@ -540,7 +540,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       {
         course: "ap-physics-2",
         unit: "Unit 11: Electric Circuits",
-        focus: "Capacitors in circuits, RC behavior at t = 0 and long after, and reasoning about brightness and current changes.",
+        focus: "Topic 11.8: RC circuits at t = 0 and long after, plus series and parallel capacitors. Reason about brightness and current changes.",
       },
       {
         course: "ap-english-literature",
@@ -590,7 +590,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
         course: "ap-physics-2",
         unit: "Units 9-11 review (no new content)",
         focus:
-          "Reread the two conceptual maps that feel weakest among thermodynamics, electrostatics, and circuits, and redo one circuits item you missed. Fluids is not a class unit.",
+          "Reread the two conceptual maps that feel weakest among thermodynamics, electric force/field/potential, and circuits, and redo one circuits item you missed.",
       },
       {
         course: "ap-english-literature",
@@ -636,7 +636,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
         course: "ap-physics-2",
         unit: "Unit 12: Magnetism and Electromagnetism",
         focus:
-          "Magnetic fields and field direction, force on a moving charge, and circular motion of a charge in a uniform field.",
+          "Topics 12.1-12.2: magnetic fields and dipoles, then the force on a moving charge and circular motion with r = mv/(qB).",
       },
       {
         course: "ap-english-literature",
@@ -685,7 +685,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       {
         course: "ap-physics-2",
         unit: "Unit 12: Magnetism and Electromagnetism",
-        focus: "Force on a current-carrying wire, fields from wires and loops, and magnetic flux through a surface.",
+        focus: "Topic 12.3: magnetic fields of wires and the force on a current-carrying wire. Start 12.4 with magnetic flux.",
       },
       {
         course: "ap-english-literature",
@@ -734,7 +734,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
       {
         course: "ap-physics-2",
         unit: "Unit 12: Magnetism and Electromagnetism",
-        focus: "Faraday's law, Lenz's law, and induced EMF from a changing flux, including the direction of induced current.",
+        focus: "Topic 12.4: Faraday's law, Lenz's law, and induced emf from a changing flux, including the direction of induced current.",
       },
       {
         course: "ap-english-literature",
@@ -784,7 +784,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
         course: "ap-physics-2",
         unit: "Units 9-12 maintenance",
         focus:
-          "Rebuild the thermodynamics, electrostatics, circuits, and magnetism concept maps from blank paper; check them only after you have finished.",
+          "Rebuild the thermodynamics, electric force/field/potential, circuits, and magnetism concept maps from blank paper; check them only after you have finished.",
       },
       {
         course: "ap-english-literature",
@@ -835,7 +835,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
         course: "ap-physics-2",
         unit: "Unit 13: Geometric Optics",
         focus:
-          "Reflection and refraction, index of refraction, total internal reflection, and ray diagrams for plane and curved mirrors.",
+          "Topics 13.1-13.2: the law of reflection, plane and spherical mirrors, and ray diagrams. Physical optics waits for Unit 14.",
       },
       {
         course: "ap-english-literature",
@@ -937,7 +937,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
         course: "ap-physics-2",
         unit: "Unit 13: Geometric Optics",
         focus:
-          "The mirror and lens equation with sign conventions, ray diagrams for thin lenses, and converging versus diverging lenses including image character.",
+          "Topics 13.3-13.4: Snell's law and total internal reflection, then thin-lens images with sign conventions and ray diagrams.",
       },
       {
         course: "ap-english-literature",
@@ -993,7 +993,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
         course: "ap-physics-2",
         unit: "Unit 14: Waves, Sound, and Physical Optics",
         focus:
-          "Wave pulses and the wave equation, electromagnetic waves and the spectrum, polarization at a boundary, and the Doppler effect from compressed wavefronts.",
+          "Topics 14.1-14.5: wave pulses, periodic waves, boundary behavior and polarization, electromagnetic waves, and the Doppler effect.",
       },
       {
         course: "ap-english-literature",
@@ -1043,7 +1043,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
         course: "ap-physics-2",
         unit: "Unit 14: Waves, Sound, and Physical Optics",
         focus:
-          "Superposition, interference, and beats, then standing waves on strings and in pipes: nodes versus antinodes, and odd harmonics only in a closed-open pipe.",
+          "Topic 14.6: superposition, beats, and standing waves on strings and in pipes (nodes versus antinodes; odd harmonics only in a closed-open pipe).",
       },
       {
         course: "ap-english-literature",
@@ -1094,7 +1094,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
         course: "ap-physics-2",
         unit: "Unit 14: Waves, Sound, and Physical Optics",
         focus:
-          "Diffraction, double-slit interference and diffraction gratings, and thin-film interference including the half-wavelength phase shift on reflection from a higher-index surface.",
+          "Topics 14.7-14.9: diffraction, double-slit interference and diffraction gratings, and thin-film interference including the half-wavelength phase shift.",
       },
       {
         course: "ap-english-literature",
@@ -1199,7 +1199,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
         course: "ap-physics-2",
         unit: "Unit 15: Modern Physics",
         focus:
-          "Photon energy E = hf = hc/lambda, de Broglie wavelength, the photoelectric effect with threshold frequency, and stopping potential versus intensity.",
+          "Topics 15.1 and 15.5: photon energy E = hf = hc/lambda, de Broglie wavelength, and the photoelectric effect with threshold frequency versus intensity.",
       },
       {
         course: "ap-english-literature",
@@ -1254,7 +1254,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
         course: "ap-physics-2",
         unit: "Unit 15: Modern Physics",
         focus:
-          "Bohr model and quantized energy levels, emission and absorption spectra, and blackbody radiation: hotter objects peak at shorter wavelengths.",
+          "Topics 15.2-15.4: Bohr model and quantized energy levels, emission and absorption spectra, and blackbody radiation.",
       },
       {
         course: "ap-english-literature",
@@ -1305,7 +1305,7 @@ export const scheduleWeeks: ScheduleWeek[] = [
         course: "ap-physics-2",
         unit: "Unit 15: Modern Physics",
         focus:
-          "Compton scattering, mass-energy equivalence and nuclear binding energy, and radioactive decay, fission, and fusion with charge and mass number conserved.",
+          "Topics 15.6-15.8: Compton scattering, fission/fusion and nuclear decay with E = mc², and alpha, beta, and gamma decay with nucleon number and charge conserved.",
       },
       {
         course: "ap-english-literature",
