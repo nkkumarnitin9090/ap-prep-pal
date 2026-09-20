@@ -113,6 +113,117 @@ export const physics2: Course = {
       classPeriods: "~10-16 class periods",
       summary:
         "Microscopic kinetic theory and macroscopic gas laws, joined by the first law. The single most-tested skill is reading a PV diagram: area under the curve is work, and the AP sign convention (W is work done on the gas) will decide whether you get the problem right.",
+      bigPicture: {
+        title: "The story of this unit",
+        narrative:
+          "You've already met the pieces. Here is the one story they tell.\n\nStart with molecules bouncing around at random. That motion is temperature: hotter means larger average translational kinetic energy, K_avg = (3/2)k_B T, and the typical molecular speed is v_rms. Those same molecules slamming into the walls are pressure. Zip the two together and you get the ideal gas law, PV = nRT — the macroscopic scoreboard for a huge number of collisions. A (P, V, T) triple is a state of the gas, not a story about how it got there.\n\nWhen two objects are in thermal contact, energy flows from the hotter one to the colder one until they share a temperature. Conduction, convection, and radiation are just the three ways that energy actually crosses a boundary. That transferred energy is what the first law will call Q.\n\nNow zoom out to a PV diagram. A point is a state: it names P and V, and for a given amount of monatomic ideal gas that also fixes T and the internal energy U = (3/2)nRT = (3/2)PV. A path between two points is a process. Work is the area under that path, and the AP sign convention is non-negotiable: W is the work done on the gas, so expansion (a rightward path) makes W negative. Heat Q also depends on which path you take. Internal energy does not — U is a state function, so change in U depends only on the endpoints.\n\nThe first law is the glue that never changes: change in U = Q + W. The four named processes are just different ways of holding one thing still while that equation still holds. Isobaric keeps P constant (horizontal line). Isovolumetric — also called isochoric — keeps V constant (vertical line, W = 0 because there is no area). Isothermal keeps T constant, so for an ideal gas change in U = 0 and Q = −W. Adiabatic means Q = 0, so change in U = W; expand and the gas cools because it does work with no heat coming in. The adiabatic curve is steeper than the isotherm because T is falling as V grows, so P drops faster.\n\nHeat is energy in transit, not a reading on a thermometer. Q = mc(change in T) tells you how much energy it takes to change temperature; the conduction rate kA(change in T)/L tells you how fast energy moves through a slab. Do not mix the two, and do not mix Q with T.\n\nCycles close the loop. An engine can take heat in from something hot, do some work, and must dump leftover heat to something colder. You cannot turn all of the heat absorbed into work. Entropy is the \"which way\" rule: the total entropy of an isolated system never decreases, which is why heat does not spontaneously flow cold to hot and why you cannot run that engine movie in reverse.",
+        diagrams: [
+          {
+            title: "Concept flow: molecules to engines",
+            caption:
+              "Read left to right on a wide screen, or top to bottom on a phone. Each box is a zoom level, not a separate subject.",
+            layout: "flow",
+            mermaid:
+              "flowchart LR\n  A[Molecules] --> B[T and P]\n  B --> C[PV = nRT]\n  C --> D[PV diagram]\n  D --> E[First law]\n  E --> F[Engines]",
+            steps: [
+              {
+                label: "Molecules",
+                detail:
+                  "Random translational motion. This is the microscopic starting point — nothing here is a thermometer yet.",
+              },
+              {
+                label: "T and P",
+                detail:
+                  "Temperature is average KE: K_avg = (3/2)k_B T. Pressure is collisions with the walls. v_rms grows only as sqrt(T).",
+              },
+              {
+                label: "PV = nRT",
+                detail:
+                  "The macroscopic summary of those collisions. T is always in kelvin. A (P, V, T) triple is a state.",
+              },
+              {
+                label: "PV diagram",
+                detail:
+                  "A point is a state (P, V, T, U). A path is a process. Area along the path is work; Q depends on the path; U does not.",
+              },
+              {
+                label: "First law",
+                detail:
+                  "Change in U = Q + W, with W the work done on the gas. Expansion makes W negative. Every process still obeys this.",
+              },
+              {
+                label: "Engines",
+                detail:
+                  "A cycle cannot turn all absorbed heat into work. Entropy of an isolated system never decreases — that is the direction rule.",
+              },
+            ],
+          },
+          {
+            title: "Process comparison: four ways energy moves",
+            caption:
+              "Same first law every time: change in U = Q + W, W on the gas. What changes is which term is forced to zero or to track a constraint. Paths are drawn as expansions from a shared starting state.",
+            layout: "compare",
+            mermaid:
+              "flowchart TB\n  FL[change in U = Q + W]\n  FL --> IsoP[Isobaric: P constant, horizontal]\n  FL --> IsoV[Isovolumetric: V constant, vertical, W = 0]\n  FL --> IsoT[Isothermal: T constant, hyperbola, change in U = 0]\n  FL --> Adi[Adiabatic: Q = 0, steeper than isothermal]",
+            steps: [
+              {
+                label: "Isobaric",
+                sketch: "horizontal",
+                facts: [
+                  { label: "Held", value: "P constant" },
+                  { label: "Path", value: "Horizontal line (right = expansion)" },
+                  { label: "W", value: "−P(change in V); expansion is negative" },
+                  { label: "ΔU", value: "Follows T, which follows V" },
+                  { label: "Q", value: "Change in U − W, so expansion needs extra heat in" },
+                ],
+                detail:
+                  "The piston is free to move against a constant external pressure. Heat the gas and it expands; cool it and it is compressed. Area under the horizontal segment is P times the volume change.",
+              },
+              {
+                label: "Isovolumetric",
+                sketch: "vertical",
+                facts: [
+                  { label: "Held", value: "V constant (also called isochoric)" },
+                  { label: "Path", value: "Vertical line (up = heating)" },
+                  { label: "W", value: "0 — a vertical line has no area" },
+                  { label: "ΔU", value: "Equals Q" },
+                  { label: "Q", value: "All added heat stays as internal energy" },
+                ],
+                detail:
+                  "A rigid container. Heat it and P and T rise together; cool it and they fall. Because W = 0, the first law collapses to change in U = Q.",
+              },
+              {
+                label: "Isothermal",
+                sketch: "hyperbola",
+                facts: [
+                  { label: "Held", value: "T constant (hyperbola PV = const)" },
+                  { label: "Path", value: "PV hyperbola, gentler than adiabatic" },
+                  { label: "W", value: "Negative for expansion (on-the-gas sign)" },
+                  { label: "ΔU", value: "0 for an ideal gas — U lives only on T" },
+                  { label: "Q", value: "Q = −W, so heat in cancels work out" },
+                ],
+                detail:
+                  "The gas is in contact with a reservoir that pins T. Expand slowly and heat must flow in to keep U from dropping. Compress and heat flows out.",
+              },
+              {
+                label: "Adiabatic",
+                sketch: "steep-hyperbola",
+                facts: [
+                  { label: "Held", value: "Q = 0 (insulated, or too fast to exchange heat)" },
+                  { label: "Path", value: "Steeper than the isotherm through the same point" },
+                  { label: "W", value: "Equals change in U" },
+                  { label: "ΔU", value: "W; expansion cools the gas" },
+                  { label: "Q", value: "0, by definition" },
+                ],
+                detail:
+                  "No heat crosses the boundary, so the only way U can change is work. Expand and the gas does work, U and T fall, and P therefore drops faster than on an isotherm — that is why the curve is steeper.",
+              },
+            ],
+          },
+        ],
+        recap:
+          "Molecules (random KE) → T and P → PV = nRT (a state) → Q flows hot to cold → a PV path is a process (W is ±area, on the gas) → change in U = Q + W always → the four named processes are different splits of that equation → Q = mc(change in T) is how much, kA(change in T)/L is how fast → no cycle turns all heat into work.",
+      },
       topics: [
         {
           id: "phys-u9-t1",
