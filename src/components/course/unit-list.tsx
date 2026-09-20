@@ -14,6 +14,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { CedNote } from "@/components/ced-note";
 import { WeightBar } from "@/components/weight-bar";
 import { TopicChecklist } from "@/components/course/topic-checklist";
+import { UnitBigPicture } from "@/components/course/unit-big-picture";
 import { PracticeSet } from "@/components/practice/practice-set";
 import { accent } from "@/lib/accents";
 import { practiceSetAnchor, unitAnchor, unitTopicIds } from "@/lib/content";
@@ -180,6 +181,10 @@ function UnitItem({
             <p className="max-w-3xl text-sm text-pretty text-muted-foreground">
               {unit.summary}
             </p>
+
+            {unit.bigPicture ? (
+              <UnitBigPicture picture={unit.bigPicture} accentToken={accentToken} />
+            ) : null}
 
             {unit.cedNote ? <CedNote note={unit.cedNote} /> : null}
 

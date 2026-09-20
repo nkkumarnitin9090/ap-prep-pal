@@ -74,6 +74,37 @@ export interface CedNote {
   text: string;
 }
 
+/** One box in a unit-level through-line diagram. */
+export interface BigPictureStep {
+  label: string;
+  detail: string;
+  /** Short labeled facts for comparison cards (held constant, ΔU, Q, W, path). */
+  facts?: { label: string; value: string }[];
+  /** Mini PV-path thumbnail on comparison cards. */
+  sketch?: "horizontal" | "vertical" | "hyperbola" | "steep-hyperbola";
+}
+
+/** A unit-level flow or comparison diagram. Rendered from `steps`; `mermaid` is optional source. */
+export interface BigPictureDiagram {
+  title: string;
+  caption: string;
+  mermaid?: string;
+  layout?: "flow" | "compare";
+  steps?: BigPictureStep[];
+}
+
+/**
+ * Connecting story for a whole unit. Optional and additive — other units can omit it.
+ * Rendered above the topic checklist so it frames the individual topics.
+ */
+export interface BigPicture {
+  title: string;
+  /** Paragraphs separated by blank lines. */
+  narrative: string;
+  diagrams: BigPictureDiagram[];
+  recap?: string;
+}
+
 export interface Unit {
   id: string;
   /** Display number; strings because the CED numbers Physics 2 units 9-15. */
@@ -86,6 +117,8 @@ export interface Unit {
   /** Roughly how many 45-minute class periods the CED suggests. */
   classPeriods?: string;
   summary: string;
+  /** Unit-level through-line. Shown only when present. */
+  bigPicture?: BigPicture;
   topics: Topic[];
   /** Formulas, definitions, and procedures worth committing to memory. */
   keySkills: string[];
